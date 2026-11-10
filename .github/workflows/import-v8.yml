@@ -1,0 +1,60 @@
+name: Import complete Kesit Istatistik V8 package
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'Kesit_Istatistik_V8_GitHub_Paketi*.zip'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  import-v8:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Extract V8 into repository
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import glob, pathlib, zipfile, shutil, sys
+          root=pathlib.Path('.').resolve()
+          packages=sorted(glob.glob('Kesit_Istatistik_V8_GitHub_Paketi*.zip'))
+          if not packages:
+              sys.exit('No V8 ZIP found at repository root')
+          package=packages[-1]
+          with zipfile.ZipFile(package) as z:
+              files=[f for f in z.infolist() if not f.is_dir()]
+              if len(files)<300:
+                  sys.exit(f'Unexpected V8 package: {len(files)} files')
+              prefix='kesit-istatistik/'
+              if not all(f.filename.startswith(prefix) for f in files):
+                  sys.exit('Unexpected package structure')
+              for f in files:
+                  rel=pathlib.PurePosixPath(f.filename[len(prefix):])
+                  if not rel.parts or '..' in rel.parts or rel.is_absolute():
+                      sys.exit('Unsafe ZIP path')
+                  dst=root.joinpath(*rel.parts)
+                  dst.parent.mkdir(parents=True,exist_ok=True)
+                  with z.open(f) as src, dst.open('wb') as out:
+                      shutil.copyfileobj(src,out)
+          print(f'Imported {len(files)} V8 files')
+          pathlib.Path(package).unlink()
+          # Existing Pages source can be main/root; redirect it to docs.
+          pathlib.Path('index.html').write_text(
+              '<!doctype html><html lang="tr"><head><meta charset="utf-8">'
+              '<meta http-equiv="refresh" content="0;url=docs/">'
+              '<title>Kesit İstatistik V8</title></head><body>'
+              '<a href="docs/">Kesit İstatistik V8 uygulamasına git</a></body></html>',
+              encoding='utf-8')
+          PY
+      - name: Commit complete V8
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m "feat: import complete Kesit Istatistik V8 package"
+            git push
+          fi
