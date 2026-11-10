@@ -1,0 +1,71 @@
+.concept-intro,.concept-worked,.concept-visual,.concept-transfer,.concept-summary,.concept-map {
+  min-width:0;
+  margin-bottom:20px;
+}
+.concept-intro,.concept-summary {border-left:4px solid var(--accent)}
+.concept-situation {font-size:17px;line-height:1.65;max-width:65ch}
+.concept-check {padding:18px;margin:18px 0 0;background:var(--surface-2);border:1px solid var(--line);border-radius:10px}
+.concept-check fieldset {border:0;min-width:0;padding:0;margin:0 0 12px}
+.concept-check legend {font-weight:700;margin:0 0 8px;line-height:1.55}
+.concept-check label {
+  display:flex;align-items:flex-start;gap:10px;min-height:44px;
+  margin:8px 0;padding:11px;background:var(--surface);
+  border:1px solid var(--line);border-radius:8px;cursor:pointer;line-height:1.45
+}
+.concept-check label:has(input:checked) {border-color:var(--accent)}
+.concept-check input {flex:0 0 auto;margin-top:4px;accent-color:var(--accent)}
+.concept-check .btn {min-height:44px}
+.concept-feedback {margin:0}
+.concept-feedback:not(:empty) {margin:12px 0 0;padding:9px 12px;border-left:3px solid var(--accent);line-height:1.65}
+.concept-feedback.is-right {border-color:var(--ok)}
+.concept-explanation,.concept-original {margin-top:16px;padding:15px;border:1px solid var(--line);border-radius:9px;background:var(--surface)}
+.concept-explanation p {line-height:1.65}
+.concept-table td,.concept-table th {padding:9px 11px;text-align:left;line-height:1.45}
+.concept-table th {font-size:13px}
+.concept-steps {padding-left:26px;margin:17px 0}
+.concept-steps li {padding-left:5px;margin-bottom:9px;line-height:1.65}
+.concept-steps li::marker {color:var(--accent);font-weight:700}
+.concept-conclusion {padding:14px 16px;border-left:3px solid var(--accent);background:var(--surface-2)}
+.concept-conclusion p {margin:6px 0 0;line-height:1.6}
+.concept-extension {margin-top:18px}
+.concept-extension .actions {margin:8px 0}
+.concept-extension .btn,.concept-summary .btn {white-space:normal}
+.concept-small {font-size:14px;line-height:1.55;color:var(--muted)}
+.concept-chart {margin:18px 0;padding:14px 16px;border:1px solid var(--line);border-radius:10px;background:var(--surface-2)}
+.concept-chart-lane,.concept-axis-row {display:grid;grid-template-columns:minmax(110px,1fr) minmax(0,2.9fr);align-items:center;gap:10px}
+.concept-chart-lane span {font-size:13px;line-height:1.35}
+.concept-chart-lane svg {width:100%;display:block;overflow:visible}
+.concept-gridline {stroke:var(--line);stroke-width:1.5}
+.concept-point {fill:#3970c8}
+.concept-interval {stroke:#3970c8;stroke-width:7;stroke-linecap:round}
+.concept-point.alternate {fill:#ad542f}
+.concept-interval.alternate {stroke:#ad542f}
+.concept-marker {stroke:var(--accent);stroke-width:2;stroke-dasharray:3 3}
+.concept-ref {font-size:13px;color:var(--accent);font-weight:600}
+.concept-axis {display:block;width:100%;grid-column:2;fill:var(--ink);font-size:14px}
+.concept-axis-title {text-align:right;font-size:13px;margin:3px 0}
+.concept-chart figcaption {font-size:14px;line-height:1.55;color:var(--muted);margin-top:12px}
+.concept-map h1 {font-size:clamp(26px,3vw,43px);margin:8px 0;line-height:1.16}
+.concept-map p {line-height:1.65}
+.concept-counts {display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:20px 0}
+.concept-counts div {background:var(--surface-2);border-top:3px solid var(--accent);border-radius:7px;padding:15px}
+.concept-counts b {display:block;font-size:30px}
+.concept-counts span {display:block;font-size:13px;line-height:1.5}
+.method-library,.library-scope {margin:20px 0}
+.method-grid {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:14px 0}
+.method-card {
+  display:block;min-width:0;padding:17px;background:var(--surface);color:var(--ink);
+  border:1px solid var(--line);border-radius:9px;text-decoration:none
+}
+.method-card:hover,.method-card:focus-visible {border-color:var(--accent)}
+.method-card h3 {font-size:18px;margin:6px 0}
+.method-card p {font-size:14px;line-height:1.55;margin:7px 0}
+@media(max-width:620px) {
+  .concept-check,.concept-chart {padding:12px}
+  .concept-chart-lane {grid-template-columns:1fr;gap:1px;margin-top:7px}
+  .concept-axis-row {grid-template-columns:1fr}
+  .concept-axis {grid-column:1}
+  .concept-counts {grid-template-columns:repeat(2,minmax(0,1fr))}
+  .method-grid {grid-template-columns:1fr}
+  .concept-situation {font-size:16px}
+}

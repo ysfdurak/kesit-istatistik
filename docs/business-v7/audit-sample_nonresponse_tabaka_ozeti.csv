@@ -1,0 +1,4 @@
+Tabaka,Evren N,Çekilen n,Bulunan hata,Eksik denetim,Alt oran,Üst oran,Evren ağırlığı
+Hızlı dönen,8000,100,2,11,0.02,0.13,0.6666666666666666
+Orta dönen,3000,100,1,14,0.01,0.15,0.25
+Yavaş dönen,1000,100,9,23,0.09,0.32,0.08333333333333333

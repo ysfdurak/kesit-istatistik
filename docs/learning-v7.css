@@ -1,0 +1,82 @@
+.case-start {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:18px;
+  margin:22px 0;
+  padding:21px 25px;
+  background:var(--surface);
+  border:1px solid var(--line);
+  border-left:4px solid var(--accent);
+  border-radius:10px;
+}
+.case-start h2 {font-size:23px;margin:8px 0}
+.case-start p {margin:0;line-height:1.6}
+.case-start .btn {flex-shrink:0}
+#case-count {color:var(--muted);font-size:14px}
+.case-evidence {margin:24px 0}
+.case-evidence-grid {
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:12px;
+  margin-top:10px;
+}
+.case-evidence-grid > div {
+  display:grid;
+  align-content:start;
+  gap:7px;
+  padding:17px;
+  border:1px solid var(--line);
+  border-top:3px solid var(--accent);
+  border-radius:8px;
+  background:var(--surface);
+}
+.case-evidence-grid strong {font-size:21px;line-height:1.25;overflow-wrap:anywhere}
+.case-evidence-grid p {margin:0;font-size:13px;line-height:1.6}
+.case-evidence-index {font:600 12px 'JetBrains Mono',monospace;color:var(--accent)}
+.case-calculation {
+  padding:22px;
+  margin:22px 0;
+  background:var(--surface-2);
+  border:1px solid var(--line);
+  border-radius:10px;
+}
+.case-calculation h3 {margin:9px 0}
+.case-calculation p {line-height:1.7}
+.case-calculation label {display:block;margin:14px 0 8px;font-weight:600}
+.case-number-row {display:flex;flex-wrap:wrap;gap:10px}
+.case-number-row input {
+  width:165px;
+  max-width:100%;
+  min-height:44px;
+  border:1px solid var(--line);
+  border-radius:8px;
+  padding:10px 12px;
+  color:var(--ink);
+  background:var(--surface);
+  font:inherit;
+}
+.case-number-row .btn,.case-next {min-height:44px}
+.case-number-good,.case-number-bad {font-weight:600;border-left:3px solid var(--accent);padding-left:12px}
+.case-number-good {border-color:var(--ok)}
+.case-next {margin:16px 0 0;white-space:normal;text-align:left}
+.case-rubric li,.applied-lesson li {margin:8px 0;line-height:1.65}
+.applied-lesson {margin-top:20px;border-left:4px solid var(--accent)}
+.applied-lesson p {line-height:1.7}
+.case-downloads {margin:18px 0}
+.business-section:focus-visible {outline:2px solid var(--accent);outline-offset:3px}
+@media(max-width:620px) {
+  .case-start {align-items:stretch;flex-direction:column;padding:17px}
+  .case-evidence-grid {grid-template-columns:1fr}
+  .case-evidence-grid > div {padding:14px}
+  .case-calculation {padding:15px}
+  .case-number-row input {width:100%}
+  .case-number-row .btn {width:100%;justify-content:center}
+  .case-next,.case-downloads .btn {white-space:normal}
+}
+.case-summary {margin-bottom:22px;min-width:0}
+.case-summary figure {margin:20px 0}
+.case-summary img {display:block;width:100%;height:auto;background:white;border-radius:8px}
+.case-summary figcaption {font-size:14px;line-height:1.6;margin-top:9px;color:var(--muted)}
+.case-summary p {line-height:1.7}
+.case-summary .btn {white-space:normal}
