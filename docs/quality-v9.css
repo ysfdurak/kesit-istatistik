@@ -1,0 +1,15 @@
+/* V9 learning feedback, decision review and accessibility */
+.decision-check{margin:16px 0;padding:16px;border:1px solid var(--line);border-radius:12px;background:var(--paper)}
+.decision-check strong{display:block;margin-bottom:9px;font-size:13px}
+.decision-check label{display:flex;align-items:flex-start;gap:11px;line-height:1.55;font-size:13px;padding:9px 0;cursor:pointer}
+.decision-check input{flex:0 0 auto;accent-color:var(--green);width:19px;height:19px;margin:0}
+.decision-readiness{margin:10px 0 16px;font-size:13px;font-weight:600;color:var(--green)}
+.workshop-reflect>label{display:block;margin:12px 0 6px}
+.workshop-reflect textarea{width:100%;min-width:0}
+.answer-feedback strong{font-weight:750}
+.answer-feedback p{margin:7px 0;line-height:1.6}
+.answer-feedback details{margin-top:12px}
+textarea:focus-visible,[role=tab]:focus-visible,[data-guide-step]:focus-visible{outline:3px solid var(--orange);outline-offset:3px}
+#main:focus{outline:none}
+@media(max-width:640px){.decision-check{padding:12px}.decision-check label{padding:11px 0;min-height:44px}.workshop-reflect textarea{font-size:16px}.answer-feedback{overflow-wrap:anywhere}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
