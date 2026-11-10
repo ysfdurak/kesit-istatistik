@@ -1,0 +1,34 @@
+name: Verify Kesit Istatistik V8
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/**'
+      - 'verify*.cjs'
+      - '.github/workflows/verify-v8.yml'
+  pull_request:
+    paths:
+      - 'docs/**'
+      - 'verify*.cjs'
+      - '.github/workflows/verify-v8.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate JavaScript syntax
+        run: |
+          find docs -maxdepth 1 -name '*.js' -print0 | xargs -0 -n1 node --check
+      - name: Validate curriculum and examples
+        run: node verify.cjs
+      - name: Validate exercise calculations
+        run: node verify-engine.cjs
+      - name: Validate learning graphics and interactive references
+        run: node verify-visual.cjs
