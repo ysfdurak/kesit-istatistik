@@ -32,3 +32,5 @@ jobs:
         run: node verify-engine.cjs
       - name: Validate learning graphics and interactive references
         run: node verify-visual.cjs
+      - name: Validate learning feedback and decision workflow
+        run: node verify-quality.cjs
