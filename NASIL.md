@@ -3,6 +3,7 @@
 Bu belge projeye hâkim olmak, bir soru geldiğinde cevap verebilmek ve güvenle değişiklik yapmak için yazıldı. Önce mimariyi, sonra veri akışını, en sonda sık yapılan işlerin tarifini bulursun.
 
 ## 1. Büyük resim
+- **Yayın adresi.** Pages deponun kökünden yayınlar (`.nojekyll` ile Jekyll kapalı). Kökteki `index.html` `location.hash`'i koruyarak `docs/`'a yönlendirir; uygulama gerçekte `/kesit-istatistik/docs/` altında çalışır. Kökteki `sitemap.xml` ana sayfanın site haritası dizininden okunur.
 - **Statik site.** Sunucu, veritabanı, derleme adımı yok. `docs/index.html` bütün CSS ve JS dosyalarını sırayla yükler; sayfalar `location.hash` ile değişir (`#lesson/s19`, `#data/am-ab-donusum`).
 - **Neden VPS gerekmiyor?** Kalıcı veri kullanıcının tarayıcısında (`localStorage`), giriş/hesap yok, hesaplar istemcide. GitHub Pages yeterli. Ortak skor tablosu, hesap veya sunucu tarafında yapay zekâ eklemek istersen o zaman VPS (veya benzeri arka uç) gerekir.
 - **İçerik ve kod ayrı.** Ders içeriği Python betikleriyle üretilip `docs/*.js` veri dosyalarına yazılır; arayüz bu veriyi okur.

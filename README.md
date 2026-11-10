@@ -33,7 +33,7 @@ python3 -m http.server 8000 --bind 127.0.0.1 --directory docs
 Sonra [127.0.0.1:8000](http://127.0.0.1:8000/) adresini aç. Windows'ta `py -m http.server ...`.
 
 ## Kaynak, üretim ve denetim
-- Yayınlanan site `docs/` klasöründedir (GitHub Pages: `main` dalı, `/docs`; kökteki `index.html` oraya yönlendirir).
+- Yayınlanan uygulama `docs/` klasöründedir. GitHub Pages `main` dalının kökünden yayınlar; kökteki `index.html` adresteki `#…` bölümünü koruyarak `docs/`'a yönlendirir (ör. `/kesit-istatistik/#path/analist`). Ayarlar → Pages'te kaynak `/docs` seçilirse yönlendirmeye gerek kalmaz; ikisi de çalışır.
 - Kök dizindeki Python betikleri içerik ve referans üretir. Yapı, dosyaların görevi ve yeniden üretim sırası: **[NASIL.md](NASIL.md)**.
 - Denetim: `node verify.cjs`, `node verify-engine.cjs`, `node verify-visual.cjs`, `node verify-quality.cjs`, `node verify-v9.cjs`. GitHub Actions her değişiklikte hepsini çalıştırır.
 - [Sürüm notları](research/surum-notlari.md) · [V9 değerlendirme raporu](research/degerlendirme-v9.md)

@@ -259,6 +259,10 @@ function progressStrip() {
   return `<section class="article v9-prog"><h2>Uygulama alanları</h2><div class="stats"><div class="stat"><div><strong>${done}/${X.cases.length}</strong><small>Kesit vakası</small></div></div><div class="stat"><div><strong>${st.c}/${st.a}</strong><small>Alıştırma doğru/deneme</small></div></div><div class="stat"><div><strong>${ready}</strong><small>Hazır mülakat sorusu</small></div></div><div class="stat"><div><strong>${store.placement ? store.placement.s.temel + store.placement.s.orta + store.placement.s.ileri + '/15' : '—'}</strong><small>Seviye testi</small></div></div></div><p class="v9-muted">Bu kayıtlar da ilerleme yedeğine dahildir.</p></section>`;
 }
 
+function qualityStrip() {
+  return `<section class="article v9-quality" style="margin-bottom:22px"><div class="eyebrow">V9 · KESİT EKOSİSTEMİ</div><h2>Bu sürümde eklenenler ve sınırları</h2><ul class="v9-links" style="color:var(--ink)"><li><b>${X.cases.length} Kesit vakası:</b> Kesit SQL, Power BI ve Python ile aynı CSV'lerden <code>ecosystem_cases_v9.py</code> ile hesaplandı. Tarayıcıdaki sonuçlar hazır çıktıdır; kod yerelde veya Kesit Python'da çalıştırılır.</li><li><b>${GEN.length} alıştırma üreticisi:</b> her tür otomatik denetimde 300 kez üretilip kontrol edilir; tolerans göreli %0,5'tir.</li><li><b>Seviye testi</b> mevcut derslerin kavram sorularını kullanır; yönlendirir, not vermez.</li><li><b>${Object.values(K.INTERVIEW).flat().length} mülakat sorusu ve ${K.MISTAKES.length} sık hata</b> ders kimlikleriyle bağlıdır; uzman heyeti onayı değildir.</li><li>Gerçek kullanıcı pilotu yapılmadı; öğrenme kazanımı ölçülmedi.</li></ul><p class="v9-muted">Denetim: <code>node verify-v9.cjs</code> (GitHub Actions her değişiklikte çalıştırır). Ayrıntı: depo kökündeki NASIL.md ve research/degerlendirme-v9.md.</p></section>`;
+}
+
 /* ---------- yönlendirme ve olaylar ---------- */
 const pages = {
   data: rest => rest ? casePage(rest) : dataPage(),
@@ -272,6 +276,7 @@ function mount(page, lesson) {
   if (page === 'lesson' && lesson) { const col = document.querySelector('.lesson-layout > :last-child'); if (col && !col.querySelector('.v9-bridge')) col.insertAdjacentHTML('beforeend', lessonBridge(lesson.id)); }
   if (page === 'home') { const h = document.querySelector('#main .current-session') || document.querySelector('#main .guide-home'); if (h && !document.querySelector('.v9-home')) h.insertAdjacentHTML('afterend', homeStrip()); }
   if (page === 'progress') { const s = document.querySelector('#main .stats'); if (s && !document.querySelector('.v9-prog')) s.insertAdjacentHTML('afterend', progressStrip()); }
+  if (page === 'quality' && !document.querySelector('.v9-quality')) $('#main').insertAdjacentHTML('afterbegin', qualityStrip());
   if (page === 'practice') $('#v9-ans')?.focus({preventScroll: true});
   if (page === 'mistakes' && pendingGoto) { const el = document.getElementById(pendingGoto); pendingGoto = ''; if (el) { el.scrollIntoView({block: 'start'}); el.classList.add('v9-flash'); } }
 }
