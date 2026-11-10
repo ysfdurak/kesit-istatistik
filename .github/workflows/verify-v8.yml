@@ -1,4 +1,4 @@
-name: Verify Kesit Istatistik V8
+name: Verify Kesit Istatistik
 on:
   push:
     branches: [main]
@@ -34,3 +34,5 @@ jobs:
         run: node verify-visual.cjs
       - name: Validate learning feedback and decision workflow
         run: node verify-quality.cjs
+      - name: Validate V9 ecosystem cases, practice generators and interview content
+        run: node verify-v9.cjs

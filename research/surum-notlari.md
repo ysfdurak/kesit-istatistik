@@ -89,3 +89,14 @@ Sekiz seçmeli yöntem dersi eklenmiştir: deneyde oran metrikleri, küme random
 Müfredat haritası 30 modül ve 120 mevcut dersi sekiz alanda bir kez sayar. Yenilenen kavram akışı mevcut derslerin alt kümesidir. Seçmeli dersler ayrıca sayılır. Rol çekirdekleri ortak dersler içerebilir. Vaka ve görsel sayıları ders toplamına dahil edilmez.
 
 Doğrulama: `node verify.cjs`, `node verify-engine.cjs`, `node verify-visual.cjs`. Öğrenme kazanımı gerçek kullanıcı pilotunda ölçülmemiştir.
+
+## V9 · Kesit ekosistemi, alıştırma atölyesi ve hazırlık
+
+Değerlendirme: [degerlendirme-v9.md](degerlendirme-v9.md). Mimari ve üretim: [NASIL.md](../NASIL.md).
+
+- **Kesit verileriyle 13 vaka.** Kesit SQL, Power BI ve Python'un ortak veri setlerinde (Anadolu Market, Lezzet Kurye, Kanat Havayolları, Pusula İK, Pedal İzmir, Ilgaz Bank): iki oran testi, Welch + bootstrap, yüzdelik tabanlı söz, eşik etkisi, Kruskal–Wallis ve kümelenme, Wilson aralıkları, ki-kare + Cramér V ve mekanizma sınaması, anlamsız sonucun raporlanması, log maaş regresyonu, eşli bootstrap, Poisson/negatif binom ve log ölçekte robust aykırı değer. Her vaka: tahmin → yöntem → SQL/Python/DAX → sonuç ve grafik → karar → sınırlar → ilgili dersler ve karar notu. Sayılar `python ecosystem_cases_v9.py <kesit-python/data>` ile üretilir.
+- **Alıştırma atölyesi.** 33 parametreli soru türü (temel, orta, ileri); formül ipucu, adımlı çözüm, ilk deneme istatistiği, zayıf konular ve karışık 10 soruluk set.
+- **Seviye testi** (15 kavram sorusu, karıştırılmış seçenekler, başlangıç önerisi), **32 sık hata**, **48 rol bazlı mülakat sorusu** (yalnız istatistik).
+- **Ders köprüsü.** 29 derste SQL/DAX/Python karşılığı; ilgili Kesit vakası, alıştırma ve sık hata bağlantıları.
+- **Kullanım.** Menüde "Uygula ve hazırlan" grubu, ana sayfa kartları, ilerleme sayfasında V9 istatistikleri; yedek dosyası V9 kayıtlarını da taşır (`kesit-stat-v9`). Sorun bildir bağlantısı, favicon, manifest ve çevrimdışı önbellek (önce ağ).
+- **Doğrulama.** `node verify-v9.cjs`: vaka bütünlüğü ve sabit referanslar, her üretici × 300 deneme, içerik–ders bağlantıları, menü ve önbellek listesi. Masaüstü (1366 px) ve 390 px genişlikte yatay taşma olmadan tarayıcıda denendi; açık ve koyu tema kontrol edildi. Gerçek kullanıcı pilotu yapılmadı.
