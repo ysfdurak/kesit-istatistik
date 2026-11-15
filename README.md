@@ -26,6 +26,9 @@ Aynı mantıkla hazırlanmış kardeş eğitimler: **[Kesit SQL](https://ysfdura
 - İlerleme yalnızca kullanıcının tarayıcısında saklanır; **İlerlemem** sayfasından dosyaya kaydedilip başka cihazda birleştirilerek yüklenebilir (alıştırma, vaka ve mülakat kayıtları dahil). Kişisel veri toplanmaz.
 - İlk ziyaretten sonra service worker dosyaları önbelleğe alır; internet yokken son kopya açılır. Yazı tipleri siteyle birlikte sunulur.
 
+
+## İngilizce tanıtım turu
+Arayüz Türkçe kalır. İngilizce okuyan ziyaretçi için adresin sonuna `?lang=en` eklenir ([https://ysfdurak.github.io/kesit-istatistik/?lang=en](https://ysfdurak.github.io/kesit-istatistik/?lang=en)): her ekranı anlatan bir rehber paneli ve menü/başlıklarda İngilizce karşılıklar açılır; `?lang=tr` kapatır. Ayrıntı: [INGILIZCE-TUR.md](INGILIZCE-TUR.md).
 ## Kendi bilgisayarında açma
 ```sh
 python3 -m http.server 8000 --bind 127.0.0.1 --directory docs
