@@ -6,7 +6,7 @@ Bu uygulama Türkçe konuşanlar için yazıldı ve **çevrilmedi**. İngilizce 
 
 | Adres | Sonuç |
 | --- | --- |
-| `https://ysfdurak.github.io/kesit-istatistik/?lang=en` | Tur açılır ve bu tarayıcıda hatırlanır (`localStorage` anahtarı `kesit_lang`). |
+| `https://ysfdurak.github.io/kesit-istatistik/?lang=en` | Tur açılır ve aynı sekmede gezerken açık kalır (`sessionStorage` anahtarı `kesit_lang`); ana sayfada açılan tur uygulamalara geçince de sürer. Yeni bir ziyarette uygulamalar yine Türkçe açılır. |
 | `https://ysfdurak.github.io/kesit-istatistik/?lang=tr` | Tur kapanır. Paneldeki **Turn off** bağlantısı da aynı işi yapar. |
 
 Tur açıkken sağ altta **English guide** paneli bulunulan bölümün ne işe yaradığını anlatır; menü, kart ve başlıkların altında küçük İngilizce karşılıklar görünür. Türkçe metin yerinde kalır. Kullanıcı bir alana yazmaya başlayınca panel küçülür; yazdırırken görünmez. Tur kapalıyken uygulamada hiçbir şey değişmez.
@@ -33,9 +33,9 @@ Her şey `en-tour.js` içindedir. Dosya iki parçadır:
 
 ## Service worker ve yayın
 
-Dosya yayınlanan `docs/` klasöründedir; `docs/sw.js` önbellek listesine eklendi, sürüm `kesit-istatistik-v9-3` oldu.
+Dosya yayınlanan `docs/` klasöründedir; `docs/sw.js` önbellek listesine eklendi, sürüm `kesit-istatistik-v9-4` oldu.
 
 
 ## Üretim
 
-Bu dosya elle düzenlenmez. Dört Kesit uygulamasının ve Kesit ana sayfasının `en-tour.js` dosyaları, ana sayfa deposundaki (`ysfdurak/ysfdurak.github.io`) `araclar/en-tour/kesit-tours.mjs` betiğiyle üretilir: metni orada değiştir, `node araclar/en-tour/kesit-tours.mjs` çalıştır, çıkan dosyayı ilgili depoya kopyala. Tur seçimi (`kesit_lang`) aynı adreste (ysfdurak.github.io) çalışan bütün Kesit uygulamalarında ortaktır: ana sayfada açılan tur uygulamalara geçince de açık kalır.
+Bu dosya elle düzenlenmez. Dört Kesit uygulamasının ve Kesit ana sayfasının `en-tour.js` dosyaları, ana sayfa deposundaki (`ysfdurak/ysfdurak.github.io`) `araclar/en-tour/kesit-tours.mjs` betiğiyle üretilir: metni orada değiştir, `node araclar/en-tour/kesit-tours.mjs` çalıştır, çıkan dosyayı ilgili depoya kopyala. Tur seçimi (`kesit_lang`) aynı adreste (ysfdurak.github.io) çalışan bütün Kesit uygulamalarında ortaktır: ana sayfada açılan tur, aynı sekmede uygulamalara geçince de açık kalır.
