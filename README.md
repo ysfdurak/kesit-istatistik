@@ -47,6 +47,19 @@ Sonra [127.0.0.1:8000](http://127.0.0.1:8000/) adresini aç. Windows'ta `py -m h
 ## Geri bildirim
 Hata ve önerileri bu deponun [Issues](https://github.com/ysfdurak/kesit-istatistik/issues) sayfasına yazabilirsin; uygulamanın alt bilgisindeki **Sorun bildir** bağlantısı da oraya açılır.
 
+## English
+
+**Kesit Statistics** (Kesit İstatistik) teaches statistics from scratch to advanced level, in Turkish, in the browser: no install, no account. You see the data before the formula, follow each calculation step by step and turn the result into a business decision and its limits.
+
+- 120 lessons in 30 modules plus 8 elective method lessons, from population and sample to tests, regression, experiments, time series, Bayes, quality, statistical learning and causal inference.
+- 13 cases on the fictional datasets shared with Kesit SQL, Power BI and Python, each with a method choice, SQL + Python + DAX code, a result computed from the data, a chart, a decision and its limits.
+- A practice workshop with 33 question types that generate new numbers each time, a placement test, 32 common mistakes and 48 interview questions.
+- Progress stays in the browser and can be backed up to a file.
+
+The interface and lessons are in Turkish. Add `?lang=en` to the address ([ysfdurak.github.io/kesit-istatistik/?lang=en](https://ysfdurak.github.io/kesit-istatistik/?lang=en)) for an English guide that explains each screen.
+
+Try it: https://ysfdurak.github.io/kesit-istatistik/ · Sister apps: [SQL](https://github.com/ysfdurak/kesit-sql), [Power BI](https://github.com/ysfdurak/kesit-powerbi), [Python](https://github.com/ysfdurak/kesit-python).
+
 ## Sorumluluk notu
 Ücretsiz, ticari olmayan bir eğitim ve portföy projesidir; içerik “olduğu gibi” sunulur. Veri setlerindeki tüm şirketler, kişiler ve kayıtlar hayalidir.
 
