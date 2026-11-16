@@ -8,6 +8,11 @@ Bu belge projeye hâkim olmak, bir soru geldiğinde cevap verebilmek ve güvenle
 - **Neden VPS gerekmiyor?** Kalıcı veri kullanıcının tarayıcısında (`localStorage`), giriş/hesap yok, hesaplar istemcide. GitHub Pages yeterli. Ortak skor tablosu, hesap veya sunucu tarafında yapay zekâ eklemek istersen o zaman VPS (veya benzeri arka uç) gerekir.
 - **İçerik ve kod ayrı.** Ders içeriği Python betikleriyle üretilip `docs/*.js` veri dosyalarına yazılır; arayüz bu veriyi okur.
 
+## 1a. Ders okuma sayfaları (ders/)
+- `ders/<ders-adı>/index.html`: 120 dersin arama motorları için statik okuma sürümü (anlatım, formül, örnek, çözümlü sorular, kaynaklar). Kardeş uygulamalardaki (Kesit SQL, Power BI, Python) `ders/` sayfalarıyla aynı yapıda; `ders/statik.css` onlarla ortak görünümdür.
+- **Elle düzenlenmez.** `docs/content.js` değişince `node tools/ders-sayfalari.mjs` çalıştır: sayfalar, `ders/index.html` ve kökteki `sitemap.xml` yeniden yazılır.
+- Her sayfada "Uygulamada aç" düğmesi `docs/#lesson/sNN` adresine gider; alıştırmalar ve grafikler uygulamada kalır.
+
 ## 2. Dosyalar (docs/)
 | Dosya | Görev |
 |---|---|
