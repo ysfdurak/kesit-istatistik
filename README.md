@@ -63,6 +63,12 @@ Try it: https://ysfdurak.github.io/kesit-istatistik/ · Sister apps: [SQL](https
 ## Sorumluluk notu
 Ücretsiz, ticari olmayan bir eğitim ve portföy projesidir; içerik “olduğu gibi” sunulur. Veri setlerindeki tüm şirketler, kişiler ve kayıtlar hayalidir.
 
+## Uçtan uca vaka: depo toplama süresi
+Dört Kesit uygulaması tek bir iş sorusunda birleşir: Anadolu Market Gebze deposunda raf düzeni değişti; toplama süresi kısaldı mı, kısaldıysa yaymaya yeter mi? SQL → Python → Power BI → İstatistik. Her adım öncekinin beklenen çıktısıyla başlar ve sonrakini açar; ilerleme tarayıcıda `kesit.vaka.depo` anahtarında ortaktır.
+
+- Bu uygulamadaki adım: [/kesit-istatistik/vaka/depo/](https://ysfdurak.github.io/kesit-istatistik/vaka/depo/). 4. adım: Welch t-testi ve güven aralığıyla karar sınırı: istatistiksel fark var, ama 4 sn'lik operasyon eşiğine yetiyor mu? Sayfa `docs/analysis-engine.js` motorunu kullanır; sonuçlar `verify-vaka.cjs` ile SciPy değerlerine karşı CI'da denetlenir.
+- Veri ve sayfa üreteci: [ysfdurak.github.io › vaka/depo-kaynak](https://github.com/ysfdurak/ysfdurak.github.io/tree/main/vaka/depo-kaynak). Sayfayı elle düzenleme; üreteçte değiştirip dört depoya yeniden yaz.
+
 ## Lisans
 - Uygulama kodu: [PolyForm Shield 1.0.0](LICENSE.md). Kişiler, okullar ve şirketler kendi işlerinde ücretsiz kullanabilir; satmak ya da rakip ürün yapmak yazılı izin gerektirir.
 - Ders içerikleri ve veri setleri: kodla aynı lisans, [PolyForm Shield 1.0.0](LICENSE.md) (özet: [LICENSE-ICERIK.md](LICENSE-ICERIK.md))
