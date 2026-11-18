@@ -4,13 +4,19 @@ on:
     branches: [main]
     paths:
       - 'docs/**'
+      - 'ders/**'
+      - 'tools/**'
+      - 'sitemap.xml'
       - 'verify*.cjs'
-      - '.github/workflows/verify-v8.yml'
+      - '.github/workflows/verify.yml'
   pull_request:
     paths:
       - 'docs/**'
+      - 'ders/**'
+      - 'tools/**'
+      - 'sitemap.xml'
       - 'verify*.cjs'
-      - '.github/workflows/verify-v8.yml'
+      - '.github/workflows/verify.yml'
   workflow_dispatch:
 permissions:
   contents: read
@@ -36,3 +42,12 @@ jobs:
         run: node verify-quality.cjs
       - name: Validate V9 ecosystem cases, practice generators and interview content
         run: node verify-v9.cjs
+      - name: Check generated lesson pages are up to date
+        run: |
+          node tools/ders-sayfalari.mjs
+          # sitemap.xml lastmod her çalıştırmada bugünün tarihini alır; yalnızca adres listesini karşılaştır
+          git show HEAD:sitemap.xml | grep -o '<loc>[^<]*</loc>' > /tmp/sitemap-onceki.txt
+          grep -o '<loc>[^<]*</loc>' sitemap.xml > /tmp/sitemap-yeni.txt
+          diff -u /tmp/sitemap-onceki.txt /tmp/sitemap-yeni.txt || { echo '::error::sitemap.xml adresleri güncel değil: node tools/ders-sayfalari.mjs çalıştırıp commit et'; exit 1; }
+          git diff --exit-code -- ders || { echo '::error::ders/ sayfaları docs/content.js ile uyumsuz: node tools/ders-sayfalari.mjs çalıştırıp commit et'; exit 1; }
+          if [ -n "$(git ls-files --others --exclude-standard -- ders)" ]; then echo '::error::ders/ altında commit edilmemiş üretilmiş sayfa var'; git ls-files --others --exclude-standard -- ders; exit 1; fi
