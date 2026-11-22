@@ -43,6 +43,12 @@ for (const g of V.GEN) {
     assert.doesNotMatch(it.q + it.steps.join(' '), /NaN|undefined|Infinity/, `${g.id} metin bozuk`);
   }
 }
+// Sorudaki sayılar gösterildiği gibi hesaba girmeli (önce yuvarla, sonra hesapla): z üreticisi
+{ const num = t => Number(t.replace(/\./g, '').replace(',', '.'));
+  const gz = V.GEN.find(g => g.id === 'z'), E0 = ctx.AnalysisEngine;
+  for (let i = 0; i < 300; i++) { const it = gz.make(), m = it.q.match(/ortalama (\d+) dk, standart sapma (\d+) dk\. Bir siparişin ([\d.,]+) dakika/);
+    assert.ok(m, 'z sorusu biçimi'); const want = E0.normalCDF((num(m[3]) - num(m[1])) / num(m[2])) * 100;
+    assert.ok(Math.abs(it.answer - want) < 1e-9, `z cevabı sorudaki sayılarla: ${it.q}`); } }
 // Bağımsız hesap kontrolleri
 const E = ctx.AnalysisEngine;
 assert.ok(Math.abs(E.normalCDF(1.96) - 0.975) < 1e-3, 'Normal CDF');
