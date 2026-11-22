@@ -55,6 +55,8 @@ Bir vaka şu alanlardan oluşur: `question` (karar sorusu), `unit` (analiz birim
 
 **Yeni üretici eklemek:** `GEN`'e bir öğe ekle, sorudaki sayıların gösterilen ondalıkla birebir aynı olmasına dikkat et (önce yuvarla, sonra hesapla), `node verify-v9.cjs` çalıştır (her üreticiyi 300 kez dener).
 
+**Örnek hata (Kasım 2026):** z üreticisi `x = μ + 1,25·σ` ile 62,75 gibi iki ondalıklı bir değer üretip soruda 62,8 gösteriyordu; cevap 62,75 ile hesaplandığı için doğru çözen öğrenci yanlış sayılabiliyordu. Artık x önce bir ondalığa yuvarlanıyor ve `verify-v9.cjs` sorudaki sayılardan cevabı yeniden hesaplıyor.
+
 ## 5. Sık yapılan işler
 | İş | Yapılacak |
 |---|---|
@@ -62,6 +64,7 @@ Bir vaka şu alanlardan oluşur: `question` (karar sorusu), `unit` (analiz birim
 | Bir derse SQL/DAX/Python köprüsü eklemek | `TOOLS` nesnesine `sNN: {sql, dax, py}` ekle. |
 | Yeni sayfa eklemek | `v9-app.js` içinde `pages` ve `labels`'a ekle; `index.html`'deki `#nav-v9`'a bağlantı koy. |
 | Yayın sonrası eski sürüm görünüyor | `sw.js` içindeki `CACHE` adını artır (ör. `kesit-istatistik-v9-2`). |
+| Hesapları SciPy'a karşı taramak | `tools/referans-tarama/README.md`: ~4.000 rastgele girdi, ~8.000 karşılaştırma (SciPy, statsmodels, scikit-learn). |
 | Testleri çalıştırmak | Depo kökünde `node verify.cjs && node verify-engine.cjs && node verify-visual.cjs && node verify-quality.cjs && node verify-v9.cjs` |
 
 ## 6. Bilinen sınırlar
