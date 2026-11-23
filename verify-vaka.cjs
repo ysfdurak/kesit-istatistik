@@ -23,3 +23,23 @@ let duz=0;for(const va of ['Gündüz','Gece']){const r=welch(al('eski',va),al('y
 assert.ok(top.p<.05&&Math.abs(duz-bek2.duzeltilmis)<1e-9&&Math.abs(duz)<.5,'İzmir: toplam fark anlamlı, karışım sabitken fark yok');
 assert.ok(Math.abs(top.fark-bek.fark)<.4,'İzmir kazancı Gebze ile aynı görünmeli');
 console.log(JSON.stringify({vaka:'depo-izmir',toplam:top.fark,p:top.p,duzeltilmis:duz}));
+
+// Denetim D03: aralığın tamamı sıfırın altındaysa karar metni kötüleşmeyi söyler ("sıfırı içeriyor" demez).
+{
+  const i=html.indexOf('function karar(r,esik,g){'),j=html.indexOf("</p></div>'};}",i)+"</p></div>'};}".length;
+  const ctx={vkSay:(x,n)=>Number(x).toFixed(n).replace('.',',')};vm.createContext(ctx);vm.runInContext(html.slice(i,j)+';this.karar=karar;',ctx);
+  const kot=ctx.karar({d:-1.2,p:.035,alt:-2.3,ust:-.1},4,.95);
+  assert.ok(!kot.anl&&/kötüleşme/.test(kot.html)&&!/sıfırı içeriyor/.test(kot.html)&&!/≥ 0,05/.test(kot.html),'negatif aralık: '+kot.html);
+  assert.ok(/1,200 sn daha uzun/.test(kot.html),'fark mutlak değerle yazılmalı');
+  assert.ok(/sıfırı içeriyor/.test(ctx.karar({d:.3,p:.4,alt:-.5,ust:1.1},4,.95).html),'sıfırı içeren aralık');
+  assert.ok(ctx.karar({d:2,p:.001,alt:1,ust:3},4,.95).anl,'pozitif aralık');
+}
+// Denetim D04: içinde yalnız sayı geçen alakasız metin "aralığı açıkladın" sayılmaz.
+{
+  const re=new Function('return '+html.match(/M=\[\[(\/.*?\/),'Farkın büyüklüğünü/)[1])();
+  assert.ok(!re.test('üç kişi öğle yemeğine gitti, 3 kişi 12:30 da döndü'.toLocaleLowerCase('tr-TR')),'sayı tek başına aralık değil');
+  for(const t of ['fark 1,9 sn, %95 güven aralığı 1,6–2,2 sn','aralık 1,6 ile 2,2 arasında','ga 1.6-2.2'])assert.ok(re.test(t),t);
+}
+// Denetim D07: kayıt reddedilirse uzman ekranı açılmaz.
+assert.ok(/if\(!vkKaydet\(\{metin:/.test(html)&&/if\(!vkKaydet\(\{ornek2:/.test(html),'kaydet düğmeleri vkKaydet sonucuna bakmalı');
+console.log(JSON.stringify({vaka:'depo-karar-ve-degerlendirme',ok:true}));
