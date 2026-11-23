@@ -184,11 +184,15 @@ function aralik(r,esik){const W=Math.max(300,Math.round(document.querySelector('
   s+='<line x1="20" x2="'+(W-20)+'" y1="66" y2="66" stroke="#5A574E"/><line x1="'+x(0)+'" x2="'+x(0)+'" y1="10" y2="66" stroke="#1B1A16"/><text x="'+(x(0)+4)+'" y="18" font-size="12" fill="#1B1A16">fark yok</text>';
   s+='<line x1="'+x(esik)+'" x2="'+x(esik)+'" y1="10" y2="66" stroke="#B3261E" stroke-width="2" stroke-dasharray="5 4"/><text x="'+(x(esik)-4)+'" y="18" text-anchor="end" font-size="12" fill="#B3261E">eşik '+vkSay(esik,1)+' sn</text>';
   s+='<line x1="'+x(r.alt)+'" x2="'+x(r.ust)+'" y1="42" y2="42" stroke="#136B49" stroke-width="6" stroke-linecap="round"/><circle cx="'+x(r.d)+'" cy="42" r="7" fill="#136B49"/></svg>';return s;}
-function karar(r,esik,g){const a=1-g,anl=r.p<a&&r.alt>0;let op;
+function karar(r,esik,g){const a=1-g,anl=r.p<a&&r.alt>0,kotu=r.p<a&&r.ust<0;let op;
   if(r.ust<esik)op={k:'yetersiz',t:'Güven aralığının üst sınırı ('+vkSay(r.ust,2)+' sn) eşiğin altında: gerçek kazanç büyük olasılıkla '+vkSay(esik,1)+' sn’ye ulaşmıyor. <b>Operasyonel olarak yeterli değil.</b>'};
   else if(r.alt>=esik)op={k:'yeterli',t:'Güven aralığının alt sınırı ('+vkSay(r.alt,2)+' sn) eşiğin üstünde. <b>Operasyonel olarak yeterli.</b>'};
   else op={k:'belirsiz',t:'Eşik güven aralığının içinde ('+vkSay(r.alt,2)+' – '+vkSay(r.ust,2)+' sn). <b>Veri karar için yetmiyor;</b> ölçüme devam et ya da eşiği netleştir.'};
-  const gozlem='Yeni düzende ortalama süre satır başına '+vkSay(r.d,3)+' sn daha '+(r.d>=0?'kısa':'uzun')+'; %'+vkSay(g*100,0)+' güven aralığı '+vkSay(r.alt,2)+' – '+vkSay(r.ust,2)+' sn. '+(anl?'p = '+vkSay(r.p,4)+' &lt; '+vkSay(a,2)+': farkın sıfır olmadığına işaret ediyor; büyüklüğünü aralık gösterir.':'p = '+vkSay(r.p,4)+' ≥ '+vkSay(a,2)+': aralık sıfırı içeriyor, farkın rastlantı olmadığını söyleyemeyiz.');
+  // Üç durum: aralık tamamen sıfırın üstünde (kazanç), tamamen altında (kötüleşme), sıfırı içeriyor (belirsiz).
+  const yorum=anl?'p = '+vkSay(r.p,4)+' &lt; '+vkSay(a,2)+': farkın sıfır olmadığına işaret ediyor; büyüklüğünü aralık gösterir.'
+    :kotu?'p = '+vkSay(r.p,4)+' &lt; '+vkSay(a,2)+' ve aralığın tamamı sıfırın altında: yeni düzende süre <b>uzamış</b>; bu bir kazanç değil, kötüleşme.'
+    :'p = '+vkSay(r.p,4)+' ≥ '+vkSay(a,2)+': aralık sıfırı içeriyor, farkın rastlantı olmadığını söyleyemeyiz.';
+  const gozlem='Yeni düzende ortalama süre satır başına '+vkSay(Math.abs(r.d),3)+' sn daha '+(r.d>=0?'kısa':'uzun')+'; %'+vkSay(g*100,0)+' güven aralığı '+vkSay(r.alt,2)+' – '+vkSay(r.ust,2)+' sn. '+yorum;
   return {anl,op,html:'<div class="vk-soru"><h3>1. Ne gözlendi?</h3><p>'+gozlem+'</p><h3>2. Hedef karşılandı mı?</h3><p>'+op.t+'</p><h3>3. Farkı yeni düzene bağlayabilir miyiz?</h3><p>Test bunu tek başına cevaplamaz: iki dönem arasında düzenden başka neyin değiştiğini düşün ve aşağıda <a href="#yaz">kararını yaz</a>.</p></div>'};}
 function calistir(){if(!window.AnalysisEngine){dur('Motor daha yüklenmedi.');return;}const esik=Number($('#esik').value),g=Number($('#guven').value);if(!(esik>0)){dur('Eşik pozitif bir sayı olmalı.');return;}
   const r=welch(eski,yeni,g),k=karar(r,esik,g);$('#sonuc').hidden=false;
@@ -206,9 +210,15 @@ const metin=$('#metin'),kaydet=$('#kaydet');
 const onceki=(vkOku().istatistik||{}).metin;if(onceki){metin.value=onceki;}
 const metinDurum=()=>{const n=metin.value.trim().length;kaydet.disabled=n<60;$('#metinNot').textContent=n<60?'En az 60 karakter yaz ('+n+'/60).':'Hazır.';};
 metin.addEventListener('input',metinDurum);metinDurum();
-function uzmanAc(){const t=metin.value.toLocaleLowerCase('tr-TR'),M=[[/aral|güven|ga\b|\d/,'Farkın büyüklüğünü ve belirsizliğini (aralık) yazdın'],[/hedef|eşik|esik|4 ?sn|yeterli|yaym/,'Hedefle (4 sn) karşılaştırdın'],[/neden|bağla|bagla|vardiya|karışım|karisim|sipariş|siparis|mevsim|sezon|kontrol|ayır|ayir|başka|baska/,'Farkı düzene bağlamanın sınırını belirttin']];
+function uzmanAc(){const t=metin.value.toLocaleLowerCase('tr-TR'),M=[[/aral|güven|\bga\b|%\s?9\d|\d+(?:[.,]\d+)?\s?(?:–|-|ile)\s?-?\d/,'Farkın büyüklüğünü ve belirsizliğini (aralık) yazdın'],[/hedef|eşik|esik|4 ?sn|yeterli|yaym/,'Hedefle (4 sn) karşılaştırdın'],[/neden|bağla|bagla|vardiya|karışım|karisim|sipariş|siparis|mevsim|sezon|kontrol|ayır|ayir|başka|baska/,'Farkı düzene bağlamanın sınırını belirttin']];
   $('#ozdeg').innerHTML=M.map(([re,ad])=>{const v=re.test(t);return '<li class="'+(v?'ok':'no')+'">'+ad+(v?'':' : metninde göremedim')+'</li>';}).join('');$('#uzman').hidden=false;}
-kaydet.onclick=()=>{const s=vkOku();s.v=1;s.istatistik=Object.assign({},s.istatistik,{metin:metin.value.trim()});try{localStorage.setItem(VK_KEY,JSON.stringify(s))}catch(e){}uzmanAc();$('#uzman').scrollIntoView({behavior:'smooth',block:'start'});};
+// Kayıt reddedilirse (kısa metin, tarayıcı depolamayı kapatmış ya da dolu) uzman ekranı açılmaz; neden yazılır.
+function vkKaydet(ek,notEl){const m=ek.metin??ek.ornek2?.metin??'';if(m.length<60){notEl.textContent='Kaydedilmedi: en az 60 karakter yaz.';return false;}
+  const s=vkOku();s.v=1;s.istatistik=Object.assign({},s.istatistik,ek);
+  try{localStorage.setItem(VK_KEY,JSON.stringify(s));if(localStorage.getItem(VK_KEY)!==JSON.stringify(s))throw new Error('okunamadı');}
+  catch(e){notEl.textContent='Kaydedilmedi: tarayıcı kaydı reddetti (gizli pencere ya da dolu depolama). Metnin bu sayfada duruyor; kopyalayıp sakla, sonra yeniden dene.';return false;}
+  notEl.textContent='Kaydedildi.';return true;}
+kaydet.onclick=()=>{if(!vkKaydet({metin:metin.value.trim()},$('#metinNot')))return;uzmanAc();$('#uzman').scrollIntoView({behavior:'smooth',block:'start'});};
 if(onceki&&onceki.length>=60)uzmanAc();
 // İkinci örnek (İzmir): vardiya içinde Welch farkı ve vardiya karışımı sabit tutulmuş fark; SciPy değerleriyle denetlenir.
 function katmanla(){if(!window.AnalysisEngine){dur('Motor daha yüklenmedi.');return;}const v=vkCsvOku(CSV2),iV=v.cols.indexOf('vardiya'),iD=v.cols.indexOf('duzen'),iS=v.cols.indexOf('sure_sn');
@@ -226,7 +236,7 @@ const metin2Durum=()=>{const n=metin2.value.trim().length;kaydet2.disabled=n<60;
 metin2.addEventListener('input',metin2Durum);metin2Durum();
 function uzman2Ac(){const t=metin2.value.toLocaleLowerCase('tr-TR'),M=[[/düş|dus|kısal|kisal|azal/,'Ortalamanın düştüğünü (gözlem) yazdın'],[/vardiya|gece|karışım|karisim|pay/,'Vardiya karışımının değiştiğini belirttin'],[/içinde|icinde|aynı vardiya|ayni vardiya|sabit|katman|ayrı ayrı|ayri ayri/,'Vardiya içi karşılaştırmaya dayandın'],[/söylenemez|soylenemez|bağlan|baglan|neden|yol aç|yol ac|kanıt|kanit|desteklem|değil|degil/,'Nedensellik iddiasının sınırını yazdın']];
   $('#ozdeg2').innerHTML=M.map(([re,ad])=>{const v=re.test(t);return '<li class="'+(v?'ok':'no')+'">'+ad+(v?'':' : metninde göremedim')+'</li>';}).join('');$('#uzman2').hidden=false;}
-kaydet2.onclick=()=>{const s=vkOku();s.v=1;s.istatistik=Object.assign({},s.istatistik,{ornek2:{metin:metin2.value.trim(),zaman:new Date().toISOString()}});try{localStorage.setItem(VK_KEY,JSON.stringify(s))}catch(e){}uzman2Ac();$('#uzman2').scrollIntoView({behavior:'smooth',block:'start'});};
+kaydet2.onclick=()=>{if(!vkKaydet({ornek2:{metin:metin2.value.trim(),zaman:new Date().toISOString()}},$('#metin2Not')))return;uzman2Ac();$('#uzman2').scrollIntoView({behavior:'smooth',block:'start'});};
 if(onceki2&&onceki2.length>=60)uzman2Ac();
 const sc=document.createElement('script');sc.src='../../docs/analysis-engine.js';sc.onload=()=>{gucN();dur('Motor hazır. Testi çalıştır.');};sc.onerror=()=>dur('İstatistik motoru yüklenemedi.');document.head.appendChild(sc);
 (function(){const s=vkOku().pbi,e=$('#gelenDurum');bitis();if(!s||!s.tamam)return;const ayni=s.olcu&&Math.abs(s.olcu['Kazanc sn']-BEK_PBI['Kazanc sn'])<5e-4;e.className='vk-et '+(ayni?'ok':'no');e.textContent=ayni?'✓ senin panon bununla aynı':'Senin panon farklıydı; test beklenen veriyle yapılır';})();

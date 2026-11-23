@@ -67,6 +67,15 @@ Bir vaka şu alanlardan oluşur: `question` (karar sorusu), `unit` (analiz birim
 | Hesapları SciPy'a karşı taramak | `tools/referans-tarama/README.md`: ~4.000 rastgele girdi, ~8.000 karşılaştırma (SciPy, statsmodels, scikit-learn). |
 | Testleri çalıştırmak | Depo kökünde `node verify.cjs && node verify-engine.cjs && node verify-visual.cjs && node verify-quality.cjs && node verify-v9.cjs` |
 
+### Depo vakası karar ve değerlendirme kuralları (23 Kasım 2026, denetim D03/D04/D07)
+
+`vaka/depo/index.html` bu sayfanın tek kaynağıdır (üretilmez; kardeş uygulamaların vaka sayfaları ayrı adımlardır).
+
+- **Karar metni (`karar`)** üç durumu ayırır: aralığın tamamı sıfırın üstünde → kazanç; tamamı altında → **kötüleşme** (süre uzamış); sıfırı içeriyor → belirsiz. Önceden kötüleşme dalı "p ≥ 0,05, aralık sıfırı içeriyor" yazıyordu. Fark mutlak değerle "daha kısa/uzun" diye yazılır.
+- **Öz değerlendirme**: "aralığı açıkladın" için metinde aralık sözcüğü (aralık, güven, GA, %95) ya da "1,6–2,2" / "1,6 ile 2,2" gibi bir sayı aralığı gerekir. İçinde rastgele bir sayı geçmesi yetmez.
+- **Kayıt**: `vkKaydet` metni kaydedip geri okur; 60 karakterden kısa metin ya da tarayıcının reddettiği kayıt uzman ekranını açmaz, nedeni düğmenin yanında yazar.
+- Testler `verify-vaka.cjs` sonunda; CI her gönderimde çalıştırır.
+
 ## 6. Bilinen sınırlar
 - Tarayıcıdaki vaka sonuçları önceden hesaplanmıştır; kodu çalıştırmak için kendi Python ortamın veya Kesit Python gerekir.
 - Seviye testi mevcut derslerin kavram sorularını kullanır; yönlendirme amaçlıdır, not değildir.
