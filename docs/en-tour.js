@@ -107,7 +107,7 @@
       },
       "home": {
         "t": "Kesit İstatistik",
-        "p": "120 lessons in 30 modules plus 8 elective method lessons, from population and sample to tests, regression, experiments, time series, Bayes, quality, statistical learning and causal inference. Calculators are checked against SciPy references; case results are computed with pandas, SciPy and statsmodels.",
+        "p": "120 lessons in 30 modules plus 8 elective method lessons, from population and sample to tests, regression, experiments, time series, Bayes, quality, statistical learning and causal inference. Calculators are checked against SciPy references; case results are computed with pandas, SciPy and statsmodels. Every lesson ends with 3 hands-on tasks on the shared Kesit data (360 in total), with a downloadable Python notebook per lesson and an Excel workbook per module.",
         "try": "Open “Kesit verileriyle” (With Kesit data) to see a statistics question answered with SQL, Python and DAX on the shared datasets."
       },
       "start": {
