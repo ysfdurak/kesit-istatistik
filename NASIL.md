@@ -50,6 +50,24 @@ Bir vaka şu alanlardan oluşur: `question` (karar sorusu), `unit` (analiz birim
 - Yağmur: Poisson aşırı yayılımlı (χ²/sd ≈ 5,8) → negatif binom.
 - Banka: tek IQR kuralı %11 işaretler; kategori içi ve log ölçeği gerçekçi.
 
+## 3a. Ders içi Kesit verisi alıştırmaları (V10)
+Her derste "Kesit verisiyle hesapla" paneli: 3 görev, cevap kutusu, ipucu, çözüm (Python kodu). Aynı görevler ders defterlerinde ve Excel kitaplarında.
+
+| Dosya | Görev |
+|---|---|
+| `alistirma_v10.py` (kök) | **Tek kaynak.** Görevler `G(ders, soru, kod, ondalık, ipucu, tol)` ile yazılır; `kod` çalıştırılır, `cevap` değişkeni gerçek cevaptır. Elle cevap yazılmaz. |
+| `docs/data/kesit/*.csv`, `docs/data/kesit-veri.zip` | Kesit Python deposundan kopyalanan 17 tablo + türetilmiş `bk_gunluk.csv` (9 MB'lık bisiklet yolculuklarının günlük özeti ve hava). |
+| **`docs/ders-alistirma.js`** | `window.KESIT_DERS_ALISTIRMA`: hazırlık kodu + ders başına görevler (soru, cevap, ondalık, tol, ipucu, kod, veri). **Elle düzenlenmez.** |
+| `docs/v10-alistirma.js`, `docs/v10.css` | Panel. `KesitV9.mount`'u sarar (app.js her çizimde çağırır), ders sütununa paneli ekler. Kayıt `kesit-istatistik-v10` (localStorage); yedek dosyasına `v9.v10` olarak girer. |
+| `docs/defter/sNN.ipynb`, `sNN.py`, `kesit-defterler.zip` | Ders defteri: hazırlık hücresi + her görev için kod ve `assert` ile denetim. |
+| `docs/excel/modul-NN.xlsx` | Modül kitabı (NN = ekrandaki modül no): Görevler sayfası (sarı hücreye cevap, `EĞER(MUTLAK(...))` ile Doğru/Tekrar dene), Nasıl sayfası, kullanılan veri sayfaları (tutar, gecikme, süre sütunları türetilmiş). |
+
+**Tolerans:** `max(göreli %0,5, son basamağın yarısı, tol)`. `tol` yalnız rastgelelik (bootstrap, MCMC, rastgele orman) ya da kütüphane sürümüne duyarlı görevlerde ek paydır. Uygulama, defter ve Excel aynı kuralı kullanır.
+
+**Yeniden üretmek:** `git clone https://github.com/ysfdurak/kesit-python ../kesit-python` → `python alistirma_v10.py ../kesit-python/data` (numpy, pandas, scipy, statsmodels, scikit-learn, openpyxl; ~35 sn) → `node verify-v10.cjs`. Defterleri baştan sona denetlemek: `cd docs/data && for f in ../defter/s*.py; do python3 $f >/dev/null || echo $f; done`.
+
+**Görev eklerken:** cevabı sıfır ya da tahmin edilebilir (ör. 0, 100) olan görev yazma; sorudaki ondalık ile `d` aynı olsun; sorudan veri adı açıkça anlaşılsın (`teslim`, `inen`, `gunluk` hazırlık kodunda tanımlı).
+
 ## 4. Alıştırma üreticileri
 `v9-app.js` içindeki `GEN` dizisinde her öğe `{id, lesson, title, group, make()}`. `make()` rastgele girdilerle `{q, answer, dec, tol?, unit, hint, steps[]}` döndürür. Cevap kontrolü göreli %0,5 veya `tol` toleransıyla yapılır; virgül ve nokta kabul edilir. İlk deneme istatistiğe sayılır, ikinci yanlışta çözüm açılır.
 
@@ -65,7 +83,7 @@ Bir vaka şu alanlardan oluşur: `question` (karar sorusu), `unit` (analiz birim
 | Yeni sayfa eklemek | `v9-app.js` içinde `pages` ve `labels`'a ekle; `index.html`'deki `#nav-v9`'a bağlantı koy. |
 | Yayın sonrası eski sürüm görünüyor | `sw.js` içindeki `CACHE` adını artır (ör. `kesit-istatistik-v9-2`). |
 | Hesapları SciPy'a karşı taramak | `tools/referans-tarama/README.md`: ~4.000 rastgele girdi, ~8.000 karşılaştırma (SciPy, statsmodels, scikit-learn). |
-| Testleri çalıştırmak | Depo kökünde `node verify.cjs && node verify-engine.cjs && node verify-visual.cjs && node verify-quality.cjs && node verify-v9.cjs` |
+| Testleri çalıştırmak | Depo kökünde `node verify.cjs && node verify-engine.cjs && node verify-visual.cjs && node verify-quality.cjs && node verify-v9.cjs && node verify-v10.cjs` |
 
 ### Depo vakası karar ve değerlendirme kuralları (23 Kasım 2026, denetim D03/D04/D07)
 
@@ -77,6 +95,7 @@ Bir vaka şu alanlardan oluşur: `question` (karar sorusu), `unit` (analiz birim
 - Testler `verify-vaka.cjs` sonunda; CI her gönderimde çalıştırır.
 
 ## 6. Bilinen sınırlar
+- Ders içi alıştırmaların cevapları önceden hesaplanmıştır: kardeş depodaki veri değişirse `alistirma_v10.py` yeniden çalıştırılmalı (CI bunu yapmaz, yalnız yapıyı denetler).
 - Tarayıcıdaki vaka sonuçları önceden hesaplanmıştır; kodu çalıştırmak için kendi Python ortamın veya Kesit Python gerekir.
 - Seviye testi mevcut derslerin kavram sorularını kullanır; yönlendirme amaçlıdır, not değildir.
 - Gerçek öğrenci pilotu yapılmadı; öğrenme kazanımı ölçülmedi.

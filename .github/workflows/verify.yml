@@ -46,6 +46,8 @@ jobs:
         run: node verify-quality.cjs
       - name: Validate V9 ecosystem cases, practice generators and interview content
         run: node verify-v9.cjs
+      - name: Validate V10 lesson exercises on Kesit data, notebooks and Excel workbooks
+        run: node verify-v10.cjs
       - name: Check generated lesson pages are up to date
         run: |
           node tools/ders-sayfalari.mjs

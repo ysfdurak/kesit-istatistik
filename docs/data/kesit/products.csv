@@ -1,0 +1,41 @@
+product_id,name,category,price,cost,stock
+1,Kablosuz Kulaklık,Elektronik,1299.0,626.0,74
+2,Akıllı Saat,Elektronik,3499.0,2181.0,71
+3,Bluetooth Hoparlör,Elektronik,899.0,543.0,140
+4,Powerbank 20000mAh,Elektronik,649.0,442.0,187
+5,Mekanik Klavye,Elektronik,1899.0,1116.0,235
+6,Oyuncu Mouse,Elektronik,749.0,404.0,229
+7,"27"" Monitör",Elektronik,7499.0,4367.0,166
+8,USB-C Hub,Elektronik,549.0,324.0,20
+9,Suç ve Ceza,Kitap,145.0,82.0,197
+10,Kürk Mantolu Madonna,Kitap,95.0,64.0,233
+11,Tutunamayanlar,Kitap,260.0,180.0,155
+12,İnce Memed,Kitap,180.0,124.0,104
+13,Saatleri Ayarlama Enstitüsü,Kitap,165.0,87.0,86
+14,SQL ile Veri Analizi,Kitap,420.0,205.0,39
+15,İstatistiğe Giriş,Kitap,380.0,234.0,92
+16,Türk Kahvesi Makinesi,Ev & Yaşam,2199.0,1530.0,146
+17,Çaydanlık Seti,Ev & Yaşam,899.0,580.0,110
+18,Pamuk Nevresim Takımı,Ev & Yaşam,1150.0,643.0,45
+19,Bakır Cezve,Ev & Yaşam,320.0,165.0,155
+20,Seramik Kupa Seti,Ev & Yaşam,275.0,156.0,218
+21,Robot Süpürge,Ev & Yaşam,8999.0,4689.0,195
+22,Basic Tişört,Giyim,249.0,142.0,147
+23,Kot Pantolon,Giyim,799.0,509.0,80
+24,Mont,Giyim,2499.0,1299.0,154
+25,Spor Ayakkabı,Giyim,1899.0,1076.0,9
+26,Yün Atkı,Giyim,349.0,210.0,244
+27,Keten Gömlek,Giyim,649.0,410.0,249
+28,Yoga Matı,Spor,399.0,204.0,31
+29,Dambıl Seti 10kg,Spor,899.0,520.0,204
+30,Koşu Bandı,Spor,15999.0,10391.0,183
+31,Termos 750ml,Spor,459.0,294.0,200
+32,Bisiklet Kaskı,Spor,1099.0,708.0,222
+33,Kamp Çadırı,Spor,3299.0,2130.0,147
+34,Nemlendirici Krem,Kozmetik,289.0,194.0,225
+35,Güneş Kremi SPF50,Kozmetik,349.0,217.0,177
+36,Parfüm 100ml,Kozmetik,1799.0,1104.0,167
+37,Şampuan,Kozmetik,129.0,68.0,215
+38,Dudak Balmı,Kozmetik,79.0,38.0,40
+39,Hediye Kartı 500 TL,Hediye,500.0,318.0,0
+40,Gurme Lokum Kutusu,Hediye,350.0,191.0,91
