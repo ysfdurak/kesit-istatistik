@@ -1,0 +1,501 @@
+customer_id,full_name,gender,birth_date,city,segment,branch_id,joined_date,risk_score,kvkk_consent
+1,İrem Çelik,K,1953-04-26,İzmir,Bireysel,6,2020-01-13,10,1
+2,Tolga Şimşek,E,1980-08-22,Ankara,Bireysel,5,2014-07-03,6,0
+3,Kerem Şimşek,E,1980-06-10,Ankara,Bireysel,5,2023-05-12,1,1
+4,Kaan Demir,E,1976-03-02,İstanbul,Bireysel,12,2018-01-24,3,1
+5,Gamze Yıldız,K,1950-06-26,Ankara,Bireysel,4,2015-01-05,2,0
+6,Selin Yıldırım,K,1980-03-03,Ankara,Bireysel,5,2021-05-14,6,0
+7,Derya Özkan,K,1979-01-01,İstanbul,Bireysel,12,2015-10-24,1,1
+8,Pınar Kara,K,1951-12-23,İzmir,Özel Bankacılık,6,2020-12-28,8,1
+9,Fatma Yıldırım,K,1966-09-27,Bursa,Bireysel,7,2019-09-28,2,1
+10,Selin Çetin,K,1957-07-24,İstanbul,Bireysel,2,2014-07-19,5,1
+11,Hasan Koç,E,1991-09-25,İstanbul,Bireysel,2,2021-07-23,7,1
+12,Merve Demir,K,1978-01-05,Konya,KOBİ,10,2017-08-24,4,1
+13,Deniz Yıldız,E,1989-10-17,Adana,KOBİ,9,2023-12-25,3,1
+14,Oğuz Demir,E,1990-04-10,Ankara,Bireysel,5,2016-12-01,6,1
+15,Fatma Çelik,K,1998-08-02,Ankara,KOBİ,5,2017-05-14,2,1
+16,Defne Doğan,K,1972-04-13,İstanbul,Bireysel,12,2014-05-04,6,0
+17,Barış Aslan,E,1966-03-08,Antalya,Bireysel,8,2016-07-03,7,1
+18,Onur Kaya,E,1996-09-20,İstanbul,Bireysel,1,2016-12-05,3,1
+19,Hasan Kılıç,E,1966-03-01,İstanbul,Bireysel,3,2022-06-20,9,1
+20,Mehmet Çetin,E,1974-01-06,Ankara,Bireysel,5,2018-07-01,6,1
+21,Derya Yıldırım,K,1958-09-04,İstanbul,Özel Bankacılık,12,2014-01-19,10,1
+22,Duygu Öztürk,K,1958-07-02,İstanbul,Bireysel,3,2021-06-03,10,1
+23,Emre Şimşek,E,1962-12-21,Adana,Bireysel,9,2021-02-07,9,1
+24,Pınar Şimşek,K,1983-09-17,İzmir,Özel Bankacılık,6,2023-10-17,10,1
+25,İrem Çelik,K,1996-12-22,Antalya,Bireysel,8,2020-10-30,10,1
+26,Can Çelik,E,2001-07-05,Gaziantep,Bireysel,11,2023-03-08,7,1
+27,Mehmet Yıldırım,E,1957-12-19,Ankara,Özel Bankacılık,5,2013-11-01,2,0
+28,Oğuz Özdemir,E,1968-03-08,Gaziantep,Bireysel,11,2020-02-19,6,1
+29,Burak Doğan,E,1975-08-11,Adana,Bireysel,9,2015-10-06,6,0
+30,Defne Aslan,K,1959-05-04,Ankara,Bireysel,5,2024-02-09,8,1
+31,Selin Özdemir,K,2000-01-21,İstanbul,Bireysel,12,2020-04-16,2,1
+32,Oğuz Polat,E,1987-02-09,İzmir,Bireysel,6,2024-01-05,10,1
+33,Ali Yılmaz,E,1981-07-03,İstanbul,KOBİ,12,2020-08-18,1,0
+34,Buse Arslan,K,1968-03-19,Antalya,Bireysel,8,2024-09-19,2,1
+35,Emine Güneş,K,1999-03-13,Adana,Bireysel,9,2023-12-10,2,1
+36,Selin Çetin,K,1997-11-23,İzmir,Bireysel,6,2022-04-08,8,1
+37,Emine Arslan,K,1988-12-08,İstanbul,Özel Bankacılık,3,2012-06-11,8,1
+38,Derya Demir,K,1957-06-27,İstanbul,Bireysel,12,2023-08-04,5,1
+39,Emine Güneş,K,1965-11-11,Bursa,Bireysel,7,2017-07-30,4,1
+40,Nur Şimşek,K,1977-06-26,İstanbul,KOBİ,2,2022-09-07,9,1
+41,Mustafa Çelik,E,1995-03-25,İstanbul,Özel Bankacılık,12,2019-07-15,7,1
+42,Emre Güneş,E,1967-01-06,Bursa,Bireysel,7,2017-08-11,6,1
+43,Merve Polat,K,1960-01-09,Gaziantep,KOBİ,11,2021-12-05,6,0
+44,Ayşe Yıldız,K,1967-10-03,İstanbul,Bireysel,3,2019-07-21,8,1
+45,Nur Aslan,K,1973-12-26,İstanbul,Bireysel,2,2016-07-24,1,0
+46,Selin Doğan,K,1964-10-28,Antalya,Bireysel,8,2022-04-07,6,1
+47,Pınar Çelik,K,1983-06-13,Konya,Bireysel,10,2013-02-24,10,1
+48,Buse Şimşek,K,1986-02-01,İstanbul,Bireysel,12,2022-10-30,1,1
+49,Mehmet Aksoy,E,1993-09-01,İstanbul,Özel Bankacılık,1,2023-07-20,6,0
+50,Oğuz Kılıç,E,1964-11-06,İstanbul,Bireysel,12,2015-04-05,4,1
+51,Hüseyin Yılmaz,E,1960-10-10,İstanbul,Bireysel,2,2013-11-05,4,1
+52,Ceren Yıldız,K,1991-07-01,İstanbul,Bireysel,12,2014-01-03,5,1
+53,Zeynep Yıldız,K,1950-12-06,İstanbul,Bireysel,12,2023-08-12,5,1
+54,Elif Özdemir,K,1960-11-09,Ankara,Bireysel,4,2013-05-22,3,1
+55,Mehmet Kara,E,1986-06-27,İzmir,Bireysel,6,2012-08-01,6,1
+56,Burak Özdemir,E,1991-07-17,İstanbul,Bireysel,12,2016-12-16,8,1
+57,Hüseyin Özkan,E,1959-07-28,Ankara,KOBİ,5,2020-12-23,2,1
+58,Burak Çetin,E,1999-07-24,İstanbul,Bireysel,2,2017-07-24,4,1
+59,Barış Şimşek,E,1961-03-27,Ankara,Bireysel,4,2019-04-08,7,0
+60,Kerem Kaya,E,1978-04-26,İstanbul,Bireysel,12,2020-02-06,5,1
+61,Defne Koç,K,1980-02-18,İstanbul,Bireysel,12,2020-02-07,3,1
+62,Barış Şahin,E,1951-02-19,Ankara,Özel Bankacılık,5,2023-03-10,6,0
+63,Tolga Arslan,E,1988-11-20,Konya,Bireysel,10,2021-01-01,3,1
+64,Burak Polat,E,1996-10-21,Ankara,Bireysel,4,2015-10-18,4,1
+65,Derya Arslan,K,1985-12-14,Gaziantep,Bireysel,11,2023-04-27,9,1
+66,Ahmet Özdemir,E,1983-11-14,Konya,Bireysel,10,2020-07-07,4,0
+67,Ahmet Aslan,E,1961-11-20,Ankara,Bireysel,5,2020-01-10,9,1
+68,Deniz Kılıç,E,1997-12-06,Konya,Bireysel,10,2020-04-06,2,1
+69,Kaan Erdem,E,1986-01-11,İstanbul,Bireysel,2,2023-06-09,9,1
+70,Ahmet Yıldız,E,1967-11-28,Adana,Bireysel,9,2014-09-18,2,0
+71,Murat Aksoy,E,1994-07-07,Antalya,Bireysel,8,2018-04-11,6,1
+72,Serkan Yılmaz,E,1986-02-24,İstanbul,Bireysel,12,2020-06-07,7,1
+73,Barış Güneş,E,1954-02-07,Adana,Bireysel,9,2018-07-10,2,0
+74,Ali Güneş,E,1965-05-06,Gaziantep,Özel Bankacılık,11,2023-04-27,10,1
+75,Tolga Aksoy,E,1954-01-19,Adana,Bireysel,9,2017-12-26,9,1
+76,Murat Öztürk,E,1968-05-09,Antalya,Bireysel,8,2017-08-02,4,1
+77,Yusuf Aslan,E,1963-12-12,İstanbul,Bireysel,12,2014-12-07,8,0
+78,Ali Aydın,E,1969-03-26,Ankara,KOBİ,5,2021-02-11,8,1
+79,Derya Kılıç,K,1991-02-24,Ankara,Bireysel,5,2015-12-24,10,0
+80,Selin Aydın,K,1966-06-27,İstanbul,Bireysel,2,2013-09-10,6,1
+81,Esra Yılmaz,K,1998-09-20,Bursa,Bireysel,7,2018-07-19,7,0
+82,Eren Çetin,E,1972-11-15,İstanbul,KOBİ,12,2018-07-30,5,1
+83,Oğuz Öztürk,E,1954-03-26,Bursa,Bireysel,7,2019-08-01,1,1
+84,Ali Özdemir,E,1967-06-07,Antalya,Bireysel,8,2016-09-17,1,1
+85,Serkan Polat,E,1954-09-17,Adana,Bireysel,9,2020-07-04,4,1
+86,Defne Erdem,K,1972-04-15,İstanbul,Bireysel,12,2017-08-06,4,1
+87,İrem Demir,K,1990-01-26,Konya,Bireysel,10,2016-08-02,2,1
+88,Zeynep Kara,K,1993-05-24,İstanbul,Bireysel,12,2016-11-02,1,1
+89,Ece Kurt,K,1984-07-18,Ankara,KOBİ,5,2019-01-23,6,1
+90,Ceren Kaya,K,1967-05-17,İstanbul,Bireysel,12,2016-10-24,10,1
+91,Mustafa Kılıç,E,1950-11-08,İzmir,KOBİ,6,2017-09-16,4,1
+92,Elif Doğan,K,1955-04-16,Ankara,Bireysel,4,2020-04-16,10,1
+93,Deniz Doğan,E,1986-06-09,İstanbul,Bireysel,2,2014-02-08,1,1
+94,Pınar Kılıç,K,1990-09-16,İzmir,Bireysel,6,2014-03-31,10,1
+95,Selin Demir,K,1960-09-20,Gaziantep,Bireysel,11,2020-09-20,8,1
+96,Ceren Erdem,K,1995-07-17,İstanbul,Bireysel,3,2013-11-30,6,1
+97,Aslı Yıldırım,K,1997-09-21,İstanbul,Bireysel,1,2017-08-29,3,1
+98,Oğuz Güneş,E,1954-11-27,Ankara,Bireysel,5,2022-03-24,7,1
+99,Duygu Aksoy,K,1956-12-07,İstanbul,Bireysel,12,2014-08-05,9,1
+100,Selin Doğan,K,1996-10-03,Gaziantep,Bireysel,11,2023-09-08,10,0
+101,Kaan Kurt,E,1975-10-21,İstanbul,Bireysel,3,2012-11-04,10,1
+102,Defne Doğan,K,1959-06-25,Ankara,Bireysel,4,2016-02-24,4,1
+103,Barış Yıldız,E,1986-08-19,İzmir,Bireysel,6,2015-04-13,8,1
+104,Serkan Öztürk,E,1974-06-28,İstanbul,Bireysel,2,2018-03-22,3,0
+105,Eren Aslan,E,1978-07-04,Bursa,Bireysel,7,2021-12-26,5,1
+106,Kerem Çetin,E,1993-09-04,Bursa,Bireysel,7,2014-08-23,6,0
+107,Merve Arslan,K,1956-07-06,Konya,Bireysel,10,2017-01-21,7,0
+108,Hasan Kaya,E,1992-12-10,Antalya,Bireysel,8,2014-12-28,3,1
+109,Yusuf Doğan,E,1974-06-12,Gaziantep,Bireysel,11,2016-01-26,8,0
+110,Ali Demir,E,1991-10-26,Ankara,Bireysel,5,2019-02-10,1,1
+111,Ali Özdemir,E,1986-07-12,İzmir,Bireysel,6,2018-12-05,5,1
+112,Merve Aksoy,K,1965-03-09,İstanbul,Özel Bankacılık,3,2014-02-07,7,1
+113,Kaan Yılmaz,E,1971-01-28,İstanbul,KOBİ,3,2020-02-17,7,0
+114,Mustafa Arslan,E,1967-09-16,Antalya,Bireysel,8,2014-05-01,8,1
+115,Derya Kaya,K,1975-06-08,İstanbul,Bireysel,12,2017-09-16,10,1
+116,Serkan Kurt,E,1998-03-17,İstanbul,Bireysel,12,2020-03-14,4,1
+117,Ahmet Kaya,E,1990-04-14,Ankara,KOBİ,4,2018-12-04,4,1
+118,Derya Polat,K,1967-04-24,Ankara,Bireysel,5,2013-02-05,8,1
+119,Hasan Arslan,E,1954-07-26,Konya,Bireysel,10,2021-02-03,6,1
+120,Seda Arslan,K,1968-03-12,Gaziantep,Bireysel,11,2020-03-11,4,1
+121,Ali Aslan,E,1980-02-18,Antalya,Bireysel,8,2019-03-06,7,0
+122,Mustafa Öztürk,E,1957-09-02,İstanbul,Bireysel,12,2014-11-02,2,0
+123,Burak Özdemir,E,1984-01-16,İzmir,Özel Bankacılık,6,2019-10-08,4,1
+124,Yusuf Arslan,E,1950-05-27,İstanbul,Bireysel,12,2020-11-19,4,1
+125,Buse Özkan,K,1992-02-24,Ankara,Bireysel,4,2020-06-02,9,0
+126,Kaan Koç,E,1997-04-02,İstanbul,Bireysel,2,2022-08-10,4,1
+127,Emine Yılmaz,K,1967-10-05,Antalya,Bireysel,8,2022-07-30,5,1
+128,Deniz Şimşek,E,1973-11-12,İstanbul,Bireysel,12,2018-07-27,6,1
+129,Onur Çetin,E,1952-11-05,Ankara,Bireysel,5,2023-11-18,10,1
+130,Ayşe Polat,K,1959-08-19,Ankara,Bireysel,5,2015-04-22,10,1
+131,Onur Özdemir,E,1990-01-12,Ankara,Bireysel,5,2013-07-03,5,1
+132,Serkan Arslan,E,1974-09-19,İstanbul,Bireysel,12,2016-02-02,1,1
+133,Mustafa Aydın,E,1985-04-07,Bursa,Bireysel,7,2014-02-21,5,1
+134,Mustafa Aslan,E,1951-01-04,Ankara,KOBİ,5,2020-10-06,6,1
+135,Eren Şahin,E,1964-03-15,Ankara,Bireysel,5,2020-11-09,10,1
+136,Oğuz Koç,E,2003-05-13,Konya,Bireysel,10,2022-02-21,9,1
+137,Burak Şimşek,E,1982-10-22,Konya,Bireysel,10,2024-04-14,5,1
+138,Onur Kılıç,E,1957-02-21,İstanbul,Bireysel,1,2021-09-08,4,1
+139,Duygu Yıldırım,K,1954-06-18,Gaziantep,Bireysel,11,2013-09-17,1,1
+140,Gamze Öztürk,K,1981-02-27,Konya,Özel Bankacılık,10,2017-01-22,6,1
+141,Burak Kurt,E,1961-10-25,Gaziantep,Bireysel,11,2020-02-23,9,1
+142,Onur Çetin,E,1973-03-07,Gaziantep,Özel Bankacılık,11,2014-05-05,4,1
+143,Merve Doğan,K,1976-01-20,Adana,Bireysel,9,2017-10-23,9,1
+144,Serkan Arslan,E,1966-06-20,İstanbul,Bireysel,2,2018-10-14,9,1
+145,Elif Kurt,K,1996-07-10,İstanbul,Bireysel,12,2024-07-14,3,1
+146,Ahmet Aksoy,E,1993-04-20,İstanbul,Bireysel,1,2018-02-25,8,1
+147,Ece Yıldız,K,1996-03-03,Ankara,Özel Bankacılık,5,2019-04-22,8,1
+148,İrem Güneş,K,1965-08-26,İstanbul,Bireysel,2,2024-07-30,1,1
+149,İrem Kurt,K,1981-01-28,İstanbul,Bireysel,12,2014-04-08,1,1
+150,Ayşe Kaya,K,1987-11-07,İstanbul,KOBİ,12,2018-08-13,7,1
+151,Buse Arslan,K,1981-05-10,Ankara,Bireysel,4,2020-04-10,8,1
+152,Aslı Yıldırım,K,1996-07-01,İzmir,KOBİ,6,2014-12-03,5,0
+153,Yusuf Şimşek,E,1990-10-04,Ankara,Özel Bankacılık,4,2016-11-08,5,1
+154,Defne Yıldırım,K,1955-07-07,İstanbul,Bireysel,12,2013-04-14,7,0
+155,Aslı Demir,K,1976-04-09,Konya,Bireysel,10,2015-12-27,4,1
+156,Hüseyin Kaya,E,1965-05-22,İstanbul,Bireysel,12,2021-04-19,3,1
+157,Murat Güneş,E,1973-06-03,İstanbul,Bireysel,3,2023-10-13,10,1
+158,Pınar Aksoy,K,1979-01-01,İstanbul,KOBİ,1,2015-07-23,1,1
+159,Derya Çetin,K,1960-02-25,Gaziantep,KOBİ,11,2014-11-16,6,1
+160,Tolga Kurt,E,1984-02-12,İstanbul,Bireysel,12,2014-02-26,4,1
+161,Esra Şimşek,K,1976-06-08,İstanbul,Özel Bankacılık,2,2017-08-06,3,0
+162,Defne Yılmaz,K,1958-02-17,İstanbul,Bireysel,12,2015-09-11,8,1
+163,Ceren Erdem,K,1993-09-18,Bursa,Bireysel,7,2014-04-14,6,1
+164,Elif Yıldırım,K,1953-01-19,İzmir,Bireysel,6,2018-01-30,5,1
+165,Ali Şimşek,E,1991-05-03,Adana,Bireysel,9,2012-06-06,10,1
+166,Elif Güneş,K,1988-02-05,Ankara,Bireysel,4,2020-12-15,7,1
+167,Burak Aslan,E,1958-05-25,İstanbul,KOBİ,12,2023-07-23,4,1
+168,Fatma Yılmaz,K,1956-10-07,İstanbul,Bireysel,12,2021-09-26,7,1
+169,Ahmet Çetin,E,1961-08-08,İstanbul,Bireysel,1,2021-05-21,6,0
+170,Buse Özkan,K,1999-12-10,Konya,Bireysel,10,2020-05-04,4,1
+171,Mehmet Kaya,E,1963-05-21,İstanbul,Bireysel,3,2016-12-06,1,1
+172,Gamze Özdemir,K,1991-07-04,İstanbul,KOBİ,2,2014-06-10,10,1
+173,Selin Kurt,K,1990-08-25,Ankara,Bireysel,5,2014-02-21,4,1
+174,Serkan Çelik,E,1974-06-19,İstanbul,Bireysel,3,2020-02-06,7,1
+175,Aslı Kaya,K,1987-05-20,Ankara,Bireysel,5,2023-10-30,8,0
+176,Duygu Yıldırım,K,1997-10-17,Konya,KOBİ,10,2018-12-12,2,1
+177,Nur Kurt,K,1985-10-03,İstanbul,Bireysel,1,2017-04-17,2,1
+178,Serkan Doğan,E,1984-03-19,İzmir,Özel Bankacılık,6,2024-01-13,4,1
+179,Onur Aslan,E,1976-04-18,Ankara,Bireysel,4,2018-12-02,2,1
+180,Ayşe Polat,K,1970-04-27,Antalya,Bireysel,8,2023-03-03,10,1
+181,Hasan Kılıç,E,1989-08-15,İstanbul,Bireysel,1,2012-10-01,6,1
+182,Duygu Demir,K,1996-11-11,Bursa,Bireysel,7,2017-02-01,6,1
+183,Ayşe Aydın,K,1982-01-04,İstanbul,Bireysel,12,2015-07-11,6,1
+184,Zeynep Erdem,K,1956-03-01,Adana,Bireysel,9,2014-10-29,4,1
+185,Ali Şahin,E,1953-03-27,Bursa,Bireysel,7,2014-01-01,1,1
+186,Ayşe Aksoy,K,1987-01-12,İzmir,Bireysel,6,2021-03-21,3,1
+187,Hasan Aydın,E,1991-08-21,Gaziantep,Bireysel,11,2012-12-22,10,1
+188,Duygu Arslan,K,2003-04-08,İstanbul,Bireysel,3,2021-06-27,5,1
+189,Ceren Yıldırım,K,1958-12-11,Adana,Bireysel,9,2021-02-20,1,1
+190,Ece Demir,K,1966-01-10,İstanbul,Bireysel,12,2019-04-16,1,1
+191,Derya Yıldız,K,1983-01-25,Antalya,Bireysel,8,2012-02-12,4,1
+192,Defne Demir,K,1995-05-08,İstanbul,KOBİ,3,2020-10-16,4,1
+193,Can Kılıç,E,1999-11-06,Adana,Bireysel,9,2018-11-29,2,1
+194,Barış Doğan,E,1995-09-27,İstanbul,Özel Bankacılık,12,2016-02-08,3,1
+195,Barış Arslan,E,1981-10-26,İstanbul,Bireysel,12,2020-06-13,8,1
+196,Zeynep Koç,K,1963-10-03,Konya,Bireysel,10,2016-02-21,1,1
+197,Mustafa Özdemir,E,1962-11-06,Konya,Bireysel,10,2023-03-05,1,1
+198,Ahmet Özkan,E,1956-08-12,İstanbul,Bireysel,12,2018-01-16,8,1
+199,Deniz Şahin,E,1981-01-07,İstanbul,Bireysel,12,2013-10-23,10,1
+200,Esra Demir,K,1990-09-18,İstanbul,Bireysel,2,2022-10-28,10,0
+201,Zeynep Şahin,K,1970-01-23,İzmir,Bireysel,6,2015-05-07,8,0
+202,Burak Şimşek,E,1987-12-24,Ankara,Bireysel,5,2019-05-16,9,1
+203,Murat Yıldırım,E,1985-11-06,İstanbul,Özel Bankacılık,1,2024-06-06,10,1
+204,Onur Çetin,E,1992-03-27,Antalya,Bireysel,8,2013-07-29,3,1
+205,Esra Aksoy,K,1960-09-03,Konya,Bireysel,10,2024-07-16,9,1
+206,İrem Erdem,K,1965-03-23,İstanbul,Bireysel,1,2013-10-25,2,1
+207,Kaan Aksoy,E,1971-03-08,İstanbul,Bireysel,12,2020-11-22,3,1
+208,İrem Kaya,K,1962-09-23,Konya,Bireysel,10,2018-02-14,9,0
+209,Ayşe Aksoy,K,1965-04-01,İstanbul,Bireysel,1,2023-06-01,2,1
+210,Fatma Şimşek,K,1971-02-27,Bursa,Bireysel,7,2018-12-03,1,1
+211,Selin Yıldırım,K,1993-12-15,Ankara,Bireysel,4,2024-07-15,1,1
+212,Barış Çetin,E,1997-11-14,Gaziantep,Bireysel,11,2020-01-17,2,1
+213,Burak Arslan,E,1962-11-16,İstanbul,Bireysel,12,2018-11-09,2,1
+214,Ceren Koç,K,1998-03-20,Adana,Bireysel,9,2024-08-28,1,1
+215,Tolga Polat,E,1978-08-01,İzmir,Bireysel,6,2023-08-17,1,1
+216,Elif Güneş,K,1989-08-08,Adana,KOBİ,9,2022-05-02,3,1
+217,Derya Kılıç,K,1975-09-16,Antalya,Bireysel,8,2019-03-17,4,1
+218,Yusuf Kurt,E,1967-10-14,İstanbul,Bireysel,3,2019-01-01,9,1
+219,Derya Yıldız,K,1983-02-02,İstanbul,Bireysel,12,2014-07-18,6,1
+220,Mehmet Çetin,E,1965-11-25,İstanbul,Bireysel,1,2013-01-01,10,1
+221,Nur Çetin,K,1977-06-01,Adana,Bireysel,9,2022-06-09,2,1
+222,Aslı Doğan,K,1991-12-19,İzmir,Özel Bankacılık,6,2013-08-03,8,1
+223,Nur Doğan,K,1971-04-27,İzmir,Bireysel,6,2024-01-08,3,1
+224,Mustafa Çelik,E,1991-06-15,Gaziantep,Bireysel,11,2015-07-23,2,1
+225,Burak Öztürk,E,1992-07-01,İstanbul,Bireysel,12,2012-03-17,7,1
+226,Aslı Özdemir,K,1966-09-26,Konya,Bireysel,10,2020-07-14,10,1
+227,Esra Yıldız,K,1990-02-15,İstanbul,Bireysel,12,2024-01-27,5,1
+228,Mustafa Arslan,E,1971-03-26,Adana,Bireysel,9,2021-12-19,3,1
+229,Hasan Şahin,E,1951-04-11,İstanbul,Bireysel,12,2023-10-26,6,1
+230,Buse Yılmaz,K,1992-07-08,Konya,Bireysel,10,2017-03-19,7,1
+231,Murat Kılıç,E,1956-10-21,Gaziantep,Bireysel,11,2013-11-28,10,1
+232,Selin Özkan,K,1951-02-04,İstanbul,Bireysel,12,2016-02-06,1,1
+233,Buse Özkan,K,1990-11-23,Gaziantep,Bireysel,11,2016-07-19,1,1
+234,Hasan Kaya,E,1999-07-20,İzmir,Bireysel,6,2022-08-10,6,1
+235,Serkan Yıldırım,E,1959-11-04,Antalya,Bireysel,8,2019-12-10,5,1
+236,Deniz Aslan,E,1996-10-15,Ankara,KOBİ,4,2021-09-14,2,1
+237,Merve Şimşek,K,1986-04-04,Gaziantep,Bireysel,11,2014-11-07,2,1
+238,Ahmet Özkan,E,1958-06-11,İstanbul,Bireysel,1,2013-09-19,3,1
+239,Selin Şimşek,K,1997-03-28,İzmir,Bireysel,6,2019-12-18,7,1
+240,Gamze Yılmaz,K,1972-05-20,İstanbul,Bireysel,12,2013-07-18,4,1
+241,Merve Koç,K,1966-07-27,İzmir,Bireysel,6,2022-11-25,9,0
+242,Selin Doğan,K,1958-11-04,İstanbul,Bireysel,3,2023-10-28,6,0
+243,Serkan Koç,E,1990-07-28,İzmir,Özel Bankacılık,6,2012-10-18,1,0
+244,Fatma Şimşek,K,1976-09-18,Bursa,Bireysel,7,2021-09-06,8,1
+245,Eren Aydın,E,1964-04-22,İstanbul,Özel Bankacılık,12,2014-10-18,4,1
+246,Serkan Şimşek,E,1959-07-04,Gaziantep,Bireysel,11,2023-06-14,7,0
+247,Ayşe Polat,K,1951-02-06,Adana,Bireysel,9,2021-09-13,10,0
+248,Aslı Kılıç,K,1985-04-25,Adana,Bireysel,9,2022-03-26,4,0
+249,Ahmet Polat,E,1988-12-11,İstanbul,Bireysel,2,2024-06-01,3,0
+250,Duygu Koç,K,1956-02-01,Adana,Bireysel,9,2021-11-04,3,0
+251,Esra Aydın,K,1981-01-20,İstanbul,Bireysel,2,2016-04-16,9,0
+252,Defne Çelik,K,1996-11-27,Bursa,Bireysel,7,2019-05-16,7,1
+253,Buse Kılıç,K,1950-05-03,İstanbul,Bireysel,12,2023-10-05,2,1
+254,Defne Özdemir,K,1963-10-12,İstanbul,KOBİ,2,2023-03-27,5,1
+255,Selin Çelik,K,1984-06-17,İstanbul,Bireysel,1,2023-07-03,3,1
+256,Hasan Erdem,E,1977-07-02,Ankara,Bireysel,5,2014-06-05,3,0
+257,Hasan Polat,E,1975-04-23,Konya,Özel Bankacılık,10,2013-03-31,5,1
+258,Duygu Şahin,K,1992-01-12,İstanbul,Bireysel,12,2012-07-13,4,1
+259,Ece Yıldız,K,1971-07-23,Konya,Bireysel,10,2017-11-12,7,1
+260,Merve Özdemir,K,1987-11-24,İzmir,KOBİ,6,2012-05-12,10,1
+261,Emine Şimşek,K,1989-11-19,İstanbul,Bireysel,2,2013-06-08,9,1
+262,Yusuf Polat,E,1965-06-22,Konya,Özel Bankacılık,10,2018-03-12,2,1
+263,Defne Çelik,K,1962-09-26,Gaziantep,Bireysel,11,2018-11-11,7,1
+264,Hasan Doğan,E,1983-08-11,Adana,Bireysel,9,2012-11-20,3,1
+265,Hasan Yıldız,E,1969-02-16,Antalya,Bireysel,8,2017-06-30,7,1
+266,Hasan Çetin,E,1959-05-19,İstanbul,Bireysel,2,2015-08-11,7,0
+267,Elif Yıldız,K,1972-06-26,Ankara,Bireysel,4,2022-04-29,7,1
+268,Seda Güneş,K,1968-04-09,İstanbul,Bireysel,12,2012-02-01,3,1
+269,Hüseyin Kurt,E,1966-10-08,Adana,KOBİ,9,2024-04-18,9,1
+270,Ahmet Öztürk,E,1982-11-18,Adana,Bireysel,9,2021-07-19,5,1
+271,Pınar Özdemir,K,1987-08-04,Adana,Bireysel,9,2013-03-18,2,1
+272,Zeynep Arslan,K,1997-09-06,İstanbul,Bireysel,2,2020-07-29,10,1
+273,Burak Aslan,E,1959-10-20,Konya,Bireysel,10,2017-01-20,6,0
+274,Mehmet Yıldız,E,1961-03-14,İstanbul,Bireysel,12,2015-04-07,9,1
+275,Hasan Erdem,E,1984-08-10,İstanbul,Bireysel,12,2014-04-21,1,1
+276,Ahmet Şahin,E,1964-02-26,İstanbul,Özel Bankacılık,12,2012-12-16,3,1
+277,Burak Arslan,E,1993-12-07,İstanbul,Özel Bankacılık,12,2017-09-09,9,0
+278,Seda Çelik,K,1963-11-09,Konya,Bireysel,10,2015-04-27,5,1
+279,Emine Şimşek,K,1950-11-13,İstanbul,Bireysel,3,2022-02-11,6,1
+280,İrem Güneş,K,1995-04-03,İzmir,Bireysel,6,2023-06-28,9,1
+281,Defne Demir,K,1993-04-14,Ankara,Bireysel,4,2012-09-20,2,1
+282,Murat Kaya,E,1969-10-14,Ankara,Bireysel,4,2016-01-20,4,1
+283,Tolga Demir,E,1960-12-28,İstanbul,Bireysel,3,2021-10-25,10,1
+284,Emine Demir,K,1954-06-17,Bursa,Bireysel,7,2017-10-24,1,1
+285,Elif Yılmaz,K,1983-07-10,İstanbul,Bireysel,3,2024-06-19,3,1
+286,Deniz Şimşek,E,1959-12-02,İstanbul,Bireysel,3,2022-05-19,5,0
+287,Emre Yılmaz,E,1967-01-17,Gaziantep,Bireysel,11,2019-05-16,7,1
+288,Duygu Kara,K,1954-07-26,Bursa,KOBİ,7,2015-07-19,10,1
+289,Merve Çelik,K,1960-05-18,İstanbul,Bireysel,12,2023-11-29,2,1
+290,Esra Yılmaz,K,1962-06-24,Ankara,KOBİ,5,2021-07-30,8,1
+291,Emine Polat,K,1997-03-25,İstanbul,Bireysel,12,2021-09-18,3,0
+292,Eren Çetin,E,1977-06-14,Adana,Bireysel,9,2018-03-21,7,0
+293,Oğuz Şimşek,E,1961-10-05,Antalya,Özel Bankacılık,8,2023-01-04,8,1
+294,Duygu Kılıç,K,1959-04-18,Antalya,Bireysel,8,2018-08-27,5,1
+295,Mehmet Özkan,E,1967-04-01,İstanbul,Bireysel,1,2021-11-10,8,1
+296,Eren Yılmaz,E,1962-09-18,Antalya,Bireysel,8,2018-04-13,8,1
+297,Ceren Yıldız,K,1977-03-23,İstanbul,Bireysel,12,2022-01-19,9,1
+298,Mustafa Şimşek,E,1992-11-07,İstanbul,Bireysel,1,2015-01-30,7,1
+299,Hüseyin Çelik,E,1973-07-03,İstanbul,Bireysel,12,2024-06-10,1,1
+300,Kaan Güneş,E,1989-03-14,Ankara,Bireysel,5,2012-01-25,8,1
+301,Mustafa Şimşek,E,1965-10-02,Antalya,Bireysel,8,2017-02-01,6,1
+302,Deniz Kılıç,E,1950-04-02,İstanbul,Bireysel,12,2016-07-22,3,1
+303,Zeynep Yılmaz,K,1979-08-05,İzmir,Bireysel,6,2020-03-18,10,1
+304,Fatma Özdemir,K,1997-04-16,İstanbul,Bireysel,1,2015-09-05,7,1
+305,Aslı Koç,K,1955-10-09,İstanbul,Bireysel,12,2016-03-19,1,1
+306,Merve Şahin,K,1959-11-24,Ankara,Bireysel,5,2012-04-13,6,1
+307,Selin Aksoy,K,2004-04-25,İstanbul,Özel Bankacılık,12,2022-10-15,7,1
+308,Seda Aydın,K,1978-08-14,Antalya,Bireysel,8,2022-01-24,7,1
+309,Can Kılıç,E,1994-08-05,İstanbul,Bireysel,12,2021-05-21,7,1
+310,Zeynep Demir,K,1982-12-26,Antalya,Bireysel,8,2013-06-10,5,1
+311,Defne Aydın,K,1955-01-09,İstanbul,KOBİ,1,2017-08-09,10,1
+312,Tolga Erdem,E,1988-04-11,İstanbul,KOBİ,12,2020-11-28,9,1
+313,Ece Çelik,K,1988-05-25,Antalya,Bireysel,8,2012-03-27,2,1
+314,Aslı Kılıç,K,1982-05-26,Bursa,Bireysel,7,2022-08-11,5,1
+315,Emre Çetin,E,1986-09-21,Ankara,Bireysel,4,2014-12-08,8,0
+316,Duygu Şahin,K,1971-11-19,İstanbul,Bireysel,3,2024-01-11,1,1
+317,Pınar Yıldırım,K,1982-05-24,İstanbul,KOBİ,3,2012-07-08,5,1
+318,Ali Kara,E,1974-04-12,İstanbul,Bireysel,1,2021-01-07,1,1
+319,Kaan Doğan,E,1975-06-13,Ankara,Bireysel,4,2013-11-22,1,0
+320,Can Özkan,E,1980-02-26,İstanbul,Bireysel,3,2023-07-30,7,1
+321,Mehmet Kurt,E,2000-09-12,İzmir,Bireysel,6,2020-04-16,6,0
+322,Defne Kaya,K,1993-06-11,Konya,Bireysel,10,2015-06-09,2,1
+323,Mustafa Yıldız,E,1972-04-20,Gaziantep,Bireysel,11,2023-11-04,1,1
+324,Aslı Şimşek,K,1958-04-14,Konya,KOBİ,10,2024-01-03,10,1
+325,Fatma Öztürk,K,1989-07-01,Ankara,Bireysel,5,2024-04-25,5,1
+326,Eren Kara,E,1954-07-24,İstanbul,Bireysel,2,2013-02-11,7,1
+327,Merve Arslan,K,1965-06-09,İstanbul,Özel Bankacılık,12,2017-01-08,5,1
+328,Emine Demir,K,1964-09-21,Antalya,Bireysel,8,2018-09-12,7,1
+329,Selin Çelik,K,1953-10-27,İstanbul,KOBİ,12,2017-02-13,1,1
+330,Emre Yılmaz,E,1970-03-24,İstanbul,Özel Bankacılık,1,2016-09-06,9,0
+331,Murat Şahin,E,1992-01-27,İstanbul,Bireysel,12,2012-06-24,6,1
+332,Murat Kılıç,E,1992-08-09,İstanbul,Bireysel,12,2015-10-17,10,1
+333,Seda Erdem,K,1983-05-09,Gaziantep,Özel Bankacılık,11,2018-02-02,5,1
+334,Duygu Çetin,K,1971-08-09,Ankara,Bireysel,4,2021-11-19,6,1
+335,Ali Çelik,E,1974-05-14,İstanbul,Özel Bankacılık,2,2023-04-11,2,1
+336,Zeynep Yıldız,K,1972-12-21,İstanbul,Bireysel,12,2013-11-27,7,1
+337,Emine Erdem,K,1993-12-23,İzmir,KOBİ,6,2013-05-10,10,1
+338,Fatma Aksoy,K,1979-12-17,İstanbul,Özel Bankacılık,3,2012-06-07,6,1
+339,Seda Aydın,K,1964-09-06,Antalya,Bireysel,8,2013-09-17,3,1
+340,Fatma Aksoy,K,1955-04-23,İstanbul,Bireysel,12,2018-04-21,6,1
+341,Ayşe Kaya,K,1950-04-21,İstanbul,Bireysel,3,2013-04-28,2,1
+342,Ayşe Demir,K,1993-06-19,İstanbul,Bireysel,3,2015-06-18,8,1
+343,İrem Aksoy,K,1968-08-18,Ankara,Bireysel,5,2018-08-19,1,1
+344,Oğuz Özkan,E,1966-05-26,Bursa,Bireysel,7,2014-08-12,4,1
+345,Kaan Arslan,E,1994-06-24,Ankara,Bireysel,4,2013-09-04,4,1
+346,Nur Demir,K,1958-07-23,Adana,Bireysel,9,2016-08-08,6,1
+347,Gamze Polat,K,1985-06-09,İzmir,Bireysel,6,2016-11-13,9,1
+348,Merve Arslan,K,1962-04-14,İstanbul,Bireysel,1,2012-07-09,10,1
+349,Barış Özdemir,E,1990-06-20,İstanbul,Bireysel,2,2012-01-09,1,0
+350,Emine Arslan,K,1980-12-11,İstanbul,KOBİ,3,2016-11-14,8,1
+351,İrem Arslan,K,1982-03-07,Bursa,Bireysel,7,2022-10-18,3,1
+352,Gamze Demir,K,1980-11-04,Konya,KOBİ,10,2015-03-21,7,1
+353,Mustafa Aydın,E,1985-12-14,Antalya,Bireysel,8,2022-10-20,4,1
+354,Defne Aydın,K,1989-10-20,İstanbul,Bireysel,1,2014-01-23,2,1
+355,Yusuf Arslan,E,1964-04-09,Ankara,Bireysel,5,2019-10-06,2,1
+356,Nur Aydın,K,1997-07-28,Antalya,Bireysel,8,2021-03-17,3,1
+357,Duygu Şimşek,K,1988-08-14,İzmir,Bireysel,6,2012-02-17,6,1
+358,Ali Özkan,E,1995-05-04,Ankara,Bireysel,5,2019-11-22,6,0
+359,Mehmet Yıldız,E,1989-08-22,Adana,Bireysel,9,2020-12-07,4,1
+360,Zeynep Yılmaz,K,1955-04-02,İstanbul,Bireysel,1,2024-07-28,5,1
+361,Murat Demir,E,1981-08-17,Konya,Bireysel,10,2015-11-08,3,0
+362,Esra Özdemir,K,1997-03-07,Konya,KOBİ,10,2023-06-09,9,1
+363,Defne Çetin,K,1999-03-15,Gaziantep,Özel Bankacılık,11,2024-01-24,1,1
+364,Derya Güneş,K,1955-11-22,İstanbul,Özel Bankacılık,3,2023-05-04,5,1
+365,Ayşe Öztürk,K,1956-08-04,Ankara,Bireysel,4,2014-10-10,3,1
+366,Ayşe Öztürk,K,1966-04-04,İstanbul,Bireysel,1,2017-12-03,3,1
+367,Burak Koç,E,1997-03-26,Bursa,Bireysel,7,2018-10-12,2,1
+368,Tolga Aksoy,E,1984-08-17,Bursa,Bireysel,7,2020-03-15,5,1
+369,Emine Yılmaz,K,1994-04-05,Antalya,Özel Bankacılık,8,2014-11-07,3,1
+370,Yusuf Doğan,E,1983-10-10,İzmir,Özel Bankacılık,6,2022-01-08,1,1
+371,Oğuz Yıldırım,E,2000-11-17,Ankara,Bireysel,5,2020-10-06,7,1
+372,Eren Kara,E,1957-10-28,Konya,Bireysel,10,2022-03-12,1,1
+373,Seda Özkan,K,1985-07-06,İzmir,Bireysel,6,2015-10-27,7,1
+374,Pınar Polat,K,1989-04-14,Ankara,KOBİ,4,2014-03-04,3,1
+375,Murat Kurt,E,1961-12-26,Antalya,Bireysel,8,2016-12-19,8,1
+376,Buse Şahin,K,1977-12-21,İstanbul,Bireysel,12,2013-03-26,1,1
+377,Mehmet Koç,E,1962-04-20,Konya,Bireysel,10,2012-02-14,10,1
+378,Onur Yılmaz,E,1974-04-06,Bursa,KOBİ,7,2017-01-22,5,0
+379,Mustafa Aksoy,E,1963-06-10,Ankara,Bireysel,4,2020-08-25,3,1
+380,Oğuz Çelik,E,1992-09-13,İstanbul,Bireysel,2,2018-05-01,7,1
+381,Defne Erdem,K,1989-12-24,Konya,Bireysel,10,2020-03-22,6,1
+382,Derya Özkan,K,1967-12-14,İstanbul,Bireysel,12,2024-07-23,2,1
+383,Emine Yılmaz,K,1981-06-06,İstanbul,Özel Bankacılık,12,2019-12-17,1,1
+384,Emine Arslan,K,1987-09-15,Bursa,Bireysel,7,2012-05-21,7,1
+385,Selin Özkan,K,1962-10-27,Bursa,Bireysel,7,2015-04-24,9,1
+386,Emine Yılmaz,K,1968-08-18,İstanbul,Bireysel,1,2018-03-05,3,1
+387,Defne Çelik,K,1991-07-01,Adana,Bireysel,9,2020-05-16,3,1
+388,Seda Aydın,K,1989-10-05,İstanbul,Bireysel,12,2012-07-16,4,1
+389,Deniz Şahin,E,1981-12-26,Antalya,Bireysel,8,2022-06-02,7,1
+390,Merve Yıldırım,K,1959-01-13,İstanbul,Özel Bankacılık,12,2014-02-19,5,1
+391,Defne Koç,K,1967-01-26,İstanbul,Bireysel,12,2013-03-04,2,0
+392,Tolga Aydın,E,1954-03-25,Konya,Bireysel,10,2019-11-10,1,1
+393,Yusuf Kara,E,1964-03-05,Antalya,Bireysel,8,2023-07-09,4,0
+394,Oğuz Çelik,E,1990-04-11,İstanbul,Bireysel,2,2018-08-28,10,1
+395,Hüseyin Özdemir,E,1958-07-27,Konya,Bireysel,10,2019-07-23,9,1
+396,İrem Arslan,K,1982-05-01,Bursa,Bireysel,7,2022-12-22,9,1
+397,Burak Kılıç,E,1994-12-18,İstanbul,Özel Bankacılık,3,2015-05-23,2,1
+398,Hüseyin Özkan,E,1995-09-21,İstanbul,Bireysel,12,2015-10-21,7,1
+399,Esra Aksoy,K,1987-03-12,Gaziantep,KOBİ,11,2017-12-11,7,1
+400,Nur Çetin,K,1989-12-04,İstanbul,Bireysel,12,2013-11-27,2,1
+401,Esra Erdem,K,1995-12-02,İstanbul,Bireysel,3,2015-07-19,8,1
+402,Aslı Özdemir,K,1959-11-28,Ankara,Bireysel,4,2020-09-28,8,1
+403,Emre Kara,E,1984-04-22,İstanbul,Bireysel,12,2015-05-05,5,1
+404,Ali Kaya,E,2002-04-05,İstanbul,Bireysel,12,2020-12-15,8,1
+405,Deniz Şimşek,E,1989-05-19,İstanbul,Bireysel,1,2018-10-20,6,1
+406,Elif Arslan,K,1991-12-07,Konya,Bireysel,10,2016-07-13,8,1
+407,Merve Çelik,K,1962-02-07,İstanbul,Bireysel,1,2019-09-04,2,1
+408,Derya Yıldırım,K,1979-11-06,Gaziantep,Özel Bankacılık,11,2014-06-22,1,1
+409,Duygu Doğan,K,1988-04-03,Ankara,Bireysel,5,2020-09-03,4,1
+410,Yusuf Aksoy,E,1994-03-12,İzmir,Bireysel,6,2017-02-13,1,1
+411,Serkan Şimşek,E,1999-01-28,İstanbul,Bireysel,3,2019-02-12,4,1
+412,Nur Doğan,K,1995-04-16,Antalya,Bireysel,8,2020-11-16,5,1
+413,Fatma Kılıç,K,1984-06-25,Bursa,Bireysel,7,2024-08-04,2,1
+414,Mustafa Öztürk,E,1962-07-10,İstanbul,Bireysel,2,2012-05-07,7,1
+415,Kaan Güneş,E,1980-07-22,İstanbul,Bireysel,1,2019-06-12,9,1
+416,Nur Arslan,K,1986-03-26,Ankara,Bireysel,5,2023-01-18,4,1
+417,Zeynep Yıldırım,K,1953-08-27,İstanbul,Bireysel,12,2012-10-24,4,1
+418,Buse Kaya,K,1993-02-19,Ankara,Bireysel,5,2013-07-31,6,1
+419,İrem Aksoy,K,1995-06-25,Ankara,Bireysel,5,2016-07-05,4,1
+420,Merve Kurt,K,1991-12-08,Ankara,Özel Bankacılık,5,2019-12-06,2,0
+421,Murat Aslan,E,1994-09-25,Antalya,Bireysel,8,2018-09-27,1,1
+422,Deniz Şimşek,E,1975-12-24,İstanbul,Bireysel,12,2020-12-03,3,1
+423,Ali Çelik,E,1966-08-22,Gaziantep,Bireysel,11,2023-02-14,9,1
+424,İrem Koç,K,1984-10-28,İstanbul,Bireysel,1,2020-02-20,7,1
+425,Emine Yıldırım,K,1988-08-21,İstanbul,Bireysel,3,2013-10-01,5,1
+426,Can Koç,E,1971-05-15,İstanbul,Bireysel,3,2019-09-03,10,1
+427,Yusuf Kara,E,1950-03-16,Gaziantep,Bireysel,11,2022-09-25,2,0
+428,Ayşe Erdem,K,1981-08-04,Ankara,Bireysel,5,2018-08-15,6,1
+429,Fatma Yılmaz,K,1985-05-21,İstanbul,Bireysel,12,2023-04-27,10,1
+430,Esra Doğan,K,1989-07-10,Ankara,Bireysel,5,2013-10-18,7,1
+431,Tolga Kurt,E,1992-02-16,İstanbul,Bireysel,3,2018-08-26,7,1
+432,Serkan Aksoy,E,1984-09-19,İstanbul,Bireysel,1,2024-04-17,3,0
+433,Defne Yıldız,K,1977-07-08,Konya,Bireysel,10,2022-03-23,5,1
+434,Tolga Kılıç,E,1984-02-10,Gaziantep,Bireysel,11,2019-06-18,10,1
+435,Onur Polat,E,1957-06-15,İzmir,Bireysel,6,2013-09-29,4,1
+436,Murat Polat,E,1991-11-12,Bursa,Bireysel,7,2014-07-18,8,1
+437,Mehmet Aydın,E,1991-01-07,Konya,Bireysel,10,2014-01-24,6,1
+438,Oğuz Özdemir,E,1971-06-06,Bursa,KOBİ,7,2023-01-10,2,1
+439,Seda Kara,K,2003-11-24,İzmir,Özel Bankacılık,6,2022-05-21,4,1
+440,Deniz Yıldız,E,1985-09-15,Bursa,Bireysel,7,2020-07-10,10,1
+441,Onur Yıldız,E,1973-11-22,İzmir,KOBİ,6,2012-06-26,6,1
+442,Selin Güneş,K,1989-01-10,İstanbul,Bireysel,3,2013-03-16,10,1
+443,Defne Doğan,K,1953-06-27,İstanbul,Bireysel,1,2012-07-12,3,1
+444,Ceren Özkan,K,1970-02-08,Gaziantep,Bireysel,11,2024-07-21,7,1
+445,Aslı Aksoy,K,1990-04-14,Konya,Bireysel,10,2013-04-28,9,1
+446,Deniz Öztürk,E,1973-08-27,İstanbul,Bireysel,1,2021-03-22,6,1
+447,Emre Kaya,E,1977-09-22,Ankara,KOBİ,5,2013-03-06,1,1
+448,Merve Yıldız,K,1976-01-10,İzmir,Bireysel,6,2021-03-21,2,1
+449,İrem Aslan,K,1969-06-05,Adana,Bireysel,9,2012-01-08,10,1
+450,Serkan Çelik,E,1962-08-05,İstanbul,Özel Bankacılık,2,2012-08-26,2,1
+451,Onur Yılmaz,E,1980-09-03,İstanbul,Özel Bankacılık,3,2020-04-15,1,1
+452,Ali Doğan,E,1956-06-21,İstanbul,Bireysel,2,2016-05-07,2,1
+453,Mustafa Kaya,E,1992-07-03,Ankara,Bireysel,5,2013-08-06,4,1
+454,Yusuf Yıldız,E,1961-08-06,İstanbul,Bireysel,2,2014-05-07,9,1
+455,Tolga Polat,E,1988-10-20,Gaziantep,Özel Bankacılık,11,2014-07-22,8,1
+456,Ece Yıldız,K,1998-09-25,Bursa,Bireysel,7,2017-04-26,3,1
+457,Murat Şahin,E,1963-12-11,İstanbul,Bireysel,1,2019-10-26,10,1
+458,Serkan Koç,E,1957-05-03,Konya,Bireysel,10,2012-02-28,10,0
+459,Aslı Özdemir,K,1989-01-03,İstanbul,Bireysel,1,2021-09-10,9,1
+460,Serkan Yılmaz,E,1961-05-25,Konya,Bireysel,10,2023-01-17,9,0
+461,Serkan Demir,E,1975-05-22,Adana,Bireysel,9,2024-07-16,5,1
+462,Emine Aydın,K,1959-12-28,İzmir,KOBİ,6,2020-05-12,9,1
+463,Deniz Arslan,E,1978-02-23,İzmir,Bireysel,6,2023-08-25,8,1
+464,Buse Aslan,K,1966-04-05,İstanbul,Özel Bankacılık,3,2022-03-12,2,0
+465,Ali Şimşek,E,1984-05-14,Bursa,Bireysel,7,2023-01-04,5,1
+466,Ali Yıldız,E,1983-03-19,İstanbul,Özel Bankacılık,2,2013-08-16,3,1
+467,Duygu Kılıç,K,1980-03-11,Gaziantep,Bireysel,11,2015-09-14,3,0
+468,Ceren Kurt,K,1995-01-26,Ankara,Bireysel,5,2022-06-26,2,1
+469,Mustafa Güneş,E,1972-12-14,İstanbul,Bireysel,12,2015-06-15,4,1
+470,Emre Koç,E,1956-01-20,Ankara,Bireysel,4,2021-07-30,1,1
+471,Kaan Polat,E,1982-12-04,İzmir,Bireysel,6,2022-08-19,8,1
+472,Kerem Şahin,E,1998-03-24,Gaziantep,Bireysel,11,2017-03-13,3,0
+473,Yusuf Arslan,E,1977-01-12,İstanbul,Bireysel,3,2019-10-12,1,1
+474,Murat Kılıç,E,1985-04-15,İzmir,Bireysel,6,2021-01-06,8,1
+475,Kerem Öztürk,E,1963-08-13,İstanbul,Bireysel,12,2015-07-02,8,0
+476,Esra Şahin,K,1969-05-03,İstanbul,Bireysel,12,2017-05-11,4,1
+477,Emre Aksoy,E,1978-01-06,İstanbul,Bireysel,12,2023-04-27,2,1
+478,Selin Aydın,K,1994-11-06,Ankara,Bireysel,4,2017-10-11,4,1
+479,Gamze Çetin,K,1984-03-19,Ankara,Bireysel,5,2020-10-01,8,1
+480,Pınar Özdemir,K,1970-10-11,Antalya,KOBİ,8,2019-11-02,9,1
+481,Mehmet Özkan,E,1989-03-13,Adana,Bireysel,9,2018-06-10,9,1
+482,Murat Demir,E,1974-05-28,Bursa,Bireysel,7,2012-05-06,2,1
+483,Nur Doğan,K,1991-02-13,Bursa,Bireysel,7,2012-08-16,2,1
+484,Defne Güneş,K,1969-09-18,Bursa,Bireysel,7,2018-11-04,6,1
+485,Fatma Çetin,K,1997-06-17,Bursa,Bireysel,7,2020-08-06,1,1
+486,Mustafa Şahin,E,1968-09-26,Ankara,Özel Bankacılık,4,2015-12-22,8,1
+487,Derya Öztürk,K,1993-06-15,Gaziantep,Özel Bankacılık,11,2018-10-16,4,1
+488,Burak Özkan,E,1964-08-24,Konya,Bireysel,10,2022-06-20,7,1
+489,Burak Güneş,E,1955-09-17,İstanbul,Bireysel,12,2015-04-13,4,1
+490,Emre Öztürk,E,1995-06-09,Ankara,Bireysel,5,2020-11-01,5,0
+491,Buse Erdem,K,1957-03-21,Gaziantep,Bireysel,11,2021-09-25,4,1
+492,Murat Öztürk,E,1960-01-27,İstanbul,Bireysel,3,2023-12-21,8,1
+493,Gamze Aydın,K,1993-11-13,Adana,Bireysel,9,2019-11-12,5,1
+494,Murat Kılıç,E,1960-04-23,Gaziantep,Bireysel,11,2024-08-02,8,0
+495,Emine Çelik,K,1950-11-16,İstanbul,Özel Bankacılık,1,2023-03-18,9,1
+496,Derya Yıldız,K,1980-05-25,İstanbul,KOBİ,12,2020-07-10,8,0
+497,Serkan Erdem,E,1954-02-08,İstanbul,KOBİ,3,2015-07-12,8,1
+498,Derya Şahin,K,1984-06-05,İstanbul,Bireysel,12,2016-04-10,8,1
+499,Can Doğan,E,1951-10-02,Ankara,Bireysel,4,2023-08-23,1,1
+500,Merve Aydın,K,2003-12-22,İstanbul,Özel Bankacılık,12,2024-05-15,4,1

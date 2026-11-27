@@ -10,6 +10,7 @@
 - **30 modülde 120 ders ve 8 seçmeli yöntem dersi.** Evren ve örneklemden başlar; testler, regresyon, deney, zaman serileri, Bayes, kalite, istatistiksel öğrenme ve nedensel çıkarıma uzanır. Temel, Orta ve İleri seviyeler.
 - **4 öğrenme yolu:** veri analizi ve BI, veri bilimi, makine öğrenmesi, süreç ve kalite analizi.
 - **Kesit verileriyle 13 vaka (V9):** Kesit SQL, Power BI ve Python'daki ortak kurgusal veri setlerinde (Anadolu Market, Lezzet Kurye, Kanat Havayolları, Pusula İK, Pedal İzmir, Ilgaz Bank) istatistik soruları. Her vakada tahmin, yöntem seçimi, **SQL + Python + DAX** kodu, gerçek veriden hesaplanmış sonuç, grafik, karar ve sınırlar.
+- **Her derste Kesit verisiyle hesapla (V10):** 120 dersin her birinde Kesit verisinde 3 uygulamalı görev (toplam 360); cevabı yaz, uygulama denetlesin, istersen Python çözümünü aç. Her ders için indirilebilir **çalışma defteri** (.ipynb ve .py, cevabı kendisi denetler), her modül için **Excel kitabı** (veri sayfaları + kendini denetleyen Görevler sayfası) ve 1 MB'lık veri paketi.
 - **Alıştırma atölyesi (V9):** 33 soru türü her açılışta yeni sayılar üretir; formül ipucu, adım adım çözüm, zayıf konular listesi ve karışık 10 soruluk setler.
 - **Seviye testi, 32 sık hata ve 48 mülakat sorusu (V9).** Mülakat soruları yalnızca istatistik ve role göre; güçlü cevabın unsurları, zayıf cevap örneği ve takip sorusu.
 - 34 tarayıcı atölyesi, 14 iş vakası, 28 hazır analiz senaryosu, 50 kavram keşfi, konu panoları ve indirilebilir Python defterleri.
@@ -37,7 +38,7 @@ Sonra [127.0.0.1:8000](http://127.0.0.1:8000/) adresini aç. Windows'ta `py -m h
 
 ## Kaynak, üretim ve denetim
 - Yayınlanan uygulama `docs/` klasöründedir. GitHub Pages `main` dalının kökünden yayınlar; kökteki `index.html` adresteki `#…` bölümünü koruyarak `docs/`'a yönlendirir (ör. `/kesit-istatistik/#path/analist`). Ayarlar → Pages'te kaynak `/docs` seçilirse yönlendirmeye gerek kalmaz; ikisi de çalışır.
-- Kök dizindeki Python betikleri içerik ve referans üretir. Yapı, dosyaların görevi ve yeniden üretim sırası: **[NASIL.md](NASIL.md)**.
+- Kök dizindeki Python betikleri içerik ve referans üretir. Yapı, dosyaların görevi ve yeniden üretim sırası: **[NASIL.md](NASIL.md)**. Eğitim amaçlı ayrıntılı proje rehberi (kararlar, kod turu, mülakat soruları): **[PROJE_REHBERI.md](PROJE_REHBERI.md)**.
 - Denetim: `node verify.cjs`, `node verify-engine.cjs`, `node verify-visual.cjs`, `node verify-quality.cjs`, `node verify-v9.cjs`. GitHub Actions her değişiklikte hepsini çalıştırır.
 - [Sürüm notları](research/surum-notlari.md) · [V9 değerlendirme raporu](research/degerlendirme-v9.md)
 

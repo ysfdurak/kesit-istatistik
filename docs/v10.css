@@ -1,0 +1,20 @@
+/* Kesit İstatistik V10: ders içi Kesit verisi alıştırmaları */
+.v10-panel{margin:26px 0;padding:20px 22px;border:1px solid var(--line);border-radius:10px;background:#fff}
+.v10-bas h3{margin:6px 0 8px}
+.v10-bas p{margin:0 0 8px;color:var(--ink)}
+.v10-ilerleme{font-size:12px;font-weight:700;color:var(--muted)}
+.v10-liste{list-style:none;margin:14px 0 0;padding:0;display:grid;gap:14px}
+.v10-gorev{padding:14px 16px;border:1px solid var(--line);border-radius:9px;background:var(--paper,#fafaf7)}
+.v10-gorev.ok{border-color:#8ca879;background:#f0f5e9}
+.v10-soru{margin:0 0 10px;line-height:1.55}
+.v10-giris{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.v10-giris input{flex:1 1 150px;min-width:0;max-width:220px;padding:9px 11px;border:1px solid var(--line);border-radius:8px;font:inherit;font-size:14px}
+.v10-giris .btn{padding:8px 13px}
+.v10-geri pre{overflow:auto;max-height:340px;padding:12px;border-radius:8px;background:#1f2421;color:#eef2ec;font-size:12px;line-height:1.5;white-space:pre}
+.v10-geri details{margin-top:10px}
+.v10-not{font-size:12px;color:var(--muted)}
+.v10-indir{margin-top:18px;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.v10-indir>b{flex-basis:100%}
+.v10-indir details{flex-basis:100%;font-size:13px}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+@media(max-width:600px){.v10-panel{padding:16px 14px}.v10-giris input{max-width:none;flex-basis:100%}}

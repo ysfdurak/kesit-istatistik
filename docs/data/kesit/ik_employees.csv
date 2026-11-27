@@ -1,0 +1,2200 @@
+emp_id,full_name,gender,birth_year,city,education,hire_date,term_date,term_type,term_reason,position_id,manager_id,hire_source,work_mode
+1,Nevzat Aydın,E,1963,İstanbul,Lisans,2012-03-01,,,,3,,kariyer sitesi,ofis
+2,Burcu Çetin,K,1962,İstanbul,Lisans,2010-08-25,,,,9,1.0,LinkedIn,ofis
+3,Zeynep Demir,K,1970,İstanbul,Lisans,2016-09-28,,,,14,2.0,ajans,ofis
+4,Ali Kılıç,E,1963,Ankara,Yüksek lisans,2012-09-24,,,,21,1.0,referans,ofis
+5,Derya Kılıç,K,1964,İstanbul,Yüksek lisans,2012-12-27,,,,26,4.0,kariyer sitesi,ofis
+6,Volkan Yıldırım,E,1971,İstanbul,Lisans,2012-12-15,,,,31,4.0,kariyer sitesi,ofis
+7,Melis Kurt,K,1964,İstanbul,Yüksek lisans,2016-02-23,,,,37,1.0,kariyer sitesi,ofis
+8,Gülşen Ateş,K,1968,İstanbul,Lisans,2013-05-07,2023-06-30,gönüllü,yurt dışı,42,7.0,kariyer sitesi,hibrit
+9,Selin Polat,K,1967,Ankara,Yüksek lisans,2012-01-14,,,,48,7.0,LinkedIn,uzaktan
+10,Ali Toprak,E,1967,İstanbul,Lisans,2018-07-24,,,,55,1.0,kariyer sitesi,uzaktan
+11,Volkan Aslan,E,1971,Ankara,Yüksek lisans,2013-12-21,,,,60,1.0,referans,ofis
+12,Pınar Yılmaz,K,1967,İstanbul,Yüksek lisans,2012-01-05,,,,66,2.0,kariyer sitesi,uzaktan
+13,Rıza Karabulut,E,1973,İstanbul,Lisans,2023-07-03,,,,42,7.0,ajans,hibrit
+14,Sevgi Doğan,K,1973,İstanbul,Lisans,2019-06-28,,,,7,2.0,LinkedIn,ofis
+15,İrem Acar,K,1973,İstanbul,Lisans,2017-04-04,,,,7,2.0,LinkedIn,ofis
+16,Yasemin Şimşek,K,1976,İstanbul,Yüksek lisans,2018-09-05,,,,7,2.0,kariyer sitesi,ofis
+17,Mert Güneş,E,1970,İstanbul,Lisans,2014-04-07,,,,13,3.0,üniversite,ofis
+18,Elif Çetin,K,1976,İstanbul,Yüksek lisans,2018-09-25,,,,13,3.0,kariyer sitesi,ofis
+19,Melis Demir,K,1973,Ankara,Lisans,2016-05-04,,,,19,4.0,iç başvuru,ofis
+20,Mert Tunç,E,1973,İstanbul,Lisans,2018-01-08,,,,19,4.0,kariyer sitesi,ofis
+21,Ahmet Tunç,E,1974,Ankara,Yüksek lisans,2018-01-18,,,,19,4.0,referans,ofis
+22,Emre Kurt,E,1975,Ankara,Lisans,2017-05-21,,,,19,4.0,üniversite,ofis
+23,Oğuz Doğan,E,1976,Ankara,Lisans,2014-04-14,,,,19,4.0,ajans,ofis
+24,Yusuf Yıldırım,E,1975,Bursa,Yüksek lisans,2014-03-04,,,,19,4.0,LinkedIn,ofis
+25,Barış Özdemir,E,1973,Eskişehir,Yüksek lisans,2014-11-27,,,,25,5.0,referans,ofis
+26,Tuğba Kurt,K,1967,Kocaeli,Lisans,2013-08-23,,,,25,5.0,LinkedIn,hibrit
+27,Cansu Yıldız,K,1973,İstanbul,Lisans,2018-07-01,,,,25,5.0,LinkedIn,ofis
+28,Pınar Şimşek,K,1978,Eskişehir,Yüksek lisans,2017-12-10,,,,25,5.0,kariyer sitesi,hibrit
+29,Burcu Çetin,K,1982,İstanbul,Lisans,2019-07-07,,,,25,5.0,kariyer sitesi,hibrit
+30,Kerem Karaca,E,1972,Kocaeli,Yüksek lisans,2016-10-10,,,,30,6.0,kariyer sitesi,ofis
+31,Gamze Yıldırım,K,1974,Kocaeli,Lisans,2014-11-13,,,,30,6.0,kariyer sitesi,ofis
+32,Defne Tunç,K,1973,İstanbul,Lisans,2013-08-08,,,,30,6.0,LinkedIn,ofis
+33,Tolga Sezer,E,1973,İstanbul,Yüksek lisans,2014-10-23,,,,35,7.0,ajans,hibrit
+34,Ayşe Kılıç,K,1971,Ankara,Yüksek lisans,2016-01-16,,,,35,7.0,kariyer sitesi,hibrit
+35,Ahmet Özdemir,E,1974,İstanbul,Lisans,2018-02-15,,,,35,7.0,LinkedIn,hibrit
+36,Can Bal,E,1978,İstanbul,Yüksek lisans,2019-10-13,,,,41,8.0,referans,hibrit
+37,Mustafa Bal,E,1970,İstanbul,Yüksek lisans,2013-08-14,,,,41,8.0,iç başvuru,hibrit
+38,Efe Polat,E,1972,İstanbul,Yüksek lisans,2014-07-21,,,,47,9.0,iç başvuru,hibrit
+39,Volkan Ekici,E,1975,İstanbul,Yüksek lisans,2015-02-27,,,,47,9.0,kariyer sitesi,hibrit
+40,Cem Kaya,E,1973,İstanbul,Lisans,2016-07-07,,,,53,10.0,ajans,uzaktan
+41,Arda Polat,E,1979,İstanbul,Doktora,2015-05-07,,,,53,10.0,kariyer sitesi,hibrit
+42,Barış Aslan,E,1982,İstanbul,Doktora,2018-08-15,,,,59,11.0,kariyer sitesi,ofis
+43,Selim Ergin,E,1976,İstanbul,Lisans,2014-08-18,,,,59,11.0,kariyer sitesi,ofis
+44,Ilgın Doğan,K,1968,İstanbul,Yüksek lisans,2013-07-28,,,,65,12.0,kariyer sitesi,uzaktan
+45,Damla Aydın,K,1980,Ankara,Yüksek lisans,2017-06-23,,,,65,12.0,kariyer sitesi,hibrit
+46,Buse Kılıç,K,1991,İstanbul,Lisans,2018-07-11,2022-02-23,gönüllü,eğitim,16,23.0,LinkedIn,ofis
+47,Sinan Öztürk,E,1985,İstanbul,Lisans,2018-04-03,2021-08-09,gönüllü,taşınma,5,16.0,kariyer sitesi,ofis
+48,Sevgi Karaca,K,1986,İstanbul,Lise,2014-07-13,,,,34,28.0,ajans,hibrit
+49,Fatma Karaca,K,1982,İstanbul,Ön lisans,2013-10-24,,,,58,43.0,LinkedIn,hibrit
+50,Eren Doğan,E,1978,İstanbul,Lisans,2013-03-20,,,,57,42.0,LinkedIn,hibrit
+51,Arda Güneş,E,1983,İstanbul,Ön lisans,2015-08-03,2020-10-07,gönüllü,rakip firma,18,22.0,referans,ofis
+52,Defne Kaya,K,1984,İstanbul,Yüksek lisans,2017-02-08,,,,52,40.0,referans,uzaktan
+53,Murat Kara,E,1982,İstanbul,Lisans,2017-11-05,,,,33,35.0,LinkedIn,uzaktan
+54,İrem Güneş,K,1980,İstanbul,Yüksek lisans,2015-07-20,,,,12,17.0,kariyer sitesi,ofis
+55,Ali Yılmaz,E,1979,İstanbul,Ön lisans,2016-03-06,,,,5,31.0,LinkedIn,ofis
+56,Selin Aslan,K,1985,İstanbul,Yüksek lisans,2012-01-12,,,,51,16.0,kariyer sitesi,hibrit
+57,Defne Şimşek,K,1982,Ankara,Lisans,2014-10-22,,,,50,41.0,LinkedIn,hibrit
+58,Tuğba Öztürk,K,1986,İstanbul,Lise,2018-12-26,2023-08-30,gönüllü,rakip firma,17,23.0,kariyer sitesi,ofis
+59,Burak Öztürk,E,1983,Antalya,Lise,2014-05-26,,,,29,24.0,referans,ofis
+60,Tolga Çelik,E,1988,Ankara,Lise,2018-12-17,2020-08-27,gönüllü,rakip firma,16,19.0,LinkedIn,ofis
+61,Elif Tunç,K,1991,İstanbul,Lise,2014-06-06,,,,17,20.0,LinkedIn,ofis
+62,Gamze Aslan,K,1985,Ankara,Lisans,2014-05-11,2021-02-15,gönüllü,kariyer gelişimi,63,44.0,kariyer sitesi,hibrit
+63,Esra Bozkurt,K,1979,İstanbul,Lise,2014-05-25,2023-06-29,gönüllü,ücret,29,30.0,LinkedIn,ofis
+64,Efe Kılıç,E,1995,İzmir,Lisans,2018-12-10,,,,34,34.0,kariyer sitesi,ofis
+65,Melis Güneş,K,1986,İstanbul,Yüksek lisans,2017-11-02,,,,64,35.0,referans,uzaktan
+66,Gamze Yıldız,K,1981,İstanbul,Lisans,2017-09-03,2022-11-18,gönülsüz,performans,64,44.0,ajans,hibrit
+67,Derya Doğan,K,1983,İstanbul,Yüksek lisans,2014-11-18,,,,4,15.0,iç başvuru,ofis
+68,Zeynep Ergin,K,1986,Eskişehir,Lisans,2018-07-06,2019-08-12,gönüllü,rakip firma,23,28.0,ajans,ofis
+69,Ali Güneş,E,1988,İstanbul,Lisans,2018-12-15,,,,10,18.0,kariyer sitesi,hibrit
+70,Sevgi Kurt,K,1980,İstanbul,Yüksek lisans,2013-05-27,,,,18,38.0,referans,uzaktan
+71,Eren Yıldız,E,1973,Kocaeli,Lise,2012-02-03,2021-01-26,gönüllü,kariyer gelişimi,24,26.0,kariyer sitesi,ofis
+72,Damla Demir,K,1985,İstanbul,Lisans,2017-08-09,2023-04-10,gönüllü,taşınma,4,14.0,kariyer sitesi,ofis
+73,Defne Koç,K,1994,İstanbul,Ön lisans,2017-05-15,2022-09-05,gönüllü,kariyer gelişimi,10,18.0,referans,hibrit
+74,Buse Ergin,K,1985,Ankara,Lisans,2017-11-17,2023-09-05,gönüllü,rakip firma,16,21.0,kariyer sitesi,ofis
+75,Cem Ergin,E,1976,Ankara,Lisans,2016-11-08,,,,12,18.0,referans,hibrit
+76,İrem Koç,K,1990,İstanbul,Lisans,2018-07-02,,,,32,34.0,referans,uzaktan
+77,Cansu Ekici,K,1982,İstanbul,Yüksek lisans,2013-07-10,2023-10-13,gönüllü,kariyer gelişimi,57,43.0,kariyer sitesi,ofis
+78,Fatma Acar,K,1981,İzmir,Lisans,2017-01-11,,,,45,38.0,LinkedIn,hibrit
+79,Ali Çetin,E,1974,Eskişehir,Lise,2013-02-03,,,,24,29.0,kariyer sitesi,ofis
+80,Hakan Ergin,E,1986,Kocaeli,Lise,2017-05-01,2021-02-17,gönüllü,kariyer gelişimi,23,25.0,üniversite,ofis
+81,Cem Aydın,E,1985,Kocaeli,Lisans,2013-02-11,2019-07-29,gönülsüz,yeniden yapılanma,28,30.0,kariyer sitesi,ofis
+82,Mehmet Kurt,E,1990,İstanbul,Yüksek lisans,2015-12-25,2024-07-29,gönüllü,taşınma,5,15.0,ajans,ofis
+83,Umut Aslan,E,1982,İstanbul,Lisans,2018-12-20,2024-07-18,gönüllü,kariyer gelişimi,58,43.0,referans,hibrit
+84,Emre Kurt,E,1992,Kocaeli,Lisans,2015-12-21,,,,27,30.0,referans,ofis
+85,Damla Ekici,K,1981,İstanbul,Yüksek lisans,2014-11-19,,,,52,41.0,referans,hibrit
+86,Cem Şimşek,E,1983,İstanbul,Lisans,2017-10-18,,,,52,40.0,kariyer sitesi,uzaktan
+87,Cem Aslan,E,1975,İstanbul,Lisans,2016-06-28,,,,64,45.0,referans,hibrit
+88,Gamze Şimşek,K,1987,Eskişehir,Lise,2018-04-23,2021-03-15,gönüllü,taşınma,23,28.0,LinkedIn,hibrit
+89,Melis Şahin,K,1980,İstanbul,Yüksek lisans,2013-08-23,2024-10-07,gönüllü,rakip firma,63,45.0,kariyer sitesi,uzaktan
+90,Merve Özkan,K,1987,İstanbul,Lise,2018-12-24,2021-06-29,gönüllü,rakip firma,24,25.0,referans,ofis
+91,Defne Doğan,K,1983,İstanbul,Yüksek lisans,2016-10-08,2023-11-14,gönülsüz,performans,64,45.0,kariyer sitesi,hibrit
+92,Tuğba Demir,K,1976,Kocaeli,Lise,2014-02-07,2022-05-30,gönüllü,kariyer gelişimi,24,27.0,referans,ofis
+93,Ahmet Acar,E,1979,İzmir,Lisans,2016-01-23,2019-07-25,gönüllü,ücret,6,14.0,LinkedIn,ofis
+94,Barış Öztürk,E,1985,İstanbul,Yüksek lisans,2017-07-15,,,,5,15.0,iç başvuru,ofis
+95,Ahmet Öztürk,E,1987,İstanbul,Yüksek lisans,2013-06-23,,,,33,35.0,referans,hibrit
+96,Cansu Şimşek,K,1982,Antalya,Lise,2018-10-26,2019-03-13,gönüllü,ücret,17,19.0,üniversite,ofis
+97,Burcu Çelik,K,1975,Ankara,Lisans,2012-06-02,,,,63,45.0,LinkedIn,ofis
+98,Fatma Aydın,K,1984,İstanbul,Lisans,2012-04-21,,,,33,35.0,referans,ofis
+99,Yasemin Yılmaz,K,1978,İzmir,Lisans,2012-07-17,,,,17,22.0,referans,ofis
+100,Can Demir,E,1984,İstanbul,Yüksek lisans,2016-05-08,,,,17,40.0,LinkedIn,hibrit
+101,Serkan Kara,E,1990,Kocaeli,Lisans,2018-03-01,,,,23,26.0,LinkedIn,ofis
+102,Cem Güneş,E,1980,İstanbul,Yüksek lisans,2013-10-12,2023-06-19,gönüllü,rakip firma,64,44.0,LinkedIn,uzaktan
+103,Yasemin Bal,K,1981,İstanbul,Lisans,2017-07-27,,,,64,45.0,LinkedIn,uzaktan
+104,Cansu Özkan,K,1993,Eskişehir,Lisans,2016-01-20,2024-05-10,gönüllü,rakip firma,23,29.0,üniversite,hibrit
+105,Zeynep Aydın,K,1984,Ankara,Lisans,2016-01-22,2024-09-16,gönüllü,rakip firma,40,13.0,ajans,hibrit
+106,Can Sezer,E,1979,İstanbul,Yüksek lisans,2014-10-14,,,,46,38.0,LinkedIn,hibrit
+107,Burcu Şimşek,K,1983,İzmir,Lise,2014-07-18,,,,18,24.0,LinkedIn,ofis
+108,Merve Karaca,K,1982,Antalya,Lisans,2014-03-15,2019-07-08,gönüllü,kariyer gelişimi,16,19.0,LinkedIn,ofis
+109,Ali Şimşek,E,1983,Kocaeli,Lisans,2013-01-18,,,,29,31.0,ajans,ofis
+110,Ilgın Demir,K,1988,İstanbul,Lisans,2018-12-03,2023-05-17,gönüllü,ücret,57,42.0,LinkedIn,hibrit
+111,Selim Özkan,E,1985,İstanbul,Ön lisans,2012-11-09,,,,24,26.0,ajans,hibrit
+112,Damla Özdemir,K,1984,İstanbul,Lisans,2015-12-07,,,,52,40.0,kariyer sitesi,uzaktan
+113,Umut Yılmaz,E,1993,Kocaeli,Lise,2017-04-03,2022-10-04,gönüllü,kariyer gelişimi,23,28.0,üniversite,ofis
+114,Özge Uysal,K,1984,Antalya,Lisans,2018-06-27,,,,17,19.0,üniversite,ofis
+115,Damla Uysal,K,1995,Eskişehir,Ön lisans,2018-08-23,2020-04-17,gönüllü,rakip firma,22,25.0,referans,ofis
+116,Serkan Çelik,E,1983,Antalya,Lisans,2014-11-01,,,,17,21.0,kariyer sitesi,ofis
+117,Merve Kara,K,1979,İstanbul,Yüksek lisans,2015-03-07,2019-10-23,gönüllü,eğitim,33,33.0,kariyer sitesi,hibrit
+118,Deniz Sezer,E,1991,İstanbul,Yüksek lisans,2017-06-14,2020-06-12,gönülsüz,performans,4,15.0,referans,hibrit
+119,Yusuf Polat,E,1988,İstanbul,Yüksek lisans,2014-11-18,,,,62,45.0,referans,uzaktan
+120,Sevgi Çelik,K,1987,İstanbul,Yüksek lisans,2018-10-21,,,,64,44.0,kariyer sitesi,ofis
+121,Burak Acar,E,1982,İstanbul,Lisans,2015-12-26,,,,63,45.0,LinkedIn,hibrit
+122,Nur Aydın,K,1981,İstanbul,Lisans,2013-12-03,,,,58,42.0,kariyer sitesi,ofis
+123,Esra Doğan,K,1984,Ankara,Ön lisans,2013-03-11,,,,18,22.0,referans,ofis
+124,Mert Şimşek,E,1978,İzmir,Lisans,2013-09-02,2024-04-29,gönüllü,rakip firma,17,23.0,referans,ofis
+125,Ayşe Aydın,K,1975,Eskişehir,Lisans,2014-01-15,2020-02-03,gönüllü,ücret,24,25.0,LinkedIn,hibrit
+126,Arda Yılmaz,E,1990,İzmir,Ön lisans,2018-07-25,,,,28,30.0,LinkedIn,ofis
+127,Emre Öztürk,E,1982,İzmir,Lisans,2017-06-04,,,,34,34.0,kariyer sitesi,hibrit
+128,Ahmet Özkan,E,1984,İstanbul,Lise,2013-09-04,2019-05-28,gönüllü,ücret,17,21.0,referans,ofis
+129,Mehmet Yıldırım,E,1989,İzmir,Lisans,2016-03-19,,,,63,45.0,kariyer sitesi,ofis
+130,Murat Demir,E,1988,Kocaeli,Lisans,2016-02-04,2019-05-17,gönüllü,kariyer gelişimi,23,25.0,kariyer sitesi,ofis
+131,Ali Acar,E,1977,İstanbul,Yüksek lisans,2012-09-03,,,,33,35.0,kariyer sitesi,ofis
+132,Mert Aydın,E,1984,İstanbul,Lisans,2015-08-18,,,,57,40.0,kariyer sitesi,hibrit
+133,Cem Polat,E,1989,İzmir,Yüksek lisans,2017-01-18,2023-07-17,gönülsüz,performans,33,34.0,kariyer sitesi,uzaktan
+134,Levent Aslan,E,1988,İstanbul,Lisans,2016-06-05,2020-08-26,gönüllü,rakip firma,4,16.0,ajans,ofis
+135,Murat Yıldırım,E,1994,İstanbul,Lisans,2017-06-10,,,,45,39.0,referans,hibrit
+136,Levent Bozkurt,E,1981,İstanbul,Lisans,2013-03-17,2023-07-31,gönüllü,rakip firma,12,17.0,kariyer sitesi,hibrit
+137,Murat Öztürk,E,1975,İstanbul,Lisans,2013-06-13,,,,34,35.0,kariyer sitesi,ofis
+138,Mert Yıldırım,E,1981,İstanbul,Yüksek lisans,2013-02-10,,,,52,40.0,kariyer sitesi,uzaktan
+139,Mustafa Demir,E,1993,İstanbul,Lisans,2018-06-19,,,,58,43.0,ajans,ofis
+140,Mehmet Bal,E,1995,Antalya,Lise,2018-12-22,,,,18,21.0,referans,ofis
+141,Nur Bal,K,1987,İstanbul,Lisans,2016-05-28,2020-10-26,gönüllü,ücret,17,22.0,referans,ofis
+142,Melis Karaca,K,1985,Kocaeli,Ön lisans,2015-08-15,,,,23,27.0,kariyer sitesi,ofis
+143,Ali Acar,E,1983,İstanbul,Yüksek lisans,2015-08-19,2020-11-19,gönüllü,kariyer gelişimi,45,39.0,referans,hibrit
+144,Fatma Sezer,K,1984,İstanbul,Lisans,2016-10-03,,,,40,13.0,LinkedIn,hibrit
+145,Sinan Çelik,E,1982,İstanbul,Lisans,2012-10-16,,,,10,18.0,üniversite,ofis
+146,Pınar Arslan,K,1975,İstanbul,Lise,2014-04-27,2024-10-23,gönüllü,eğitim,18,21.0,LinkedIn,ofis
+147,Onur Kara,E,1986,Eskişehir,Lise,2016-04-09,2020-04-27,gönüllü,kariyer gelişimi,23,27.0,kariyer sitesi,hibrit
+148,Gamze Aslan,K,1986,Kocaeli,Ön lisans,2017-09-28,2019-04-29,gönüllü,rakip firma,23,28.0,kariyer sitesi,ofis
+149,Efe Özkan,E,1985,İstanbul,Lisans,2018-06-07,2024-05-02,gönüllü,kariyer gelişimi,52,41.0,kariyer sitesi,hibrit
+150,Burak Bal,E,1981,Ankara,Lise,2014-08-23,2024-10-07,gönüllü,ücret,18,19.0,kariyer sitesi,ofis
+151,Elif Kurt,K,1987,İzmir,Lisans,2014-06-19,,,,45,39.0,kariyer sitesi,ofis
+152,Barış Öztürk,E,1984,İstanbul,Lisans,2016-12-03,,,,6,16.0,kariyer sitesi,hibrit
+153,Gamze Aydın,K,1986,İstanbul,Lisans,2018-02-17,2022-08-29,gönüllü,rakip firma,44,39.0,LinkedIn,hibrit
+154,Efe Çelik,E,1983,İzmir,Lisans,2012-07-18,,,,39,13.0,kariyer sitesi,hibrit
+155,Damla Acar,K,1986,Ankara,Ön lisans,2016-05-05,2024-11-11,gönüllü,rakip firma,17,24.0,referans,ofis
+156,Eren Kara,E,1989,İstanbul,Yüksek lisans,2016-04-22,,,,46,38.0,kariyer sitesi,hibrit
+157,Efe Kurt,E,1986,İstanbul,Lisans,2016-10-09,,,,34,34.0,LinkedIn,hibrit
+158,Kaan Kılıç,E,1987,Ankara,Lisans,2017-06-19,,,,51,40.0,üniversite,hibrit
+159,Fatma Ekici,K,1981,Ankara,Lise,2017-05-17,,,,18,22.0,LinkedIn,ofis
+160,Yusuf Çetin,E,1985,İstanbul,Ön lisans,2014-05-02,,,,5,15.0,iç başvuru,hibrit
+161,Selin Bal,K,1984,Kocaeli,Lise,2015-07-08,,,,24,26.0,ajans,ofis
+162,Hakan Acar,E,1987,Ankara,Lisans,2014-06-17,2022-08-29,gönüllü,kariyer gelişimi,11,17.0,kariyer sitesi,hibrit
+163,Gamze Öztürk,K,1982,İstanbul,Lise,2017-04-26,,,,23,28.0,ajans,ofis
+164,Efe Şimşek,E,1987,İstanbul,Lise,2018-04-15,,,,17,21.0,kariyer sitesi,ofis
+165,Aslı Ekici,K,1988,İstanbul,Yüksek lisans,2018-11-13,,,,33,33.0,LinkedIn,uzaktan
+166,Ece Uysal,K,1984,İstanbul,Lise,2013-07-17,,,,23,26.0,referans,ofis
+167,Esra Çetin,K,1995,Kocaeli,Ön lisans,2018-08-19,2020-08-10,gönüllü,ücret,22,27.0,ajans,ofis
+168,Selim Yılmaz,E,1972,Ankara,Lisans,2012-08-23,,,,6,14.0,referans,hibrit
+169,Can Aydın,E,1986,İstanbul,Ön lisans,2014-07-12,2019-04-16,gönüllü,eğitim,17,20.0,LinkedIn,ofis
+170,Fatma Yıldız,K,1983,İzmir,Lisans,2015-04-12,2022-01-27,gönüllü,taşınma,38,8.0,kariyer sitesi,hibrit
+171,Kaan Tunç,E,1988,Kocaeli,Lise,2017-11-02,,,,27,30.0,kariyer sitesi,ofis
+172,Zeynep Bal,K,1978,İstanbul,Lisans,2015-03-02,2020-03-02,gönüllü,ücret,24,27.0,kariyer sitesi,ofis
+173,Onur Bozkurt,E,1987,Ankara,Lise,2012-03-12,2023-09-28,gönülsüz,performans,16,24.0,üniversite,ofis
+174,Nur Sezer,K,1977,İstanbul,Yüksek lisans,2013-06-14,,,,34,33.0,LinkedIn,hibrit
+175,Ahmet Kaya,E,1988,İstanbul,Yüksek lisans,2017-08-23,,,,11,18.0,kariyer sitesi,ofis
+176,Deniz Toprak,E,1984,Ankara,Yüksek lisans,2012-11-13,,,,6,16.0,iç başvuru,hibrit
+177,Sinan Karaca,E,1980,İstanbul,Lisans,2017-07-27,2019-06-18,gönüllü,yönetici,17,22.0,kariyer sitesi,ofis
+178,Özge Sezer,K,1980,İstanbul,Lise,2012-08-25,,,,18,23.0,referans,ofis
+179,Melis Şahin,K,1991,Kocaeli,Lisans,2014-09-04,2020-09-18,gönülsüz,performans,28,32.0,kariyer sitesi,ofis
+180,Onur Karaca,E,1990,İstanbul,Lise,2018-03-12,,,,40,19.0,referans,ofis
+181,Arda Aydın,E,1989,İstanbul,Lisans,2012-09-21,2019-07-29,gönüllü,kariyer gelişimi,38,8.0,kariyer sitesi,uzaktan
+182,Fatma Kurt,K,1985,İstanbul,Lisans,2016-10-23,,,,5,16.0,referans,ofis
+183,Umut Uysal,E,1983,İstanbul,Lisans,2016-12-16,2023-04-20,gönüllü,taşınma,34,33.0,ajans,ofis
+184,Buse Kılıç,K,1989,Ankara,Yüksek lisans,2013-01-02,2019-06-10,gönüllü,ücret,50,40.0,ajans,hibrit
+185,Ilgın Uysal,K,1984,İzmir,Yüksek lisans,2014-11-22,2019-12-12,gönülsüz,performans,5,16.0,iç başvuru,ofis
+186,Tolga Aydın,E,1989,İstanbul,Lisans,2014-09-04,,,,5,14.0,kariyer sitesi,ofis
+187,Derya Sezer,K,1989,Ankara,Lisans,2016-01-02,,,,17,20.0,referans,ofis
+188,Burcu Özkan,K,1985,Eskişehir,Lise,2013-12-18,2020-02-20,gönülsüz,performans,22,28.0,kariyer sitesi,ofis
+189,Selin Güneş,K,1986,İstanbul,Ön lisans,2016-03-16,2019-11-25,gönülsüz,yeniden yapılanma,17,22.0,iç başvuru,ofis
+190,Damla Özkan,K,1983,İstanbul,Lisans,2015-12-02,2019-02-12,gönüllü,rakip firma,34,34.0,LinkedIn,hibrit
+191,Deniz Şahin,E,1982,İstanbul,Lise,2014-04-06,2020-02-24,gönülsüz,yeniden yapılanma,17,24.0,kariyer sitesi,ofis
+192,Burak Sezer,E,1981,İstanbul,Lisans,2015-11-22,,,,34,33.0,kariyer sitesi,hibrit
+193,Cem Sezer,E,1995,İstanbul,Yüksek lisans,2018-01-25,2023-03-20,gönüllü,kariyer gelişimi,33,34.0,kariyer sitesi,uzaktan
+194,Derya Kara,K,1982,Ankara,Lisans,2013-03-05,,,,18,21.0,kariyer sitesi,ofis
+195,Deniz Bozkurt,E,1993,İstanbul,Lisans,2018-05-10,,,,18,22.0,LinkedIn,ofis
+196,Pınar Güneş,K,1985,Ankara,Lisans,2014-07-03,,,,5,15.0,kariyer sitesi,hibrit
+197,Can Polat,E,1992,İzmir,Lisans,2015-07-25,,,,44,39.0,LinkedIn,hibrit
+198,Aslı Sezer,K,1987,İstanbul,Lise,2015-08-05,2020-08-06,gönülsüz,performans,22,28.0,kariyer sitesi,ofis
+199,Mehmet Uysal,E,1991,Bursa,Lise,2018-03-04,2022-04-06,gönüllü,rakip firma,16,20.0,kariyer sitesi,ofis
+200,Tolga Bozkurt,E,1987,İzmir,Lisans,2013-11-05,2020-08-21,gönülsüz,performans,4,16.0,LinkedIn,ofis
+201,Gamze Özkan,K,1985,İstanbul,Lise,2018-10-23,2022-04-04,gönüllü,kariyer gelişimi,24,26.0,kariyer sitesi,ofis
+202,Sinan Yıldız,E,1982,İstanbul,Ön lisans,2014-08-26,,,,23,27.0,referans,ofis
+203,Kaan Polat,E,1977,İstanbul,Yüksek lisans,2014-09-08,2022-08-04,gönüllü,rakip firma,6,16.0,LinkedIn,hibrit
+204,Emre Acar,E,1991,Kocaeli,Lise,2018-11-17,2021-10-19,gönüllü,kariyer gelişimi,23,29.0,referans,ofis
+205,Selim Yılmaz,E,1979,İstanbul,Ön lisans,2017-07-24,,,,34,34.0,üniversite,hibrit
+206,Ahmet Yılmaz,E,1986,Kocaeli,Ön lisans,2016-06-09,,,,24,26.0,kariyer sitesi,ofis
+207,Cansu Şahin,K,1982,İstanbul,Yüksek lisans,2017-04-05,2021-02-22,gönüllü,kariyer gelişimi,12,18.0,LinkedIn,ofis
+208,Zeynep Özkan,K,1984,İstanbul,Lisans,2013-12-03,,,,32,34.0,LinkedIn,hibrit
+209,Elif Doğan,K,1982,İzmir,Lisans,2012-04-22,,,,64,45.0,kariyer sitesi,ofis
+210,Deniz Aydın,E,1981,İstanbul,Lisans,2016-07-07,,,,46,38.0,kariyer sitesi,hibrit
+211,İrem Uysal,K,1979,İstanbul,Lisans,2012-11-05,,,,39,45.0,kariyer sitesi,hibrit
+212,Mehmet Bozkurt,E,1984,İstanbul,Yüksek lisans,2014-07-04,,,,4,16.0,LinkedIn,ofis
+213,Derya Yıldırım,K,1991,İzmir,Lisans,2016-04-24,,,,44,39.0,kariyer sitesi,hibrit
+214,Zeynep Ergin,K,1979,İstanbul,Lisans,2012-04-23,2024-10-16,gönülsüz,performans,5,15.0,referans,ofis
+215,Serkan Tunç,E,1990,Kocaeli,Lise,2015-08-08,2019-02-12,gönüllü,ücret,22,25.0,ajans,ofis
+216,Özge Acar,K,1976,İzmir,Lisans,2012-10-23,,,,52,40.0,üniversite,hibrit
+217,Sevgi Uysal,K,1987,İstanbul,Lisans,2014-07-14,,,,5,15.0,referans,ofis
+218,Barış Karaca,E,1988,İstanbul,Lisans,2013-07-18,,,,23,38.0,kariyer sitesi,hibrit
+219,Selin Karaca,K,1990,Ankara,Lise,2014-02-15,2020-11-18,gönüllü,taşınma,16,22.0,kariyer sitesi,ofis
+220,Tolga Ekici,E,1989,Eskişehir,Ön lisans,2018-12-19,,,,29,25.0,LinkedIn,ofis
+221,Levent Arslan,E,1978,İstanbul,Ön lisans,2016-11-21,2019-03-22,gönüllü,yönetici,18,24.0,ajans,ofis
+222,Can Ergin,E,1992,Kocaeli,Lisans,2016-11-12,2019-03-25,gönüllü,rakip firma,22,27.0,kariyer sitesi,ofis
+223,Ebru Doğan,K,1988,İstanbul,Lisans,2015-12-22,,,,64,45.0,LinkedIn,uzaktan
+224,Elif Aydın,K,1981,İstanbul,Lise,2013-05-26,,,,32,32.0,LinkedIn,ofis
+225,Hakan Ergin,E,1984,İstanbul,Lisans,2015-02-13,,,,33,33.0,referans,hibrit
+226,Ayşe Güneş,K,1976,İstanbul,Lise,2017-10-17,2021-07-06,gönüllü,ücret,24,26.0,LinkedIn,ofis
+227,Arda Kurt,E,1994,İzmir,Lisans,2018-05-25,2023-03-20,gönüllü,ücret,28,32.0,kariyer sitesi,ofis
+228,Cem Demir,E,1982,İstanbul,Yüksek lisans,2014-06-19,2022-01-31,gönüllü,yönetici,63,44.0,LinkedIn,ofis
+229,Eren Demir,E,1985,Eskişehir,Lisans,2017-01-14,,,,23,29.0,LinkedIn,ofis
+230,Mustafa Bozkurt,E,1984,İzmir,Lisans,2012-04-05,,,,18,21.0,LinkedIn,ofis
+231,Arda Öztürk,E,1979,İstanbul,Lisans,2015-04-23,,,,6,14.0,LinkedIn,ofis
+232,Mustafa Sezer,E,1979,İstanbul,Lisans,2015-03-02,,,,58,42.0,kariyer sitesi,ofis
+233,Kaan Kurt,E,1981,Eskişehir,Ön lisans,2017-07-20,2022-06-06,gönüllü,eğitim,51,28.0,iç başvuru,ofis
+234,Efe Arslan,E,1989,İzmir,Lise,2013-03-20,,,,16,19.0,kariyer sitesi,ofis
+235,Sinan Kurt,E,1984,İstanbul,Lisans,2016-12-19,2022-04-29,gönüllü,ücret,11,18.0,referans,ofis
+236,Mehmet Özkan,E,1990,İstanbul,Lisans,2018-10-01,,,,39,13.0,kariyer sitesi,uzaktan
+237,Volkan Öztürk,E,1972,İzmir,Yüksek lisans,2013-02-09,,,,64,45.0,ajans,hibrit
+238,Ayşe Özdemir,K,1990,Kocaeli,Lise,2013-05-24,,,,22,28.0,kariyer sitesi,ofis
+239,Yasemin Arslan,K,1984,Kocaeli,Lise,2017-01-27,2020-04-29,gönüllü,ücret,28,32.0,kariyer sitesi,ofis
+240,Burcu Polat,K,1987,İstanbul,Lisans,2015-12-03,,,,33,33.0,LinkedIn,uzaktan
+241,Ebru Demir,K,1980,İstanbul,Lisans,2012-09-16,,,,23,26.0,kariyer sitesi,hibrit
+242,Deniz Ergin,E,1984,İstanbul,Lisans,2015-08-19,2022-09-05,gönülsüz,yeniden yapılanma,22,27.0,LinkedIn,ofis
+243,Melis Demir,K,1987,İstanbul,Lisans,2018-09-20,,,,4,14.0,LinkedIn,hibrit
+244,Volkan Özdemir,E,1980,Ankara,Lisans,2013-12-22,2024-03-18,gönüllü,rakip firma,40,13.0,LinkedIn,ofis
+245,Eren Yıldırım,E,1982,Ankara,Lise,2016-05-21,,,,18,24.0,referans,ofis
+246,Can Ergin,E,1990,İstanbul,Yüksek lisans,2016-05-10,2022-06-03,gönülsüz,yeniden yapılanma,10,17.0,referans,ofis
+247,Zeynep Bozkurt,K,1987,İstanbul,Lisans,2012-07-05,2024-09-20,gönüllü,rakip firma,39,13.0,kariyer sitesi,hibrit
+248,Aslı Uysal,K,1971,İstanbul,Lise,2012-08-10,2020-03-16,gönüllü,rakip firma,18,21.0,ajans,ofis
+249,Yusuf Arslan,E,1983,İstanbul,Lisans,2018-11-24,,,,64,45.0,referans,uzaktan
+250,Burak Şimşek,E,1978,İstanbul,Yüksek lisans,2015-07-27,,,,52,40.0,referans,hibrit
+251,Merve Uysal,K,1984,İstanbul,Lisans,2016-03-26,2024-11-18,gönüllü,ücret,16,24.0,kariyer sitesi,ofis
+252,Oğuz Çetin,E,1974,İstanbul,Lise,2012-07-02,2023-01-27,gönülsüz,performans,29,30.0,ajans,ofis
+253,Cem Demir,E,1986,Ankara,Yüksek lisans,2015-03-16,,,,11,18.0,kariyer sitesi,ofis
+254,Hakan Öztürk,E,1980,İstanbul,Lisans,2014-07-02,2021-03-01,gönülsüz,yeniden yapılanma,6,16.0,ajans,hibrit
+255,Efe Bozkurt,E,1986,İstanbul,Lisans,2017-03-10,2019-06-05,gönüllü,ücret,22,25.0,kariyer sitesi,ofis
+256,Mehmet Aslan,E,1986,İzmir,Lise,2018-01-20,2021-07-09,gönüllü,ücret,17,23.0,LinkedIn,ofis
+257,Eren Doğan,E,1981,İstanbul,Ön lisans,2017-02-18,2021-06-02,gönülsüz,disiplin,11,18.0,kariyer sitesi,hibrit
+258,Ahmet Yılmaz,E,1983,İstanbul,Lisans,2017-03-07,,,,46,38.0,ajans,uzaktan
+259,Kerem Kaya,E,1984,İstanbul,Lisans,2015-05-14,,,,10,18.0,referans,ofis
+260,Hakan Özdemir,E,1983,İstanbul,Yüksek lisans,2012-10-15,,,,45,38.0,ajans,hibrit
+261,Mert Güneş,E,1986,İstanbul,Lise,2018-05-16,,,,17,22.0,LinkedIn,ofis
+262,Barış Uysal,E,1977,İstanbul,Lisans,2017-02-06,2020-06-29,gönüllü,eğitim,40,8.0,üniversite,uzaktan
+263,Hakan Kaya,E,1984,İzmir,Yüksek lisans,2018-04-05,,,,51,41.0,LinkedIn,hibrit
+264,Kerem Bozkurt,E,1979,İstanbul,Yüksek lisans,2017-09-14,2019-05-31,gönüllü,ücret,46,38.0,LinkedIn,hibrit
+265,Mustafa Yıldız,E,1983,İstanbul,Lisans,2013-09-11,,,,17,20.0,kariyer sitesi,ofis
+266,Ilgın Kurt,K,1989,İstanbul,Lisans,2018-04-17,2024-05-13,gönülsüz,disiplin,39,13.0,kariyer sitesi,ofis
+267,Fatma Koç,K,1984,İstanbul,Ön lisans,2018-06-15,,,,24,27.0,LinkedIn,ofis
+268,Tolga Kurt,E,1992,Kocaeli,Lise,2017-09-17,2022-07-08,gönüllü,eğitim,27,31.0,LinkedIn,ofis
+269,Sevgi Koç,K,1982,İstanbul,Yüksek lisans,2018-04-04,2019-03-05,gönülsüz,yeniden yapılanma,63,45.0,kariyer sitesi,hibrit
+270,Umut Yılmaz,E,1993,İzmir,Lise,2016-11-22,,,,28,30.0,kariyer sitesi,ofis
+271,Tuğba Koç,K,1984,İzmir,Lisans,2014-09-06,,,,51,41.0,ajans,hibrit
+272,Oğuz Aydın,E,1984,İstanbul,Lise,2016-05-21,2020-10-12,gönüllü,taşınma,17,21.0,kariyer sitesi,ofis
+273,Levent Öztürk,E,1987,İstanbul,Yüksek lisans,2014-09-05,2021-07-08,gönüllü,yönetici,62,45.0,ajans,ofis
+274,Mehmet Özdemir,E,1992,İstanbul,Lisans,2016-05-20,,,,63,44.0,kariyer sitesi,uzaktan
+275,Buse Aslan,K,1981,İzmir,Yüksek lisans,2018-09-17,2023-11-02,gönülsüz,disiplin,34,35.0,ajans,uzaktan
+276,Volkan Yılmaz,E,1972,Kocaeli,Ön lisans,2012-10-02,,,,29,30.0,ajans,ofis
+277,Derya Yılmaz,K,1981,İstanbul,Lisans,2017-11-09,2024-08-12,gönüllü,taşınma,23,27.0,referans,ofis
+278,Damla Özkan,K,1987,İstanbul,Yüksek lisans,2013-05-09,2020-04-14,gönüllü,ücret,44,38.0,kariyer sitesi,hibrit
+279,Ali Polat,E,1972,İstanbul,Lisans,2012-03-11,2023-11-27,gönülsüz,performans,46,39.0,kariyer sitesi,hibrit
+280,Fatma Acar,K,1985,Kocaeli,Lise,2017-08-26,,,,23,25.0,LinkedIn,ofis
+281,Mustafa Kurt,E,1989,İstanbul,Lisans,2018-11-23,2022-06-08,gönüllü,ücret,16,24.0,kariyer sitesi,ofis
+282,Aslı Kurt,K,1985,Ankara,Lise,2016-07-12,,,,24,19.0,LinkedIn,ofis
+283,Aslı Özkan,K,1982,İstanbul,Lise,2014-09-14,,,,24,28.0,kariyer sitesi,hibrit
+284,Mehmet Yılmaz,E,1987,İstanbul,Lisans,2017-02-09,2024-05-17,gönüllü,ücret,39,13.0,LinkedIn,hibrit
+285,Barış Güneş,E,1986,İstanbul,Yüksek lisans,2018-03-06,,,,56,43.0,kariyer sitesi,hibrit
+286,Esra Çetin,K,1976,İstanbul,Lisans,2012-10-17,,,,12,40.0,kariyer sitesi,hibrit
+287,Cansu Kurt,K,1984,Kocaeli,Lisans,2016-09-01,2020-09-11,gönülsüz,performans,27,32.0,kariyer sitesi,ofis
+288,Cem Tunç,E,1993,İstanbul,Lisans,2018-07-05,,,,38,13.0,ajans,hibrit
+289,Can Çetin,E,1979,Ankara,Lisans,2014-07-15,,,,33,34.0,iç başvuru,hibrit
+290,Oğuz Kılıç,E,1982,Ankara,Lisans,2014-10-21,,,,18,21.0,kariyer sitesi,ofis
+291,Arda Özkan,E,1993,İzmir,Lisans,2018-01-09,2022-05-06,gönüllü,rakip firma,32,33.0,LinkedIn,hibrit
+292,Oğuz Aydın,E,1988,Bursa,Lise,2016-04-15,,,,17,23.0,referans,ofis
+293,Emre Yılmaz,E,1986,Kocaeli,Lise,2016-06-26,,,,29,32.0,iç başvuru,ofis
+294,Selim Kaya,E,1981,İstanbul,Lisans,2015-08-11,2019-05-15,gönüllü,ücret,33,33.0,üniversite,hibrit
+295,Özge Yıldız,K,1982,İzmir,Lisans,2015-04-02,2019-11-26,gönüllü,ücret,39,8.0,kariyer sitesi,hibrit
+296,Burcu Şimşek,K,1985,İstanbul,Lisans,2015-06-06,,,,39,13.0,kariyer sitesi,hibrit
+297,Eren Kara,E,1989,İstanbul,Lisans,2018-03-10,,,,50,41.0,LinkedIn,hibrit
+298,Ilgın Güneş,K,1987,Eskişehir,Lisans,2018-08-09,2020-03-30,gönüllü,rakip firma,22,28.0,LinkedIn,ofis
+299,Ilgın Arslan,K,1982,Kocaeli,Ön lisans,2017-11-24,2021-03-08,gönüllü,rakip firma,24,29.0,LinkedIn,ofis
+300,Cansu Toprak,K,1982,İstanbul,Ön lisans,2014-02-23,2020-04-09,gönüllü,rakip firma,23,25.0,kariyer sitesi,ofis
+301,Özge Arslan,K,1980,İstanbul,Lisans,2012-06-10,,,,10,18.0,kariyer sitesi,ofis
+302,Emre Kara,E,1990,İstanbul,Lisans,2015-03-06,,,,32,35.0,iç başvuru,hibrit
+303,Ilgın Ergin,K,1989,İstanbul,Lisans,2018-01-11,,,,38,13.0,kariyer sitesi,uzaktan
+304,Levent Bal,E,1979,Bursa,Lise,2012-03-09,,,,40,23.0,iç başvuru,ofis
+305,Oğuz Güneş,E,1982,İstanbul,Lise,2013-09-20,,,,22,25.0,kariyer sitesi,ofis
+306,Yusuf Tunç,E,1986,Kocaeli,Lisans,2018-01-23,2019-02-20,gönüllü,rakip firma,23,26.0,kariyer sitesi,hibrit
+307,Fatma Çetin,K,1985,İstanbul,Yüksek lisans,2017-06-07,,,,57,43.0,referans,ofis
+308,Melis Ekici,K,1987,İstanbul,Lisans,2017-04-17,2019-04-18,gönüllü,taşınma,23,28.0,kariyer sitesi,hibrit
+309,Mehmet Yıldırım,E,1981,İzmir,Lise,2012-04-19,,,,27,30.0,kariyer sitesi,ofis
+310,Ali Aydın,E,1984,Kocaeli,Lise,2017-05-02,2022-10-06,gönüllü,taşınma,29,31.0,kariyer sitesi,ofis
+311,Arda Özkan,E,1984,İstanbul,Lisans,2016-09-03,,,,6,16.0,kariyer sitesi,ofis
+312,Tolga Aydın,E,1981,İstanbul,Lisans,2013-02-24,,,,33,33.0,kariyer sitesi,ofis
+313,Mehmet Ergin,E,1979,İstanbul,Lisans,2013-10-12,,,,33,34.0,LinkedIn,hibrit
+314,Derya Uysal,K,1989,İstanbul,Lisans,2014-09-01,2021-11-18,gönüllü,rakip firma,32,35.0,kariyer sitesi,ofis
+315,Selim Aydın,E,1974,İstanbul,Lisans,2013-06-18,,,,6,14.0,referans,ofis
+316,Ebru Öztürk,K,1984,Kocaeli,Ön lisans,2014-02-24,,,,29,31.0,kariyer sitesi,ofis
+317,Kaan Kılıç,E,1995,Kocaeli,Lisans,2018-11-09,,,,27,32.0,ajans,ofis
+318,Defne Şimşek,K,1989,İzmir,Lisans,2018-05-17,,,,51,40.0,üniversite,hibrit
+319,Defne Şimşek,K,1983,İstanbul,Lisans,2015-11-15,,,,63,45.0,kariyer sitesi,hibrit
+320,Can Bal,E,1990,İstanbul,Ön lisans,2015-09-15,2020-08-25,gönüllü,taşınma,16,25.0,ajans,ofis
+321,Selim Şimşek,E,1989,Kocaeli,Lise,2016-06-27,,,,23,26.0,kariyer sitesi,hibrit
+322,Aslı Kurt,K,1983,İstanbul,Lisans,2014-12-16,2019-08-19,gönüllü,ücret,50,40.0,referans,uzaktan
+323,Cansu Bal,K,1977,İstanbul,Lisans,2016-05-24,,,,34,35.0,referans,hibrit
+324,Zeynep Şimşek,K,1979,Kocaeli,Lise,2016-10-04,,,,24,29.0,LinkedIn,ofis
+325,Melis Özkan,K,1987,İstanbul,Yüksek lisans,2013-12-02,,,,63,45.0,referans,hibrit
+326,Merve Yılmaz,K,1984,İstanbul,Lise,2013-05-20,,,,18,21.0,üniversite,ofis
+327,Barış Bal,E,1984,Ankara,Yüksek lisans,2018-04-09,2020-07-06,gönüllü,kariyer gelişimi,11,18.0,ajans,ofis
+328,Cem Şahin,E,1982,İstanbul,Lisans,2016-02-01,,,,12,17.0,referans,ofis
+329,Hakan Doğan,E,1984,Kocaeli,Lise,2018-11-19,2024-06-10,gönüllü,kariyer gelişimi,28,32.0,iç başvuru,ofis
+330,Tolga Uysal,E,1987,İzmir,Lise,2017-08-24,2021-03-12,gönüllü,yönetici,17,19.0,ajans,ofis
+331,Buse Yıldırım,K,1981,Ankara,Lise,2016-02-22,,,,17,20.0,referans,ofis
+332,Ece Koç,K,1981,İstanbul,Yüksek lisans,2014-04-24,,,,52,40.0,ajans,ofis
+333,Mert Çetin,E,1988,İstanbul,Ön lisans,2012-04-27,2023-07-03,gönüllü,eğitim,22,28.0,kariyer sitesi,ofis
+334,Defne Özkan,K,1981,Bursa,Lisans,2018-03-08,2021-09-15,gönüllü,rakip firma,18,23.0,kariyer sitesi,ofis
+335,Mustafa Kurt,E,1989,İstanbul,Lisans,2017-08-16,,,,10,18.0,kariyer sitesi,ofis
+336,Damla Kaya,K,1981,İzmir,Lisans,2012-11-15,,,,46,38.0,LinkedIn,uzaktan
+337,Esra Polat,K,1984,İzmir,Lisans,2018-04-23,,,,18,20.0,referans,ofis
+338,Can Acar,E,1986,İstanbul,Lisans,2016-03-06,,,,29,40.0,LinkedIn,hibrit
+339,Aslı Ekici,K,1994,İstanbul,Yüksek lisans,2017-10-08,,,,11,18.0,LinkedIn,hibrit
+340,Ilgın Çelik,K,1977,İstanbul,Yüksek lisans,2014-04-15,2022-10-10,gönüllü,ücret,63,44.0,LinkedIn,ofis
+341,Defne Şimşek,K,1980,Eskişehir,Ön lisans,2014-08-01,,,,24,26.0,referans,ofis
+342,Damla Özkan,K,1992,İstanbul,Yüksek lisans,2015-11-27,,,,4,14.0,referans,ofis
+343,Defne Ekici,K,1981,Ankara,Lise,2014-12-19,,,,18,20.0,LinkedIn,ofis
+344,Ece Ekici,K,1984,İstanbul,Lisans,2016-11-05,,,,6,16.0,referans,ofis
+345,Deniz Tunç,E,1980,İstanbul,Lisans,2015-09-02,2019-04-05,gönüllü,kariyer gelişimi,34,33.0,LinkedIn,hibrit
+346,Ahmet Arslan,E,1985,İstanbul,Yüksek lisans,2013-09-02,,,,22,38.0,LinkedIn,hibrit
+347,Burcu Özkan,K,1982,İzmir,Ön lisans,2016-06-01,2022-11-04,gönüllü,kariyer gelişimi,29,32.0,ajans,ofis
+348,Levent Toprak,E,1977,İstanbul,Yüksek lisans,2012-06-09,,,,6,14.0,kariyer sitesi,hibrit
+349,Gamze Öztürk,K,1972,İstanbul,Ön lisans,2012-02-23,2021-10-18,gönüllü,rakip firma,6,15.0,LinkedIn,hibrit
+350,Derya Karaca,K,1983,Ankara,Ön lisans,2013-11-28,2020-06-26,gönüllü,yönetici,16,21.0,LinkedIn,ofis
+351,İrem Şimşek,K,1980,İstanbul,Lisans,2017-07-15,,,,46,39.0,referans,hibrit
+352,Sinan Yıldırım,E,1980,Ankara,Lise,2012-07-02,,,,18,23.0,referans,ofis
+353,Ayşe Arslan,K,1993,İzmir,Lisans,2018-12-08,,,,4,16.0,LinkedIn,ofis
+354,Tolga Aslan,E,1984,İstanbul,Lisans,2012-08-15,,,,63,44.0,iç başvuru,hibrit
+355,Merve Güneş,K,1982,İstanbul,Lise,2017-07-18,,,,29,31.0,üniversite,ofis
+356,Zeynep Yıldırım,K,1989,İstanbul,Yüksek lisans,2016-09-24,,,,63,44.0,referans,uzaktan
+357,İrem Özdemir,K,1991,Ankara,Yüksek lisans,2016-06-24,,,,10,18.0,kariyer sitesi,hibrit
+358,Mert Kurt,E,1981,Kocaeli,Ön lisans,2017-08-07,2019-08-21,gönüllü,yönetici,28,31.0,referans,ofis
+359,Mert Aydın,E,1986,Ankara,Lisans,2017-08-07,2023-04-24,gönüllü,kariyer gelişimi,11,18.0,LinkedIn,ofis
+360,Sinan Çelik,E,1980,İstanbul,Lise,2018-05-19,2020-11-02,gönüllü,ücret,24,25.0,referans,ofis
+361,Melis Yıldırım,K,1986,Bursa,Lise,2014-01-13,,,,17,20.0,referans,ofis
+362,Umut Kılıç,E,1986,İstanbul,Lisans,2016-04-16,2019-07-29,gönüllü,rakip firma,4,16.0,kariyer sitesi,ofis
+363,Melis Acar,K,1985,Eskişehir,Lisans,2015-06-19,,,,22,28.0,kariyer sitesi,ofis
+364,Mustafa Polat,E,1981,İstanbul,Lisans,2012-05-14,2019-10-14,gönülsüz,performans,50,40.0,üniversite,ofis
+365,Ece Öztürk,K,1985,İzmir,Lisans,2018-08-02,2022-05-30,gönüllü,taşınma,17,24.0,referans,ofis
+366,Pınar Yıldırım,K,1978,Ankara,Lisans,2014-12-23,2019-11-22,gönüllü,ücret,17,19.0,referans,ofis
+367,Tuğba Kurt,K,1974,İstanbul,Lisans,2013-10-23,,,,52,41.0,LinkedIn,ofis
+368,Defne Şahin,K,1985,Bursa,Ön lisans,2014-01-17,2023-06-26,gönüllü,eğitim,17,21.0,iç başvuru,ofis
+369,Selim Doğan,E,1977,İzmir,Lise,2013-08-16,2021-03-30,gönüllü,kariyer gelişimi,29,30.0,ajans,ofis
+370,Serkan Kaya,E,1986,İstanbul,Lisans,2012-06-17,,,,16,23.0,LinkedIn,ofis
+371,Barış Özdemir,E,1990,Kocaeli,Lise,2013-04-02,,,,28,32.0,LinkedIn,ofis
+372,Fatma Uysal,K,1985,Ankara,Lisans,2016-03-18,2021-09-06,gönülsüz,performans,6,14.0,kariyer sitesi,ofis
+373,Cansu Kara,K,1991,İstanbul,Ön lisans,2014-10-11,,,,10,18.0,kariyer sitesi,ofis
+374,Ali Yıldız,E,1989,İstanbul,Lisans,2017-11-19,2021-10-11,gönülsüz,performans,44,38.0,referans,ofis
+375,Efe Aslan,E,1990,Ankara,Yüksek lisans,2017-08-27,,,,50,41.0,kariyer sitesi,ofis
+376,Ahmet Arslan,E,1983,İzmir,Lisans,2015-04-28,,,,51,40.0,LinkedIn,hibrit
+377,Tolga Özdemir,E,1987,İstanbul,Lisans,2018-12-17,,,,44,39.0,referans,uzaktan
+378,Selim Uysal,E,1984,İstanbul,Lisans,2015-10-20,2020-10-22,gönüllü,rakip firma,28,30.0,referans,ofis
+379,Gamze Uysal,K,1979,Eskişehir,Ön lisans,2014-02-15,,,,23,29.0,ajans,ofis
+380,Cem Güneş,E,1983,İzmir,Yüksek lisans,2018-11-15,,,,34,35.0,iç başvuru,hibrit
+381,Sinan Şahin,E,1985,İstanbul,Ön lisans,2018-11-11,,,,17,22.0,kariyer sitesi,ofis
+382,Ece Yıldız,K,1994,İstanbul,Lisans,2017-10-24,2024-10-28,gönülsüz,performans,38,13.0,kariyer sitesi,uzaktan
+383,Ece Yıldırım,K,1984,Ankara,Lisans,2013-07-19,,,,11,18.0,referans,hibrit
+384,Selim Bal,E,1983,İstanbul,Yüksek lisans,2013-09-19,,,,64,44.0,LinkedIn,hibrit
+385,Aslı Bal,K,1984,İstanbul,Lisans,2013-03-06,,,,50,41.0,kariyer sitesi,hibrit
+386,Merve Çetin,K,1986,İstanbul,Lise,2015-11-14,2020-09-25,gönüllü,ücret,23,26.0,LinkedIn,ofis
+387,Elif Demir,K,1984,İstanbul,Lisans,2015-03-05,,,,46,39.0,kariyer sitesi,uzaktan
+388,Kerem Çetin,E,1980,İstanbul,Lise,2017-03-06,2021-08-05,gönülsüz,performans,23,28.0,LinkedIn,ofis
+389,Esra Demir,K,1983,İstanbul,Lisans,2018-08-17,,,,40,13.0,iç başvuru,uzaktan
+390,Sevgi Şimşek,K,1990,İstanbul,Ön lisans,2017-10-24,,,,23,25.0,referans,hibrit
+391,Can Özkan,E,1979,İstanbul,Lisans,2013-04-15,,,,34,34.0,ajans,hibrit
+392,Efe Yıldız,E,1981,İstanbul,Yüksek lisans,2017-03-17,,,,39,13.0,referans,ofis
+393,Mustafa Yıldırım,E,1990,Kocaeli,Lise,2018-04-26,,,,29,30.0,kariyer sitesi,ofis
+394,Sinan Acar,E,1987,İstanbul,Lisans,2014-03-28,,,,34,34.0,üniversite,uzaktan
+395,Kerem Koç,E,1994,Kocaeli,Lise,2017-04-24,,,,23,25.0,referans,ofis
+396,Serkan Bal,E,1987,Kocaeli,Lisans,2013-02-14,2022-01-24,gönülsüz,performans,28,30.0,kariyer sitesi,ofis
+397,Kaan Ergin,E,1988,İstanbul,Lisans,2017-12-22,,,,33,34.0,iç başvuru,ofis
+398,Ece Kara,K,1983,İstanbul,Lise,2014-11-11,,,,22,28.0,üniversite,ofis
+399,Aslı Aydın,K,1988,Ankara,Lisans,2014-12-20,,,,17,22.0,iç başvuru,ofis
+400,Yusuf Sezer,E,1983,İstanbul,Lisans,2014-11-13,,,,40,13.0,referans,hibrit
+401,Barış Bal,E,1975,İstanbul,Lise,2012-09-22,2019-06-03,gönülsüz,performans,23,26.0,LinkedIn,ofis
+402,Sinan Demir,E,1987,Ankara,Yüksek lisans,2016-12-03,,,,57,42.0,LinkedIn,hibrit
+403,Murat Şimşek,E,1987,Kocaeli,Lisans,2017-11-27,,,,27,31.0,LinkedIn,ofis
+404,Aslı Karaca,K,1990,İstanbul,Ön lisans,2018-07-24,2020-06-22,gönülsüz,performans,38,8.0,ajans,hibrit
+405,Selim Güneş,E,1981,İstanbul,Lisans,2014-06-19,,,,34,33.0,kariyer sitesi,hibrit
+406,Volkan Arslan,E,1982,Kocaeli,Lise,2015-09-21,,,,24,26.0,kariyer sitesi,ofis
+407,Burcu Kaya,K,1986,Kocaeli,Lise,2015-10-24,2023-07-24,gönüllü,rakip firma,5,27.0,ajans,ofis
+408,Tolga Sezer,E,1982,İstanbul,Lisans,2017-02-01,,,,33,33.0,referans,uzaktan
+409,Burak Acar,E,1992,Kocaeli,Ön lisans,2015-03-21,,,,16,31.0,iç başvuru,ofis
+410,Selin Yılmaz,K,1988,Kocaeli,Lise,2018-08-08,2023-07-17,gönüllü,ücret,27,32.0,iç başvuru,ofis
+411,Hakan Tunç,E,1982,İstanbul,Lisans,2013-05-15,,,,5,14.0,iç başvuru,ofis
+412,İrem Bal,K,1982,Kocaeli,Lise,2013-02-23,,,,23,27.0,LinkedIn,ofis
+413,Deniz Doğan,E,1978,İstanbul,Lisans,2014-06-26,,,,6,16.0,referans,ofis
+414,Ece Özkan,K,1987,İstanbul,Lisans,2013-04-28,2021-05-14,gönüllü,ücret,22,29.0,LinkedIn,ofis
+415,Elif Yıldız,K,1984,Kocaeli,Ön lisans,2016-09-28,2021-03-15,gönüllü,taşınma,23,25.0,referans,hibrit
+416,Burcu Karaca,K,1990,İstanbul,Lise,2018-06-16,2022-08-01,gönüllü,ücret,24,26.0,referans,hibrit
+417,Ebru Şahin,K,1980,Eskişehir,Lisans,2012-08-06,2019-07-08,gönüllü,rakip firma,22,27.0,üniversite,hibrit
+418,Cem Bal,E,1987,İstanbul,Lisans,2016-12-27,,,,57,42.0,ajans,ofis
+419,Ahmet Acar,E,1978,Eskişehir,Lise,2014-07-03,,,,24,29.0,kariyer sitesi,ofis
+420,Arda Çelik,E,1987,İstanbul,Lise,2016-07-08,2020-05-18,gönüllü,rakip firma,17,19.0,LinkedIn,ofis
+421,Melis Bozkurt,K,1984,İstanbul,Lisans,2016-08-24,2021-02-02,gönüllü,rakip firma,34,34.0,ajans,hibrit
+422,Ali Ergin,E,1983,İstanbul,Lisans,2012-01-19,,,,34,35.0,referans,hibrit
+423,Tolga Kılıç,E,1975,Ankara,Yüksek lisans,2012-03-19,,,,6,14.0,LinkedIn,hibrit
+424,Murat Yıldırım,E,1989,Ankara,Ön lisans,2013-12-22,,,,18,23.0,kariyer sitesi,ofis
+425,Burcu Ekici,K,1985,İzmir,Lisans,2016-06-02,2023-03-27,gönülsüz,yeniden yapılanma,50,41.0,üniversite,hibrit
+426,Onur Şahin,E,1986,İstanbul,Lisans,2014-12-10,2024-10-28,gönüllü,rakip firma,39,13.0,kariyer sitesi,uzaktan
+427,Oğuz Tunç,E,1978,İzmir,Lisans,2014-02-26,,,,33,45.0,LinkedIn,ofis
+428,Burcu Ekici,K,1987,İstanbul,Lisans,2015-02-08,2020-03-31,gönüllü,ücret,32,35.0,iç başvuru,hibrit
+429,Selin Acar,K,1980,İstanbul,Lisans,2016-08-04,2022-03-04,gönüllü,rakip firma,23,29.0,kariyer sitesi,hibrit
+430,Arda Bal,E,1980,İstanbul,Lisans,2016-07-19,,,,33,34.0,kariyer sitesi,ofis
+431,Umut Toprak,E,1986,İstanbul,Lisans,2013-12-09,,,,11,18.0,referans,ofis
+432,Ayşe Yıldırım,K,1988,İzmir,Lisans,2016-02-03,,,,39,13.0,kariyer sitesi,hibrit
+433,Burak Güneş,E,1991,Ankara,Yüksek lisans,2015-07-25,,,,11,18.0,kariyer sitesi,ofis
+434,Merve Kara,K,1980,İstanbul,Lisans,2013-05-26,2021-06-08,gönüllü,rakip firma,23,29.0,ajans,hibrit
+435,Yasemin Koç,K,1978,İstanbul,Lisans,2013-10-05,2023-05-17,gönüllü,kariyer gelişimi,63,45.0,referans,hibrit
+436,Barış Aydın,E,1979,İstanbul,Lisans,2012-04-08,,,,33,34.0,kariyer sitesi,hibrit
+437,Levent Aslan,E,1980,Ankara,Lisans,2018-09-20,2022-01-24,gönüllü,yönetici,12,18.0,LinkedIn,hibrit
+438,Ayşe Çelik,K,1983,İstanbul,Lisans,2018-12-18,,,,63,40.0,üniversite,hibrit
+439,Tuğba Ergin,K,1985,İzmir,Ön lisans,2017-06-17,2019-04-22,gönüllü,eğitim,38,8.0,referans,hibrit
+440,Tuğba Güneş,K,1990,İstanbul,Ön lisans,2015-10-27,,,,29,32.0,kariyer sitesi,ofis
+441,Ebru Yıldırım,K,1977,İstanbul,Yüksek lisans,2013-09-17,,,,52,41.0,kariyer sitesi,hibrit
+442,Buse Sezer,K,1983,Ankara,Lisans,2016-07-13,2021-06-08,gönüllü,ücret,12,17.0,LinkedIn,ofis
+443,Eren Yıldırım,E,1979,İzmir,Lisans,2014-04-05,,,,12,18.0,LinkedIn,hibrit
+444,Cansu Ergin,K,1980,Kocaeli,Lise,2015-12-16,2022-06-20,gönüllü,ücret,5,30.0,LinkedIn,ofis
+445,Onur Aydın,E,1994,İstanbul,Lisans,2017-11-05,2020-02-26,gönüllü,taşınma,45,39.0,kariyer sitesi,hibrit
+446,Oğuz Tunç,E,1984,Bursa,Lisans,2012-10-12,,,,18,21.0,LinkedIn,ofis
+447,Esra Koç,K,1983,İstanbul,Lisans,2018-02-16,,,,51,41.0,kariyer sitesi,hibrit
+448,Kerem Kılıç,E,1989,Bursa,Ön lisans,2016-09-17,2019-05-06,gönüllü,yönetici,16,23.0,kariyer sitesi,ofis
+449,Yasemin Bozkurt,K,1980,İstanbul,Ön lisans,2014-05-27,2024-01-22,gönüllü,taşınma,18,24.0,üniversite,ofis
+450,Yusuf Acar,E,1983,İstanbul,Lisans,2017-07-27,2019-10-25,gönülsüz,yeniden yapılanma,6,14.0,LinkedIn,ofis
+451,Selim Kılıç,E,1977,İstanbul,Yüksek lisans,2013-08-26,2020-02-24,gönüllü,kariyer gelişimi,34,34.0,üniversite,uzaktan
+452,Oğuz Koç,E,1993,İzmir,Lisans,2018-07-24,,,,4,16.0,iç başvuru,ofis
+453,Ayşe Ergin,K,1984,İstanbul,Ön lisans,2016-03-04,2019-05-28,gönüllü,rakip firma,29,30.0,LinkedIn,ofis
+454,Ahmet Şahin,E,1993,İstanbul,Lisans,2017-10-07,,,,46,38.0,referans,hibrit
+455,Selin Demir,K,1993,İstanbul,Ön lisans,2018-02-13,2019-11-18,gönüllü,kariyer gelişimi,22,25.0,LinkedIn,ofis
+456,Damla Özkan,K,1977,İzmir,Ön lisans,2013-04-28,2023-09-11,gönüllü,rakip firma,18,19.0,kariyer sitesi,ofis
+457,Ilgın Ekici,K,1987,İstanbul,Lise,2017-03-26,2020-06-01,gönüllü,kariyer gelişimi,22,27.0,kariyer sitesi,hibrit
+458,Yasemin Ekici,K,1992,İstanbul,Ön lisans,2015-03-01,2020-05-15,gönülsüz,performans,22,28.0,üniversite,ofis
+459,Selim Bal,E,1986,İstanbul,Lisans,2014-08-23,2019-09-09,gönüllü,ücret,62,45.0,referans,hibrit
+460,Nur Tunç,K,1992,İstanbul,Lisans,2015-11-22,2023-10-31,gönüllü,rakip firma,22,25.0,referans,ofis
+461,Ebru Yıldırım,K,1977,İstanbul,Lisans,2012-05-12,,,,29,32.0,kariyer sitesi,ofis
+462,Melis Kaya,K,1984,Ankara,Ön lisans,2015-11-22,2020-07-20,gönülsüz,performans,17,19.0,LinkedIn,ofis
+463,Ahmet Tunç,E,1989,İzmir,Lisans,2013-12-03,,,,44,39.0,ajans,hibrit
+464,Levent Aslan,E,1977,İstanbul,Lisans,2012-06-12,,,,52,40.0,LinkedIn,hibrit
+465,Barış Güneş,E,1982,Ankara,Lisans,2014-07-19,2021-12-08,gönülsüz,performans,6,14.0,kariyer sitesi,ofis
+466,Ali Ekici,E,1981,Kocaeli,Lise,2015-04-21,2022-07-12,gönüllü,rakip firma,24,26.0,kariyer sitesi,hibrit
+467,Arda Güneş,E,1979,İstanbul,Yüksek lisans,2013-04-02,,,,34,35.0,kariyer sitesi,hibrit
+468,Merve Bozkurt,K,1983,Bursa,Lise,2017-08-26,2019-07-15,gönüllü,yönetici,18,19.0,LinkedIn,ofis
+469,Mustafa Kurt,E,1990,İstanbul,Lisans,2013-01-16,,,,62,45.0,kariyer sitesi,ofis
+470,Kerem Arslan,E,1984,İstanbul,Yüksek lisans,2015-04-11,,,,32,35.0,iç başvuru,hibrit
+471,Serkan Koç,E,1983,Ankara,Lisans,2018-02-08,,,,5,14.0,referans,ofis
+472,Ali Şahin,E,1987,İstanbul,Yüksek lisans,2012-08-15,2021-01-25,gönülsüz,yeniden yapılanma,32,34.0,ajans,hibrit
+473,Pınar Kara,K,1986,Eskişehir,Lise,2012-04-17,,,,22,28.0,ajans,hibrit
+474,Ebru Polat,K,1990,İstanbul,Lisans,2013-08-28,,,,50,40.0,LinkedIn,ofis
+475,Derya Kılıç,K,1982,Ankara,Yüksek lisans,2016-10-22,,,,6,15.0,kariyer sitesi,hibrit
+476,Serkan Toprak,E,1983,Ankara,Lisans,2017-11-07,,,,17,21.0,referans,ofis
+477,Sevgi Demir,K,1985,İzmir,Lisans,2018-01-16,2019-03-04,gönüllü,eğitim,52,41.0,kariyer sitesi,ofis
+478,Onur Ergin,E,1984,İstanbul,Lisans,2013-01-16,,,,34,34.0,ajans,ofis
+479,Emre Yılmaz,E,1990,İstanbul,Yüksek lisans,2016-11-06,2022-11-28,gönüllü,rakip firma,50,41.0,kariyer sitesi,hibrit
+480,Emre Aslan,E,1972,İstanbul,Lisans,2013-05-01,2019-04-08,gönüllü,rakip firma,64,44.0,kariyer sitesi,uzaktan
+481,Ahmet Yıldız,E,1983,İstanbul,Lisans,2013-03-20,,,,34,34.0,kariyer sitesi,ofis
+482,Elif Aslan,K,1983,İstanbul,Lisans,2015-03-03,2021-08-02,gönülsüz,disiplin,11,17.0,LinkedIn,hibrit
+483,Ahmet Kara,E,1983,İstanbul,Lisans,2014-07-17,2023-03-13,gönüllü,kariyer gelişimi,57,39.0,kariyer sitesi,hibrit
+484,Onur Öztürk,E,1987,İstanbul,Ön lisans,2018-12-05,2021-01-29,gönüllü,ücret,33,34.0,ajans,hibrit
+485,Umut Kılıç,E,1987,İstanbul,Lisans,2018-08-24,2020-07-10,gönülsüz,yeniden yapılanma,17,39.0,referans,hibrit
+486,Buse Çetin,K,1991,İstanbul,Lisans,2015-07-10,2020-02-24,gönüllü,ücret,16,19.0,LinkedIn,ofis
+487,Ilgın Ergin,K,1982,Kocaeli,Lisans,2017-06-22,2021-05-11,gönüllü,rakip firma,23,27.0,üniversite,ofis
+488,Nur Polat,K,1985,İstanbul,Lisans,2017-02-08,,,,52,40.0,LinkedIn,hibrit
+489,Mehmet Kılıç,E,1985,İzmir,Lisans,2017-07-16,2022-02-18,gönüllü,rakip firma,5,14.0,LinkedIn,hibrit
+490,Sinan Uysal,E,1987,İstanbul,Lise,2018-11-20,2024-10-07,gönülsüz,yeniden yapılanma,24,25.0,LinkedIn,hibrit
+491,Zeynep Kılıç,K,1976,Ankara,Lisans,2013-10-28,2019-08-08,gönüllü,taşınma,64,45.0,kariyer sitesi,hibrit
+492,Mert Polat,E,1977,İstanbul,Lisans,2015-02-06,2021-09-20,gönüllü,kariyer gelişimi,6,14.0,ajans,ofis
+493,Tuğba Karaca,K,1983,Ankara,Lisans,2013-06-08,,,,32,34.0,kariyer sitesi,hibrit
+494,Ebru Koç,K,1994,İstanbul,Lisans,2018-11-09,,,,22,29.0,kariyer sitesi,ofis
+495,Volkan Demir,E,1984,Ankara,Lisans,2015-05-24,,,,6,14.0,referans,ofis
+496,Arda Kara,E,1977,İstanbul,Lisans,2013-07-02,,,,45,38.0,kariyer sitesi,hibrit
+497,Mert Yıldırım,E,1990,İstanbul,Lisans,2015-09-09,,,,11,18.0,iç başvuru,ofis
+498,Derya Çelik,K,1988,Ankara,Yüksek lisans,2014-04-13,,,,44,38.0,ajans,uzaktan
+499,Kaan Ergin,E,1988,İstanbul,Ön lisans,2012-06-10,,,,27,31.0,iç başvuru,ofis
+500,Buse Acar,K,1978,İstanbul,Ön lisans,2018-10-28,,,,52,25.0,kariyer sitesi,ofis
+501,Özge Özdemir,K,1980,Ankara,Lisans,2017-11-20,,,,52,41.0,ajans,hibrit
+502,İrem Kurt,K,1981,Ankara,Lise,2013-03-27,,,,18,23.0,referans,ofis
+503,Volkan Aydın,E,1980,İstanbul,Lisans,2018-11-14,2021-09-20,gönüllü,ücret,18,24.0,iç başvuru,ofis
+504,Ayşe Koç,K,1989,Eskişehir,Ön lisans,2018-10-14,,,,22,29.0,iç başvuru,ofis
+505,Mustafa Aslan,E,1989,İstanbul,Lisans,2017-05-21,,,,22,15.0,ajans,ofis
+506,Elif Bozkurt,K,1994,İstanbul,Ön lisans,2018-06-21,,,,64,44.0,referans,hibrit
+507,Ahmet Bal,E,1987,Ankara,Lise,2018-10-09,,,,18,22.0,LinkedIn,ofis
+508,Yasemin Özdemir,K,1984,Kocaeli,Ön lisans,2016-07-15,,,,24,28.0,ajans,hibrit
+509,Melis Şimşek,K,1980,İstanbul,Lisans,2016-06-17,2023-03-22,gönüllü,ücret,33,35.0,ajans,ofis
+510,Defne Yıldırım,K,1985,İstanbul,Lisans,2013-04-18,,,,44,38.0,referans,hibrit
+511,Ebru Karaca,K,1982,Ankara,Lisans,2017-12-26,2022-11-07,gönüllü,ücret,17,20.0,kariyer sitesi,ofis
+512,Umut Koç,E,1977,İstanbul,Lisans,2013-11-28,,,,18,35.0,LinkedIn,hibrit
+513,Cansu Bal,K,1979,İstanbul,Lise,2014-02-01,,,,18,22.0,kariyer sitesi,ofis
+514,Esra Acar,K,1990,Ankara,Yüksek lisans,2016-02-14,2023-09-25,gönüllü,ücret,32,34.0,referans,hibrit
+515,Eren Uysal,E,1984,İstanbul,Lisans,2018-08-12,2023-09-11,gönüllü,ücret,64,45.0,iç başvuru,hibrit
+516,Pınar Kara,K,1976,İstanbul,Lisans,2012-01-14,2022-06-10,gönüllü,taşınma,57,42.0,LinkedIn,ofis
+517,Damla Yıldız,K,1991,Eskişehir,Lise,2015-07-05,,,,22,27.0,referans,ofis
+518,Pınar Tunç,K,1989,Ankara,Lisans,2018-12-13,,,,17,21.0,kariyer sitesi,ofis
+519,Oğuz Toprak,E,1986,İzmir,Lisans,2018-10-07,,,,27,30.0,LinkedIn,ofis
+520,Nur Arslan,K,1991,İstanbul,Ön lisans,2014-03-03,2023-09-06,gönüllü,yönetici,22,25.0,LinkedIn,ofis
+521,Ayşe Kaya,K,1979,Ankara,Yüksek lisans,2014-01-26,,,,33,35.0,üniversite,hibrit
+522,Nur Demir,K,1981,İstanbul,Yüksek lisans,2013-10-13,,,,6,14.0,kariyer sitesi,ofis
+523,Barış Demir,E,1990,İstanbul,Lisans,2017-02-22,,,,32,34.0,kariyer sitesi,hibrit
+524,Merve Acar,K,1989,Eskişehir,Ön lisans,2016-01-06,2020-11-30,gönülsüz,performans,22,29.0,kariyer sitesi,ofis
+525,Esra Yılmaz,K,1993,Ankara,Lise,2018-11-03,,,,18,22.0,kariyer sitesi,ofis
+526,Mert Çelik,E,1980,İstanbul,Yüksek lisans,2018-06-14,,,,12,17.0,kariyer sitesi,hibrit
+527,Volkan Bal,E,1981,İstanbul,Lisans,2013-06-15,2021-01-25,gönüllü,rakip firma,32,35.0,kariyer sitesi,uzaktan
+528,Arda Özkan,E,1974,İstanbul,Lisans,2015-06-21,2024-01-30,gönülsüz,yeniden yapılanma,18,19.0,LinkedIn,ofis
+529,Hakan Demir,E,1985,İstanbul,Lisans,2016-09-04,,,,32,34.0,LinkedIn,uzaktan
+530,Murat Özkan,E,1988,İstanbul,Lise,2016-11-27,2019-10-21,gönüllü,ücret,23,25.0,referans,ofis
+531,Hakan Özkan,E,1982,İstanbul,Lisans,2014-11-01,2024-11-21,gönüllü,yönetici,46,39.0,referans,uzaktan
+532,Selim Yıldız,E,1994,İstanbul,Lise,2017-03-17,,,,33,27.0,kariyer sitesi,ofis
+533,Fatma Kaya,K,1980,Eskişehir,Lise,2018-11-07,2020-09-11,gönüllü,kariyer gelişimi,24,28.0,kariyer sitesi,ofis
+534,Hakan Aydın,E,1989,Ankara,Lisans,2015-11-21,,,,6,14.0,üniversite,hibrit
+535,Arda Özkan,E,1990,Antalya,Lise,2018-06-14,,,,17,20.0,referans,ofis
+536,Selin Koç,K,1978,İstanbul,Lisans,2015-12-12,,,,40,13.0,iç başvuru,ofis
+537,Levent Güneş,E,1979,İstanbul,Lisans,2014-11-22,,,,18,22.0,üniversite,ofis
+538,Ayşe Arslan,K,1985,İstanbul,Lisans,2014-12-07,,,,5,15.0,referans,ofis
+539,Efe Kılıç,E,1977,İstanbul,Lisans,2016-02-20,2020-03-17,gönüllü,ücret,12,18.0,ajans,ofis
+540,Mehmet Yıldız,E,1977,İstanbul,Lisans,2012-11-14,2021-02-08,gönüllü,rakip firma,34,33.0,referans,uzaktan
+541,Emre Demir,E,1985,İstanbul,Lisans,2017-12-24,,,,34,34.0,kariyer sitesi,uzaktan
+542,Sinan Kurt,E,1982,İstanbul,Ön lisans,2015-02-23,2020-03-26,gönüllü,ücret,18,21.0,kariyer sitesi,ofis
+543,Hakan Kara,E,1982,İzmir,Lise,2012-03-19,,,,28,30.0,LinkedIn,ofis
+544,Serkan Bozkurt,E,1985,İstanbul,Lise,2013-02-20,2023-05-25,gönüllü,ücret,29,31.0,kariyer sitesi,ofis
+545,Oğuz Kaya,E,1992,Antalya,Ön lisans,2016-01-06,2021-12-07,gönüllü,ücret,16,24.0,LinkedIn,ofis
+546,Fatma Kara,K,1978,İstanbul,Lise,2015-11-04,,,,24,26.0,ajans,ofis
+547,Ebru Ekici,K,1984,Ankara,Lisans,2013-01-12,2021-03-22,gönüllü,yönetici,5,15.0,LinkedIn,hibrit
+548,Ece Güneş,K,1978,İstanbul,Lisans,2015-02-09,,,,58,42.0,ajans,hibrit
+549,Nur Şimşek,K,1992,İstanbul,Lisans,2018-09-12,2021-08-20,gönüllü,ücret,27,30.0,LinkedIn,ofis
+550,Selim Çetin,E,1975,İzmir,Yüksek lisans,2015-04-11,,,,6,15.0,kariyer sitesi,hibrit
+551,Aslı Bozkurt,K,1976,Eskişehir,Lise,2012-11-14,2019-07-18,gönüllü,taşınma,24,26.0,kariyer sitesi,ofis
+552,Yasemin Aydın,K,1989,Eskişehir,Lisans,2012-07-23,2019-09-03,gönüllü,rakip firma,22,27.0,referans,ofis
+553,Sinan Çetin,E,1989,İstanbul,Lise,2018-10-05,2023-06-13,gönülsüz,performans,16,20.0,üniversite,ofis
+554,Hakan Yıldırım,E,1978,İstanbul,Lisans,2017-02-19,,,,52,40.0,LinkedIn,hibrit
+555,Efe Yıldız,E,1991,İstanbul,Lisans,2017-01-22,,,,5,14.0,kariyer sitesi,ofis
+556,Yusuf Öztürk,E,1983,Ankara,Lisans,2015-10-18,2023-06-19,gönüllü,kariyer gelişimi,64,44.0,LinkedIn,hibrit
+557,Cem Güneş,E,1983,İzmir,Ön lisans,2016-08-21,2023-05-15,gönüllü,yönetici,17,24.0,referans,ofis
+558,Mehmet Karaca,E,1976,İstanbul,Lisans,2015-09-16,2021-02-11,gönülsüz,yeniden yapılanma,34,33.0,LinkedIn,ofis
+559,Fatma Ergin,K,1992,İzmir,Lisans,2017-11-22,2021-09-01,gönüllü,ücret,27,31.0,üniversite,ofis
+560,Tolga Arslan,E,1987,Kocaeli,Lisans,2016-09-14,,,,28,32.0,kariyer sitesi,ofis
+561,Can Polat,E,1979,İstanbul,Lise,2015-11-19,2020-08-24,gönüllü,rakip firma,17,22.0,referans,ofis
+562,Zeynep Bal,K,1981,İstanbul,Ön lisans,2016-10-10,2020-02-28,gönülsüz,yeniden yapılanma,64,44.0,referans,ofis
+563,Arda Bozkurt,E,1991,İzmir,Lisans,2018-09-08,,,,52,41.0,LinkedIn,hibrit
+564,Derya Şahin,K,1984,İstanbul,Lisans,2016-04-06,2023-02-10,gönüllü,kariyer gelişimi,11,40.0,kariyer sitesi,uzaktan
+565,Zeynep Yıldız,K,1980,Kocaeli,Lisans,2014-06-07,2024-09-26,gönüllü,ücret,24,25.0,kariyer sitesi,ofis
+566,Gamze Doğan,K,1975,İstanbul,Yüksek lisans,2012-11-20,2020-08-10,gönülsüz,performans,6,16.0,LinkedIn,ofis
+567,Damla Acar,K,1976,İstanbul,Lisans,2014-08-24,,,,46,39.0,LinkedIn,hibrit
+568,Levent Demir,E,1988,Ankara,Lisans,2018-04-23,,,,44,38.0,üniversite,uzaktan
+569,Ebru Aslan,K,1989,İstanbul,Lisans,2014-06-16,2023-04-24,gönülsüz,performans,27,32.0,referans,ofis
+570,Umut Güneş,E,1978,İstanbul,Lisans,2012-05-04,2020-11-17,gönüllü,kariyer gelişimi,64,44.0,LinkedIn,hibrit
+571,Murat Yılmaz,E,1980,İzmir,Lisans,2012-08-02,2020-02-04,gönülsüz,performans,18,20.0,ajans,ofis
+572,Ece Polat,K,1987,İstanbul,Lisans,2018-01-11,2021-06-28,gönülsüz,performans,4,16.0,iç başvuru,hibrit
+573,Emre Yılmaz,E,1982,İstanbul,Yüksek lisans,2013-06-18,,,,11,18.0,referans,ofis
+574,Emre Acar,E,1978,Kocaeli,Lisans,2012-05-23,,,,40,31.0,ajans,ofis
+575,Levent Aslan,E,1978,Kocaeli,Lisans,2014-09-06,,,,64,32.0,kariyer sitesi,ofis
+576,Derya Güneş,K,1985,İstanbul,Lisans,2014-02-05,,,,34,33.0,kariyer sitesi,hibrit
+577,Gamze Acar,K,1982,Kocaeli,Lisans,2016-01-09,2020-05-08,gönüllü,ücret,29,31.0,üniversite,ofis
+578,Kerem Öztürk,E,1976,İstanbul,Lisans,2016-09-06,,,,46,38.0,ajans,hibrit
+579,Ahmet Doğan,E,1981,İstanbul,Lisans,2013-07-06,2021-04-28,gönüllü,taşınma,32,33.0,LinkedIn,ofis
+580,Pınar Şahin,K,1977,Kocaeli,Ön lisans,2013-04-12,,,,23,25.0,kariyer sitesi,ofis
+581,Ayşe Sezer,K,1986,İstanbul,Lisans,2018-03-07,2023-10-04,gönüllü,kariyer gelişimi,64,45.0,referans,hibrit
+582,Buse Acar,K,1984,İstanbul,Lisans,2014-11-28,2024-01-31,gönüllü,yönetici,38,13.0,iç başvuru,hibrit
+583,Yasemin Uysal,K,1986,Kocaeli,Lisans,2014-02-06,2019-07-09,gönüllü,rakip firma,22,28.0,kariyer sitesi,ofis
+584,Hakan Yıldırım,E,1992,İstanbul,Ön lisans,2015-05-13,2021-04-26,gönüllü,ücret,22,29.0,referans,ofis
+585,Cansu Çelik,K,1988,İstanbul,Yüksek lisans,2018-08-03,2020-04-27,gönüllü,rakip firma,57,43.0,LinkedIn,ofis
+586,Serkan Yılmaz,E,1983,Kocaeli,Lisans,2012-06-10,,,,28,31.0,üniversite,ofis
+587,Eren Arslan,E,1979,İstanbul,Lisans,2016-12-06,,,,33,35.0,kariyer sitesi,hibrit
+588,Selin Yıldırım,K,1986,İstanbul,Yüksek lisans,2016-11-17,,,,4,14.0,üniversite,hibrit
+589,Murat Bozkurt,E,1985,İstanbul,Lisans,2016-10-10,2019-09-04,gönüllü,ücret,32,34.0,kariyer sitesi,ofis
+590,Kaan Doğan,E,1977,Eskişehir,Ön lisans,2012-11-07,2023-12-12,gönüllü,ücret,24,25.0,kariyer sitesi,ofis
+591,Selin Yıldız,K,1990,İstanbul,Lisans,2015-11-25,,,,32,33.0,LinkedIn,hibrit
+592,Cansu Bozkurt,K,1982,Eskişehir,Lise,2012-10-15,,,,23,27.0,kariyer sitesi,ofis
+593,Volkan Sezer,E,1981,İstanbul,Lisans,2012-04-20,,,,64,35.0,LinkedIn,hibrit
+594,Özge Ekici,K,1978,İstanbul,Lisans,2012-12-07,,,,52,14.0,kariyer sitesi,ofis
+595,Ebru Sezer,K,1981,İzmir,Lisans,2013-06-20,,,,64,45.0,referans,hibrit
+596,Mehmet Aydın,E,1989,Ankara,Yüksek lisans,2018-04-09,,,,51,40.0,LinkedIn,uzaktan
+597,Cansu Toprak,K,1984,İstanbul,Lisans,2016-08-05,2020-02-10,gönüllü,ücret,24,27.0,kariyer sitesi,hibrit
+598,Oğuz Demir,E,1986,İzmir,Yüksek lisans,2017-01-18,2020-04-20,gönüllü,rakip firma,5,15.0,kariyer sitesi,ofis
+599,Volkan Toprak,E,1988,İstanbul,Lisans,2017-11-15,,,,52,41.0,LinkedIn,hibrit
+600,Volkan Karaca,E,1978,İstanbul,Ön lisans,2015-01-21,,,,18,19.0,iç başvuru,ofis
+601,Can Şahin,E,1974,Ankara,Lisans,2014-09-01,,,,29,15.0,kariyer sitesi,ofis
+602,Sevgi Kaya,K,1978,İstanbul,Lise,2015-08-24,,,,6,27.0,kariyer sitesi,ofis
+603,Fatma Şahin,K,1982,İstanbul,Lisans,2014-05-24,2022-03-24,gönüllü,rakip firma,33,33.0,LinkedIn,hibrit
+604,Sevgi Güneş,K,1988,İzmir,Yüksek lisans,2014-08-19,,,,5,15.0,LinkedIn,ofis
+605,Pınar Demir,K,1975,İstanbul,Yüksek lisans,2013-06-24,,,,6,16.0,referans,ofis
+606,Ebru Şahin,K,1981,İstanbul,Lisans,2013-03-05,2020-08-19,gönülsüz,disiplin,17,19.0,kariyer sitesi,ofis
+607,Merve Ekici,K,1982,İstanbul,Lisans,2013-03-20,2023-07-10,gönüllü,kariyer gelişimi,50,41.0,iç başvuru,hibrit
+608,Cansu Çetin,K,1992,İstanbul,Lisans,2015-04-18,2019-11-25,gönüllü,rakip firma,38,8.0,kariyer sitesi,uzaktan
+609,Fatma Kaya,K,1980,İstanbul,Lisans,2018-08-28,,,,12,18.0,üniversite,ofis
+610,Deniz Karaca,E,1987,İzmir,Lisans,2016-06-01,2022-12-12,gönüllü,kariyer gelişimi,28,31.0,kariyer sitesi,ofis
+611,Fatma Karaca,K,1989,Bursa,Lisans,2017-03-24,2021-05-17,gönüllü,kariyer gelişimi,17,24.0,kariyer sitesi,ofis
+612,Kaan Ekici,E,1978,İstanbul,Yüksek lisans,2014-02-16,,,,34,33.0,kariyer sitesi,hibrit
+613,Mert Aydın,E,1982,İstanbul,Ön lisans,2017-11-04,,,,29,31.0,kariyer sitesi,ofis
+614,Merve Tunç,K,1976,Ankara,Lisans,2013-02-23,,,,40,13.0,kariyer sitesi,hibrit
+615,Tuğba Ergin,K,1975,İstanbul,Lisans,2016-01-01,,,,58,43.0,kariyer sitesi,ofis
+616,Sinan Yıldız,E,1991,İstanbul,Lisans,2016-04-16,2022-06-22,gönüllü,yönetici,34,34.0,kariyer sitesi,ofis
+617,Selim Demir,E,1984,İzmir,Yüksek lisans,2014-03-23,,,,63,45.0,kariyer sitesi,uzaktan
+618,Murat Tunç,E,1985,İstanbul,Lisans,2014-10-20,,,,6,14.0,referans,ofis
+619,Damla Karaca,K,1983,Eskişehir,Lise,2013-03-03,,,,24,29.0,referans,ofis
+620,Arda Tunç,E,1979,Ankara,Lisans,2014-04-11,2021-06-28,gönüllü,rakip firma,5,16.0,kariyer sitesi,ofis
+621,Deniz Doğan,E,1979,İstanbul,Lisans,2015-04-27,,,,51,41.0,LinkedIn,ofis
+622,Fatma Uysal,K,1980,İstanbul,Lisans,2015-10-15,,,,6,15.0,LinkedIn,ofis
+623,Nur Yıldız,K,1980,İstanbul,Lisans,2012-03-22,,,,64,45.0,LinkedIn,ofis
+624,Derya Çetin,K,1973,Kocaeli,Lisans,2014-11-16,,,,29,30.0,LinkedIn,ofis
+625,Fatma Şimşek,K,1975,Kocaeli,Lisans,2016-03-14,2021-07-02,gönüllü,ücret,24,25.0,üniversite,ofis
+626,Mehmet Aydın,E,1978,Eskişehir,Lise,2013-05-25,2021-09-13,gönülsüz,performans,23,26.0,kariyer sitesi,ofis
+627,Cansu Kara,K,1994,İstanbul,Lisans,2018-12-15,,,,58,43.0,kariyer sitesi,ofis
+628,Ahmet Özkan,E,1985,İstanbul,Lisans,2016-12-08,,,,64,44.0,kariyer sitesi,hibrit
+629,Kaan Yılmaz,E,1982,İstanbul,Ön lisans,2016-11-12,,,,52,41.0,ajans,hibrit
+630,Onur Uysal,E,1973,İzmir,Lisans,2012-01-04,,,,18,19.0,referans,ofis
+631,Emre Özkan,E,1984,Kocaeli,Lisans,2013-09-07,,,,28,31.0,kariyer sitesi,ofis
+632,Ahmet Yıldırım,E,1976,İstanbul,Lisans,2016-02-05,,,,6,16.0,referans,ofis
+633,Kerem Bal,E,1992,İstanbul,Lise,2016-08-18,2023-07-11,gönüllü,rakip firma,18,22.0,kariyer sitesi,ofis
+634,Merve Bal,K,1975,İstanbul,Ön lisans,2012-03-13,,,,29,23.0,kariyer sitesi,ofis
+635,Damla Kaya,K,1988,Kocaeli,Lisans,2014-10-06,2020-02-05,gönüllü,rakip firma,22,25.0,üniversite,ofis
+636,Gamze Demir,K,1983,Kocaeli,Lise,2017-10-13,,,,28,30.0,kariyer sitesi,ofis
+637,Selin Öztürk,K,1976,Ankara,Lisans,2013-01-09,,,,6,15.0,iç başvuru,ofis
+638,Volkan Özdemir,E,1981,İstanbul,Lise,2013-12-17,2020-09-09,gönüllü,ücret,22,28.0,üniversite,ofis
+639,Yusuf Yılmaz,E,1982,İstanbul,Ön lisans,2018-09-10,,,,24,29.0,kariyer sitesi,ofis
+640,Tolga Toprak,E,1982,Ankara,Yüksek lisans,2016-07-22,,,,46,38.0,LinkedIn,hibrit
+641,Selim Koç,E,1983,İstanbul,Lisans,2015-05-28,,,,12,18.0,kariyer sitesi,ofis
+642,Selim Tunç,E,1986,İstanbul,Lisans,2015-09-18,2024-09-16,gönüllü,taşınma,57,42.0,üniversite,ofis
+643,Pınar Toprak,K,1992,İzmir,Lisans,2015-05-11,,,,17,20.0,kariyer sitesi,ofis
+644,Deniz Toprak,E,1995,İstanbul,Lise,2018-12-15,2020-05-07,gönülsüz,performans,27,32.0,ajans,ofis
+645,Cansu Ekici,K,1979,Eskişehir,Lise,2013-12-19,,,,24,25.0,kariyer sitesi,ofis
+646,Özge Kurt,K,1980,Ankara,Lisans,2017-01-20,2020-10-23,gönüllü,ücret,58,42.0,LinkedIn,ofis
+647,Emre Özkan,E,1984,Kocaeli,Lise,2013-11-10,2020-06-12,gönülsüz,performans,23,27.0,kariyer sitesi,hibrit
+648,Efe Bal,E,1979,Eskişehir,Lisans,2014-12-10,2022-09-26,gönülsüz,performans,34,28.0,üniversite,ofis
+649,Selim Kaya,E,1990,İzmir,Yüksek lisans,2018-12-23,,,,45,39.0,iç başvuru,ofis
+650,Mert Güneş,E,1980,İstanbul,Lise,2012-01-12,,,,23,25.0,kariyer sitesi,hibrit
+651,Esra Acar,K,1984,İstanbul,Yüksek lisans,2014-02-22,,,,52,41.0,referans,hibrit
+652,Melis Kara,K,1992,İzmir,Lise,2015-08-21,,,,28,31.0,kariyer sitesi,ofis
+653,Mehmet Kılıç,E,1989,İstanbul,Lisans,2018-09-16,2023-09-05,gönüllü,rakip firma,32,35.0,ajans,uzaktan
+654,Kaan Doğan,E,1984,İstanbul,Lisans,2017-10-16,2020-05-25,gönüllü,yönetici,6,14.0,kariyer sitesi,hibrit
+655,Cem Yıldırım,E,1973,İstanbul,Lise,2013-11-01,2021-10-15,gönüllü,kariyer gelişimi,29,31.0,kariyer sitesi,ofis
+656,İrem Polat,K,1980,İstanbul,Ön lisans,2017-02-04,,,,24,26.0,referans,ofis
+657,Mert Güneş,E,1983,İstanbul,Lisans,2012-04-24,,,,50,41.0,LinkedIn,uzaktan
+658,Sevgi Polat,K,1987,İstanbul,Ön lisans,2017-09-18,2024-11-18,gönüllü,rakip firma,16,23.0,kariyer sitesi,ofis
+659,Emre Polat,E,1987,İstanbul,Yüksek lisans,2016-09-19,,,,45,39.0,referans,hibrit
+660,Aslı Ekici,K,1986,İstanbul,Yüksek lisans,2018-05-12,,,,39,13.0,üniversite,hibrit
+661,Arda Toprak,E,1978,Kocaeli,Lise,2015-02-09,,,,29,31.0,referans,ofis
+662,Serkan Bozkurt,E,1981,İstanbul,Lisans,2017-06-10,,,,58,42.0,kariyer sitesi,ofis
+663,Fatma Özkan,K,1987,İstanbul,Lisans,2017-09-22,,,,63,45.0,kariyer sitesi,hibrit
+664,Tuğba Kılıç,K,1980,İstanbul,Lisans,2017-08-11,2019-07-26,gönülsüz,performans,24,29.0,kariyer sitesi,ofis
+665,Pınar Sezer,K,1984,İstanbul,Lisans,2016-05-19,2023-02-15,gönüllü,ücret,23,25.0,LinkedIn,ofis
+666,İrem Yıldırım,K,1986,İstanbul,Lise,2015-09-20,,,,17,30.0,üniversite,ofis
+667,Selim Yıldız,E,1978,İstanbul,Lisans,2015-01-05,,,,6,15.0,referans,hibrit
+668,Elif Yıldırım,K,1985,Bursa,Lise,2013-01-13,,,,16,21.0,ajans,ofis
+669,Kerem Kaya,E,1982,İzmir,Ön lisans,2012-08-24,,,,12,22.0,kariyer sitesi,ofis
+670,Derya Kara,K,1992,İstanbul,Lisans,2018-09-26,,,,38,13.0,referans,hibrit
+671,Volkan Şimşek,E,1982,İstanbul,Lisans,2015-01-26,,,,57,43.0,referans,ofis
+672,Deniz Demir,E,1980,İstanbul,Yüksek lisans,2013-05-10,,,,45,38.0,kariyer sitesi,uzaktan
+673,Arda Çelik,E,1977,İzmir,Lise,2015-01-05,2023-09-12,gönüllü,rakip firma,18,31.0,üniversite,ofis
+674,Efe Kurt,E,1977,İstanbul,Lisans,2013-04-04,,,,6,35.0,referans,hibrit
+675,Ilgın Öztürk,K,1984,Eskişehir,Ön lisans,2012-02-09,2024-02-29,gönüllü,rakip firma,23,25.0,ajans,hibrit
+676,Tolga Ergin,E,1984,Antalya,Lisans,2013-04-28,2020-03-20,gönüllü,taşınma,16,23.0,kariyer sitesi,ofis
+677,Yasemin Öztürk,K,1977,Kocaeli,Lise,2014-12-05,,,,18,27.0,kariyer sitesi,ofis
+678,Özge Acar,K,1989,Kocaeli,Lisans,2018-09-17,2024-02-12,gönüllü,ücret,22,28.0,kariyer sitesi,ofis
+679,Esra Demir,K,1985,İzmir,Lise,2017-08-09,,,,29,31.0,kariyer sitesi,ofis
+680,Mehmet Arslan,E,1987,İstanbul,Lisans,2015-04-09,,,,46,38.0,referans,ofis
+681,Hakan Çetin,E,1988,Ankara,Lisans,2014-06-17,,,,38,13.0,referans,hibrit
+682,Cem Demir,E,1986,İstanbul,Lisans,2015-01-13,2020-05-27,gönüllü,rakip firma,11,17.0,kariyer sitesi,ofis
+683,Burak Güneş,E,1984,Eskişehir,Ön lisans,2018-03-10,2024-10-14,gönüllü,ücret,24,28.0,referans,ofis
+684,Mustafa Aydın,E,1990,Kocaeli,Lisans,2016-11-13,2020-11-03,gönüllü,ücret,27,30.0,LinkedIn,ofis
+685,Hakan Çelik,E,1989,İstanbul,Lisans,2017-12-06,2024-02-19,gönüllü,yönetici,38,13.0,kariyer sitesi,hibrit
+686,Tuğba Çetin,K,1992,İstanbul,Lise,2015-06-05,,,,22,21.0,referans,ofis
+687,Gamze Karaca,K,1975,İstanbul,Lisans,2016-04-26,,,,34,33.0,kariyer sitesi,uzaktan
+688,Esra Yıldırım,K,1984,Kocaeli,Lisans,2015-05-13,,,,23,28.0,kariyer sitesi,hibrit
+689,Ahmet Yıldırım,E,1991,İzmir,Ön lisans,2014-10-16,2019-09-09,gönüllü,eğitim,16,24.0,kariyer sitesi,ofis
+690,Ilgın Toprak,K,1985,İstanbul,Lisans,2013-05-18,2020-03-24,gönüllü,ücret,16,19.0,ajans,ofis
+691,Arda Özkan,E,1983,Ankara,Lisans,2013-08-01,,,,33,34.0,iç başvuru,uzaktan
+692,Fatma Bozkurt,K,1981,İstanbul,Yüksek lisans,2016-07-17,2020-06-17,gönüllü,ücret,6,16.0,kariyer sitesi,hibrit
+693,Yusuf Uysal,E,1986,Kocaeli,Lisans,2017-03-05,,,,23,30.0,LinkedIn,ofis
+694,Burak Özkan,E,1980,Bursa,Ön lisans,2012-07-04,,,,18,23.0,kariyer sitesi,ofis
+695,Ayşe Karaca,K,1989,İstanbul,Lisans,2018-01-12,,,,62,45.0,LinkedIn,ofis
+696,Onur Şahin,E,1990,Ankara,Lisans,2013-11-21,,,,34,33.0,LinkedIn,uzaktan
+697,Damla Kara,K,1982,İstanbul,Lisans,2014-09-19,2020-03-09,gönüllü,yönetici,23,27.0,referans,ofis
+698,Yasemin Bal,K,1982,İstanbul,Ön lisans,2015-06-02,2019-07-16,gönüllü,eğitim,33,35.0,kariyer sitesi,ofis
+699,Sevgi Kılıç,K,1982,Kocaeli,Lise,2014-08-24,2021-05-17,gönüllü,taşınma,22,29.0,referans,ofis
+700,Tolga Kaya,E,1983,İstanbul,Ön lisans,2016-11-12,2019-10-18,gönülsüz,performans,18,23.0,kariyer sitesi,ofis
+701,Deniz Aydın,E,1985,Kocaeli,Lise,2012-11-10,,,,23,26.0,referans,ofis
+702,Selim Yıldız,E,1983,Ankara,Yüksek lisans,2012-07-07,2022-04-04,gönüllü,rakip firma,45,38.0,kariyer sitesi,hibrit
+703,Efe Acar,E,1982,İstanbul,Lisans,2015-02-15,2019-05-06,gönüllü,ücret,28,31.0,LinkedIn,ofis
+704,Serkan Polat,E,1980,İstanbul,Yüksek lisans,2014-08-16,,,,34,35.0,üniversite,hibrit
+705,Esra Özkan,K,1978,İstanbul,Lisans,2012-08-20,,,,18,33.0,kariyer sitesi,ofis
+706,Mustafa Güneş,E,1987,İzmir,Lise,2015-02-11,2022-02-01,gönülsüz,yeniden yapılanma,17,23.0,kariyer sitesi,ofis
+707,Elif Tunç,K,1988,Bursa,Ön lisans,2016-06-22,2020-08-10,gönüllü,rakip firma,16,24.0,LinkedIn,ofis
+708,Damla Demir,K,1985,İstanbul,Lisans,2015-05-03,2020-04-20,gönüllü,kariyer gelişimi,6,14.0,ajans,hibrit
+709,Tuğba Bozkurt,K,1982,İstanbul,Lisans,2016-04-20,,,,40,15.0,kariyer sitesi,ofis
+710,Tuğba Tunç,K,1974,İstanbul,Lisans,2013-05-02,,,,24,25.0,iç başvuru,ofis
+711,Efe Sezer,E,1983,İstanbul,Lise,2014-06-07,,,,17,22.0,ajans,ofis
+712,Ahmet Şimşek,E,1989,İstanbul,Lisans,2016-09-23,2021-03-16,gönüllü,taşınma,11,17.0,referans,ofis
+713,Burak Koç,E,1978,İzmir,Lisans,2012-11-18,2020-07-03,gönüllü,ücret,34,35.0,ajans,ofis
+714,Melis Tunç,K,1982,Antalya,Lise,2017-05-28,,,,18,19.0,referans,ofis
+715,Melis Acar,K,1991,İstanbul,Lise,2014-12-23,2020-07-13,gönüllü,rakip firma,16,20.0,LinkedIn,ofis
+716,Fatma Bozkurt,K,1986,Kocaeli,Lisans,2016-03-03,2020-08-21,gönüllü,rakip firma,28,32.0,iç başvuru,ofis
+717,Sinan Uysal,E,1984,Ankara,Lisans,2016-07-07,2019-06-13,gönüllü,kariyer gelişimi,50,41.0,kariyer sitesi,uzaktan
+718,Damla Kara,K,1985,İstanbul,Ön lisans,2012-10-06,,,,32,34.0,LinkedIn,hibrit
+719,Yasemin Kaya,K,1973,İstanbul,Lise,2012-04-10,2020-08-11,gönüllü,ücret,24,29.0,referans,hibrit
+720,Hakan Kurt,E,1983,İzmir,Lisans,2013-09-06,,,,5,14.0,referans,ofis
+721,Serkan Özdemir,E,1989,İstanbul,Lise,2013-11-28,,,,22,26.0,referans,ofis
+722,Derya Toprak,K,1988,İstanbul,Lisans,2013-06-24,,,,38,13.0,üniversite,hibrit
+723,Fatma Aslan,K,1979,Kocaeli,Lisans,2016-04-15,2022-05-16,gönülsüz,disiplin,29,30.0,kariyer sitesi,ofis
+724,Cem Çelik,E,1983,İstanbul,Lisans,2012-02-24,,,,16,44.0,LinkedIn,ofis
+725,Mustafa Kurt,E,1981,Ankara,Lisans,2013-07-20,2024-07-16,gönüllü,rakip firma,18,24.0,kariyer sitesi,ofis
+726,Defne Yılmaz,K,1975,Kocaeli,Lise,2015-01-10,2024-03-18,gönüllü,ücret,24,26.0,LinkedIn,hibrit
+727,Can Bal,E,1981,İstanbul,Lisans,2013-02-28,,,,33,34.0,referans,ofis
+728,Zeynep Kara,K,1986,İstanbul,Lise,2018-07-18,,,,57,21.0,kariyer sitesi,ofis
+729,Melis Doğan,K,1987,İstanbul,Lisans,2017-04-11,,,,22,29.0,referans,ofis
+730,Özge Aslan,K,1975,İstanbul,Yüksek lisans,2014-07-14,,,,34,34.0,ajans,hibrit
+731,Esra Kurt,K,1984,Kocaeli,Lisans,2014-10-25,2023-10-16,gönüllü,yönetici,29,32.0,referans,ofis
+732,Özge Yıldız,K,1987,Kocaeli,Lisans,2015-01-18,2022-08-30,gönülsüz,yeniden yapılanma,24,27.0,kariyer sitesi,hibrit
+733,Onur Kaya,E,1980,İstanbul,Lisans,2013-06-03,,,,5,15.0,referans,ofis
+734,Damla Kaya,K,1985,İstanbul,Lisans,2016-12-14,,,,34,35.0,kariyer sitesi,hibrit
+735,Ahmet Aslan,E,1980,İstanbul,Lise,2018-01-09,,,,29,30.0,referans,ofis
+736,Melis Şahin,K,1981,İstanbul,Lisans,2015-08-13,,,,24,26.0,ajans,ofis
+737,Burcu Kılıç,K,1981,Bursa,Ön lisans,2012-04-04,,,,18,24.0,LinkedIn,ofis
+738,Sinan Şahin,E,1989,Ankara,Yüksek lisans,2017-12-06,2024-04-30,gönüllü,rakip firma,24,14.0,referans,ofis
+739,Tolga Ergin,E,1994,İstanbul,Lisans,2017-07-22,,,,50,41.0,üniversite,uzaktan
+740,Cansu Şahin,K,1983,İstanbul,Lisans,2014-12-20,2022-04-27,gönülsüz,yeniden yapılanma,22,25.0,LinkedIn,ofis
+741,Esra Doğan,K,1980,Kocaeli,Lise,2016-01-12,,,,28,30.0,kariyer sitesi,ofis
+742,Aslı Kara,K,1980,İstanbul,Lisans,2013-04-16,,,,51,40.0,referans,ofis
+743,Gamze Yılmaz,K,1981,İzmir,Lisans,2016-02-20,2023-08-18,gönüllü,kariyer gelişimi,5,16.0,referans,ofis
+744,Merve Toprak,K,1983,İstanbul,Yüksek lisans,2014-10-28,,,,11,17.0,LinkedIn,ofis
+745,Ilgın Şimşek,K,1979,İstanbul,Lisans,2014-11-19,,,,5,15.0,referans,ofis
+746,Ece Özkan,K,1979,İzmir,Lise,2013-06-19,,,,17,21.0,ajans,ofis
+747,Cansu Kaya,K,1982,İstanbul,Yüksek lisans,2017-04-26,,,,34,33.0,ajans,hibrit
+748,Buse Özkan,K,1976,Kocaeli,Ön lisans,2014-06-28,,,,24,28.0,kariyer sitesi,ofis
+749,Pınar Doğan,K,1980,İstanbul,Lisans,2013-05-20,2019-06-04,gönüllü,ücret,40,8.0,kariyer sitesi,uzaktan
+750,Elif Çetin,K,1986,İstanbul,Lise,2015-05-24,,,,23,25.0,kariyer sitesi,ofis
+751,Sinan Uysal,E,1979,İstanbul,Lise,2012-12-21,,,,29,31.0,kariyer sitesi,ofis
+752,Defne Polat,K,1974,Ankara,Lise,2012-02-25,,,,18,21.0,referans,ofis
+753,Tuğba Ekici,K,1981,Antalya,Lise,2013-02-09,2023-11-03,gönüllü,rakip firma,17,22.0,üniversite,ofis
+754,Özge Ergin,K,1984,İstanbul,Lisans,2013-07-09,2021-08-23,gönülsüz,disiplin,11,17.0,LinkedIn,ofis
+755,Selim Uysal,E,1983,İstanbul,Lisans,2015-06-02,2022-06-17,gönülsüz,performans,18,24.0,ajans,ofis
+756,Sevgi Doğan,K,1980,İstanbul,Lisans,2016-01-25,,,,58,42.0,referans,ofis
+757,Nur Aydın,K,1985,İstanbul,Lisans,2018-09-01,,,,52,41.0,kariyer sitesi,uzaktan
+758,Gamze Tunç,K,1993,İstanbul,Lisans,2016-03-02,,,,10,17.0,ajans,ofis
+759,Ayşe Özkan,K,1984,Ankara,Lisans,2012-04-21,,,,52,41.0,referans,hibrit
+760,Zeynep Uysal,K,1989,Eskişehir,Lisans,2017-08-26,2020-11-24,gönüllü,ücret,24,25.0,üniversite,hibrit
+761,Selim Karaca,E,1988,İstanbul,Lisans,2017-12-11,,,,32,35.0,LinkedIn,ofis
+762,Burak Yıldız,E,1978,Ankara,Lise,2013-01-05,,,,18,19.0,ajans,ofis
+763,Ece Arslan,K,1975,İzmir,Lisans,2012-04-08,,,,6,15.0,kariyer sitesi,ofis
+764,Cansu Güneş,K,1988,Ankara,Lise,2017-05-25,2020-03-06,gönüllü,rakip firma,16,21.0,LinkedIn,ofis
+765,İrem Kılıç,K,1991,İstanbul,Yüksek lisans,2016-06-04,,,,45,39.0,kariyer sitesi,hibrit
+766,Ali Ergin,E,1984,Antalya,Lise,2014-10-10,,,,18,23.0,ajans,ofis
+767,Gamze Polat,K,1980,İstanbul,Yüksek lisans,2013-07-19,,,,40,13.0,referans,ofis
+768,Volkan Doğan,E,1990,İstanbul,Lisans,2017-07-27,,,,32,33.0,kariyer sitesi,hibrit
+769,Serkan Toprak,E,1976,Kocaeli,Lisans,2016-10-21,2021-06-02,gönüllü,taşınma,29,31.0,LinkedIn,ofis
+770,İrem Bal,K,1985,Kocaeli,Lise,2014-07-28,2022-07-18,gönüllü,ücret,23,25.0,referans,ofis
+771,Eren Ekici,E,1984,İzmir,Lisans,2012-05-16,,,,33,33.0,referans,uzaktan
+772,Zeynep Demir,K,1989,İstanbul,Lisans,2013-01-17,,,,50,40.0,referans,hibrit
+773,Zeynep Koç,K,1987,Kocaeli,Lisans,2016-08-01,,,,28,32.0,referans,ofis
+774,Kaan Acar,E,1981,İstanbul,Yüksek lisans,2018-10-11,2020-02-03,gönüllü,kariyer gelişimi,63,44.0,referans,hibrit
+775,Damla Yıldız,K,1986,Ankara,Lisans,2016-11-09,,,,52,41.0,referans,hibrit
+776,Hakan Özkan,E,1985,İzmir,Lisans,2018-09-05,,,,5,16.0,kariyer sitesi,ofis
+777,Selim Yıldırım,E,1989,Ankara,Lisans,2018-01-12,,,,33,33.0,kariyer sitesi,hibrit
+778,Aslı Polat,K,1976,İstanbul,Lisans,2012-04-08,,,,51,40.0,iç başvuru,uzaktan
+779,Buse Yılmaz,K,1987,İstanbul,Lisans,2017-11-20,,,,46,39.0,referans,ofis
+780,Melis Demir,K,1978,İstanbul,Lisans,2012-06-08,,,,52,40.0,LinkedIn,ofis
+781,Cansu Bal,K,1974,İstanbul,Lise,2014-12-11,,,,29,31.0,referans,ofis
+782,Elif Doğan,K,1985,İstanbul,Lisans,2012-02-04,,,,39,13.0,kariyer sitesi,hibrit
+783,Umut Uysal,E,1980,İstanbul,Ön lisans,2012-04-06,2020-01-29,gönüllü,eğitim,16,22.0,LinkedIn,ofis
+784,Damla Demir,K,1995,Kocaeli,Lise,2018-06-16,2023-04-27,gönülsüz,yeniden yapılanma,32,31.0,referans,ofis
+785,Elif Aslan,K,1981,İstanbul,Ön lisans,2014-11-24,,,,5,16.0,kariyer sitesi,ofis
+786,Levent Şimşek,E,1985,İstanbul,Lisans,2017-01-19,,,,56,42.0,kariyer sitesi,ofis
+787,Melis Aydın,K,1985,Kocaeli,Ön lisans,2016-06-02,2020-12-07,gönüllü,yönetici,27,31.0,LinkedIn,ofis
+788,Pınar Aydın,K,1987,Kocaeli,Lise,2017-01-23,2019-04-02,gönülsüz,yeniden yapılanma,28,32.0,ajans,ofis
+789,Esra Özdemir,K,1991,İstanbul,Yüksek lisans,2014-06-26,,,,44,39.0,kariyer sitesi,hibrit
+790,Kerem Bal,E,1979,Ankara,Lisans,2015-04-25,,,,51,40.0,kariyer sitesi,hibrit
+791,Levent Bal,E,1980,İstanbul,Lisans,2015-06-09,,,,6,16.0,kariyer sitesi,hibrit
+792,Selim Polat,E,1977,Eskişehir,Lise,2018-01-07,2022-03-03,gönüllü,yönetici,24,27.0,referans,ofis
+793,Esra Çetin,K,1985,Kocaeli,Lise,2015-11-08,2019-07-24,gönüllü,ücret,23,28.0,referans,hibrit
+794,Emre Kaya,E,1984,İstanbul,Yüksek lisans,2016-11-07,2024-10-03,gönülsüz,yeniden yapılanma,5,16.0,kariyer sitesi,ofis
+795,Efe Tunç,E,1991,İstanbul,Lisans,2014-04-14,,,,5,14.0,referans,ofis
+796,Esra Kara,K,1992,İstanbul,Lisans,2015-07-24,2023-03-27,gönüllü,rakip firma,4,15.0,referans,ofis
+797,Selin Özkan,K,1983,Ankara,Lise,2012-05-04,2024-07-12,gönüllü,ücret,27,24.0,kariyer sitesi,ofis
+798,Damla Acar,K,1987,Kocaeli,Lisans,2017-03-21,2022-05-18,gönüllü,kariyer gelişimi,23,28.0,LinkedIn,ofis
+799,Damla Uysal,K,1986,İzmir,Lisans,2018-06-06,,,,6,15.0,kariyer sitesi,ofis
+800,Defne Çetin,K,1987,İstanbul,Lisans,2014-09-03,2024-10-11,gönüllü,yönetici,64,44.0,referans,hibrit
+801,Ece Toprak,K,1980,İstanbul,Yüksek lisans,2014-11-03,,,,5,41.0,kariyer sitesi,hibrit
+802,Zeynep Özdemir,K,1992,Ankara,Lisans,2016-09-11,,,,16,23.0,referans,ofis
+803,Cansu Doğan,K,1981,İzmir,Ön lisans,2013-10-06,2019-04-29,gönüllü,rakip firma,18,24.0,kariyer sitesi,ofis
+804,Cansu Demir,K,1991,İstanbul,Lise,2017-05-12,2019-04-11,gönülsüz,performans,16,19.0,kariyer sitesi,ofis
+805,Serkan Kaya,E,1979,Kocaeli,Lise,2012-01-12,2024-02-05,gönülsüz,yeniden yapılanma,29,31.0,kariyer sitesi,ofis
+806,Elif Yıldırım,K,1986,Kocaeli,Lise,2017-01-28,2021-07-14,gönüllü,eğitim,27,32.0,üniversite,ofis
+807,Eren Öztürk,E,1987,İstanbul,Lisans,2015-09-22,,,,6,14.0,kariyer sitesi,hibrit
+808,Mert Güneş,E,1989,İstanbul,Lisans,2017-08-28,,,,34,34.0,üniversite,hibrit
+809,Damla Sezer,K,1983,İstanbul,Lise,2018-04-10,,,,29,32.0,üniversite,ofis
+810,Hakan Demir,E,1979,İstanbul,Lise,2012-06-06,,,,18,19.0,ajans,ofis
+811,Can Kılıç,E,1978,İstanbul,Yüksek lisans,2013-11-13,,,,64,45.0,kariyer sitesi,hibrit
+812,Mert Özdemir,E,1986,İstanbul,Lisans,2016-07-26,2020-12-14,gönülsüz,yeniden yapılanma,10,17.0,referans,ofis
+813,Serkan Kara,E,1992,Ankara,Lisans,2018-06-19,2021-05-13,gönüllü,rakip firma,32,33.0,kariyer sitesi,ofis
+814,Özge Demir,K,1980,İstanbul,Lisans,2016-04-11,,,,5,15.0,üniversite,ofis
+815,Eren Öztürk,E,1978,Kocaeli,Lise,2013-11-09,,,,34,32.0,LinkedIn,ofis
+816,Mustafa Koç,E,1983,İstanbul,Yüksek lisans,2017-05-16,,,,12,17.0,referans,hibrit
+817,Murat Bozkurt,E,1986,İzmir,Lisans,2014-08-12,,,,46,39.0,LinkedIn,hibrit
+818,Sinan Toprak,E,1978,İstanbul,Yüksek lisans,2015-02-27,,,,12,17.0,kariyer sitesi,hibrit
+819,Murat Şimşek,E,1985,İstanbul,Lisans,2015-06-06,,,,18,43.0,referans,ofis
+820,Pınar Yıldız,K,1980,İstanbul,Lisans,2016-08-21,,,,34,34.0,kariyer sitesi,ofis
+821,Selim Ekici,E,1983,İstanbul,Yüksek lisans,2014-12-20,,,,50,41.0,LinkedIn,uzaktan
+822,Burak Şimşek,E,1987,İstanbul,Ön lisans,2016-11-13,,,,33,33.0,referans,hibrit
+823,Ilgın Acar,K,1984,İstanbul,Lisans,2014-03-11,2023-05-11,gönüllü,ücret,32,34.0,ajans,hibrit
+824,İrem Kılıç,K,1991,İzmir,Lisans,2018-05-21,2023-06-20,gönüllü,kariyer gelişimi,62,44.0,referans,hibrit
+825,Ece Yılmaz,K,1981,İzmir,Ön lisans,2015-02-16,,,,28,22.0,iç başvuru,ofis
+826,Cansu Kaya,K,1981,Ankara,Lisans,2012-03-25,2024-05-22,gönüllü,yönetici,40,13.0,kariyer sitesi,uzaktan
+827,Tolga Ekici,E,1984,İstanbul,Lisans,2013-05-05,,,,45,39.0,kariyer sitesi,hibrit
+828,Ilgın Kurt,K,1976,İstanbul,Lisans,2012-11-09,2020-12-03,gönüllü,ücret,63,44.0,kariyer sitesi,uzaktan
+829,Tolga Ergin,E,1978,İstanbul,Lisans,2012-09-19,,,,34,34.0,iç başvuru,hibrit
+830,Derya Doğan,K,1988,İstanbul,Ön lisans,2016-12-09,2020-09-07,gönüllü,rakip firma,23,25.0,kariyer sitesi,ofis
+831,Buse Şahin,K,1981,İstanbul,Lisans,2013-06-24,2020-08-10,gönüllü,rakip firma,24,26.0,LinkedIn,ofis
+832,Cansu Şimşek,K,1978,İstanbul,Yüksek lisans,2013-07-11,,,,6,15.0,LinkedIn,ofis
+833,Mert Koç,E,1981,Ankara,Lisans,2012-08-03,,,,63,45.0,referans,hibrit
+834,Oğuz Aydın,E,1989,İstanbul,Lisans,2018-11-06,,,,51,40.0,kariyer sitesi,hibrit
+835,İrem Çetin,K,1980,Eskişehir,Lise,2017-06-23,2024-07-01,gönüllü,rakip firma,24,25.0,kariyer sitesi,ofis
+836,Kerem Aydın,E,1984,İzmir,Lisans,2014-06-24,,,,50,40.0,kariyer sitesi,hibrit
+837,Damla Aslan,K,1992,İstanbul,Lisans,2016-11-23,,,,56,43.0,ajans,ofis
+838,Can Toprak,E,1983,Eskişehir,Ön lisans,2016-02-13,2020-06-29,gönüllü,taşınma,24,28.0,referans,ofis
+839,Sevgi Güneş,K,1979,Ankara,Lise,2014-10-05,2021-11-24,gönüllü,ücret,18,24.0,ajans,ofis
+840,Merve Özkan,K,1978,Ankara,Ön lisans,2016-06-19,,,,40,13.0,referans,hibrit
+841,Arda Demir,E,1990,İstanbul,Yüksek lisans,2016-06-10,,,,39,13.0,referans,ofis
+842,Ayşe Arslan,K,1993,İstanbul,Yüksek lisans,2018-07-02,,,,51,40.0,kariyer sitesi,hibrit
+843,Fatma Yılmaz,K,1987,İstanbul,Lisans,2018-06-08,,,,51,41.0,referans,uzaktan
+844,Onur Ergin,E,1985,Kocaeli,Lisans,2016-09-22,2019-12-09,gönüllü,kariyer gelişimi,23,29.0,kariyer sitesi,ofis
+845,Ayşe Tunç,K,1986,İstanbul,Lisans,2018-03-16,,,,24,39.0,kariyer sitesi,ofis
+846,Deniz Kara,E,1990,İstanbul,Lisans,2017-10-22,,,,45,38.0,kariyer sitesi,ofis
+847,Yasemin Kurt,K,1991,Kocaeli,Lise,2015-12-04,,,,28,31.0,referans,ofis
+848,Kerem Aydın,E,1979,İzmir,Ön lisans,2015-04-03,2024-06-12,gönülsüz,performans,34,32.0,kariyer sitesi,ofis
+849,Defne Öztürk,K,1985,Kocaeli,Ön lisans,2013-01-23,2021-07-23,gönüllü,rakip firma,23,29.0,kariyer sitesi,hibrit
+850,Sinan Çelik,E,1985,İstanbul,Lise,2017-07-03,,,,22,25.0,referans,hibrit
+851,Yusuf Özdemir,E,1984,İstanbul,Lisans,2012-06-15,,,,6,16.0,referans,ofis
+852,Selin Öztürk,K,1981,İstanbul,Yüksek lisans,2016-02-18,,,,39,13.0,kariyer sitesi,hibrit
+853,Pınar Arslan,K,1986,Antalya,Lise,2018-03-22,,,,17,20.0,referans,ofis
+854,Ahmet Toprak,E,1983,İzmir,Lise,2018-11-08,,,,29,32.0,kariyer sitesi,ofis
+855,Emre Ekici,E,1990,İstanbul,Lisans,2018-05-11,,,,52,18.0,LinkedIn,ofis
+856,Defne Uysal,K,1990,İstanbul,Lisans,2015-10-24,,,,34,34.0,kariyer sitesi,uzaktan
+857,Buse Yıldız,K,1977,İstanbul,Yüksek lisans,2013-04-06,2020-09-10,gönüllü,kariyer gelişimi,5,16.0,LinkedIn,hibrit
+858,Aslı Sezer,K,1987,İstanbul,Lisans,2017-07-19,,,,11,17.0,üniversite,ofis
+859,Deniz Özkan,E,1984,Kocaeli,Ön lisans,2018-02-07,2024-04-23,gönüllü,kariyer gelişimi,12,29.0,kariyer sitesi,ofis
+860,Mehmet Karaca,E,1981,İstanbul,Lisans,2013-10-15,,,,46,38.0,referans,ofis
+861,Ahmet Özdemir,E,1981,Kocaeli,Lisans,2013-11-27,2021-07-19,gönüllü,kariyer gelişimi,28,30.0,iç başvuru,ofis
+862,Ahmet Yıldırım,E,1987,İstanbul,Lisans,2016-04-15,,,,64,44.0,kariyer sitesi,hibrit
+863,Serkan Toprak,E,1988,İstanbul,Yüksek lisans,2015-03-07,,,,46,39.0,üniversite,hibrit
+864,Serkan Sezer,E,1982,Ankara,Ön lisans,2012-03-13,,,,5,14.0,iç başvuru,ofis
+865,Tuğba Acar,K,1982,İstanbul,Lisans,2014-09-16,,,,16,20.0,LinkedIn,ofis
+866,Burak Koç,E,1983,İstanbul,Yüksek lisans,2019-06-19,,,,40,13.0,kariyer sitesi,hibrit
+867,Umut Uysal,E,1978,İstanbul,Lisans,2019-11-06,2019-12-03,gönülsüz,yeniden yapılanma,12,18.0,LinkedIn,ofis
+868,Efe Karaca,E,1991,İstanbul,Yüksek lisans,2019-06-11,,,,5,15.0,LinkedIn,ofis
+869,Gamze Ergin,K,1987,İstanbul,Yüksek lisans,2019-04-17,,,,40,13.0,LinkedIn,hibrit
+870,Kerem Uysal,E,1983,İstanbul,Lisans,2019-12-06,,,,5,33.0,kariyer sitesi,hibrit
+871,Serkan Güneş,E,1990,İstanbul,Lisans,2019-01-07,2021-08-05,gönüllü,kariyer gelişimi,5,15.0,referans,ofis
+872,Deniz Uysal,E,1982,İstanbul,Lisans,2019-03-04,,,,12,35.0,LinkedIn,hibrit
+873,Fatma Kara,K,1994,Kocaeli,Lise,2019-04-29,2021-09-01,gönüllü,kariyer gelişimi,24,28.0,üniversite,hibrit
+874,Cansu Güneş,K,1990,İzmir,Lise,2019-03-18,,,,4,31.0,referans,ofis
+875,Ali Uysal,E,1986,İzmir,Yüksek lisans,2019-12-24,2020-11-09,gönülsüz,disiplin,40,8.0,kariyer sitesi,hibrit
+876,Tolga Şahin,E,1994,İstanbul,Lisans,2019-12-17,,,,4,14.0,referans,hibrit
+877,Deniz Bozkurt,E,1980,Ankara,Ön lisans,2019-04-01,,,,64,20.0,referans,ofis
+878,Ebru Bal,K,1985,İstanbul,Lisans,2019-08-12,2024-04-01,gönülsüz,yeniden yapılanma,23,44.0,kariyer sitesi,hibrit
+879,Ebru Toprak,K,1989,Ankara,Ön lisans,2019-05-15,,,,17,22.0,iç başvuru,ofis
+880,Tolga Özdemir,E,1988,Ankara,Lisans,2019-05-01,2024-11-04,gönüllü,kariyer gelişimi,32,34.0,kariyer sitesi,hibrit
+881,Mert Şimşek,E,1996,Kocaeli,Lise,2019-01-28,,,,29,32.0,LinkedIn,ofis
+882,Serkan Bozkurt,E,1988,İstanbul,Lisans,2019-04-15,,,,10,17.0,iç başvuru,ofis
+883,Derya Güneş,K,1984,İzmir,Lisans,2019-06-04,2022-07-25,gönüllü,rakip firma,5,15.0,ajans,hibrit
+884,Selim Kaya,E,1984,İzmir,Ön lisans,2019-08-20,2023-11-06,gönülsüz,performans,11,17.0,üniversite,hibrit
+885,Ahmet Bozkurt,E,1983,Kocaeli,Lise,2019-03-27,2019-12-13,gönülsüz,yeniden yapılanma,23,25.0,referans,ofis
+886,Arda Ekici,E,1996,İstanbul,Lise,2019-01-29,2019-04-18,gönüllü,ücret,22,26.0,kariyer sitesi,ofis
+887,Umut Yıldırım,E,1987,İstanbul,Lisans,2019-03-14,,,,34,35.0,kariyer sitesi,hibrit
+888,Cansu Çetin,K,1988,İstanbul,Lisans,2019-02-11,,,,12,17.0,kariyer sitesi,hibrit
+889,Yusuf Çetin,E,1987,İstanbul,Lise,2019-03-15,,,,16,20.0,kariyer sitesi,ofis
+890,Efe Yıldız,E,1984,İstanbul,Lisans,2019-07-04,2023-05-03,gönüllü,ücret,46,38.0,LinkedIn,ofis
+891,Yasemin Bozkurt,K,1986,İstanbul,Yüksek lisans,2019-02-06,,,,58,43.0,üniversite,ofis
+892,Mert Doğan,E,1978,Ankara,Lise,2019-09-26,,,,18,23.0,LinkedIn,ofis
+893,İrem Doğan,K,1996,İstanbul,Lise,2019-12-26,,,,17,24.0,LinkedIn,ofis
+894,Eren Demir,E,1989,Ankara,Ön lisans,2019-10-04,2019-11-18,gönüllü,ücret,16,19.0,referans,ofis
+895,Cem Kaya,E,1990,İstanbul,Ön lisans,2019-06-07,2019-11-14,gönüllü,kariyer gelişimi,17,20.0,kariyer sitesi,ofis
+896,Arda Özkan,E,1985,İstanbul,Lisans,2019-12-04,,,,12,17.0,referans,hibrit
+897,Elif Öztürk,K,1979,İstanbul,Lisans,2019-10-03,2020-03-18,gönüllü,kariyer gelişimi,24,27.0,ajans,ofis
+898,Derya Özdemir,K,1991,Ankara,Ön lisans,2019-08-05,2021-08-05,gönülsüz,performans,16,23.0,kariyer sitesi,ofis
+899,Sevgi Ekici,K,1991,İstanbul,Lise,2019-04-30,2020-10-05,gönüllü,taşınma,17,24.0,kariyer sitesi,ofis
+900,Mert Şahin,E,1988,İstanbul,Lisans,2019-08-26,,,,51,40.0,kariyer sitesi,hibrit
+901,Pınar Kara,K,1989,Ankara,Lisans,2019-05-07,2020-03-25,gönülsüz,performans,5,15.0,kariyer sitesi,ofis
+902,Özge Aslan,K,1992,İstanbul,Ön lisans,2019-04-02,2024-02-06,gönülsüz,disiplin,33,35.0,LinkedIn,hibrit
+903,Efe Ekici,E,1983,İzmir,Lise,2019-06-21,,,,17,22.0,LinkedIn,ofis
+904,Tolga Kılıç,E,1986,İstanbul,Lisans,2019-02-22,,,,40,13.0,kariyer sitesi,hibrit
+905,Levent Bal,E,1982,İstanbul,Lisans,2019-06-03,,,,33,35.0,kariyer sitesi,hibrit
+906,Nur Sezer,K,1984,İzmir,Lisans,2019-10-09,2023-10-20,gönüllü,rakip firma,6,14.0,kariyer sitesi,ofis
+907,Ilgın Toprak,K,1986,İstanbul,Lisans,2019-02-18,,,,40,13.0,kariyer sitesi,ofis
+908,Buse Yıldız,K,1992,İstanbul,Ön lisans,2019-12-02,2022-03-09,gönülsüz,yeniden yapılanma,28,32.0,LinkedIn,ofis
+909,Pınar Polat,K,1983,Ankara,Lisans,2019-10-07,,,,23,18.0,kariyer sitesi,hibrit
+910,Selim Çelik,E,1988,Kocaeli,Lise,2019-12-26,,,,57,25.0,üniversite,hibrit
+911,Serkan Kılıç,E,1985,İstanbul,Lisans,2019-06-05,2023-09-11,gönülsüz,yeniden yapılanma,52,41.0,LinkedIn,ofis
+912,Can Toprak,E,1992,İstanbul,Lisans,2019-02-14,,,,44,38.0,kariyer sitesi,hibrit
+913,Emre Toprak,E,1991,İstanbul,Yüksek lisans,2019-08-23,,,,51,39.0,referans,hibrit
+914,Buse Aslan,K,1990,Kocaeli,Lisans,2019-09-18,2022-03-04,gönüllü,rakip firma,28,32.0,kariyer sitesi,ofis
+915,Levent Ekici,E,1990,Kocaeli,Lise,2019-02-27,2021-07-05,gönülsüz,performans,29,30.0,referans,ofis
+916,Murat Bozkurt,E,1983,Ankara,Ön lisans,2019-06-27,,,,18,23.0,ajans,ofis
+917,Tuğba Kılıç,K,1983,İstanbul,Yüksek lisans,2019-11-06,2020-05-04,gönüllü,ücret,34,35.0,referans,hibrit
+918,Cansu Yılmaz,K,1988,Ankara,Lisans,2019-09-27,,,,5,14.0,kariyer sitesi,ofis
+919,Zeynep Karaca,K,1982,Kocaeli,Ön lisans,2019-04-29,,,,58,29.0,kariyer sitesi,hibrit
+920,Burcu Aslan,K,1982,Ankara,Lisans,2019-06-13,,,,64,44.0,referans,uzaktan
+921,Fatma Koç,K,1985,İstanbul,Ön lisans,2019-12-04,,,,18,22.0,LinkedIn,ofis
+922,Damla Koç,K,1981,Ankara,Lisans,2019-05-20,2021-02-17,gönüllü,kariyer gelişimi,34,34.0,LinkedIn,hibrit
+923,Ayşe Çetin,K,1991,İstanbul,Lisans,2019-04-29,,,,52,41.0,kariyer sitesi,hibrit
+924,Efe Kaya,E,1985,İstanbul,Lisans,2019-04-09,,,,12,17.0,kariyer sitesi,hibrit
+925,Serkan Uysal,E,1978,Kocaeli,Ön lisans,2019-09-09,,,,29,31.0,LinkedIn,ofis
+926,Mehmet Karaca,E,1983,Bursa,Lisans,2019-07-16,,,,18,21.0,referans,ofis
+927,Umut Şahin,E,1988,İstanbul,Lisans,2019-01-07,2019-08-23,gönüllü,rakip firma,32,33.0,kariyer sitesi,hibrit
+928,Defne Acar,K,1987,İstanbul,Yüksek lisans,2019-05-10,,,,46,38.0,referans,hibrit
+929,Mustafa Ekici,E,1989,İstanbul,Lise,2019-12-04,2020-09-14,gönüllü,kariyer gelişimi,22,29.0,ajans,hibrit
+930,Mehmet Karaca,E,1988,Ankara,Lisans,2019-04-01,,,,50,40.0,LinkedIn,hibrit
+931,Melis Arslan,K,1989,İstanbul,Lisans,2019-08-26,2023-11-22,gönülsüz,performans,6,15.0,kariyer sitesi,ofis
+932,Ahmet Kaya,E,1989,Kocaeli,Lise,2019-09-27,,,,22,27.0,kariyer sitesi,ofis
+933,Onur Yılmaz,E,1987,İzmir,Lisans,2019-08-13,2023-06-14,gönülsüz,yeniden yapılanma,46,39.0,üniversite,hibrit
+934,Mehmet Şimşek,E,1979,İzmir,Lisans,2019-03-04,,,,64,44.0,kariyer sitesi,hibrit
+935,Ali Tunç,E,1990,İstanbul,Yüksek lisans,2019-09-02,,,,64,45.0,referans,hibrit
+936,Barış Kara,E,1983,İzmir,Yüksek lisans,2019-09-09,2019-10-28,gönüllü,kariyer gelişimi,34,33.0,kariyer sitesi,hibrit
+937,Arda Arslan,E,1983,İstanbul,Lisans,2019-06-10,2020-10-23,gönüllü,yönetici,33,34.0,LinkedIn,hibrit
+938,Buse Bozkurt,K,1983,İstanbul,Lisans,2019-04-10,2022-10-17,gönüllü,taşınma,17,16.0,ajans,ofis
+939,Esra Doğan,K,1989,İstanbul,Lise,2019-01-08,2020-04-23,gönüllü,taşınma,24,29.0,LinkedIn,ofis
+940,Mert Sezer,E,1985,İstanbul,Lisans,2019-09-23,2024-06-27,gönüllü,yönetici,39,13.0,LinkedIn,hibrit
+941,Selim Öztürk,E,1985,Kocaeli,Lisans,2019-03-25,2020-03-23,gönüllü,ücret,28,32.0,LinkedIn,ofis
+942,Eren Toprak,E,1993,İzmir,Lise,2019-05-29,,,,16,19.0,kariyer sitesi,ofis
+943,Sinan Kurt,E,1994,İzmir,Lisans,2019-05-13,2021-11-01,gönüllü,rakip firma,16,20.0,ajans,ofis
+944,Can Koç,E,1984,İstanbul,Lise,2019-07-12,,,,24,29.0,referans,ofis
+945,Kerem Aydın,E,1984,İstanbul,Yüksek lisans,2019-09-10,,,,34,33.0,kariyer sitesi,hibrit
+946,Buse Uysal,K,1991,İstanbul,Ön lisans,2019-01-14,2022-09-14,gönüllü,ücret,17,23.0,referans,ofis
+947,Tuğba Karaca,K,1989,İstanbul,Lise,2019-05-01,2019-10-18,gönüllü,taşınma,22,27.0,kariyer sitesi,ofis
+948,Nur Öztürk,K,1989,İstanbul,Lisans,2019-02-28,,,,6,14.0,referans,ofis
+949,Yasemin Bal,K,1981,İstanbul,Lisans,2019-05-15,,,,29,41.0,LinkedIn,hibrit
+950,Nur Kurt,K,1987,Eskişehir,Lise,2019-04-25,2020-08-05,gönüllü,yönetici,23,25.0,referans,hibrit
+951,Yasemin Bal,K,1996,Ankara,Yüksek lisans,2019-04-10,2020-11-02,gönüllü,ücret,38,8.0,LinkedIn,hibrit
+952,Yusuf Özdemir,E,1996,İstanbul,Yüksek lisans,2019-09-02,,,,44,38.0,LinkedIn,hibrit
+953,Eren Toprak,E,1990,Eskişehir,Ön lisans,2019-07-15,2021-09-15,gönülsüz,performans,23,28.0,kariyer sitesi,ofis
+954,Ahmet Uysal,E,1991,Ankara,Lisans,2019-05-06,,,,6,14.0,kariyer sitesi,ofis
+955,Hakan Kurt,E,1991,İstanbul,Yüksek lisans,2019-12-18,,,,33,34.0,kariyer sitesi,uzaktan
+956,Serkan Polat,E,1983,İstanbul,Lise,2019-12-02,,,,23,26.0,LinkedIn,ofis
+957,Selin Yılmaz,K,1993,İstanbul,Ön lisans,2019-12-11,,,,28,30.0,ajans,ofis
+958,Eren Öztürk,E,1989,Ankara,Ön lisans,2019-05-20,,,,16,23.0,kariyer sitesi,ofis
+959,Burak Bozkurt,E,1985,İstanbul,Lisans,2019-08-26,2022-04-11,gönüllü,taşınma,28,32.0,kariyer sitesi,ofis
+960,Sevgi Acar,K,1990,İstanbul,Lisans,2019-06-17,,,,4,19.0,üniversite,ofis
+961,Gamze Şahin,K,1985,Ankara,Lise,2019-07-23,,,,18,20.0,referans,ofis
+962,Merve Acar,K,1990,İstanbul,Lisans,2019-02-14,,,,17,21.0,LinkedIn,ofis
+963,Murat Öztürk,E,1987,Eskişehir,Lise,2019-02-20,2019-04-05,gönülsüz,disiplin,23,28.0,ajans,hibrit
+964,Nur Demir,K,1994,İstanbul,Yüksek lisans,2019-09-02,,,,12,17.0,üniversite,ofis
+965,Emre Tunç,E,1986,Bursa,Lisans,2019-08-12,,,,18,24.0,referans,ofis
+966,Ilgın Aydın,K,1994,İstanbul,Lisans,2019-11-25,2023-03-29,gönüllü,kariyer gelişimi,5,14.0,kariyer sitesi,ofis
+967,Oğuz Öztürk,E,1978,İstanbul,Lisans,2019-10-30,,,,6,15.0,üniversite,hibrit
+968,Buse Karaca,K,1984,İstanbul,Lisans,2019-02-11,,,,64,44.0,iç başvuru,hibrit
+969,Efe Bal,E,1988,İstanbul,Lisans,2019-01-21,,,,51,41.0,kariyer sitesi,uzaktan
+970,Ilgın Polat,K,1994,Eskişehir,Ön lisans,2019-07-29,,,,27,25.0,kariyer sitesi,ofis
+971,Barış Karaca,E,1989,Eskişehir,Lise,2019-10-04,2022-08-02,gönülsüz,performans,24,26.0,referans,ofis
+972,Mustafa Yıldırım,E,1981,Ankara,Lise,2019-01-30,,,,18,19.0,LinkedIn,ofis
+973,Cem Arslan,E,1994,İstanbul,Lise,2019-09-09,,,,22,28.0,referans,ofis
+974,Ayşe Aslan,K,1983,Ankara,Lisans,2019-04-15,2022-07-15,gönüllü,kariyer gelişimi,33,35.0,kariyer sitesi,uzaktan
+975,Serkan Şahin,E,1988,İstanbul,Lise,2019-02-04,2019-06-24,gönülsüz,performans,16,22.0,LinkedIn,ofis
+976,Onur Yıldız,E,1983,Ankara,Ön lisans,2019-04-02,,,,17,23.0,ajans,ofis
+977,Derya Demir,K,1982,İstanbul,Yüksek lisans,2019-10-10,2023-10-02,gönülsüz,performans,33,35.0,iç başvuru,uzaktan
+978,Mehmet Çelik,E,1993,İstanbul,Ön lisans,2019-02-14,2020-06-10,gönüllü,ücret,23,28.0,kariyer sitesi,ofis
+979,Defne Çetin,K,1994,İstanbul,Lise,2019-11-19,2023-06-23,gönüllü,ücret,18,20.0,LinkedIn,ofis
+980,İrem Özdemir,K,1996,İstanbul,Lisans,2019-06-24,2020-03-16,gönüllü,kariyer gelişimi,56,42.0,referans,ofis
+981,Kaan Ergin,E,1989,Kocaeli,Lisans,2019-11-20,,,,28,30.0,kariyer sitesi,ofis
+982,Sevgi Polat,K,1993,Eskişehir,Lisans,2019-11-14,2020-07-21,gönülsüz,yeniden yapılanma,22,27.0,üniversite,ofis
+983,Burcu Şahin,K,1983,Bursa,Lisans,2019-07-09,2020-04-13,gönülsüz,yeniden yapılanma,18,24.0,kariyer sitesi,ofis
+984,Deniz Güneş,E,1988,İstanbul,Yüksek lisans,2019-07-17,,,,56,14.0,kariyer sitesi,ofis
+985,Mehmet Koç,E,1986,Kocaeli,Lisans,2019-06-18,,,,29,31.0,kariyer sitesi,ofis
+986,Tolga Bal,E,1996,İzmir,Lisans,2019-07-04,,,,45,38.0,üniversite,uzaktan
+987,Kaan Kaya,E,1984,Eskişehir,Ön lisans,2019-03-11,2021-02-22,gönüllü,yönetici,23,27.0,ajans,ofis
+988,Can Yıldız,E,1982,İzmir,Lise,2019-04-24,2019-08-02,gönülsüz,performans,18,23.0,kariyer sitesi,ofis
+989,Ali Demir,E,1982,İstanbul,Lisans,2019-07-04,2024-06-03,gönüllü,yönetici,39,13.0,LinkedIn,ofis
+990,Nur Toprak,K,1984,Kocaeli,Ön lisans,2019-04-08,2022-07-25,gönüllü,eğitim,29,30.0,ajans,ofis
+991,Umut Aydın,E,1995,İstanbul,Lisans,2019-05-16,2019-09-06,gönüllü,yönetici,44,39.0,ajans,hibrit
+992,Özge Öztürk,K,1993,İstanbul,Yüksek lisans,2019-08-05,,,,45,38.0,LinkedIn,hibrit
+993,Efe Ekici,E,1986,Ankara,Yüksek lisans,2019-12-02,,,,34,33.0,kariyer sitesi,uzaktan
+994,Esra Tunç,K,1982,İstanbul,Lise,2019-09-02,2023-02-08,gönüllü,kariyer gelişimi,23,29.0,kariyer sitesi,ofis
+995,Arda Kaya,E,1986,İzmir,Lise,2019-07-16,2019-11-11,gönülsüz,performans,17,24.0,kariyer sitesi,ofis
+996,Cem Tunç,E,1989,İstanbul,Yüksek lisans,2019-08-02,2022-11-03,gönüllü,ücret,38,8.0,iç başvuru,hibrit
+997,Merve Kurt,K,1990,İstanbul,Lisans,2019-08-12,,,,39,13.0,LinkedIn,hibrit
+998,Can Doğan,E,1985,İstanbul,Lisans,2019-04-19,2022-01-31,gönüllü,eğitim,46,38.0,LinkedIn,ofis
+999,Efe Uysal,E,1995,İstanbul,Lisans,2019-05-13,2019-07-23,gönüllü,kariyer gelişimi,16,22.0,kariyer sitesi,ofis
+1000,Mustafa Şahin,E,1993,Kocaeli,Lise,2019-11-04,,,,27,31.0,referans,ofis
+1001,Can Aslan,E,1989,İstanbul,Lisans,2019-10-09,,,,62,45.0,referans,hibrit
+1002,Onur Bal,E,1991,İstanbul,Ön lisans,2019-03-04,2021-10-04,gönülsüz,performans,44,38.0,kariyer sitesi,hibrit
+1003,Emre Özkan,E,1993,İstanbul,Lisans,2019-08-05,2022-11-28,gönüllü,taşınma,51,41.0,kariyer sitesi,uzaktan
+1004,Ahmet Özkan,E,1996,İstanbul,Yüksek lisans,2019-10-01,2024-08-08,gönülsüz,performans,44,38.0,LinkedIn,ofis
+1005,Levent Yıldırım,E,1987,Ankara,Lisans,2019-07-08,,,,34,33.0,ajans,uzaktan
+1006,Can Aslan,E,1986,İzmir,Lisans,2019-04-03,,,,58,42.0,kariyer sitesi,hibrit
+1007,Eren Bal,E,1989,Ankara,Lise,2019-05-13,2024-04-11,gönüllü,yönetici,18,24.0,LinkedIn,ofis
+1008,Özge Ergin,K,1989,İstanbul,Ön lisans,2019-03-20,,,,17,19.0,kariyer sitesi,ofis
+1009,Esra Yılmaz,K,1987,İstanbul,Ön lisans,2019-11-06,,,,12,18.0,referans,ofis
+1010,Kaan Özkan,E,1992,Eskişehir,Lisans,2019-05-01,,,,22,25.0,kariyer sitesi,ofis
+1011,Mehmet Özdemir,E,1987,İstanbul,Yüksek lisans,2019-06-25,2019-10-25,gönüllü,yönetici,45,39.0,kariyer sitesi,ofis
+1012,Damla Bozkurt,K,1990,İzmir,Lisans,2019-01-07,,,,11,34.0,kariyer sitesi,ofis
+1013,Özge Doğan,K,1983,İstanbul,Yüksek lisans,2019-02-25,2019-07-10,gönüllü,rakip firma,45,39.0,kariyer sitesi,hibrit
+1014,Mehmet Karaca,E,1987,Ankara,Lisans,2019-02-15,2024-11-20,gönülsüz,performans,12,17.0,referans,hibrit
+1015,Pınar Kurt,K,1989,Ankara,Lisans,2019-04-08,2019-08-05,gönüllü,yönetici,32,34.0,ajans,hibrit
+1016,Buse Koç,K,1980,İstanbul,Lisans,2019-08-14,2023-07-31,gönüllü,ücret,40,13.0,iç başvuru,hibrit
+1017,Cem Özkan,E,1983,İstanbul,Lisans,2019-05-06,2023-03-27,gönüllü,ücret,45,39.0,referans,hibrit
+1018,Mustafa Ergin,E,1989,İzmir,Lisans,2019-02-04,2019-07-08,gönülsüz,performans,33,34.0,kariyer sitesi,hibrit
+1019,Cansu Tunç,K,1995,İstanbul,Lisans,2019-07-03,,,,17,24.0,iç başvuru,ofis
+1020,Kaan Tunç,E,1994,Ankara,Yüksek lisans,2019-07-11,,,,33,33.0,ajans,uzaktan
+1021,Damla Bal,K,1996,İstanbul,Lisans,2019-10-07,,,,62,45.0,üniversite,hibrit
+1022,Ece Uysal,K,1989,İzmir,Yüksek lisans,2019-01-31,,,,32,35.0,LinkedIn,hibrit
+1023,Kaan Kılıç,E,1991,İstanbul,Lisans,2019-08-28,2021-07-26,gönüllü,ücret,63,45.0,LinkedIn,hibrit
+1024,Nur Özkan,K,1982,Eskişehir,Lise,2019-05-20,,,,64,29.0,kariyer sitesi,ofis
+1025,Buse Güneş,K,1989,Ankara,Yüksek lisans,2019-12-02,2022-06-10,gönüllü,ücret,33,35.0,kariyer sitesi,uzaktan
+1026,Eren Koç,E,1987,Kocaeli,Lise,2019-05-06,,,,28,30.0,referans,ofis
+1027,Mustafa Karaca,E,1983,Kocaeli,Ön lisans,2019-11-28,2020-04-23,gönüllü,taşınma,24,27.0,iç başvuru,ofis
+1028,Ayşe Kılıç,K,1978,Kocaeli,Lisans,2019-06-25,2024-10-28,gönüllü,taşınma,29,32.0,kariyer sitesi,ofis
+1029,Deniz Polat,E,1986,İstanbul,Lisans,2019-03-04,,,,64,45.0,LinkedIn,hibrit
+1030,Burcu Arslan,K,1987,İstanbul,Lisans,2019-11-20,2024-06-10,gönüllü,rakip firma,12,17.0,kariyer sitesi,ofis
+1031,Selin Uysal,K,1990,İstanbul,Lisans,2019-12-05,2020-07-22,gönülsüz,disiplin,23,26.0,kariyer sitesi,ofis
+1032,Zeynep Kaya,K,1988,İstanbul,Ön lisans,2019-04-04,2023-02-27,gönülsüz,performans,24,27.0,LinkedIn,ofis
+1033,Eren Bal,E,1988,Kocaeli,Lise,2019-01-24,2020-12-09,gönüllü,rakip firma,27,31.0,üniversite,ofis
+1034,Esra Polat,K,1995,Ankara,Lisans,2019-07-30,2019-12-13,gönüllü,ücret,4,16.0,ajans,hibrit
+1035,Selim Uysal,E,1992,İstanbul,Lise,2019-05-20,,,,18,22.0,kariyer sitesi,ofis
+1036,Buse Acar,K,1988,İstanbul,Lisans,2019-02-27,,,,27,31.0,referans,ofis
+1037,Buse Özkan,K,1996,Kocaeli,Lisans,2019-10-25,,,,28,32.0,iç başvuru,ofis
+1038,Ahmet Bozkurt,E,1996,İstanbul,Yüksek lisans,2019-06-03,2022-02-01,gönüllü,taşınma,39,8.0,referans,hibrit
+1039,Ece Ergin,K,1993,İstanbul,Lise,2019-02-25,,,,17,20.0,üniversite,ofis
+1040,İrem Acar,K,1982,Ankara,Lisans,2019-05-24,2024-12-12,gönüllü,rakip firma,18,21.0,üniversite,ofis
+1041,Pınar Çelik,K,1989,Bursa,Lisans,2019-03-20,,,,17,22.0,LinkedIn,ofis
+1042,Volkan Aydın,E,1995,İstanbul,Lise,2019-12-23,,,,16,23.0,referans,ofis
+1043,Pınar Öztürk,K,1982,İstanbul,Lisans,2019-06-17,,,,40,13.0,referans,ofis
+1044,İrem Kılıç,K,1990,Kocaeli,Lise,2019-04-17,2022-05-04,gönüllü,rakip firma,22,29.0,referans,hibrit
+1045,Arda Özdemir,E,1991,İstanbul,Lisans,2019-09-16,,,,6,15.0,LinkedIn,ofis
+1046,Ayşe Kurt,K,1990,Ankara,Lisans,2019-04-10,2019-10-31,gönüllü,kariyer gelişimi,17,21.0,iç başvuru,ofis
+1047,Cem Tunç,E,1996,İstanbul,Lisans,2019-07-26,,,,16,22.0,kariyer sitesi,ofis
+1048,Burcu Kılıç,K,1991,Eskişehir,Lise,2019-06-26,2019-11-04,gönülsüz,disiplin,22,28.0,kariyer sitesi,ofis
+1049,Ali Sezer,E,1991,Kocaeli,Ön lisans,2019-08-12,2021-03-26,gönülsüz,performans,28,32.0,kariyer sitesi,ofis
+1050,Barış Güneş,E,1989,İstanbul,Yüksek lisans,2019-12-12,,,,12,17.0,referans,ofis
+1051,Emre Yılmaz,E,1989,İstanbul,Lisans,2019-02-18,2024-09-12,gönüllü,ücret,6,15.0,referans,ofis
+1052,Efe Polat,E,1985,İstanbul,Yüksek lisans,2019-04-17,2023-04-05,gönüllü,ücret,5,16.0,ajans,ofis
+1053,Cem Doğan,E,1995,İzmir,Lisans,2019-05-21,,,,12,18.0,LinkedIn,hibrit
+1054,Sinan Kaya,E,1987,İstanbul,Lise,2019-10-15,2023-07-14,gönüllü,rakip firma,24,29.0,üniversite,ofis
+1055,Cem Yılmaz,E,1980,İzmir,Yüksek lisans,2019-05-28,,,,40,13.0,kariyer sitesi,hibrit
+1056,İrem Tunç,K,1987,İstanbul,Yüksek lisans,2019-05-17,,,,23,38.0,kariyer sitesi,hibrit
+1057,Aslı Yılmaz,K,1988,İstanbul,Lisans,2019-11-04,2021-08-27,gönülsüz,disiplin,62,45.0,kariyer sitesi,ofis
+1058,Umut Bal,E,1984,İstanbul,Lisans,2019-09-24,2020-08-10,gönüllü,kariyer gelişimi,6,16.0,kariyer sitesi,ofis
+1059,Onur Çetin,E,1994,İzmir,Lisans,2019-07-03,,,,6,33.0,kariyer sitesi,hibrit
+1060,Levent Kılıç,E,1992,İstanbul,Lisans,2019-03-20,,,,45,38.0,kariyer sitesi,hibrit
+1061,Yusuf Yıldırım,E,1996,İstanbul,Lise,2019-02-07,2024-02-21,gönülsüz,performans,22,26.0,üniversite,ofis
+1062,Ali Şahin,E,1989,İstanbul,Ön lisans,2019-03-11,2022-09-23,gönüllü,ücret,16,19.0,kariyer sitesi,ofis
+1063,Burcu Kaya,K,1981,İstanbul,Ön lisans,2019-05-31,,,,64,45.0,LinkedIn,uzaktan
+1064,Aslı Bozkurt,K,1982,İstanbul,Yüksek lisans,2019-04-12,,,,12,17.0,referans,hibrit
+1065,Yasemin Polat,K,1987,Ankara,Lisans,2019-04-12,,,,12,18.0,referans,ofis
+1066,Eren Şimşek,E,1983,İstanbul,Lisans,2019-03-04,,,,58,42.0,üniversite,ofis
+1067,Özge Güneş,K,1990,İstanbul,Yüksek lisans,2019-12-13,,,,50,41.0,LinkedIn,uzaktan
+1068,Onur Çelik,E,1980,Kocaeli,Lisans,2019-04-29,2020-06-25,gönülsüz,yeniden yapılanma,24,28.0,ajans,ofis
+1069,Ilgın Güneş,K,1982,İstanbul,Lise,2019-05-14,,,,23,29.0,iç başvuru,hibrit
+1070,Umut Kara,E,1989,İstanbul,Lisans,2019-09-02,2023-08-28,gönüllü,ücret,34,35.0,iç başvuru,hibrit
+1071,Arda Çelik,E,1984,Ankara,Lise,2019-03-08,,,,17,22.0,kariyer sitesi,ofis
+1072,Hakan Bal,E,1987,Eskişehir,Lise,2019-10-07,2020-02-17,gönüllü,ücret,22,27.0,ajans,ofis
+1073,Oğuz Aslan,E,1988,İzmir,Lisans,2019-04-15,,,,45,39.0,LinkedIn,hibrit
+1074,Efe Ergin,E,1978,İstanbul,Lisans,2019-11-04,2021-09-20,gönüllü,kariyer gelişimi,34,33.0,LinkedIn,hibrit
+1075,Mustafa Doğan,E,1988,İstanbul,Lisans,2019-03-20,,,,17,20.0,kariyer sitesi,ofis
+1076,Sevgi Yıldırım,K,1985,İstanbul,Lisans,2019-05-27,2023-01-23,gönüllü,ücret,18,21.0,kariyer sitesi,ofis
+1077,Kerem Güneş,E,1990,İstanbul,Yüksek lisans,2019-05-30,,,,46,39.0,kariyer sitesi,hibrit
+1078,Özge Kılıç,K,1984,İstanbul,Yüksek lisans,2019-01-21,,,,52,40.0,üniversite,hibrit
+1079,Ebru Aslan,K,1991,İzmir,Lisans,2019-06-10,,,,34,35.0,LinkedIn,hibrit
+1080,Ebru Doğan,K,1988,İstanbul,Lisans,2019-06-14,2019-07-15,gönüllü,rakip firma,33,33.0,iç başvuru,hibrit
+1081,Özge Güneş,K,1990,Eskişehir,Lise,2019-10-21,2021-03-15,gönüllü,kariyer gelişimi,22,26.0,ajans,hibrit
+1082,Onur Yılmaz,E,1994,Ankara,Lisans,2019-05-20,,,,11,17.0,ajans,hibrit
+1083,Barış Aslan,E,1985,Antalya,Ön lisans,2019-03-14,2023-07-05,gönülsüz,yeniden yapılanma,18,22.0,LinkedIn,ofis
+1084,Ali Aslan,E,1984,İstanbul,Yüksek lisans,2019-05-17,2020-12-09,gönüllü,kariyer gelişimi,34,34.0,kariyer sitesi,ofis
+1085,Efe Karaca,E,1987,İstanbul,Yüksek lisans,2019-02-08,,,,40,39.0,ajans,hibrit
+1086,Cem Uysal,E,1986,İstanbul,Yüksek lisans,2019-07-15,2020-04-02,gönüllü,taşınma,5,14.0,kariyer sitesi,ofis
+1087,Umut Tunç,E,1996,İstanbul,Lisans,2019-09-20,,,,17,20.0,referans,ofis
+1088,Elif Arslan,K,1996,Antalya,Ön lisans,2019-04-01,2021-05-11,gönüllü,yönetici,17,21.0,referans,ofis
+1089,Yusuf Aydın,E,1987,Ankara,Ön lisans,2019-01-14,,,,34,33.0,referans,hibrit
+1090,Ilgın Bal,K,1984,Kocaeli,Ön lisans,2019-05-15,,,,29,25.0,LinkedIn,ofis
+1091,Serkan Karaca,E,1984,İstanbul,Lise,2019-06-21,,,,18,24.0,ajans,ofis
+1092,Zeynep Çelik,K,1991,İstanbul,Lisans,2019-01-30,,,,16,19.0,ajans,ofis
+1093,Levent Arslan,E,1984,İstanbul,Lisans,2019-07-08,,,,57,43.0,ajans,ofis
+1094,Selim Kılıç,E,1991,İstanbul,Lisans,2019-03-11,2020-04-29,gönülsüz,performans,5,16.0,referans,ofis
+1095,Kaan Çetin,E,1988,İstanbul,Ön lisans,2019-02-05,2020-03-23,gönülsüz,performans,4,14.0,kariyer sitesi,ofis
+1096,Melis Şahin,K,1986,Kocaeli,Lise,2020-11-04,,,,24,26.0,LinkedIn,hibrit
+1097,Selin Uysal,K,1996,İstanbul,Lisans,2020-06-23,2021-02-17,gönülsüz,yeniden yapılanma,16,24.0,kariyer sitesi,ofis
+1098,Defne Uysal,K,1988,Ankara,Lise,2020-06-30,,,,17,19.0,referans,ofis
+1099,Umut Çelik,E,1981,İstanbul,Ön lisans,2020-10-19,2022-11-28,gönülsüz,performans,34,34.0,iç başvuru,hibrit
+1100,Melis Koç,K,1986,İstanbul,Yüksek lisans,2020-06-18,,,,34,35.0,kariyer sitesi,hibrit
+1101,Yusuf Bal,E,1983,İstanbul,Lisans,2020-12-07,,,,46,39.0,kariyer sitesi,hibrit
+1102,Volkan Kaya,E,1980,Ankara,Lisans,2020-04-28,,,,58,42.0,referans,hibrit
+1103,Burak Tunç,E,1991,İstanbul,Lisans,2020-11-20,2021-04-28,gönüllü,kariyer gelişimi,27,32.0,LinkedIn,ofis
+1104,Elif Yıldırım,K,1997,İzmir,Lisans,2020-01-27,2024-09-02,gönüllü,ücret,18,19.0,LinkedIn,ofis
+1105,İrem Bozkurt,K,1989,İstanbul,Lise,2020-06-25,2021-11-05,gönüllü,ücret,17,20.0,ajans,ofis
+1106,Pınar Öztürk,K,1993,Kocaeli,Ön lisans,2020-09-14,,,,27,32.0,LinkedIn,ofis
+1107,Aslı Polat,K,1996,İstanbul,Lisans,2020-06-05,2024-09-02,gönülsüz,yeniden yapılanma,39,13.0,referans,ofis
+1108,Kerem Tunç,E,1983,İstanbul,Yüksek lisans,2020-04-06,,,,6,15.0,kariyer sitesi,ofis
+1109,Burak Acar,E,1979,İstanbul,Yüksek lisans,2020-08-27,,,,18,41.0,iç başvuru,ofis
+1110,Hakan Bozkurt,E,1988,İstanbul,Lise,2020-08-24,2023-02-13,gönüllü,kariyer gelişimi,29,30.0,kariyer sitesi,ofis
+1111,Fatma Koç,K,1987,Bursa,Lise,2020-05-13,,,,17,20.0,kariyer sitesi,ofis
+1112,Ebru Ergin,K,1980,İstanbul,Lise,2020-06-08,,,,18,21.0,referans,ofis
+1113,Deniz Koç,E,1992,Kocaeli,Lisans,2020-04-10,,,,27,30.0,ajans,ofis
+1114,Umut Güneş,E,1992,İstanbul,Lisans,2020-10-19,2024-06-11,gönüllü,taşınma,62,44.0,kariyer sitesi,hibrit
+1115,Yusuf Toprak,E,1988,İstanbul,Lisans,2020-06-22,,,,32,35.0,referans,hibrit
+1116,Merve Aydın,K,1979,Eskişehir,Lise,2020-08-20,2021-09-10,gönüllü,ücret,24,26.0,referans,ofis
+1117,Kerem Aydın,E,1987,İstanbul,Yüksek lisans,2020-10-26,2024-12-02,gönüllü,ücret,33,34.0,iç başvuru,ofis
+1118,Özge Toprak,K,1989,Kocaeli,Ön lisans,2020-01-20,2021-07-26,gönülsüz,performans,23,28.0,üniversite,ofis
+1119,Onur Özkan,E,1990,İstanbul,Ön lisans,2020-05-25,2023-10-06,gönülsüz,performans,56,43.0,kariyer sitesi,hibrit
+1120,Zeynep Özkan,K,1989,Eskişehir,Lisans,2020-07-08,2022-05-30,gönülsüz,performans,5,25.0,kariyer sitesi,ofis
+1121,Merve Bozkurt,K,1990,Kocaeli,Lisans,2020-12-07,,,,27,32.0,referans,ofis
+1122,İrem Yılmaz,K,1993,Kocaeli,Lisans,2020-07-06,,,,24,27.0,referans,ofis
+1123,Efe Yılmaz,E,1989,İstanbul,Lisans,2020-03-30,,,,23,28.0,referans,ofis
+1124,Yusuf Ergin,E,1988,Ankara,Lisans,2020-11-13,2021-07-26,gönüllü,eğitim,17,21.0,kariyer sitesi,ofis
+1125,Volkan Doğan,E,1984,Ankara,Ön lisans,2020-08-03,2021-01-25,gönüllü,rakip firma,18,22.0,kariyer sitesi,ofis
+1126,Arda Karaca,E,1986,İzmir,Lisans,2020-12-07,,,,46,38.0,kariyer sitesi,hibrit
+1127,Merve Arslan,K,1989,İzmir,Ön lisans,2020-04-13,,,,28,32.0,ajans,ofis
+1128,Tolga Toprak,E,1996,Kocaeli,Lisans,2020-02-11,2023-12-06,gönüllü,ücret,28,30.0,kariyer sitesi,ofis
+1129,Serkan Uysal,E,1982,Kocaeli,Lise,2020-06-11,2021-06-02,gönüllü,rakip firma,29,31.0,LinkedIn,ofis
+1130,Cem Kara,E,1987,Kocaeli,Lisans,2020-11-16,,,,28,32.0,referans,ofis
+1131,Ayşe Kılıç,K,1989,Ankara,Lisans,2020-06-10,,,,45,39.0,referans,hibrit
+1132,Efe Kurt,E,1997,İzmir,Ön lisans,2020-03-09,,,,29,31.0,referans,ofis
+1133,Can Kaya,E,1993,Ankara,Lisans,2020-05-04,2023-07-24,gönüllü,ücret,34,35.0,kariyer sitesi,hibrit
+1134,Damla Toprak,K,1989,İstanbul,Lisans,2020-12-15,2022-09-01,gönüllü,rakip firma,57,42.0,kariyer sitesi,ofis
+1135,Onur Güneş,E,1980,İstanbul,Yüksek lisans,2020-05-28,,,,34,34.0,kariyer sitesi,ofis
+1136,Cansu Doğan,K,1987,Ankara,Lisans,2020-01-24,,,,51,40.0,kariyer sitesi,hibrit
+1137,Nur Çetin,K,1992,Ankara,Lisans,2020-08-31,2023-03-06,gönüllü,ücret,16,22.0,iç başvuru,ofis
+1138,Damla Polat,K,1984,Ankara,Yüksek lisans,2020-03-16,,,,12,17.0,referans,ofis
+1139,Ali Arslan,E,1989,İstanbul,Lisans,2020-10-23,2021-12-01,gönülsüz,performans,33,35.0,iç başvuru,hibrit
+1140,Tuğba Özdemir,K,1987,Ankara,Lise,2020-07-20,,,,17,19.0,kariyer sitesi,ofis
+1141,Derya Arslan,K,1990,Ankara,Lisans,2020-05-15,,,,18,20.0,kariyer sitesi,ofis
+1142,Onur Karaca,E,1992,İstanbul,Lisans,2020-03-12,,,,63,44.0,üniversite,ofis
+1143,Pınar Demir,K,1997,Ankara,Lisans,2020-03-12,2020-11-17,gönülsüz,yeniden yapılanma,38,8.0,kariyer sitesi,ofis
+1144,Emre Kara,E,1993,Ankara,Yüksek lisans,2020-03-24,2024-06-19,gönülsüz,yeniden yapılanma,40,13.0,referans,hibrit
+1145,İrem Karaca,K,1990,İzmir,Lisans,2020-01-06,2020-08-31,gönüllü,ücret,62,45.0,üniversite,hibrit
+1146,Burcu Çetin,K,1989,İstanbul,Lisans,2020-06-15,,,,64,44.0,LinkedIn,ofis
+1147,Burcu Güneş,K,1993,İstanbul,Lise,2020-03-03,,,,17,20.0,kariyer sitesi,ofis
+1148,Melis Kaya,K,1991,Ankara,Lisans,2020-10-19,,,,39,13.0,kariyer sitesi,ofis
+1149,Damla Polat,K,1989,Ankara,Lise,2020-12-09,2021-02-11,gönülsüz,performans,17,22.0,üniversite,ofis
+1150,Cem Yıldırım,E,1989,İstanbul,Lisans,2020-07-20,,,,39,34.0,referans,hibrit
+1151,Volkan Aydın,E,1982,İzmir,Lisans,2020-12-22,2022-02-16,gönülsüz,yeniden yapılanma,46,39.0,kariyer sitesi,ofis
+1152,Esra Polat,K,1991,Eskişehir,Lisans,2020-03-18,2020-07-30,gönüllü,ücret,22,27.0,referans,hibrit
+1153,Aslı Tunç,K,1997,İstanbul,Lise,2020-07-13,,,,16,28.0,kariyer sitesi,ofis
+1154,Sinan Karaca,E,1992,İstanbul,Lisans,2020-09-09,2024-09-23,gönüllü,rakip firma,39,13.0,referans,hibrit
+1155,Pınar Yılmaz,K,1987,İstanbul,Lisans,2020-11-23,2022-06-28,gönüllü,taşınma,34,33.0,ajans,uzaktan
+1156,Selim Bal,E,1992,İstanbul,Yüksek lisans,2020-10-07,,,,57,42.0,LinkedIn,ofis
+1157,Burcu Şahin,K,1995,İstanbul,Lisans,2020-05-26,,,,4,16.0,kariyer sitesi,ofis
+1158,İrem Şimşek,K,1986,Eskişehir,Lisans,2020-05-19,2020-09-14,gönüllü,ücret,24,28.0,referans,hibrit
+1159,Pınar Kaya,K,1984,İstanbul,Yüksek lisans,2020-03-31,,,,52,41.0,LinkedIn,hibrit
+1160,İrem Kurt,K,1985,İstanbul,Yüksek lisans,2020-06-17,,,,29,40.0,LinkedIn,hibrit
+1161,Tuğba Koç,K,1984,Ankara,Lisans,2020-10-19,,,,51,41.0,kariyer sitesi,uzaktan
+1162,Melis Toprak,K,1986,İzmir,Lisans,2020-11-30,2024-12-02,gönüllü,ücret,18,23.0,ajans,ofis
+1163,Tolga Yıldırım,E,1990,İzmir,Lisans,2020-11-09,2021-03-01,gönüllü,eğitim,4,16.0,kariyer sitesi,ofis
+1164,Özge Çelik,K,1983,Ankara,Lisans,2020-05-04,,,,46,14.0,LinkedIn,ofis
+1165,Serkan Tunç,E,1994,İzmir,Lisans,2020-12-25,2022-04-04,gönüllü,ücret,32,34.0,kariyer sitesi,hibrit
+1166,Volkan Aslan,E,1981,İstanbul,Yüksek lisans,2020-04-07,,,,64,44.0,referans,hibrit
+1167,Nur Bal,K,1979,İstanbul,Lisans,2020-09-07,,,,40,13.0,ajans,hibrit
+1168,Zeynep Özkan,K,1984,İzmir,Ön lisans,2020-10-26,,,,28,31.0,kariyer sitesi,ofis
+1169,Pınar Karaca,K,1988,İstanbul,Lisans,2020-08-04,2021-08-16,gönüllü,ücret,12,18.0,referans,ofis
+1170,Barış Uysal,E,1988,Kocaeli,Ön lisans,2020-03-12,2020-10-02,gönüllü,ücret,29,30.0,LinkedIn,ofis
+1171,Esra Güneş,K,1995,Kocaeli,Ön lisans,2020-10-19,2020-11-20,gönüllü,kariyer gelişimi,22,26.0,iç başvuru,ofis
+1172,Ilgın Şimşek,K,1981,Antalya,Lise,2020-11-13,2021-03-12,gönülsüz,yeniden yapılanma,18,21.0,kariyer sitesi,ofis
+1173,Umut Yıldırım,E,1993,İzmir,Yüksek lisans,2020-10-07,2022-10-31,gönülsüz,performans,11,18.0,iç başvuru,hibrit
+1174,Selim Ekici,E,1980,İstanbul,Lisans,2020-10-23,,,,58,42.0,iç başvuru,ofis
+1175,Cem Aydın,E,1988,İstanbul,Ön lisans,2020-05-25,,,,39,13.0,ajans,hibrit
+1176,Ahmet Kılıç,E,1994,Kocaeli,Ön lisans,2020-01-28,2023-05-29,gönüllü,ücret,23,26.0,üniversite,ofis
+1177,Yasemin Özkan,K,1987,İstanbul,Lisans,2020-12-07,2022-11-01,gönüllü,ücret,29,31.0,kariyer sitesi,ofis
+1178,Mert Arslan,E,1996,Eskişehir,Lise,2020-09-23,,,,23,28.0,ajans,hibrit
+1179,Onur Şahin,E,1980,Ankara,Yüksek lisans,2020-12-15,,,,64,45.0,referans,hibrit
+1180,Eren Polat,E,1990,İstanbul,Lisans,2020-11-16,,,,17,23.0,kariyer sitesi,ofis
+1181,Yusuf Yıldız,E,1992,İstanbul,Lise,2020-02-12,,,,18,24.0,kariyer sitesi,ofis
+1182,Serkan Kurt,E,1984,Ankara,Lisans,2020-12-23,,,,58,42.0,kariyer sitesi,hibrit
+1183,Mustafa Kaya,E,1988,İstanbul,Yüksek lisans,2020-08-10,,,,46,39.0,referans,hibrit
+1184,Damla Aydın,K,1986,İstanbul,Lisans,2020-11-30,,,,51,40.0,LinkedIn,hibrit
+1185,Burcu Bozkurt,K,1984,İstanbul,Lisans,2020-11-03,,,,23,14.0,referans,ofis
+1186,Hakan Arslan,E,1981,İstanbul,Lisans,2020-02-06,2024-06-10,gönüllü,rakip firma,12,17.0,referans,ofis
+1187,Kerem Şahin,E,1992,İstanbul,Lisans,2020-12-07,,,,24,16.0,kariyer sitesi,ofis
+1188,Zeynep Sezer,K,1990,İstanbul,Yüksek lisans,2020-10-12,2024-02-27,gönüllü,rakip firma,63,44.0,kariyer sitesi,uzaktan
+1189,Efe Sezer,E,1990,Kocaeli,Lisans,2020-01-14,2020-07-09,gönülsüz,yeniden yapılanma,28,31.0,üniversite,ofis
+1190,Aslı Bozkurt,K,1987,İstanbul,Lise,2020-01-10,2023-03-31,gönüllü,ücret,23,25.0,kariyer sitesi,ofis
+1191,Yasemin Kara,K,1983,Kocaeli,Lise,2020-12-04,,,,29,30.0,referans,ofis
+1192,Levent Yılmaz,E,1987,Antalya,Lisans,2020-07-28,2022-04-27,gönüllü,rakip firma,17,23.0,referans,ofis
+1193,Mert Polat,E,1987,İstanbul,Lisans,2020-04-08,2020-09-28,gönüllü,ücret,5,16.0,kariyer sitesi,hibrit
+1194,Nur Kaya,K,1992,İstanbul,Lisans,2020-04-13,,,,51,40.0,referans,uzaktan
+1195,Fatma Ekici,K,1996,İstanbul,Lisans,2020-03-23,,,,51,41.0,referans,hibrit
+1196,Zeynep Aydın,K,1984,Bursa,Lisans,2020-06-29,2022-05-31,gönüllü,rakip firma,17,21.0,kariyer sitesi,ofis
+1197,Barış Kılıç,E,1995,Kocaeli,Ön lisans,2020-09-15,,,,29,30.0,LinkedIn,ofis
+1198,Emre Kurt,E,1992,İstanbul,Lisans,2020-08-07,,,,50,40.0,ajans,uzaktan
+1199,Tuğba Yıldız,K,1984,Eskişehir,Lisans,2020-07-08,2020-08-24,gönülsüz,performans,23,29.0,LinkedIn,ofis
+1200,Ebru Demir,K,1991,İstanbul,Ön lisans,2020-07-07,,,,32,30.0,kariyer sitesi,ofis
+1201,Barış Aslan,E,1992,İzmir,Lisans,2020-07-02,2021-02-02,gönüllü,ücret,16,20.0,üniversite,ofis
+1202,Mert Güneş,E,1985,Ankara,Lisans,2020-06-26,,,,52,40.0,LinkedIn,hibrit
+1203,Can Kaya,E,1989,İstanbul,Yüksek lisans,2020-07-06,2020-10-13,gönüllü,rakip firma,32,33.0,referans,hibrit
+1204,Onur Ekici,E,1986,Ankara,Lisans,2020-12-22,,,,52,40.0,LinkedIn,hibrit
+1205,Selin Yıldırım,K,1997,İstanbul,Lise,2020-10-12,,,,16,24.0,iç başvuru,ofis
+1206,Sinan Kaya,E,1988,İzmir,Lisans,2020-10-22,,,,34,33.0,üniversite,hibrit
+1207,Serkan Özkan,E,1990,İstanbul,Lisans,2020-03-23,2020-09-14,gönüllü,ücret,50,41.0,üniversite,hibrit
+1208,Ilgın Tunç,K,1979,Bursa,Lise,2020-09-30,,,,18,21.0,referans,ofis
+1209,Onur Ergin,E,1985,İstanbul,Lisans,2020-10-26,,,,52,41.0,kariyer sitesi,hibrit
+1210,Burak Demir,E,1991,Bursa,Lise,2020-04-23,2021-05-19,gönüllü,rakip firma,17,23.0,üniversite,ofis
+1211,Aslı Ergin,K,1992,İstanbul,Lisans,2020-05-28,,,,39,45.0,iç başvuru,ofis
+1212,Melis Ergin,K,1989,Kocaeli,Lise,2020-09-01,2022-12-02,gönüllü,rakip firma,28,30.0,üniversite,ofis
+1213,Sevgi Çetin,K,1979,İstanbul,Yüksek lisans,2020-03-24,2020-04-30,gönülsüz,performans,6,15.0,iç başvuru,ofis
+1214,Sinan Demir,E,1990,İzmir,Lisans,2020-09-29,2023-04-24,gönüllü,rakip firma,10,17.0,üniversite,ofis
+1215,Tolga Kurt,E,1990,İzmir,Lisans,2020-04-13,,,,17,22.0,üniversite,ofis
+1216,Özge Özdemir,K,1996,Ankara,Lisans,2020-02-26,,,,17,23.0,kariyer sitesi,ofis
+1217,Tuğba Toprak,K,1987,Kocaeli,Lisans,2020-02-10,2020-05-11,gönüllü,kariyer gelişimi,24,27.0,kariyer sitesi,hibrit
+1218,Aslı Tunç,K,1988,İstanbul,Lisans,2020-05-11,,,,40,13.0,referans,uzaktan
+1219,Mehmet Şimşek,E,1994,Ankara,Lisans,2020-07-02,,,,4,15.0,kariyer sitesi,ofis
+1220,Umut Ergin,E,1981,İstanbul,Lisans,2020-10-09,,,,34,35.0,kariyer sitesi,uzaktan
+1221,Volkan Yılmaz,E,1987,İstanbul,Lisans,2020-03-30,,,,29,30.0,üniversite,ofis
+1222,Hakan Kurt,E,1983,Kocaeli,Lisans,2020-10-05,,,,29,31.0,LinkedIn,ofis
+1223,Mert Güneş,E,1997,İzmir,Lisans,2020-11-25,,,,45,39.0,ajans,hibrit
+1224,Mert Koç,E,1991,İstanbul,Yüksek lisans,2020-12-17,,,,22,44.0,kariyer sitesi,hibrit
+1225,Ilgın Kaya,K,1984,İstanbul,Lise,2020-04-17,2023-10-04,gönüllü,ücret,28,31.0,ajans,ofis
+1226,Tuğba Doğan,K,1985,Bursa,Ön lisans,2020-01-22,,,,18,21.0,kariyer sitesi,ofis
+1227,Onur Bal,E,1994,İzmir,Lise,2020-03-23,2023-12-04,gönüllü,yönetici,16,22.0,iç başvuru,ofis
+1228,Emre Karaca,E,1995,İstanbul,Lisans,2020-04-23,2020-08-24,gönüllü,rakip firma,22,28.0,LinkedIn,ofis
+1229,Sevgi Ergin,K,1990,İstanbul,Yüksek lisans,2020-08-10,2021-06-09,gönüllü,taşınma,63,45.0,referans,uzaktan
+1230,Ilgın Çetin,K,1987,İstanbul,Lisans,2020-01-13,2021-06-08,gönüllü,rakip firma,33,33.0,kariyer sitesi,hibrit
+1231,Burcu Acar,K,1992,Ankara,Lisans,2020-12-15,2022-02-28,gönüllü,rakip firma,50,41.0,referans,ofis
+1232,Arda Kurt,E,1991,İstanbul,Lisans,2020-10-12,,,,64,44.0,referans,hibrit
+1233,Volkan Aydın,E,1991,İstanbul,Ön lisans,2020-02-03,,,,52,41.0,referans,ofis
+1234,Özge Koç,K,1992,İstanbul,Lise,2020-09-30,2021-03-08,gönüllü,kariyer gelişimi,23,29.0,ajans,ofis
+1235,Ebru Aydın,K,1990,Eskişehir,Ön lisans,2020-08-03,,,,23,25.0,referans,ofis
+1236,Nur Bal,K,1986,İstanbul,Lisans,2021-06-01,,,,63,44.0,iç başvuru,hibrit
+1237,Fatma Aydın,K,1992,İstanbul,Ön lisans,2021-01-29,2021-03-08,gönüllü,taşınma,23,27.0,kariyer sitesi,ofis
+1238,Cem Yıldırım,E,1987,İstanbul,Ön lisans,2021-05-21,,,,18,21.0,kariyer sitesi,ofis
+1239,Mehmet Arslan,E,1994,İstanbul,Lisans,2021-05-10,,,,56,43.0,LinkedIn,hibrit
+1240,Hakan Çelik,E,1982,İstanbul,Lisans,2021-11-24,,,,52,40.0,LinkedIn,hibrit
+1241,Sinan Kurt,E,1981,İstanbul,Lisans,2021-01-25,,,,40,13.0,kariyer sitesi,ofis
+1242,Damla Ekici,K,1992,Kocaeli,Ön lisans,2021-02-08,2023-10-09,gönüllü,yönetici,28,30.0,LinkedIn,ofis
+1243,Ahmet Yıldırım,E,1989,İstanbul,Ön lisans,2021-11-19,2022-01-25,gönüllü,yönetici,17,20.0,ajans,ofis
+1244,Selim Tunç,E,1994,İstanbul,Lisans,2021-08-13,,,,57,42.0,kariyer sitesi,hibrit
+1245,Deniz Bozkurt,E,1991,İstanbul,Lisans,2021-05-14,,,,5,14.0,referans,ofis
+1246,Efe Koç,E,1993,İzmir,Lisans,2021-11-22,,,,57,42.0,kariyer sitesi,hibrit
+1247,Tolga Kılıç,E,1994,İstanbul,Yüksek lisans,2021-01-18,,,,32,35.0,referans,hibrit
+1248,Mustafa Aslan,E,1993,İstanbul,Yüksek lisans,2021-06-28,,,,63,44.0,üniversite,hibrit
+1249,Volkan Tunç,E,1993,Kocaeli,Ön lisans,2021-08-24,2021-11-12,gönüllü,ücret,22,29.0,kariyer sitesi,hibrit
+1250,Deniz Ergin,E,1988,İzmir,Ön lisans,2021-06-25,,,,17,21.0,referans,ofis
+1251,Sevgi Doğan,K,1985,İstanbul,Lisans,2021-12-21,,,,52,41.0,LinkedIn,uzaktan
+1252,Barış Kara,E,1989,Ankara,Lisans,2021-11-09,2022-11-23,gönülsüz,performans,34,34.0,referans,hibrit
+1253,Zeynep Toprak,K,1997,Ankara,Lisans,2021-12-23,,,,44,39.0,LinkedIn,ofis
+1254,Derya Kara,K,1985,Ankara,Lisans,2021-09-27,2023-04-13,gönülsüz,disiplin,17,19.0,LinkedIn,ofis
+1255,Eren Özdemir,E,1992,İstanbul,Lisans,2021-01-29,,,,58,43.0,referans,ofis
+1256,Tuğba Uysal,K,1990,İstanbul,Lisans,2021-10-25,,,,18,21.0,kariyer sitesi,ofis
+1257,Gamze Ekici,K,1985,Kocaeli,Lise,2021-06-16,2021-08-20,gönüllü,yönetici,28,30.0,LinkedIn,ofis
+1258,Ebru Kaya,K,1993,İstanbul,Yüksek lisans,2021-04-06,,,,5,38.0,kariyer sitesi,hibrit
+1259,Özge Güneş,K,1998,İzmir,Lise,2021-06-21,2023-12-01,gönüllü,ücret,28,32.0,kariyer sitesi,ofis
+1260,Selim Yıldırım,E,1998,İstanbul,Lise,2021-11-08,,,,16,19.0,referans,ofis
+1261,Aslı Aydın,K,1986,İstanbul,Ön lisans,2021-12-07,2022-07-11,gönüllü,rakip firma,64,45.0,LinkedIn,uzaktan
+1262,Cansu Aydın,K,1980,İstanbul,Yüksek lisans,2021-11-29,,,,34,35.0,referans,hibrit
+1263,Ayşe Güneş,K,1984,İzmir,Ön lisans,2021-05-25,2022-12-05,gönüllü,taşınma,17,22.0,LinkedIn,ofis
+1264,Kaan Sezer,E,1984,İstanbul,Lisans,2021-04-12,,,,34,34.0,üniversite,hibrit
+1265,Mehmet Bozkurt,E,1986,Ankara,Lisans,2021-05-04,,,,52,41.0,referans,uzaktan
+1266,Defne Şahin,K,1982,İstanbul,Lisans,2021-04-30,,,,6,17.0,kariyer sitesi,ofis
+1267,Selin Uysal,K,1988,İstanbul,Lise,2021-11-29,2022-09-09,gönülsüz,performans,23,27.0,ajans,ofis
+1268,Can Bal,E,1990,İstanbul,Lisans,2021-10-05,,,,32,35.0,LinkedIn,uzaktan
+1269,Zeynep Ergin,K,1989,Kocaeli,Lise,2021-06-04,,,,28,30.0,LinkedIn,ofis
+1270,Can Şahin,E,1995,İstanbul,Lisans,2021-04-05,2022-04-04,gönüllü,yönetici,10,17.0,kariyer sitesi,ofis
+1271,Onur Kaya,E,1980,İstanbul,Lise,2021-03-05,2021-07-01,gönülsüz,disiplin,18,24.0,LinkedIn,ofis
+1272,İrem Toprak,K,1984,Ankara,Lise,2021-11-26,2024-04-22,gönülsüz,performans,18,19.0,kariyer sitesi,ofis
+1273,Nur Tunç,K,1985,Antalya,Ön lisans,2021-11-19,,,,17,20.0,kariyer sitesi,ofis
+1274,Ece Çetin,K,1993,Eskişehir,Lisans,2021-06-17,,,,23,29.0,LinkedIn,ofis
+1275,Kerem Polat,E,1996,İzmir,Lise,2021-10-22,,,,27,30.0,referans,ofis
+1276,Selim Ekici,E,1984,İstanbul,Lise,2021-06-14,,,,18,23.0,kariyer sitesi,ofis
+1277,Gamze Özdemir,K,1986,Kocaeli,Lise,2021-08-18,,,,29,32.0,üniversite,ofis
+1278,Yusuf Demir,E,1991,İstanbul,Lisans,2021-03-15,,,,56,42.0,iç başvuru,ofis
+1279,Esra Ergin,K,1985,İstanbul,Lisans,2021-06-03,,,,5,15.0,referans,ofis
+1280,Merve Tunç,K,1991,Kocaeli,Lisans,2021-11-22,,,,24,25.0,referans,ofis
+1281,Buse Kara,K,1989,İstanbul,Lise,2021-06-24,2024-08-29,gönüllü,ücret,23,26.0,kariyer sitesi,ofis
+1282,Barış Güneş,E,1991,Kocaeli,Lisans,2021-08-16,2024-01-30,gönüllü,yönetici,23,27.0,iç başvuru,hibrit
+1283,Nur Arslan,K,1985,İstanbul,Lisans,2021-01-08,,,,5,16.0,kariyer sitesi,ofis
+1284,Derya Yıldız,K,1988,Ankara,Ön lisans,2021-05-03,,,,33,33.0,kariyer sitesi,hibrit
+1285,Defne Koç,K,1996,İstanbul,Lisans,2021-04-09,,,,51,41.0,referans,uzaktan
+1286,Nur Doğan,K,1994,İstanbul,Lisans,2021-11-01,2024-02-05,gönülsüz,disiplin,32,35.0,ajans,hibrit
+1287,Mustafa Bozkurt,E,1997,İstanbul,Yüksek lisans,2021-06-21,,,,32,33.0,iç başvuru,ofis
+1288,Ahmet Çetin,E,1997,İzmir,Lisans,2021-11-19,,,,32,34.0,LinkedIn,hibrit
+1289,Mustafa Arslan,E,1990,İstanbul,Lisans,2021-03-15,,,,51,41.0,kariyer sitesi,hibrit
+1290,Fatma Koç,K,1993,İstanbul,Lisans,2021-07-14,2024-06-17,gönülsüz,yeniden yapılanma,5,14.0,LinkedIn,hibrit
+1291,Merve Özdemir,K,1994,Kocaeli,Lise,2021-10-11,2022-03-28,gönüllü,kariyer gelişimi,22,26.0,LinkedIn,ofis
+1292,Arda Özdemir,E,1986,İstanbul,Lise,2021-11-09,,,,18,21.0,referans,ofis
+1293,Cem Acar,E,1985,İzmir,Lisans,2021-03-01,2021-12-13,gönüllü,rakip firma,58,43.0,ajans,ofis
+1294,Ahmet Doğan,E,1988,Ankara,Lisans,2021-11-23,,,,18,23.0,referans,ofis
+1295,Deniz Kaya,E,1995,İstanbul,Yüksek lisans,2021-08-02,,,,56,43.0,kariyer sitesi,ofis
+1296,Zeynep Demir,K,1980,İstanbul,Lisans,2021-10-18,,,,52,40.0,LinkedIn,hibrit
+1297,Deniz Aslan,E,1989,İstanbul,Lisans,2021-01-13,2024-07-17,gönülsüz,performans,4,15.0,kariyer sitesi,hibrit
+1298,Levent Kaya,E,1993,İstanbul,Lise,2021-04-23,,,,16,21.0,kariyer sitesi,ofis
+1299,Zeynep Acar,K,1994,İstanbul,Lisans,2021-07-08,,,,4,14.0,kariyer sitesi,hibrit
+1300,Elif Kılıç,K,1983,İstanbul,Yüksek lisans,2021-09-09,,,,12,17.0,LinkedIn,ofis
+1301,Cansu Demir,K,1990,Ankara,Lisans,2021-05-17,,,,6,16.0,LinkedIn,ofis
+1302,Burcu Bozkurt,K,1986,İzmir,Lisans,2021-10-18,,,,63,44.0,ajans,hibrit
+1303,Mert Öztürk,E,1997,İstanbul,Lisans,2021-09-30,2023-02-21,gönüllü,kariyer gelişimi,56,43.0,referans,hibrit
+1304,Onur Ekici,E,1998,Bursa,Lise,2021-03-29,,,,16,21.0,kariyer sitesi,ofis
+1305,Ali Güneş,E,1991,İzmir,Yüksek lisans,2021-01-18,,,,39,13.0,kariyer sitesi,hibrit
+1306,Oğuz Ekici,E,1989,İstanbul,Lisans,2021-04-26,,,,34,42.0,LinkedIn,hibrit
+1307,Arda Şahin,E,1995,İstanbul,Lisans,2021-06-11,,,,32,35.0,LinkedIn,hibrit
+1308,Selim Toprak,E,1995,İstanbul,Yüksek lisans,2021-04-26,,,,58,42.0,referans,ofis
+1309,Volkan Demir,E,1998,Ankara,Lisans,2021-06-09,2024-09-05,gönülsüz,disiplin,38,13.0,LinkedIn,ofis
+1310,Cem Çelik,E,1982,Eskişehir,Lise,2021-08-04,2023-07-06,gönülsüz,yeniden yapılanma,24,25.0,kariyer sitesi,hibrit
+1311,Selin Ekici,K,1992,Ankara,Lisans,2021-02-22,,,,39,13.0,referans,hibrit
+1312,Cem Yıldız,E,1995,İstanbul,Lisans,2021-01-05,,,,39,13.0,referans,hibrit
+1313,Nur Kurt,K,1994,İstanbul,Lisans,2021-08-02,2024-04-22,gönüllü,rakip firma,51,41.0,referans,hibrit
+1314,İrem Şahin,K,1984,Ankara,Lise,2021-01-21,,,,17,19.0,kariyer sitesi,ofis
+1315,Tolga Aslan,E,1992,İstanbul,Ön lisans,2021-06-14,,,,17,20.0,kariyer sitesi,ofis
+1316,Burak Bozkurt,E,1987,Ankara,Yüksek lisans,2021-03-30,2024-06-27,gönüllü,kariyer gelişimi,5,16.0,referans,ofis
+1317,Tolga Kaya,E,1989,İstanbul,Lisans,2021-04-22,2024-05-20,gönülsüz,disiplin,62,45.0,üniversite,uzaktan
+1318,Zeynep Şimşek,K,1986,İstanbul,Yüksek lisans,2021-12-23,2022-08-29,gönülsüz,performans,11,17.0,ajans,ofis
+1319,Ilgın Doğan,K,1993,İstanbul,Lisans,2021-09-28,,,,4,16.0,iç başvuru,ofis
+1320,Hakan Yıldız,E,1991,İstanbul,Lisans,2021-12-09,,,,39,33.0,kariyer sitesi,ofis
+1321,Levent Yıldırım,E,1992,İstanbul,Yüksek lisans,2021-06-07,2024-10-23,gönülsüz,performans,38,13.0,üniversite,hibrit
+1322,Levent Koç,E,1995,İstanbul,Lisans,2021-02-22,,,,28,32.0,LinkedIn,ofis
+1323,Mustafa Özkan,E,1980,İstanbul,Lise,2021-05-07,,,,24,28.0,iç başvuru,ofis
+1324,Selim Güneş,E,1989,Bursa,Lisans,2021-01-06,2023-08-14,gönüllü,taşınma,18,23.0,referans,ofis
+1325,Derya Kılıç,K,1985,İstanbul,Ön lisans,2021-08-23,2024-10-30,gönüllü,ücret,24,25.0,referans,hibrit
+1326,Burak Arslan,E,1993,İzmir,Lisans,2021-03-17,2021-11-01,gönüllü,eğitim,10,17.0,kariyer sitesi,ofis
+1327,Burak Bozkurt,E,1986,Bursa,Lisans,2021-04-09,2021-10-25,gönülsüz,performans,17,20.0,LinkedIn,ofis
+1328,Sinan Kaya,E,1992,Ankara,Lisans,2021-04-28,2024-10-03,gönülsüz,yeniden yapılanma,40,13.0,kariyer sitesi,hibrit
+1329,Oğuz Doğan,E,1996,Ankara,Yüksek lisans,2021-03-31,,,,44,39.0,ajans,ofis
+1330,Serkan Ergin,E,1981,İstanbul,Yüksek lisans,2021-03-17,2021-11-29,gönüllü,kariyer gelişimi,6,15.0,referans,ofis
+1331,Melis Yıldırım,K,1986,İstanbul,Yüksek lisans,2021-10-05,,,,6,16.0,LinkedIn,hibrit
+1332,Levent Şahin,E,1990,İstanbul,Lisans,2021-05-03,2023-05-22,gönülsüz,yeniden yapılanma,17,19.0,referans,ofis
+1333,Ilgın Kaya,K,1993,Ankara,Lise,2021-12-09,,,,16,20.0,LinkedIn,ofis
+1334,Eren Yıldız,E,1998,Eskişehir,Ön lisans,2021-12-02,2023-11-27,gönüllü,yönetici,22,29.0,kariyer sitesi,hibrit
+1335,Kaan Doğan,E,1990,İstanbul,Lisans,2021-02-08,2023-09-15,gönüllü,rakip firma,39,13.0,kariyer sitesi,hibrit
+1336,Barış Aslan,E,1995,İstanbul,Lise,2021-12-27,2022-08-26,gönüllü,yönetici,16,23.0,kariyer sitesi,ofis
+1337,Mustafa Tunç,E,1989,İstanbul,Lisans,2021-05-06,,,,58,43.0,LinkedIn,hibrit
+1338,Cem Doğan,E,1993,İstanbul,Lisans,2021-12-14,,,,11,17.0,iç başvuru,ofis
+1339,Murat Sezer,E,1987,İstanbul,Yüksek lisans,2021-02-22,2023-04-11,gönüllü,ücret,39,8.0,LinkedIn,ofis
+1340,Efe Şimşek,E,1992,İstanbul,Lisans,2021-09-28,,,,4,16.0,referans,ofis
+1341,Buse Aydın,K,1998,İzmir,Lisans,2021-08-26,,,,16,22.0,kariyer sitesi,ofis
+1342,Melis Sezer,K,1996,İstanbul,Yüksek lisans,2021-11-01,,,,23,40.0,referans,ofis
+1343,Melis Aydın,K,1993,Eskişehir,Lise,2021-12-06,,,,24,28.0,üniversite,hibrit
+1344,Serkan Demir,E,1985,İstanbul,Lisans,2021-06-07,2023-04-19,gönüllü,ücret,33,33.0,kariyer sitesi,hibrit
+1345,Tuğba Özkan,K,1993,İstanbul,Ön lisans,2021-01-07,2021-11-24,gönülsüz,disiplin,28,31.0,LinkedIn,ofis
+1346,Elif Şahin,K,1993,İstanbul,Lisans,2021-06-01,2022-03-17,gönülsüz,performans,4,16.0,iç başvuru,ofis
+1347,Emre Şimşek,E,1984,Ankara,Lisans,2021-07-27,2022-09-22,gönülsüz,disiplin,5,14.0,ajans,ofis
+1348,Tolga Koç,E,1995,İstanbul,Lisans,2021-04-02,,,,4,15.0,referans,ofis
+1349,Deniz Şimşek,E,1988,Antalya,Lise,2021-01-25,,,,18,24.0,LinkedIn,ofis
+1350,Pınar Doğan,K,1988,İstanbul,Lisans,2021-01-04,,,,34,33.0,kariyer sitesi,hibrit
+1351,Ilgın Bal,K,1983,Kocaeli,Ön lisans,2021-05-24,,,,29,31.0,LinkedIn,ofis
+1352,Yasemin Aydın,K,1996,Ankara,Lisans,2021-09-13,2024-04-19,gönüllü,ücret,50,40.0,kariyer sitesi,ofis
+1353,Merve Çelik,K,1995,İstanbul,Ön lisans,2021-04-14,2024-06-03,gönüllü,yönetici,18,22.0,kariyer sitesi,ofis
+1354,Arda Ergin,E,1987,Ankara,Lise,2021-06-08,,,,18,23.0,iç başvuru,ofis
+1355,Derya Özkan,K,1986,İstanbul,Lisans,2021-05-24,2023-03-08,gönüllü,ücret,46,39.0,referans,uzaktan
+1356,Derya Demir,K,1985,Kocaeli,Lise,2021-06-15,2022-12-01,gönüllü,ücret,29,30.0,ajans,ofis
+1357,Emre Polat,E,1993,İstanbul,Ön lisans,2021-10-11,,,,23,27.0,iç başvuru,ofis
+1358,Derya Sezer,K,1997,Ankara,Lisans,2021-03-04,2022-07-18,gönüllü,rakip firma,32,35.0,ajans,ofis
+1359,Ayşe Aslan,K,1989,İstanbul,Lisans,2021-12-15,,,,40,13.0,LinkedIn,hibrit
+1360,Kerem Ekici,E,1990,İstanbul,Lisans,2021-07-09,,,,46,38.0,referans,hibrit
+1361,Ilgın Aslan,K,1998,İstanbul,Lise,2021-05-25,2022-10-17,gönüllü,kariyer gelişimi,22,26.0,LinkedIn,ofis
+1362,Ali Şahin,E,1992,Ankara,Lisans,2021-12-08,,,,40,13.0,iç başvuru,ofis
+1363,Sinan Şimşek,E,1985,İstanbul,Lise,2021-08-09,,,,24,28.0,referans,ofis
+1364,Elif Arslan,K,1992,İzmir,Ön lisans,2021-09-03,2022-07-22,gönülsüz,performans,27,32.0,LinkedIn,ofis
+1365,Zeynep Tunç,K,1991,İstanbul,Lisans,2021-04-02,,,,52,41.0,referans,uzaktan
+1366,Ayşe Toprak,K,1987,Eskişehir,Lise,2021-04-05,2021-08-26,gönüllü,ücret,24,26.0,iç başvuru,hibrit
+1367,Kerem Kara,E,1992,İstanbul,Lise,2021-06-08,,,,22,27.0,referans,ofis
+1368,Tolga Çetin,E,1991,İstanbul,Lisans,2021-10-20,,,,57,42.0,kariyer sitesi,ofis
+1369,Arda Demir,E,1993,Ankara,Lisans,2021-08-18,,,,16,20.0,iç başvuru,ofis
+1370,Gamze Şahin,K,1989,Ankara,Lisans,2021-05-26,,,,45,38.0,LinkedIn,hibrit
+1371,Kerem Koç,E,1991,İstanbul,Ön lisans,2021-12-20,,,,46,22.0,iç başvuru,ofis
+1372,Efe Aslan,E,1986,İstanbul,Lisans,2021-11-22,,,,45,38.0,kariyer sitesi,ofis
+1373,Selin Yıldırım,K,1987,İstanbul,Yüksek lisans,2021-10-18,2022-06-06,gönüllü,taşınma,6,16.0,LinkedIn,ofis
+1374,Eren Öztürk,E,1980,İstanbul,Lisans,2021-07-29,,,,34,33.0,kariyer sitesi,uzaktan
+1375,Burcu Bal,K,1997,İstanbul,Ön lisans,2021-11-22,,,,63,45.0,iç başvuru,hibrit
+1376,Serkan Şimşek,E,1988,İstanbul,Yüksek lisans,2021-07-14,,,,40,13.0,LinkedIn,uzaktan
+1377,Sevgi Doğan,K,1992,Ankara,Lisans,2021-12-03,,,,18,22.0,LinkedIn,ofis
+1378,Yusuf Öztürk,E,1997,Ankara,Lise,2021-01-29,,,,17,23.0,kariyer sitesi,ofis
+1379,Sinan Aydın,E,1981,Antalya,Ön lisans,2021-10-22,,,,18,24.0,kariyer sitesi,ofis
+1380,Kaan Bozkurt,E,1983,İstanbul,Lisans,2021-05-24,,,,52,40.0,ajans,ofis
+1381,Elif Kaya,K,1993,İstanbul,Lisans,2021-05-31,2021-10-04,gönüllü,rakip firma,57,43.0,iç başvuru,ofis
+1382,Aslı Toprak,K,1995,İstanbul,Lisans,2021-09-08,,,,51,40.0,ajans,hibrit
+1383,Merve Ekici,K,1996,Ankara,Lisans,2021-12-06,,,,50,41.0,ajans,hibrit
+1384,Yusuf Kurt,E,1995,Ankara,Yüksek lisans,2021-10-18,2022-04-06,gönüllü,rakip firma,32,34.0,iç başvuru,hibrit
+1385,Tolga Özkan,E,1991,İstanbul,Lisans,2021-08-30,,,,11,18.0,kariyer sitesi,ofis
+1386,Ilgın Kılıç,K,1987,İstanbul,Lisans,2021-11-01,,,,52,40.0,kariyer sitesi,hibrit
+1387,Merve Kılıç,K,1993,Eskişehir,Ön lisans,2021-01-25,2021-04-21,gönüllü,rakip firma,23,27.0,referans,ofis
+1388,Burak Kaya,E,1991,İstanbul,Lisans,2021-12-27,,,,39,13.0,ajans,hibrit
+1389,Sevgi Bozkurt,K,1993,Kocaeli,Lisans,2021-05-10,,,,17,29.0,LinkedIn,ofis
+1390,Aslı Çetin,K,1998,Ankara,Lisans,2021-07-15,,,,50,40.0,kariyer sitesi,hibrit
+1391,Ali Yıldız,E,1993,İstanbul,Lisans,2021-11-08,,,,33,35.0,iç başvuru,uzaktan
+1392,Tolga Özdemir,E,1989,Eskişehir,Lise,2021-08-02,,,,24,27.0,kariyer sitesi,ofis
+1393,Arda Yılmaz,E,1989,İzmir,Lisans,2021-03-29,,,,38,13.0,kariyer sitesi,hibrit
+1394,Özge Karaca,K,1985,İstanbul,Lise,2021-10-21,,,,17,21.0,kariyer sitesi,ofis
+1395,Yusuf Doğan,E,1987,İstanbul,Lisans,2021-05-06,2022-10-03,gönülsüz,disiplin,63,45.0,ajans,hibrit
+1396,Serkan Tunç,E,1985,İstanbul,Yüksek lisans,2021-10-25,,,,57,42.0,LinkedIn,hibrit
+1397,Ali Toprak,E,1986,İstanbul,Lisans,2021-10-05,2022-05-23,gönüllü,kariyer gelişimi,17,24.0,kariyer sitesi,ofis
+1398,Derya Tunç,K,1985,İstanbul,Lisans,2021-03-22,2021-09-08,gönüllü,rakip firma,64,44.0,ajans,hibrit
+1399,Eren Yılmaz,E,1986,İstanbul,Lisans,2021-12-02,2022-09-19,gönüllü,rakip firma,34,34.0,kariyer sitesi,hibrit
+1400,Umut Aydın,E,1988,İstanbul,Yüksek lisans,2021-10-01,2023-03-24,gönüllü,ücret,6,16.0,LinkedIn,ofis
+1401,İrem Polat,K,1997,İzmir,Lise,2021-08-19,2021-12-13,gönüllü,ücret,16,22.0,ajans,ofis
+1402,Elif Acar,K,1994,İstanbul,Lisans,2021-05-04,,,,62,44.0,referans,ofis
+1403,Deniz Ergin,E,1991,İstanbul,Yüksek lisans,2021-03-26,2022-10-11,gönüllü,kariyer gelişimi,39,8.0,kariyer sitesi,hibrit
+1404,Fatma Özkan,K,1982,İstanbul,Ön lisans,2021-08-06,,,,18,19.0,referans,ofis
+1405,Buse Bal,K,1985,İstanbul,Lisans,2021-10-26,2024-02-16,gönüllü,rakip firma,57,43.0,kariyer sitesi,ofis
+1406,Eren Güneş,E,1989,İstanbul,Lisans,2021-01-08,,,,33,35.0,kariyer sitesi,hibrit
+1407,Merve Sezer,K,1986,Kocaeli,Lisans,2021-05-31,,,,33,30.0,referans,ofis
+1408,Kaan Kaya,E,1986,İstanbul,Yüksek lisans,2021-03-17,2023-06-28,gönüllü,ücret,33,34.0,kariyer sitesi,hibrit
+1409,Barış Polat,E,1980,Eskişehir,Ön lisans,2021-09-28,2023-07-03,gönüllü,rakip firma,24,29.0,kariyer sitesi,ofis
+1410,Mert Acar,E,1988,İstanbul,Lisans,2021-07-29,,,,33,33.0,referans,hibrit
+1411,Burak Arslan,E,1990,Kocaeli,Ön lisans,2021-06-10,,,,17,31.0,üniversite,ofis
+1412,Tuğba Yılmaz,K,1985,İstanbul,Lisans,2021-02-22,,,,58,42.0,referans,ofis
+1413,Sevgi Toprak,K,1989,İzmir,Lisans,2021-04-22,2024-09-27,gönüllü,yönetici,39,13.0,ajans,hibrit
+1414,Yasemin Özkan,K,1992,İstanbul,Yüksek lisans,2021-03-25,,,,57,42.0,ajans,ofis
+1415,Derya Şimşek,K,1996,İstanbul,Lisans,2021-07-13,2021-12-06,gönüllü,taşınma,50,41.0,LinkedIn,uzaktan
+1416,Ahmet Koç,E,1993,Eskişehir,Lisans,2021-06-28,2022-09-26,gönüllü,ücret,22,26.0,kariyer sitesi,ofis
+1417,Yusuf Toprak,E,1987,Kocaeli,Lisans,2021-11-15,2022-02-14,gönüllü,ücret,28,31.0,referans,ofis
+1418,Özge Güneş,K,1984,İstanbul,Lisans,2021-11-10,2024-09-30,gönüllü,eğitim,64,44.0,LinkedIn,uzaktan
+1419,Ayşe Bal,K,1992,İstanbul,Yüksek lisans,2021-06-14,2023-06-19,gönüllü,ücret,50,41.0,referans,ofis
+1420,Tuğba Bal,K,1995,İzmir,Lise,2021-03-12,,,,16,23.0,kariyer sitesi,ofis
+1421,Oğuz Özdemir,E,1989,İstanbul,Lisans,2021-03-17,,,,32,35.0,ajans,hibrit
+1422,Can Kurt,E,1987,İstanbul,Yüksek lisans,2021-06-15,2022-04-22,gönülsüz,performans,40,8.0,iç başvuru,hibrit
+1423,Barış Yıldız,E,1989,Ankara,Yüksek lisans,2021-11-09,,,,33,34.0,kariyer sitesi,hibrit
+1424,Mehmet Güneş,E,1986,İstanbul,Lisans,2021-11-19,2023-11-14,gönülsüz,performans,33,35.0,kariyer sitesi,ofis
+1425,Burak Koç,E,1981,İstanbul,Lisans,2021-07-05,,,,6,14.0,kariyer sitesi,ofis
+1426,Can Aydın,E,1986,İstanbul,Lise,2021-08-11,,,,18,23.0,kariyer sitesi,ofis
+1427,Volkan Çetin,E,1984,İstanbul,Lisans,2021-04-15,,,,6,41.0,referans,hibrit
+1428,Selin Kara,K,1994,Kocaeli,Lise,2021-02-12,2021-06-21,gönülsüz,yeniden yapılanma,22,28.0,ajans,ofis
+1429,Selin Toprak,K,1993,İstanbul,Lise,2021-07-19,,,,22,29.0,LinkedIn,ofis
+1430,Deniz Aydın,E,1990,Ankara,Lise,2021-02-15,,,,17,21.0,iç başvuru,ofis
+1431,Yusuf Uysal,E,1989,İstanbul,Lise,2021-03-24,,,,22,26.0,LinkedIn,ofis
+1432,Cem Yıldırım,E,1985,İstanbul,Lisans,2021-06-16,,,,63,44.0,ajans,hibrit
+1433,Emre Ergin,E,1985,İstanbul,Lisans,2021-04-19,,,,33,35.0,kariyer sitesi,ofis
+1434,Selin Koç,K,1990,Kocaeli,Lise,2021-12-22,2022-08-15,gönüllü,kariyer gelişimi,22,29.0,iç başvuru,ofis
+1435,Oğuz Aydın,E,1982,İstanbul,Lisans,2021-12-07,,,,58,43.0,kariyer sitesi,ofis
+1436,Defne Yıldız,K,1990,İstanbul,Lise,2021-03-19,,,,29,32.0,kariyer sitesi,ofis
+1437,Defne Kaya,K,1995,İstanbul,Ön lisans,2021-01-27,2023-10-30,gönüllü,rakip firma,5,14.0,kariyer sitesi,ofis
+1438,Mustafa Uysal,E,1981,İstanbul,Lisans,2021-08-09,,,,6,15.0,referans,ofis
+1439,Emre Arslan,E,1987,İstanbul,Lisans,2021-10-21,,,,6,16.0,LinkedIn,ofis
+1440,Gamze Aydın,K,1988,Ankara,Lisans,2021-08-06,,,,51,40.0,üniversite,hibrit
+1441,Pınar Güneş,K,1990,İstanbul,Lisans,2021-09-06,2022-06-09,gönüllü,rakip firma,56,43.0,kariyer sitesi,hibrit
+1442,Özge Aydın,K,1994,İstanbul,Lisans,2021-02-01,2021-07-12,gönüllü,ücret,44,38.0,LinkedIn,hibrit
+1443,Cansu Doğan,K,1998,Eskişehir,Lisans,2021-03-29,2021-09-08,gönülsüz,performans,22,28.0,iç başvuru,hibrit
+1444,Tolga Toprak,E,1992,İstanbul,Ön lisans,2021-05-11,2023-10-09,gönüllü,rakip firma,17,23.0,iç başvuru,ofis
+1445,Burak Kurt,E,1986,Ankara,Lise,2021-09-02,,,,34,24.0,LinkedIn,ofis
+1446,Hakan Özkan,E,1998,İzmir,Lise,2021-07-23,2023-05-19,gönülsüz,disiplin,27,30.0,ajans,ofis
+1447,Gamze Ergin,K,1991,Ankara,Lisans,2021-08-23,,,,11,18.0,referans,hibrit
+1448,Ilgın Sezer,K,1995,Ankara,Yüksek lisans,2021-10-06,2022-02-18,gönüllü,yönetici,4,16.0,kariyer sitesi,ofis
+1449,Mehmet Karaca,E,1990,İstanbul,Yüksek lisans,2021-03-16,2021-05-04,gönülsüz,yeniden yapılanma,57,43.0,ajans,ofis
+1450,Burcu Aydın,K,1991,Kocaeli,Ön lisans,2021-08-10,,,,24,25.0,referans,ofis
+1451,Serkan Özkan,E,1993,İstanbul,Lisans,2021-01-15,,,,33,35.0,ajans,hibrit
+1452,Esra Arslan,K,1992,Ankara,Yüksek lisans,2021-11-01,2024-07-15,gönülsüz,disiplin,40,13.0,referans,hibrit
+1453,Aslı Koç,K,1981,Eskişehir,Lisans,2021-11-29,2022-03-21,gönüllü,ücret,24,28.0,iç başvuru,ofis
+1454,Can Acar,E,1989,İstanbul,Lisans,2021-08-19,,,,29,32.0,referans,ofis
+1455,Fatma Kılıç,K,1994,İstanbul,Lisans,2021-11-01,,,,24,14.0,referans,ofis
+1456,Melis Uysal,K,1997,Ankara,Lisans,2022-04-04,2022-05-23,gönüllü,eğitim,38,8.0,kariyer sitesi,hibrit
+1457,Serkan Ekici,E,1990,İstanbul,Yüksek lisans,2022-06-20,,,,38,13.0,referans,ofis
+1458,Melis Karaca,K,1997,İstanbul,Lise,2022-07-04,,,,27,30.0,kariyer sitesi,ofis
+1459,Deniz Acar,E,1989,Kocaeli,Ön lisans,2022-08-31,2024-11-20,gönüllü,kariyer gelişimi,23,29.0,referans,ofis
+1460,Merve Polat,K,1992,Ankara,Ön lisans,2022-02-16,2022-12-05,gönüllü,ücret,16,21.0,kariyer sitesi,ofis
+1461,Selin Doğan,K,1998,İstanbul,Lise,2022-07-04,2023-03-13,gönüllü,rakip firma,16,22.0,LinkedIn,ofis
+1462,Umut Çelik,E,1988,İstanbul,Lisans,2022-11-25,,,,33,34.0,LinkedIn,uzaktan
+1463,Levent Yıldırım,E,1991,İzmir,Lise,2022-08-03,,,,16,24.0,LinkedIn,ofis
+1464,Özge Polat,K,1995,İstanbul,Lise,2022-09-05,2024-07-26,gönüllü,rakip firma,17,19.0,üniversite,ofis
+1465,Derya Arslan,K,1996,İzmir,Ön lisans,2022-06-27,2024-03-07,gönüllü,kariyer gelişimi,4,15.0,kariyer sitesi,ofis
+1466,Levent Uysal,E,1988,İstanbul,Ön lisans,2022-11-21,,,,18,21.0,kariyer sitesi,ofis
+1467,Melis Polat,K,1990,İstanbul,Lisans,2022-01-17,2024-10-07,gönüllü,taşınma,45,39.0,ajans,hibrit
+1468,Can Toprak,E,1995,İstanbul,Lise,2022-10-21,,,,17,23.0,üniversite,ofis
+1469,Kaan Sezer,E,1988,İzmir,Yüksek lisans,2022-06-20,2022-10-17,gönüllü,ücret,46,39.0,ajans,uzaktan
+1470,Oğuz Koç,E,1984,İzmir,Ön lisans,2022-05-03,2023-07-24,gönüllü,eğitim,34,30.0,kariyer sitesi,ofis
+1471,Can Özkan,E,1991,Ankara,Ön lisans,2022-10-11,,,,16,20.0,referans,ofis
+1472,Fatma Bozkurt,K,1990,İstanbul,Ön lisans,2022-11-18,2023-09-06,gönüllü,kariyer gelişimi,17,21.0,ajans,ofis
+1473,Esra Aydın,K,1988,Eskişehir,Lise,2022-01-31,2024-05-09,gönüllü,ücret,23,28.0,kariyer sitesi,ofis
+1474,Oğuz Sezer,E,1982,İzmir,Lisans,2022-05-30,,,,6,15.0,kariyer sitesi,hibrit
+1475,Derya Özkan,K,1996,İstanbul,Lisans,2022-05-09,,,,16,24.0,üniversite,ofis
+1476,Kaan Polat,E,1986,İstanbul,Lise,2022-09-12,,,,5,26.0,LinkedIn,ofis
+1477,Levent Polat,E,1988,Kocaeli,Lise,2022-02-21,2022-04-05,gönülsüz,performans,28,31.0,kariyer sitesi,ofis
+1478,Selim Demir,E,1996,İstanbul,Yüksek lisans,2022-06-29,,,,44,38.0,üniversite,hibrit
+1479,Buse Acar,K,1997,İstanbul,Lisans,2022-04-04,2022-07-26,gönülsüz,yeniden yapılanma,50,41.0,referans,hibrit
+1480,Burak Çetin,E,1995,Kocaeli,Lisans,2022-05-30,2023-07-14,gönülsüz,performans,27,31.0,kariyer sitesi,ofis
+1481,Emre Şahin,E,1990,İzmir,Lisans,2022-12-26,2023-03-06,gönülsüz,yeniden yapılanma,4,16.0,kariyer sitesi,hibrit
+1482,Can Çetin,E,1987,İstanbul,Yüksek lisans,2022-08-23,,,,46,38.0,kariyer sitesi,uzaktan
+1483,İrem Bozkurt,K,1995,İstanbul,Yüksek lisans,2022-04-11,,,,10,18.0,LinkedIn,ofis
+1484,Serkan Tunç,E,1992,Antalya,Lise,2022-01-31,2022-06-16,gönüllü,ücret,17,21.0,referans,ofis
+1485,Cem Tunç,E,1990,Kocaeli,Lise,2022-01-31,,,,29,30.0,kariyer sitesi,ofis
+1486,Hakan Arslan,E,1986,Eskişehir,Lise,2022-12-26,2023-07-03,gönülsüz,performans,24,26.0,kariyer sitesi,hibrit
+1487,Murat Toprak,E,1995,Kocaeli,Lisans,2022-07-05,2023-11-09,gönüllü,ücret,22,27.0,kariyer sitesi,ofis
+1488,Elif Şahin,K,1982,Eskişehir,Lise,2022-05-05,2022-06-14,gönüllü,rakip firma,24,28.0,ajans,ofis
+1489,Burcu Aydın,K,1982,Ankara,Lise,2022-07-11,,,,18,20.0,kariyer sitesi,ofis
+1490,Arda Kara,E,1992,Kocaeli,Lise,2022-03-29,,,,28,32.0,LinkedIn,ofis
+1491,Selin Yıldız,K,1982,İstanbul,Ön lisans,2022-03-07,,,,40,13.0,LinkedIn,hibrit
+1492,Umut Acar,E,1993,İstanbul,Lisans,2022-07-20,2023-07-28,gönüllü,yönetici,29,31.0,LinkedIn,ofis
+1493,Ebru Yıldırım,K,1988,İstanbul,Lisans,2022-07-15,2024-04-16,gönülsüz,yeniden yapılanma,33,35.0,kariyer sitesi,uzaktan
+1494,Damla Özdemir,K,1991,Eskişehir,Lisans,2022-06-17,2023-10-30,gönüllü,eğitim,23,29.0,iç başvuru,hibrit
+1495,Can Ekici,E,1990,İstanbul,Lisans,2022-10-17,2024-09-06,gönüllü,taşınma,58,43.0,LinkedIn,ofis
+1496,Sevgi Karaca,K,1997,Kocaeli,Ön lisans,2022-04-25,,,,27,32.0,kariyer sitesi,ofis
+1497,Emre Kılıç,E,1988,İzmir,Ön lisans,2022-08-04,2024-10-01,gönüllü,ücret,28,30.0,referans,ofis
+1498,Esra Bozkurt,K,1990,İstanbul,Lisans,2022-09-02,,,,56,42.0,LinkedIn,ofis
+1499,Yusuf Yıldız,E,1998,İstanbul,Lise,2022-11-03,2023-09-12,gönüllü,ücret,22,29.0,LinkedIn,ofis
+1500,Murat Sezer,E,1997,İstanbul,Yüksek lisans,2022-09-05,,,,5,14.0,kariyer sitesi,hibrit
+1501,Hakan Koç,E,1986,İstanbul,Lisans,2022-11-18,2024-06-13,gönüllü,ücret,63,45.0,kariyer sitesi,hibrit
+1502,Selin Acar,K,1992,Ankara,Lisans,2022-05-30,2024-12-11,gönüllü,rakip firma,17,21.0,kariyer sitesi,ofis
+1503,Zeynep Ekici,K,1988,İstanbul,Yüksek lisans,2022-10-13,,,,39,13.0,referans,uzaktan
+1504,Serkan Güneş,E,1989,İstanbul,Lisans,2022-11-07,,,,40,13.0,referans,ofis
+1505,Aslı Aslan,K,1999,Ankara,Lisans,2022-07-15,2023-02-24,gönüllü,ücret,22,39.0,kariyer sitesi,uzaktan
+1506,Pınar Karaca,K,1994,Eskişehir,Lisans,2022-03-22,,,,23,26.0,kariyer sitesi,ofis
+1507,Ebru Kurt,K,1990,İzmir,Lisans,2022-01-12,,,,17,20.0,LinkedIn,ofis
+1508,Hakan Aydın,E,1984,İstanbul,Lisans,2022-01-27,2022-04-11,gönüllü,eğitim,34,35.0,kariyer sitesi,hibrit
+1509,Can Bal,E,1986,İstanbul,Lisans,2022-02-23,,,,39,13.0,referans,hibrit
+1510,Sevgi Arslan,K,1986,İstanbul,Lisans,2022-01-18,2022-04-01,gönüllü,kariyer gelişimi,6,15.0,kariyer sitesi,ofis
+1511,Sinan Polat,E,1992,Ankara,Ön lisans,2022-02-07,2022-11-21,gönüllü,ücret,33,35.0,kariyer sitesi,ofis
+1512,Fatma Uysal,K,1989,Ankara,Lisans,2022-07-15,,,,5,14.0,LinkedIn,ofis
+1513,Selim Aslan,E,1986,İstanbul,Lisans,2022-02-14,2022-06-29,gönüllü,kariyer gelişimi,52,41.0,ajans,hibrit
+1514,Mustafa Kılıç,E,1992,İzmir,Lisans,2022-06-02,,,,11,17.0,referans,ofis
+1515,Özge Sezer,K,1990,İstanbul,Lise,2022-02-09,,,,16,22.0,referans,ofis
+1516,Yusuf Ekici,E,1991,İstanbul,Lisans,2022-05-05,,,,32,34.0,referans,hibrit
+1517,Ahmet Şahin,E,1988,Kocaeli,Lise,2022-03-21,,,,29,32.0,üniversite,ofis
+1518,Ayşe Bozkurt,K,1992,Kocaeli,Lisans,2022-04-14,,,,23,28.0,referans,ofis
+1519,Merve Bozkurt,K,1998,İstanbul,Lisans,2022-03-07,,,,63,45.0,LinkedIn,ofis
+1520,Cansu Çetin,K,1989,İstanbul,Lisans,2022-07-12,2023-07-17,gönüllü,kariyer gelişimi,34,35.0,referans,hibrit
+1521,Barış Polat,E,1991,İstanbul,Ön lisans,2022-01-24,2022-04-04,gönüllü,rakip firma,33,33.0,iç başvuru,hibrit
+1522,Serkan Kaya,E,1994,İstanbul,Lisans,2022-11-30,,,,44,38.0,üniversite,hibrit
+1523,Ayşe Kara,K,1993,İstanbul,Lise,2022-11-24,,,,17,24.0,kariyer sitesi,ofis
+1524,Onur Arslan,E,1986,İstanbul,Lisans,2022-02-04,,,,17,19.0,üniversite,ofis
+1525,Merve Aslan,K,1985,İstanbul,Yüksek lisans,2022-12-07,2024-08-09,gönülsüz,yeniden yapılanma,6,15.0,LinkedIn,ofis
+1526,Yasemin Ekici,K,1988,İstanbul,Lisans,2022-08-15,,,,64,44.0,kariyer sitesi,hibrit
+1527,İrem Sezer,K,1991,Antalya,Lise,2022-08-26,2024-12-03,gönüllü,rakip firma,17,22.0,LinkedIn,ofis
+1528,Merve Acar,K,1983,İstanbul,Lisans,2022-01-06,2022-02-09,gönüllü,kariyer gelişimi,6,15.0,ajans,hibrit
+1529,Gamze Çetin,K,1983,Kocaeli,Lise,2022-01-24,2023-01-23,gönülsüz,performans,29,32.0,kariyer sitesi,ofis
+1530,Arda Kaya,E,1982,İstanbul,Lisans,2022-09-27,,,,64,44.0,kariyer sitesi,ofis
+1531,Cem Bozkurt,E,1990,İstanbul,Lisans,2022-04-04,,,,64,45.0,kariyer sitesi,hibrit
+1532,Ebru Uysal,K,1988,Ankara,Lisans,2022-07-21,,,,64,44.0,kariyer sitesi,hibrit
+1533,Ece Yılmaz,K,1993,İstanbul,Lisans,2022-09-12,,,,5,14.0,kariyer sitesi,hibrit
+1534,Selim Bozkurt,E,1983,Bursa,Lise,2022-11-02,,,,18,23.0,LinkedIn,ofis
+1535,Yusuf Kurt,E,1999,Ankara,Lisans,2022-08-08,,,,62,45.0,kariyer sitesi,hibrit
+1536,Can Arslan,E,1993,İzmir,Lisans,2022-01-10,2022-04-11,gönülsüz,yeniden yapılanma,27,30.0,kariyer sitesi,ofis
+1537,Umut Güneş,E,1991,İstanbul,Lisans,2022-08-23,,,,11,18.0,referans,ofis
+1538,Cansu Yıldırım,K,1999,Eskişehir,Ön lisans,2022-06-28,2024-07-30,gönüllü,eğitim,23,28.0,LinkedIn,ofis
+1539,Selin Bal,K,1986,Antalya,Ön lisans,2022-02-16,2023-11-21,gönüllü,kariyer gelişimi,17,22.0,kariyer sitesi,ofis
+1540,Ebru Bal,K,1995,İzmir,Lisans,2022-04-05,2022-09-30,gönüllü,kariyer gelişimi,27,31.0,kariyer sitesi,ofis
+1541,Murat Doğan,E,1989,Eskişehir,Lise,2022-03-24,2022-10-03,gönüllü,ücret,23,26.0,referans,ofis
+1542,Mert Şimşek,E,1988,İstanbul,Lise,2022-11-24,,,,23,27.0,üniversite,ofis
+1543,Melis Yıldız,K,1989,İzmir,Ön lisans,2022-11-21,,,,29,31.0,LinkedIn,ofis
+1544,Gamze Yılmaz,K,1991,İstanbul,Lisans,2022-10-12,,,,58,42.0,LinkedIn,ofis
+1545,Aslı Şimşek,K,1985,Kocaeli,Ön lisans,2022-10-04,2022-11-07,gönüllü,ücret,24,25.0,üniversite,ofis
+1546,İrem Kılıç,K,1993,İstanbul,Lisans,2022-08-16,,,,50,40.0,kariyer sitesi,uzaktan
+1547,Umut Aslan,E,1989,Eskişehir,Lise,2022-04-25,2024-04-16,gönüllü,ücret,24,27.0,kariyer sitesi,ofis
+1548,Zeynep Polat,K,1994,Kocaeli,Ön lisans,2022-10-21,,,,23,28.0,LinkedIn,hibrit
+1549,Cansu Bal,K,1991,Kocaeli,Lise,2022-01-14,2024-10-09,gönülsüz,performans,23,29.0,kariyer sitesi,ofis
+1550,Ayşe Yılmaz,K,1987,İstanbul,Lisans,2022-10-07,,,,64,44.0,LinkedIn,ofis
+1551,Ayşe Tunç,K,1986,Eskişehir,Lise,2022-01-31,,,,23,26.0,kariyer sitesi,ofis
+1552,Tolga Aslan,E,1998,İstanbul,Lise,2022-11-08,2022-12-05,gönüllü,ücret,22,27.0,kariyer sitesi,hibrit
+1553,Yasemin Toprak,K,1986,Eskişehir,Lise,2022-09-08,,,,23,28.0,ajans,hibrit
+1554,Serkan Çetin,E,1984,İzmir,Ön lisans,2022-05-16,2024-04-18,gönüllü,rakip firma,29,30.0,kariyer sitesi,ofis
+1555,Emre Özkan,E,1987,İstanbul,Lisans,2022-05-30,,,,46,39.0,ajans,ofis
+1556,Kaan Acar,E,1988,İstanbul,Lisans,2022-03-21,,,,46,38.0,LinkedIn,hibrit
+1557,Tuğba Özkan,K,1994,İstanbul,Lisans,2022-08-05,,,,39,13.0,kariyer sitesi,hibrit
+1558,Selin Karaca,K,1986,İzmir,Yüksek lisans,2022-08-04,,,,63,44.0,kariyer sitesi,hibrit
+1559,Mert Bal,E,1986,İstanbul,Lisans,2022-09-26,,,,34,35.0,kariyer sitesi,ofis
+1560,Kerem Kurt,E,1992,İstanbul,Yüksek lisans,2022-02-21,,,,5,14.0,ajans,ofis
+1561,Fatma Acar,K,1983,İstanbul,Lisans,2022-04-18,2022-05-13,gönüllü,ücret,12,18.0,referans,hibrit
+1562,Burak Özkan,E,1988,İstanbul,Lisans,2022-09-12,,,,45,38.0,referans,hibrit
+1563,Ece Kara,K,1987,İstanbul,Yüksek lisans,2022-04-14,,,,52,41.0,referans,hibrit
+1564,Selin Bozkurt,K,1990,İzmir,Lisans,2022-09-06,2023-07-04,gönüllü,ücret,64,44.0,kariyer sitesi,hibrit
+1565,Yusuf Polat,E,1994,İstanbul,Yüksek lisans,2022-05-04,,,,56,43.0,LinkedIn,hibrit
+1566,Yusuf Tunç,E,1997,İstanbul,Lisans,2022-05-23,2022-10-24,gönüllü,rakip firma,4,14.0,kariyer sitesi,hibrit
+1567,Özge Bozkurt,K,1989,Antalya,Lisans,2022-02-16,,,,18,20.0,kariyer sitesi,ofis
+1568,Elif Toprak,K,1990,İstanbul,Yüksek lisans,2022-08-22,2024-05-07,gönüllü,yönetici,38,13.0,referans,hibrit
+1569,Fatma Özdemir,K,1991,Ankara,Ön lisans,2022-02-14,2023-06-26,gönüllü,rakip firma,16,22.0,iç başvuru,ofis
+1570,Deniz Tunç,E,1987,İstanbul,Lisans,2022-08-23,,,,33,34.0,ajans,hibrit
+1571,Serkan Demir,E,1983,Ankara,Lisans,2022-05-16,,,,46,39.0,LinkedIn,ofis
+1572,Elif Kılıç,K,1990,İstanbul,Lisans,2022-06-06,,,,62,44.0,referans,ofis
+1573,Fatma Yılmaz,K,1993,İstanbul,Lisans,2022-10-20,2023-08-21,gönüllü,yönetici,51,41.0,kariyer sitesi,ofis
+1574,Arda Kara,E,1994,İstanbul,Yüksek lisans,2022-12-07,,,,64,44.0,kariyer sitesi,hibrit
+1575,Yusuf Tunç,E,1990,İstanbul,Yüksek lisans,2022-08-22,2024-11-25,gönüllü,ücret,51,41.0,referans,hibrit
+1576,Kaan Toprak,E,1986,İstanbul,Lisans,2022-11-14,,,,63,44.0,kariyer sitesi,hibrit
+1577,Damla Yıldız,K,1991,Ankara,Yüksek lisans,2022-10-19,,,,4,16.0,kariyer sitesi,hibrit
+1578,Cansu Aslan,K,1983,Kocaeli,Lise,2022-05-16,2024-04-05,gönülsüz,performans,24,28.0,kariyer sitesi,ofis
+1579,Yasemin Öztürk,K,1986,İstanbul,Yüksek lisans,2022-12-13,2023-06-15,gönüllü,rakip firma,58,43.0,kariyer sitesi,ofis
+1580,Defne Ekici,K,1987,İstanbul,Lisans,2022-03-09,,,,40,13.0,LinkedIn,hibrit
+1581,Esra Arslan,K,1988,Kocaeli,Lisans,2022-04-06,,,,29,30.0,referans,ofis
+1582,Ilgın Koç,K,1990,İstanbul,Lisans,2022-04-21,,,,44,38.0,üniversite,uzaktan
+1583,Tuğba Kara,K,1988,İstanbul,Lisans,2022-07-04,,,,12,18.0,LinkedIn,ofis
+1584,Tolga Demir,E,1996,İstanbul,Lisans,2022-05-09,,,,32,33.0,referans,uzaktan
+1585,Aslı Öztürk,K,1999,İstanbul,Yüksek lisans,2022-01-03,,,,10,18.0,LinkedIn,ofis
+1586,Umut Kaya,E,1992,İstanbul,Lisans,2022-08-31,,,,57,42.0,kariyer sitesi,ofis
+1587,Nur Polat,K,1991,İstanbul,Lisans,2022-10-31,,,,10,18.0,kariyer sitesi,ofis
+1588,Derya Koç,K,1992,Ankara,Lisans,2022-11-30,,,,18,23.0,referans,ofis
+1589,Mustafa Kurt,E,1987,İstanbul,Lisans,2022-10-24,2023-03-15,gönüllü,rakip firma,12,18.0,iç başvuru,ofis
+1590,Can Yıldız,E,1987,İstanbul,Lise,2022-06-27,2024-05-13,gönüllü,ücret,24,25.0,LinkedIn,hibrit
+1591,Mustafa Kılıç,E,1994,İstanbul,Lisans,2022-07-22,,,,32,34.0,kariyer sitesi,uzaktan
+1592,Tolga Ergin,E,1989,İstanbul,Lisans,2022-03-14,,,,33,35.0,kariyer sitesi,hibrit
+1593,Selim Güneş,E,1984,İstanbul,Lisans,2022-09-26,,,,12,18.0,kariyer sitesi,ofis
+1594,Volkan Ergin,E,1989,Bursa,Lisans,2022-08-15,2024-06-03,gönülsüz,yeniden yapılanma,45,23.0,üniversite,ofis
+1595,Hakan Çelik,E,1995,İstanbul,Lisans,2022-04-13,,,,33,35.0,referans,uzaktan
+1596,Elif Aydın,K,1988,Kocaeli,Lise,2022-07-04,2022-08-29,gönüllü,rakip firma,29,30.0,kariyer sitesi,ofis
+1597,Elif Demir,K,1983,İstanbul,Lisans,2022-12-12,,,,40,13.0,LinkedIn,hibrit
+1598,Ali Doğan,E,1991,İstanbul,Lisans,2022-07-19,,,,33,35.0,ajans,hibrit
+1599,Damla Kurt,K,1993,İstanbul,Lisans,2022-12-12,,,,11,18.0,LinkedIn,ofis
+1600,Mert Arslan,E,1984,İstanbul,Ön lisans,2022-08-08,,,,18,23.0,referans,ofis
+1601,Eren Bozkurt,E,1987,Eskişehir,Lise,2022-02-22,2022-11-28,gönüllü,ücret,24,26.0,kariyer sitesi,ofis
+1602,Burak Tunç,E,1986,Ankara,Lisans,2022-02-18,,,,34,33.0,iç başvuru,hibrit
+1603,Merve Çetin,K,1993,İstanbul,Lisans,2022-03-18,,,,52,41.0,LinkedIn,uzaktan
+1604,Yasemin Kurt,K,1992,İstanbul,Lise,2022-08-05,,,,22,29.0,LinkedIn,ofis
+1605,Arda Yılmaz,E,1985,Ankara,Lise,2022-12-16,2023-07-05,gönüllü,ücret,17,22.0,kariyer sitesi,ofis
+1606,Mehmet Bozkurt,E,1985,İzmir,Lisans,2022-12-07,,,,63,44.0,iç başvuru,ofis
+1607,Mehmet Kara,E,1988,Ankara,Lisans,2022-01-25,2022-03-23,gönüllü,rakip firma,45,39.0,kariyer sitesi,hibrit
+1608,Elif Yıldız,K,1994,İstanbul,Lisans,2022-12-05,,,,44,38.0,üniversite,ofis
+1609,Hakan Aydın,E,1986,Ankara,Lise,2022-12-16,,,,11,20.0,iç başvuru,ofis
+1610,Ece Özkan,K,1984,İstanbul,Lisans,2022-06-29,,,,40,13.0,kariyer sitesi,hibrit
+1611,Pınar Uysal,K,1987,Ankara,Lisans,2022-08-01,,,,39,13.0,kariyer sitesi,hibrit
+1612,Cem Kurt,E,1991,İstanbul,Ön lisans,2022-09-22,2023-09-26,gönüllü,eğitim,17,27.0,LinkedIn,ofis
+1613,Burak Özdemir,E,1981,Ankara,Yüksek lisans,2022-12-16,,,,34,35.0,ajans,uzaktan
+1614,Nur Uysal,K,1990,İstanbul,Lisans,2022-01-24,2022-05-20,gönülsüz,disiplin,63,44.0,ajans,uzaktan
+1615,Selin Tunç,K,1998,İzmir,Ön lisans,2022-05-02,2022-06-20,gönüllü,rakip firma,27,31.0,LinkedIn,ofis
+1616,Defne Demir,K,1990,Bursa,Lise,2022-09-29,,,,16,21.0,LinkedIn,ofis
+1617,Ali Özkan,E,1987,İstanbul,Lise,2022-05-18,,,,24,27.0,referans,hibrit
+1618,Tolga Aslan,E,1997,İzmir,Lisans,2022-06-13,,,,16,23.0,kariyer sitesi,ofis
+1619,Hakan Aydın,E,1992,İstanbul,Lise,2022-02-21,,,,23,29.0,kariyer sitesi,ofis
+1620,Ali Bozkurt,E,1991,İstanbul,Lisans,2022-09-05,,,,6,14.0,ajans,hibrit
+1621,Ebru Karaca,K,1995,Ankara,Lisans,2022-01-06,,,,64,45.0,iç başvuru,hibrit
+1622,Sinan Özkan,E,1985,İstanbul,Lisans,2022-06-13,,,,34,35.0,LinkedIn,ofis
+1623,Barış Özkan,E,1997,Ankara,Yüksek lisans,2022-09-16,,,,4,14.0,referans,hibrit
+1624,Selin Yılmaz,K,1995,İstanbul,Lisans,2022-05-02,,,,10,17.0,LinkedIn,ofis
+1625,Arda Kaya,E,1991,İstanbul,Lisans,2022-12-12,,,,51,41.0,LinkedIn,hibrit
+1626,Can Polat,E,1990,Kocaeli,Lise,2022-05-09,,,,22,26.0,referans,hibrit
+1627,Nur Kılıç,K,1983,İstanbul,Ön lisans,2022-08-17,,,,24,27.0,referans,ofis
+1628,Özge Kaya,K,1991,İstanbul,Ön lisans,2022-12-23,,,,33,35.0,kariyer sitesi,ofis
+1629,Ilgın Kaya,K,1993,İstanbul,Ön lisans,2022-10-31,,,,29,30.0,LinkedIn,ofis
+1630,Merve Toprak,K,1989,İstanbul,Lisans,2022-02-16,,,,40,13.0,kariyer sitesi,ofis
+1631,Ebru Kara,K,1987,İstanbul,Lise,2022-10-13,2023-10-23,gönüllü,kariyer gelişimi,24,26.0,kariyer sitesi,hibrit
+1632,Esra Aydın,K,1987,Ankara,Lisans,2022-05-23,,,,46,38.0,ajans,hibrit
+1633,Merve Özkan,K,1990,Kocaeli,Lise,2022-07-01,,,,22,28.0,LinkedIn,ofis
+1634,Yusuf Özdemir,E,1992,İstanbul,Ön lisans,2022-12-22,2023-02-07,gönüllü,ücret,23,29.0,referans,ofis
+1635,Elif Uysal,K,1991,İstanbul,Lisans,2022-04-25,,,,4,14.0,LinkedIn,hibrit
+1636,Serkan Toprak,E,1992,İstanbul,Ön lisans,2022-11-07,,,,22,26.0,LinkedIn,hibrit
+1637,Elif Toprak,K,1988,Kocaeli,Ön lisans,2022-11-16,,,,23,27.0,LinkedIn,ofis
+1638,İrem Ekici,K,1990,İstanbul,Yüksek lisans,2022-04-22,,,,12,17.0,LinkedIn,hibrit
+1639,Arda Demir,E,1997,İstanbul,Lisans,2022-02-14,,,,32,34.0,LinkedIn,hibrit
+1640,Ilgın Demir,K,1987,İstanbul,Lisans,2022-06-07,,,,5,16.0,referans,ofis
+1641,İrem Yıldız,K,1994,Eskişehir,Ön lisans,2022-05-03,2022-07-15,gönüllü,yönetici,23,26.0,kariyer sitesi,ofis
+1642,Hakan Yıldırım,E,1985,İstanbul,Lisans,2022-07-07,,,,23,27.0,LinkedIn,ofis
+1643,Mehmet Karaca,E,1994,İstanbul,Lisans,2022-02-23,,,,22,18.0,iç başvuru,ofis
+1644,Kaan Bozkurt,E,1992,Ankara,Yüksek lisans,2022-01-13,,,,64,44.0,kariyer sitesi,uzaktan
+1645,Selin Yıldırım,K,1994,Antalya,Lisans,2022-05-09,,,,17,20.0,iç başvuru,ofis
+1646,Gamze Kurt,K,1987,İstanbul,Lisans,2022-07-08,,,,58,42.0,üniversite,hibrit
+1647,Ayşe Koç,K,1990,İstanbul,Lise,2022-08-29,2023-02-03,gönüllü,ücret,28,30.0,referans,ofis
+1648,Melis Aslan,K,1993,İzmir,Lise,2022-03-14,2024-05-20,gönülsüz,performans,16,23.0,kariyer sitesi,ofis
+1649,Ayşe Demir,K,1997,İstanbul,Lisans,2022-05-13,2022-10-04,gönülsüz,yeniden yapılanma,4,16.0,LinkedIn,ofis
+1650,Tolga Sezer,E,1995,İstanbul,Lisans,2022-07-22,,,,44,38.0,ajans,hibrit
+1651,Elif Kaya,K,1993,İzmir,Lise,2022-12-20,2024-03-11,gönülsüz,performans,16,20.0,LinkedIn,ofis
+1652,Levent Ergin,E,1995,İstanbul,Yüksek lisans,2022-05-26,,,,45,38.0,LinkedIn,ofis
+1653,Sinan Ergin,E,1992,İstanbul,Lisans,2022-01-31,,,,44,39.0,kariyer sitesi,hibrit
+1654,Tuğba Polat,K,1986,Kocaeli,Ön lisans,2022-06-14,2022-08-22,gönüllü,rakip firma,24,29.0,referans,hibrit
+1655,Burcu Bal,K,1984,İstanbul,Lise,2022-09-19,,,,29,32.0,LinkedIn,ofis
+1656,Fatma Doğan,K,1988,Ankara,Lisans,2022-05-25,,,,63,44.0,iç başvuru,hibrit
+1657,Cansu Toprak,K,1995,İstanbul,Lise,2022-01-07,2022-08-19,gönüllü,kariyer gelişimi,16,20.0,iç başvuru,ofis
+1658,Ebru Kara,K,1993,Eskişehir,Lisans,2022-09-02,,,,23,28.0,kariyer sitesi,ofis
+1659,Ali Kaya,E,1989,Ankara,Lisans,2022-01-04,2022-03-08,gönüllü,kariyer gelişimi,45,39.0,LinkedIn,hibrit
+1660,Ebru Koç,K,1998,İstanbul,Lisans,2022-05-16,2023-05-22,gönüllü,rakip firma,56,42.0,kariyer sitesi,ofis
+1661,Derya Kılıç,K,1991,İstanbul,Ön lisans,2022-12-08,,,,28,32.0,LinkedIn,ofis
+1662,Cem Ergin,E,1992,Eskişehir,Lise,2022-05-06,2022-06-17,gönüllü,kariyer gelişimi,22,27.0,LinkedIn,hibrit
+1663,Selim Uysal,E,1992,İstanbul,Lisans,2022-07-12,,,,34,34.0,kariyer sitesi,hibrit
+1664,Selim Ekici,E,1988,İstanbul,Lisans,2022-02-22,,,,40,13.0,iç başvuru,ofis
+1665,Levent Aslan,E,1994,İstanbul,Lise,2022-10-28,2024-05-20,gönülsüz,disiplin,29,30.0,referans,ofis
+1666,Nur Toprak,K,1989,Kocaeli,Lise,2022-08-22,,,,24,26.0,kariyer sitesi,hibrit
+1667,Melis Aslan,K,1989,İstanbul,Lisans,2022-08-08,2023-09-01,gönüllü,ücret,18,24.0,kariyer sitesi,ofis
+1668,Tolga Koç,E,1995,İstanbul,Lisans,2022-08-12,,,,33,33.0,kariyer sitesi,hibrit
+1669,Yusuf Kılıç,E,1993,İzmir,Lisans,2022-07-13,,,,4,15.0,ajans,ofis
+1670,Sevgi Bozkurt,K,1988,İstanbul,Lisans,2022-11-07,,,,18,21.0,kariyer sitesi,ofis
+1671,Damla Toprak,K,1989,Ankara,Lisans,2022-07-13,,,,11,18.0,kariyer sitesi,ofis
+1672,Fatma Ergin,K,1994,İstanbul,Lisans,2022-07-25,,,,38,13.0,referans,ofis
+1673,Gamze Sezer,K,1992,İstanbul,Yüksek lisans,2022-11-25,2023-12-04,gönüllü,kariyer gelişimi,4,16.0,kariyer sitesi,ofis
+1674,Selin Toprak,K,1995,İstanbul,Lisans,2022-01-05,,,,33,33.0,kariyer sitesi,hibrit
+1675,Mustafa Özkan,E,1998,İstanbul,Lisans,2022-08-29,,,,44,39.0,üniversite,ofis
+1676,Tuğba Özkan,K,1992,İstanbul,Lisans,2022-01-31,,,,5,16.0,kariyer sitesi,hibrit
+1677,Yusuf Uysal,E,1998,İstanbul,Lisans,2022-01-21,,,,10,18.0,kariyer sitesi,ofis
+1678,Efe Bal,E,1991,İzmir,Lisans,2022-07-25,2022-08-18,gönüllü,rakip firma,38,8.0,ajans,uzaktan
+1679,Murat Bal,E,1996,İstanbul,Lisans,2022-01-10,,,,63,45.0,LinkedIn,hibrit
+1680,Merve Bal,K,1994,İzmir,Lisans,2022-04-13,,,,28,30.0,üniversite,ofis
+1681,Zeynep Polat,K,1996,İzmir,Lisans,2022-01-12,2022-04-11,gönüllü,kariyer gelişimi,38,8.0,iç başvuru,hibrit
+1682,Kaan Bozkurt,E,1993,İstanbul,Lisans,2022-08-05,,,,45,38.0,referans,ofis
+1683,Ilgın Yıldırım,K,1995,İstanbul,Lisans,2022-10-21,2023-10-09,gönüllü,ücret,4,14.0,kariyer sitesi,ofis
+1684,Kerem Demir,E,1981,İstanbul,Lisans,2022-02-07,,,,34,34.0,referans,uzaktan
+1685,Zeynep Kara,K,1990,Kocaeli,Lise,2022-12-19,,,,24,25.0,kariyer sitesi,ofis
+1686,Yusuf Çetin,E,1983,Antalya,Ön lisans,2022-10-31,,,,18,19.0,kariyer sitesi,ofis
+1687,Defne Demir,K,1997,İstanbul,Lisans,2022-03-14,2024-08-26,gönüllü,rakip firma,4,15.0,referans,ofis
+1688,Ali Aslan,E,1993,Ankara,Lisans,2022-12-12,2024-10-17,gönülsüz,performans,57,42.0,kariyer sitesi,ofis
+1689,Gamze Polat,K,1997,İstanbul,Lisans,2022-01-19,2023-05-24,gönüllü,rakip firma,16,22.0,kariyer sitesi,ofis
+1690,Arda Şimşek,E,1983,İstanbul,Ön lisans,2022-01-17,,,,24,25.0,kariyer sitesi,ofis
+1691,Derya Yıldırım,K,1999,İstanbul,Lisans,2022-05-23,,,,16,24.0,kariyer sitesi,ofis
+1692,Levent Kurt,E,1991,İstanbul,Yüksek lisans,2022-07-06,,,,39,13.0,referans,hibrit
+1693,Derya Şahin,K,1998,İstanbul,Lisans,2022-03-14,,,,4,15.0,LinkedIn,hibrit
+1694,Ahmet Aydın,E,1994,İstanbul,Lisans,2022-03-09,,,,32,35.0,kariyer sitesi,hibrit
+1695,Nur Yıldırım,K,1981,İzmir,Lisans,2022-01-18,,,,40,13.0,referans,hibrit
+1696,Sevgi Uysal,K,1991,İzmir,Lisans,2022-11-28,2023-10-06,gönüllü,rakip firma,33,34.0,üniversite,hibrit
+1697,Selin Yıldız,K,1992,İstanbul,Lisans,2022-09-13,,,,12,18.0,referans,hibrit
+1698,Burcu Ergin,K,1997,İstanbul,Yüksek lisans,2022-06-27,2023-11-21,gönüllü,rakip firma,4,14.0,kariyer sitesi,ofis
+1699,Ilgın Polat,K,1982,İstanbul,Yüksek lisans,2022-11-07,,,,6,15.0,kariyer sitesi,ofis
+1700,Mustafa Sezer,E,1987,İstanbul,Lisans,2022-12-26,,,,33,35.0,kariyer sitesi,ofis
+1701,Can Acar,E,1992,Eskişehir,Lisans,2022-11-28,2023-09-26,gönüllü,rakip firma,23,26.0,kariyer sitesi,ofis
+1702,Ebru Toprak,K,1986,İstanbul,Ön lisans,2022-04-04,2023-07-12,gönüllü,kariyer gelişimi,24,27.0,kariyer sitesi,ofis
+1703,Burak Aydın,E,1990,Ankara,Lisans,2022-08-25,2022-09-19,gönüllü,rakip firma,16,24.0,kariyer sitesi,ofis
+1704,Tolga Uysal,E,1988,Ankara,Ön lisans,2022-09-29,2022-11-14,gönüllü,rakip firma,17,19.0,LinkedIn,ofis
+1705,Aslı Yıldırım,K,1994,İstanbul,Lisans,2022-09-27,,,,33,34.0,LinkedIn,uzaktan
+1706,Burak Özkan,E,1993,Ankara,Lisans,2022-08-05,,,,62,44.0,kariyer sitesi,hibrit
+1707,Defne Demir,K,1994,İstanbul,Lisans,2022-05-16,,,,6,14.0,LinkedIn,ofis
+1708,Serkan Şimşek,E,1989,İstanbul,Lisans,2022-04-11,2024-11-25,gönüllü,ücret,34,34.0,referans,hibrit
+1709,İrem Çelik,K,1992,Kocaeli,Lise,2022-10-10,,,,28,32.0,referans,ofis
+1710,Esra Aslan,K,1990,İstanbul,Lisans,2022-02-07,,,,52,40.0,LinkedIn,hibrit
+1711,Ayşe Bozkurt,K,1990,İstanbul,Lisans,2022-04-11,,,,63,45.0,ajans,ofis
+1712,Emre Yıldırım,E,1992,Kocaeli,Lise,2022-08-30,,,,29,32.0,LinkedIn,ofis
+1713,Selim Şahin,E,1988,Ankara,Lisans,2022-11-03,,,,34,33.0,ajans,uzaktan
+1714,Yasemin Bal,K,1993,İstanbul,Lise,2022-11-28,2023-07-24,gönüllü,ücret,16,23.0,kariyer sitesi,ofis
+1715,Ece Aydın,K,1986,İstanbul,Lisans,2022-01-31,,,,17,24.0,referans,ofis
+1716,Kerem Tunç,E,1991,İstanbul,Yüksek lisans,2022-05-09,2023-11-20,gönülsüz,performans,50,40.0,üniversite,hibrit
+1717,Umut Uysal,E,1982,Kocaeli,Ön lisans,2022-04-11,,,,24,27.0,referans,ofis
+1718,Selin Kılıç,K,1986,İstanbul,Ön lisans,2022-05-23,,,,17,21.0,iç başvuru,ofis
+1719,Serkan Yıldırım,E,1989,İstanbul,Lisans,2022-07-07,2024-05-09,gönülsüz,performans,17,22.0,kariyer sitesi,ofis
+1720,Levent Şimşek,E,1997,İstanbul,Lisans,2022-10-17,,,,4,15.0,kariyer sitesi,hibrit
+1721,Tolga Kılıç,E,1999,İstanbul,Yüksek lisans,2022-09-23,,,,56,43.0,kariyer sitesi,ofis
+1722,Serkan Kara,E,1989,İstanbul,Yüksek lisans,2022-08-11,,,,57,42.0,referans,ofis
+1723,Yusuf Koç,E,1995,İstanbul,Yüksek lisans,2022-09-22,,,,33,34.0,iç başvuru,hibrit
+1724,Ayşe Güneş,K,1990,İstanbul,Yüksek lisans,2022-08-29,,,,45,38.0,LinkedIn,ofis
+1725,Merve Bozkurt,K,1993,İstanbul,Yüksek lisans,2022-10-13,,,,5,14.0,referans,ofis
+1726,Volkan Ergin,E,1992,İstanbul,Lisans,2022-10-21,,,,57,42.0,ajans,ofis
+1727,Mustafa Uysal,E,1986,Ankara,Ön lisans,2022-12-15,,,,52,41.0,kariyer sitesi,hibrit
+1728,Umut Kurt,E,1989,İstanbul,Yüksek lisans,2022-04-25,2022-05-30,gönülsüz,disiplin,63,44.0,kariyer sitesi,hibrit
+1729,Ece Kaya,K,1988,İstanbul,Lisans,2022-10-24,,,,34,34.0,kariyer sitesi,hibrit
+1730,Emre Demir,E,1996,Antalya,Lise,2022-08-31,,,,16,21.0,kariyer sitesi,ofis
+1731,Elif Ergin,K,1988,Eskişehir,Ön lisans,2022-09-27,2023-06-27,gönüllü,eğitim,23,26.0,kariyer sitesi,ofis
+1732,Levent Acar,E,1990,İstanbul,Lisans,2022-03-25,2022-10-19,gönüllü,ücret,17,23.0,üniversite,ofis
+1733,Tuğba Kara,K,1986,Ankara,Lise,2022-10-03,,,,17,24.0,kariyer sitesi,ofis
+1734,Defne Acar,K,1985,İstanbul,Lisans,2022-02-09,2022-03-16,gönüllü,kariyer gelişimi,40,8.0,üniversite,uzaktan
+1735,Ayşe Öztürk,K,1998,İstanbul,Lisans,2022-06-10,2022-11-03,gönüllü,kariyer gelişimi,27,31.0,LinkedIn,ofis
+1736,Ece Şimşek,K,1995,İstanbul,Lisans,2023-06-26,,,,17,21.0,kariyer sitesi,ofis
+1737,Mehmet Acar,E,2000,İstanbul,Lisans,2023-10-23,,,,38,13.0,kariyer sitesi,uzaktan
+1738,Emre Kaya,E,1988,İstanbul,Lisans,2023-02-20,,,,39,13.0,iç başvuru,uzaktan
+1739,Levent Aydın,E,1999,İstanbul,Lise,2023-01-23,2023-02-27,gönülsüz,yeniden yapılanma,16,24.0,ajans,ofis
+1740,Mustafa Kaya,E,1996,Kocaeli,Lisans,2023-11-13,,,,27,30.0,kariyer sitesi,ofis
+1741,Ali Kılıç,E,1993,İstanbul,Ön lisans,2023-02-13,2024-11-15,gönülsüz,yeniden yapılanma,16,20.0,kariyer sitesi,ofis
+1742,Sevgi Çelik,K,1982,İzmir,Lisans,2023-05-23,,,,64,44.0,referans,uzaktan
+1743,Sinan Öztürk,E,1994,Kocaeli,Lise,2023-09-25,,,,22,28.0,referans,ofis
+1744,Derya Çetin,K,1983,İstanbul,Lisans,2023-02-03,2024-04-01,gönüllü,rakip firma,58,42.0,referans,ofis
+1745,Ayşe Aydın,K,1991,Kocaeli,Lisans,2023-02-17,,,,29,32.0,referans,ofis
+1746,Cansu Şahin,K,1992,İzmir,Lisans,2023-01-09,,,,11,17.0,kariyer sitesi,ofis
+1747,Merve Güneş,K,1985,İzmir,Yüksek lisans,2023-02-22,,,,40,13.0,kariyer sitesi,ofis
+1748,Cansu Koç,K,1990,İstanbul,Lise,2023-12-18,2024-08-26,gönüllü,kariyer gelişimi,24,28.0,LinkedIn,ofis
+1749,Zeynep Uysal,K,1993,İstanbul,Ön lisans,2023-04-27,,,,16,22.0,kariyer sitesi,ofis
+1750,Arda Demir,E,1988,İstanbul,Lisans,2023-12-07,,,,64,44.0,LinkedIn,uzaktan
+1751,Cansu Kılıç,K,1994,Ankara,Lisans,2023-08-31,,,,51,41.0,kariyer sitesi,uzaktan
+1752,Sevgi Acar,K,1993,İzmir,Yüksek lisans,2023-07-26,,,,39,13.0,LinkedIn,ofis
+1753,Ebru Kılıç,K,1991,İstanbul,Lise,2023-03-27,,,,28,31.0,kariyer sitesi,ofis
+1754,Barış Yıldız,E,1996,İstanbul,Lisans,2023-05-05,,,,16,21.0,kariyer sitesi,ofis
+1755,Defne Koç,K,2000,Ankara,Ön lisans,2023-05-05,2023-08-14,gönüllü,ücret,16,22.0,referans,ofis
+1756,Serkan Yılmaz,E,1992,İzmir,Lisans,2023-01-06,,,,46,38.0,kariyer sitesi,hibrit
+1757,Burcu Toprak,K,1986,İstanbul,Lisans,2023-02-06,,,,40,13.0,kariyer sitesi,hibrit
+1758,Ayşe Yıldız,K,1995,İstanbul,Lisans,2023-07-24,,,,32,33.0,iç başvuru,hibrit
+1759,Fatma Kurt,K,1989,Kocaeli,Lise,2023-06-28,,,,29,31.0,kariyer sitesi,ofis
+1760,Ahmet Aslan,E,1995,İstanbul,Lisans,2023-01-04,2023-10-11,gönüllü,kariyer gelişimi,44,38.0,referans,hibrit
+1761,Cansu Öztürk,K,1987,Kocaeli,Lise,2023-09-20,,,,29,30.0,kariyer sitesi,ofis
+1762,Burak Acar,E,1994,İstanbul,Lisans,2023-11-01,,,,62,44.0,ajans,hibrit
+1763,Deniz Acar,E,1993,İstanbul,Lisans,2023-09-28,,,,4,16.0,referans,ofis
+1764,Hakan Özkan,E,1989,İstanbul,Lisans,2023-03-02,2024-07-15,gönüllü,ücret,18,19.0,referans,ofis
+1765,Gamze Özdemir,K,1995,İstanbul,Lisans,2023-10-26,,,,17,20.0,referans,ofis
+1766,Murat Özdemir,E,1999,İstanbul,Lisans,2023-01-09,,,,32,35.0,referans,hibrit
+1767,Mehmet Aslan,E,1992,İstanbul,Ön lisans,2023-10-23,,,,28,30.0,referans,ofis
+1768,Defne Ergin,K,1992,İstanbul,Lise,2023-05-17,2024-09-24,gönüllü,ücret,28,31.0,kariyer sitesi,ofis
+1769,Eren Arslan,E,1999,Eskişehir,Lise,2023-04-24,2023-12-01,gönüllü,rakip firma,22,29.0,referans,ofis
+1770,Mert Acar,E,1994,İstanbul,Lisans,2023-12-04,,,,28,30.0,kariyer sitesi,ofis
+1771,Melis Çetin,K,1990,Antalya,Lisans,2023-05-15,,,,17,20.0,LinkedIn,ofis
+1772,Onur Koç,E,1989,İstanbul,Lisans,2023-04-04,,,,17,21.0,referans,ofis
+1773,Elif Şimşek,K,1995,İstanbul,Lisans,2023-01-26,2023-04-05,gönülsüz,performans,33,33.0,kariyer sitesi,ofis
+1774,Ebru Aslan,K,1996,Ankara,Yüksek lisans,2023-12-06,,,,50,40.0,LinkedIn,hibrit
+1775,Cem Polat,E,1988,İstanbul,Lisans,2023-04-28,,,,29,32.0,kariyer sitesi,ofis
+1776,Umut Ekici,E,1993,İzmir,Lisans,2023-01-23,,,,32,33.0,LinkedIn,hibrit
+1777,Burcu Kaya,K,1987,İstanbul,Lise,2023-12-04,2024-07-23,gönüllü,taşınma,24,27.0,LinkedIn,hibrit
+1778,Selim Uysal,E,1991,İstanbul,Lisans,2023-02-22,,,,56,42.0,kariyer sitesi,hibrit
+1779,Yusuf Toprak,E,1999,İzmir,Ön lisans,2023-02-20,,,,32,33.0,kariyer sitesi,hibrit
+1780,Mehmet Ekici,E,1983,İstanbul,Lisans,2023-04-19,,,,34,34.0,kariyer sitesi,ofis
+1781,Cem Çelik,E,1983,İstanbul,Lisans,2023-04-25,,,,6,16.0,LinkedIn,hibrit
+1782,Ahmet Kılıç,E,1990,İstanbul,Lisans,2023-09-25,,,,33,33.0,kariyer sitesi,uzaktan
+1783,Murat Doğan,E,1993,İstanbul,Yüksek lisans,2023-10-26,2024-06-13,gönüllü,ücret,32,34.0,kariyer sitesi,hibrit
+1784,Efe Çelik,E,1989,İzmir,Yüksek lisans,2023-09-29,,,,46,38.0,referans,uzaktan
+1785,Elif Toprak,K,1997,İstanbul,Lisans,2023-08-14,,,,32,33.0,LinkedIn,uzaktan
+1786,Mustafa Çelik,E,1984,İstanbul,Ön lisans,2023-10-04,,,,34,34.0,iç başvuru,hibrit
+1787,Selim Çetin,E,1992,İstanbul,Yüksek lisans,2023-09-28,,,,32,35.0,referans,uzaktan
+1788,Levent Toprak,E,1995,Kocaeli,Lise,2023-01-16,2023-03-07,gönülsüz,yeniden yapılanma,28,30.0,LinkedIn,ofis
+1789,Cem Acar,E,1994,İstanbul,Lise,2023-02-16,,,,23,29.0,referans,ofis
+1790,Burcu Bal,K,1987,Ankara,Lisans,2023-11-13,,,,12,17.0,kariyer sitesi,hibrit
+1791,Yusuf Ekici,E,1993,İstanbul,Lise,2023-04-28,2023-10-02,gönüllü,ücret,22,26.0,kariyer sitesi,ofis
+1792,Umut Yılmaz,E,1994,İstanbul,Ön lisans,2023-09-04,2023-11-06,gönüllü,kariyer gelişimi,38,13.0,kariyer sitesi,ofis
+1793,Nur Güneş,K,1993,İstanbul,Ön lisans,2023-05-25,,,,28,32.0,kariyer sitesi,ofis
+1794,Damla Ekici,K,1987,İstanbul,Lisans,2023-02-23,2023-09-15,gönüllü,kariyer gelişimi,17,19.0,LinkedIn,ofis
+1795,Yusuf Kara,E,1996,İstanbul,Lisans,2023-05-26,,,,32,34.0,LinkedIn,hibrit
+1796,Merve Tunç,K,1993,İstanbul,Lise,2023-12-12,,,,27,32.0,referans,ofis
+1797,Barış Kılıç,E,1998,İstanbul,Lisans,2023-03-29,,,,62,45.0,LinkedIn,hibrit
+1798,Yusuf Aydın,E,1996,İstanbul,Yüksek lisans,2023-07-27,,,,33,34.0,kariyer sitesi,hibrit
+1799,Derya Uysal,K,1998,İstanbul,Lisans,2023-02-07,2024-10-07,gönüllü,taşınma,23,29.0,kariyer sitesi,hibrit
+1800,Hakan Şimşek,E,1987,İstanbul,Lisans,2023-11-16,,,,6,14.0,kariyer sitesi,ofis
+1801,Buse Toprak,K,1987,İstanbul,Lisans,2023-08-24,,,,52,41.0,üniversite,uzaktan
+1802,Yusuf Şimşek,E,1987,Kocaeli,Lise,2023-05-17,2024-10-01,gönüllü,ücret,28,32.0,kariyer sitesi,ofis
+1803,Umut Yıldırım,E,1982,İstanbul,Lisans,2023-03-27,,,,34,33.0,kariyer sitesi,hibrit
+1804,Ece Çelik,K,1991,İstanbul,Lisans,2023-10-16,,,,4,15.0,ajans,ofis
+1805,Selin Aslan,K,1991,İstanbul,Lisans,2023-09-28,,,,18,24.0,kariyer sitesi,ofis
+1806,Nur Özdemir,K,1991,İstanbul,Lisans,2023-03-22,,,,62,44.0,referans,uzaktan
+1807,Ebru Karaca,K,1992,İstanbul,Yüksek lisans,2023-05-01,,,,62,45.0,kariyer sitesi,uzaktan
+1808,Barış Aydın,E,1995,İstanbul,Lise,2023-06-28,,,,17,21.0,kariyer sitesi,ofis
+1809,Ahmet Güneş,E,1994,İstanbul,Lisans,2023-11-01,,,,38,13.0,kariyer sitesi,uzaktan
+1810,Yusuf Kaya,E,1993,Ankara,Yüksek lisans,2023-07-26,2024-11-19,gönüllü,eğitim,63,44.0,ajans,ofis
+1811,Pınar Kılıç,K,2000,Ankara,Yüksek lisans,2023-09-04,,,,38,13.0,referans,hibrit
+1812,Cansu Karaca,K,1987,İstanbul,Lise,2023-03-27,,,,24,27.0,kariyer sitesi,hibrit
+1813,Burak Özkan,E,1999,İstanbul,Lisans,2023-08-02,2024-10-15,gönüllü,kariyer gelişimi,10,18.0,kariyer sitesi,ofis
+1814,Mert Güneş,E,1997,Ankara,Ön lisans,2023-09-25,,,,17,21.0,LinkedIn,ofis
+1815,Sinan Özdemir,E,1994,İzmir,Ön lisans,2023-08-01,,,,28,30.0,LinkedIn,ofis
+1816,Kerem Özkan,E,1988,İzmir,Lise,2023-09-21,2023-10-30,gönüllü,rakip firma,17,23.0,kariyer sitesi,ofis
+1817,Ebru Karaca,K,2000,İstanbul,Ön lisans,2023-02-10,,,,38,13.0,kariyer sitesi,hibrit
+1818,Sevgi Şahin,K,1987,Kocaeli,Lisans,2023-04-03,,,,28,30.0,kariyer sitesi,ofis
+1819,Volkan Koç,E,1992,Ankara,Lisans,2023-01-27,,,,32,34.0,kariyer sitesi,ofis
+1820,Nur Doğan,K,1985,İstanbul,Yüksek lisans,2023-02-20,2023-09-25,gönüllü,taşınma,40,13.0,kariyer sitesi,hibrit
+1821,Aslı Aslan,K,1985,İstanbul,Lisans,2023-03-02,,,,58,43.0,kariyer sitesi,ofis
+1822,Onur Özdemir,E,1987,İstanbul,Lisans,2023-03-27,2024-05-06,gönüllü,rakip firma,45,38.0,kariyer sitesi,uzaktan
+1823,Damla Kurt,K,1989,İstanbul,Lisans,2023-11-15,,,,46,39.0,referans,hibrit
+1824,Yusuf Özdemir,E,1984,İzmir,Ön lisans,2023-11-15,,,,18,19.0,kariyer sitesi,ofis
+1825,Ilgın Tunç,K,1988,İstanbul,Lisans,2023-01-30,,,,23,25.0,iç başvuru,ofis
+1826,Mehmet Arslan,E,1992,İstanbul,Lisans,2023-04-17,,,,17,21.0,referans,ofis
+1827,Ece Çelik,K,1996,İstanbul,Ön lisans,2023-09-13,,,,27,30.0,ajans,ofis
+1828,Kaan Acar,E,1989,İstanbul,Lise,2023-01-13,,,,18,23.0,referans,ofis
+1829,Volkan Uysal,E,1994,İstanbul,Lisans,2023-07-11,2024-02-12,gönüllü,rakip firma,33,35.0,kariyer sitesi,hibrit
+1830,Zeynep Kara,K,1990,İstanbul,Ön lisans,2023-11-09,,,,34,19.0,kariyer sitesi,ofis
+1831,Burcu Toprak,K,1990,İstanbul,Yüksek lisans,2023-04-18,,,,34,34.0,LinkedIn,uzaktan
+1832,Ebru Karaca,K,1996,İstanbul,Lisans,2023-02-27,,,,16,21.0,kariyer sitesi,ofis
+1833,Gamze Kılıç,K,1991,İstanbul,Lisans,2023-05-11,2023-11-16,gönüllü,ücret,57,43.0,LinkedIn,ofis
+1834,Onur Aslan,E,1991,İstanbul,Lisans,2023-07-31,,,,18,23.0,LinkedIn,ofis
+1835,Oğuz Çelik,E,2000,İzmir,Lisans,2023-09-06,,,,27,32.0,referans,ofis
+1836,Buse Uysal,K,1998,İstanbul,Lisans,2023-08-21,2024-10-24,gönüllü,ücret,5,14.0,kariyer sitesi,hibrit
+1837,İrem Şimşek,K,1988,İstanbul,Lisans,2023-05-24,,,,28,31.0,referans,ofis
+1838,Kerem Arslan,E,1993,İstanbul,Lisans,2023-04-27,,,,51,40.0,kariyer sitesi,hibrit
+1839,Ebru Çetin,K,1992,İzmir,Lise,2023-08-28,,,,28,30.0,referans,ofis
+1840,Yasemin Kurt,K,2000,Kocaeli,Lise,2023-05-10,2023-08-29,gönüllü,ücret,27,31.0,üniversite,ofis
+1841,Levent Ergin,E,1987,İstanbul,Lisans,2023-01-02,,,,33,35.0,kariyer sitesi,uzaktan
+1842,Barış Kurt,E,1993,İstanbul,Yüksek lisans,2023-06-12,,,,4,14.0,LinkedIn,hibrit
+1843,Levent Karaca,E,2000,İstanbul,Lisans,2023-12-18,,,,11,18.0,LinkedIn,ofis
+1844,Yusuf Doğan,E,1996,Ankara,Lise,2023-05-22,,,,16,21.0,kariyer sitesi,ofis
+1845,Burak Toprak,E,1996,Kocaeli,Lise,2023-03-13,2023-04-03,gönüllü,yönetici,23,25.0,LinkedIn,ofis
+1846,Kaan Acar,E,1991,Ankara,Yüksek lisans,2023-11-03,,,,33,34.0,üniversite,hibrit
+1847,Mert Arslan,E,2000,İstanbul,Lisans,2023-08-07,2023-11-15,gönülsüz,performans,10,18.0,kariyer sitesi,hibrit
+1848,Yasemin Bal,K,1991,İstanbul,Lisans,2023-06-12,,,,52,40.0,kariyer sitesi,uzaktan
+1849,Deniz Güneş,E,1993,İstanbul,Lisans,2023-06-26,,,,5,15.0,LinkedIn,ofis
+1850,Can Arslan,E,1993,Ankara,Lisans,2023-06-30,,,,50,40.0,kariyer sitesi,hibrit
+1851,İrem Yıldız,K,1989,İstanbul,Lisans,2023-01-16,,,,63,45.0,kariyer sitesi,ofis
+1852,Tolga Çetin,E,1988,Ankara,Yüksek lisans,2023-10-09,,,,58,42.0,kariyer sitesi,ofis
+1853,Volkan Toprak,E,1990,İstanbul,Lisans,2023-01-05,,,,5,16.0,kariyer sitesi,hibrit
+1854,Can Toprak,E,1998,İstanbul,Lisans,2023-08-15,,,,62,44.0,ajans,ofis
+1855,Nur Kara,K,1989,İstanbul,Ön lisans,2023-11-16,2024-02-07,gönüllü,rakip firma,18,20.0,LinkedIn,ofis
+1856,Mert Özdemir,E,1991,Antalya,Ön lisans,2023-06-22,2023-10-23,gönüllü,taşınma,16,21.0,ajans,ofis
+1857,Burcu Güneş,K,1992,Kocaeli,Lise,2023-11-20,,,,28,30.0,kariyer sitesi,ofis
+1858,Serkan Şimşek,E,1995,İstanbul,Lisans,2023-02-13,2024-08-28,gönüllü,rakip firma,38,13.0,referans,hibrit
+1859,Esra Kara,K,1994,Bursa,Lise,2023-09-04,,,,16,24.0,LinkedIn,ofis
+1860,Burak Şimşek,E,1983,İstanbul,Yüksek lisans,2023-08-03,,,,34,33.0,ajans,hibrit
+1861,Oğuz Çetin,E,1989,İstanbul,Lisans,2023-08-21,,,,34,34.0,referans,hibrit
+1862,Ayşe Güneş,K,1987,İzmir,Ön lisans,2023-04-05,,,,28,32.0,ajans,ofis
+1863,Sevgi Şahin,K,1991,İzmir,Lise,2023-04-03,2023-05-16,gönüllü,kariyer gelişimi,16,22.0,kariyer sitesi,ofis
+1864,Deniz Arslan,E,1990,İstanbul,Yüksek lisans,2023-06-06,2024-04-17,gönüllü,kariyer gelişimi,64,44.0,kariyer sitesi,hibrit
+1865,Gamze Yılmaz,K,2000,İstanbul,Ön lisans,2023-12-06,2024-08-12,gönüllü,rakip firma,50,41.0,ajans,ofis
+1866,Burcu Ergin,K,2000,Ankara,Lisans,2023-01-09,2023-11-27,gönüllü,rakip firma,16,19.0,LinkedIn,ofis
+1867,Volkan Bozkurt,E,1992,Bursa,Lise,2023-02-06,,,,17,20.0,referans,ofis
+1868,Burcu Bal,K,1991,İstanbul,Lisans,2023-02-20,,,,6,16.0,referans,ofis
+1869,Eren Kara,E,1987,İstanbul,Lisans,2023-07-06,,,,34,33.0,LinkedIn,hibrit
+1870,Mert Yıldırım,E,1987,İstanbul,Lisans,2023-04-17,,,,51,40.0,kariyer sitesi,ofis
+1871,Mustafa Aslan,E,1989,Kocaeli,Lisans,2023-03-23,2024-06-04,gönülsüz,yeniden yapılanma,24,26.0,LinkedIn,ofis
+1872,Elif Kaya,K,1987,İstanbul,Yüksek lisans,2023-11-28,,,,51,40.0,kariyer sitesi,hibrit
+1873,Arda Özkan,E,1987,İstanbul,Lisans,2023-02-17,,,,33,34.0,kariyer sitesi,hibrit
+1874,Eren Özkan,E,1993,Ankara,Ön lisans,2023-12-14,2024-10-16,gönüllü,rakip firma,17,21.0,LinkedIn,ofis
+1875,Pınar Bal,K,1984,Eskişehir,Lisans,2023-12-22,2024-05-09,gönüllü,kariyer gelişimi,24,25.0,LinkedIn,hibrit
+1876,Yasemin Çetin,K,1997,Kocaeli,Lise,2023-06-19,2024-07-26,gönüllü,rakip firma,22,26.0,referans,ofis
+1877,Buse Acar,K,1993,İstanbul,Lisans,2023-06-19,,,,34,35.0,ajans,hibrit
+1878,Cem Yıldız,E,1998,Kocaeli,Lise,2023-05-10,2024-11-13,gönülsüz,yeniden yapılanma,27,30.0,ajans,ofis
+1879,Burak Kara,E,1987,İstanbul,Lisans,2023-06-20,,,,18,20.0,LinkedIn,ofis
+1880,Defne Bal,K,1991,İstanbul,Lisans,2023-04-25,2023-08-29,gönüllü,rakip firma,11,17.0,LinkedIn,ofis
+1881,Ahmet Kılıç,E,1995,İstanbul,Lise,2023-10-11,,,,28,30.0,ajans,ofis
+1882,Cem Kurt,E,1989,Ankara,Ön lisans,2023-09-11,,,,18,23.0,kariyer sitesi,ofis
+1883,Damla Yılmaz,K,1987,İstanbul,Yüksek lisans,2023-07-31,,,,51,41.0,kariyer sitesi,uzaktan
+1884,Mehmet Tunç,E,1986,İzmir,Yüksek lisans,2023-10-23,,,,39,13.0,ajans,ofis
+1885,Ece Güneş,K,1982,İstanbul,Yüksek lisans,2023-08-11,,,,12,18.0,kariyer sitesi,hibrit
+1886,Can Arslan,E,1993,Ankara,Ön lisans,2023-04-03,,,,17,21.0,kariyer sitesi,ofis
+1887,Oğuz Aydın,E,1991,İstanbul,Lisans,2023-07-10,,,,45,39.0,kariyer sitesi,hibrit
+1888,Selim Acar,E,1996,İstanbul,Yüksek lisans,2023-02-13,,,,32,34.0,ajans,ofis
+1889,Cansu Doğan,K,1995,İstanbul,Lisans,2023-02-20,,,,4,16.0,kariyer sitesi,ofis
+1890,Umut Kaya,E,1993,Eskişehir,Lise,2023-06-16,,,,22,25.0,kariyer sitesi,hibrit
+1891,Oğuz Güneş,E,1994,İstanbul,Lisans,2023-06-02,,,,4,15.0,referans,ofis
+1892,Can Arslan,E,1991,İstanbul,Lisans,2023-01-09,,,,34,35.0,kariyer sitesi,hibrit
+1893,Yusuf Sezer,E,1990,İstanbul,Lisans,2023-11-30,2024-11-13,gönülsüz,performans,5,14.0,ajans,ofis
+1894,Tolga Yılmaz,E,1993,İstanbul,Lise,2023-05-22,2023-09-05,gönüllü,ücret,22,29.0,kariyer sitesi,ofis
+1895,Esra Aslan,K,1994,İstanbul,Lisans,2023-09-18,,,,51,41.0,LinkedIn,ofis
+1896,Oğuz Kurt,E,1984,İstanbul,Lisans,2023-11-29,,,,6,14.0,LinkedIn,ofis
+1897,Umut Acar,E,1989,Kocaeli,Ön lisans,2023-11-13,,,,24,27.0,referans,ofis
+1898,Selim Güneş,E,1990,İstanbul,Lisans,2023-07-17,,,,34,35.0,kariyer sitesi,uzaktan
+1899,Hakan Çelik,E,1997,Ankara,Ön lisans,2023-02-21,2023-07-31,gönüllü,ücret,16,22.0,kariyer sitesi,ofis
+1900,Kerem Tunç,E,1988,İstanbul,Yüksek lisans,2023-04-26,2024-02-26,gönüllü,ücret,34,34.0,LinkedIn,ofis
+1901,Ilgın Şimşek,K,1982,İstanbul,Lisans,2023-10-19,2024-10-25,gönüllü,ücret,24,26.0,üniversite,ofis
+1902,Mehmet Tunç,E,1989,İzmir,Ön lisans,2023-04-24,,,,18,19.0,referans,ofis
+1903,Cem Şahin,E,1987,İstanbul,Lise,2023-04-21,2023-10-30,gönüllü,taşınma,17,20.0,LinkedIn,ofis
+1904,Efe Ergin,E,2000,İstanbul,Yüksek lisans,2023-07-13,,,,44,38.0,kariyer sitesi,hibrit
+1905,Onur Koç,E,1997,İstanbul,Yüksek lisans,2023-06-23,,,,32,33.0,ajans,hibrit
+1906,Serkan Çelik,E,1988,İstanbul,Lise,2023-09-08,2023-12-07,gönüllü,kariyer gelişimi,18,23.0,referans,ofis
+1907,Selim Kara,E,1993,İstanbul,Lisans,2023-05-17,,,,4,16.0,kariyer sitesi,ofis
+1908,Fatma Koç,K,1993,Eskişehir,Lise,2023-07-12,2023-11-20,gönüllü,ücret,22,28.0,kariyer sitesi,ofis
+1909,Özge Arslan,K,1995,İstanbul,Lisans,2023-09-13,,,,23,29.0,referans,ofis
+1910,Zeynep Uysal,K,1991,İzmir,Ön lisans,2023-08-22,2023-09-19,gönüllü,yönetici,18,21.0,LinkedIn,ofis
+1911,Tolga Yıldız,E,1987,İstanbul,Yüksek lisans,2023-04-27,,,,6,14.0,ajans,ofis
+1912,Aslı Sezer,K,1992,İstanbul,Lisans,2023-06-26,,,,12,17.0,kariyer sitesi,ofis
+1913,Melis Şimşek,K,1990,İstanbul,Ön lisans,2023-07-07,,,,28,32.0,referans,ofis
+1914,Yasemin Yıldız,K,1991,Ankara,Lisans,2023-03-20,,,,4,14.0,referans,ofis
+1915,Ece Öztürk,K,1995,İstanbul,Lisans,2023-08-21,,,,32,34.0,ajans,hibrit
+1916,Mehmet Kılıç,E,1999,İzmir,Lise,2023-11-14,,,,27,32.0,referans,ofis
+1917,Cansu Aslan,K,1990,Kocaeli,Ön lisans,2023-06-14,,,,28,30.0,kariyer sitesi,ofis
+1918,Tolga Şimşek,E,1998,Kocaeli,Ön lisans,2023-07-17,,,,27,31.0,kariyer sitesi,ofis
+1919,Özge Şimşek,K,1990,İstanbul,Lise,2023-07-06,2024-08-07,gönüllü,ücret,24,29.0,kariyer sitesi,ofis
+1920,Merve Acar,K,1987,Ankara,Lisans,2023-03-06,,,,58,42.0,referans,ofis
+1921,Buse Yıldız,K,1989,İstanbul,Yüksek lisans,2023-03-23,,,,34,34.0,üniversite,uzaktan
+1922,Levent Yıldız,E,1994,İstanbul,Lisans,2023-10-23,,,,33,35.0,kariyer sitesi,ofis
+1923,Serkan Aydın,E,1983,İstanbul,Lisans,2023-03-21,2024-02-05,gönüllü,yönetici,40,13.0,LinkedIn,hibrit
+1924,Deniz Acar,E,1991,Kocaeli,Lise,2023-09-28,,,,28,31.0,referans,ofis
+1925,Ali Kaya,E,1987,İstanbul,Lisans,2023-03-20,,,,45,39.0,LinkedIn,hibrit
+1926,Oğuz Koç,E,2000,İzmir,Lisans,2023-06-21,,,,51,40.0,kariyer sitesi,ofis
+1927,Onur Arslan,E,1996,Kocaeli,Lise,2023-01-30,,,,24,27.0,kariyer sitesi,hibrit
+1928,Zeynep Karaca,K,1999,İstanbul,Lisans,2023-04-05,,,,27,32.0,kariyer sitesi,ofis
+1929,Ebru Güneş,K,1986,Eskişehir,Lise,2023-02-23,,,,24,29.0,LinkedIn,hibrit
+1930,Selim Bal,E,1992,Ankara,Lise,2023-06-19,,,,17,23.0,LinkedIn,ofis
+1931,Selim Doğan,E,1992,Eskişehir,Lisans,2023-07-27,,,,24,26.0,kariyer sitesi,ofis
+1932,Ali Çelik,E,1993,İzmir,Lise,2023-07-17,,,,17,19.0,LinkedIn,ofis
+1933,Murat Özdemir,E,1992,Kocaeli,Lise,2023-08-23,,,,23,28.0,kariyer sitesi,ofis
+1934,Mustafa Ekici,E,1994,İstanbul,Lisans,2023-04-03,2024-04-04,gönülsüz,yeniden yapılanma,5,16.0,LinkedIn,hibrit
+1935,Emre Aslan,E,1987,Kocaeli,Lisans,2023-07-21,,,,29,30.0,üniversite,ofis
+1936,Kerem Acar,E,2000,İstanbul,Lise,2023-10-23,,,,17,23.0,referans,ofis
+1937,Ece Şimşek,K,1995,Ankara,Lisans,2023-07-31,,,,50,41.0,kariyer sitesi,hibrit
+1938,Onur Ekici,E,1992,İzmir,Lisans,2023-09-18,,,,27,30.0,referans,ofis
+1939,Cem Bozkurt,E,1994,İstanbul,Lise,2023-11-21,,,,22,29.0,kariyer sitesi,ofis
+1940,İrem Kurt,K,1990,İstanbul,Lisans,2023-02-15,2023-08-18,gönüllü,ücret,12,17.0,referans,hibrit
+1941,Burcu Karaca,K,1991,İstanbul,Lisans,2023-03-13,,,,22,26.0,kariyer sitesi,ofis
+1942,Mustafa Bal,E,1992,İstanbul,Lisans,2023-10-30,,,,33,34.0,kariyer sitesi,hibrit
+1943,Hakan Yıldız,E,1984,İstanbul,Lisans,2023-04-05,,,,46,39.0,kariyer sitesi,hibrit
+1944,Mehmet Arslan,E,1999,İzmir,Lisans,2023-05-04,,,,28,30.0,LinkedIn,ofis
+1945,Levent Bozkurt,E,1999,İzmir,Ön lisans,2023-12-21,,,,27,31.0,kariyer sitesi,ofis
+1946,Burcu Çelik,K,1992,İstanbul,Yüksek lisans,2023-04-06,2023-05-17,gönüllü,rakip firma,4,16.0,LinkedIn,ofis
+1947,Cansu Sezer,K,1991,Ankara,Ön lisans,2023-10-09,,,,51,41.0,LinkedIn,uzaktan
+1948,Ebru Ekici,K,1993,Ankara,Yüksek lisans,2023-11-03,,,,32,34.0,LinkedIn,hibrit
+1949,Esra Uysal,K,1982,İzmir,Lisans,2023-06-19,,,,6,16.0,kariyer sitesi,ofis
+1950,Efe Uysal,E,1985,Kocaeli,Ön lisans,2023-05-05,2023-09-04,gönülsüz,performans,24,25.0,kariyer sitesi,hibrit
+1951,Melis Demir,K,1982,Kocaeli,Lise,2023-08-15,,,,24,26.0,kariyer sitesi,ofis
+1952,Onur Özkan,E,1988,İzmir,Yüksek lisans,2023-04-03,,,,6,16.0,kariyer sitesi,hibrit
+1953,Efe Bozkurt,E,1993,İstanbul,Lisans,2023-06-08,,,,50,41.0,ajans,hibrit
+1954,Aslı Öztürk,K,1993,İstanbul,Lise,2023-09-05,,,,27,31.0,ajans,ofis
+1955,Hakan Sezer,E,1999,İstanbul,Lisans,2023-08-18,,,,38,13.0,LinkedIn,hibrit
+1956,Merve Acar,K,2000,İstanbul,Lisans,2023-01-30,,,,38,13.0,kariyer sitesi,hibrit
+1957,Yasemin Sezer,K,1986,İstanbul,Lisans,2023-10-16,,,,33,34.0,referans,hibrit
+1958,Ali Kaya,E,1990,İstanbul,Lisans,2023-01-26,,,,40,13.0,kariyer sitesi,hibrit
+1959,Levent Arslan,E,1984,İstanbul,Lise,2023-05-05,,,,18,22.0,LinkedIn,ofis
+1960,Can Polat,E,1983,İstanbul,Lisans,2023-10-23,,,,34,34.0,referans,uzaktan
+1961,Özge Öztürk,K,1988,İstanbul,Yüksek lisans,2023-08-09,,,,5,16.0,LinkedIn,ofis
+1962,Cem Uysal,E,1998,İstanbul,Lise,2023-10-02,,,,16,19.0,kariyer sitesi,ofis
+1963,Ilgın Bal,K,1987,İstanbul,Lisans,2023-03-09,,,,63,45.0,kariyer sitesi,hibrit
+1964,Deniz Polat,E,1991,İzmir,Yüksek lisans,2023-11-01,,,,33,35.0,LinkedIn,uzaktan
+1965,Ece Toprak,K,1996,Bursa,Lise,2023-06-26,2024-02-06,gönülsüz,yeniden yapılanma,16,22.0,kariyer sitesi,ofis
+1966,Defne Öztürk,K,1996,İstanbul,Lisans,2023-05-23,,,,51,40.0,üniversite,uzaktan
+1967,Yasemin Şimşek,K,1992,İstanbul,Lisans,2023-07-17,2024-07-29,gönüllü,rakip firma,39,13.0,referans,uzaktan
+1968,Ece Yıldız,K,1994,İstanbul,Yüksek lisans,2023-07-31,,,,51,40.0,referans,ofis
+1969,Merve Özkan,K,1991,Ankara,Lise,2023-06-29,,,,16,20.0,kariyer sitesi,ofis
+1970,Merve Çelik,K,1987,İstanbul,Yüksek lisans,2023-03-30,2023-10-30,gönüllü,yönetici,5,16.0,LinkedIn,hibrit
+1971,Mehmet Şahin,E,1999,Ankara,Yüksek lisans,2023-07-03,2024-07-05,gönülsüz,performans,32,33.0,LinkedIn,hibrit
+1972,Burak Kara,E,1991,İstanbul,Lisans,2023-10-31,,,,34,34.0,ajans,hibrit
+1973,Mehmet Bal,E,1991,İstanbul,Lise,2023-07-17,,,,27,32.0,ajans,ofis
+1974,Hakan Güneş,E,1992,Kocaeli,Ön lisans,2023-06-12,,,,28,30.0,kariyer sitesi,ofis
+1975,Arda Bozkurt,E,1985,İstanbul,Lisans,2023-12-19,,,,64,45.0,ajans,hibrit
+1976,Özge Demir,K,1987,İstanbul,Ön lisans,2024-05-31,,,,18,21.0,kariyer sitesi,ofis
+1977,Onur Demir,E,1997,İstanbul,Lise,2024-07-03,,,,17,22.0,üniversite,ofis
+1978,Ayşe Yıldız,K,1994,İstanbul,Ön lisans,2024-07-15,,,,16,23.0,kariyer sitesi,ofis
+1979,Merve Polat,K,1985,İstanbul,Lise,2024-02-14,2024-05-07,gönüllü,ücret,18,24.0,iç başvuru,ofis
+1980,Hakan Yıldırım,E,1992,İstanbul,Lisans,2024-08-28,,,,45,38.0,kariyer sitesi,uzaktan
+1981,Ilgın Acar,K,2001,İstanbul,Lisans,2024-04-29,,,,4,15.0,üniversite,ofis
+1982,Arda Şimşek,E,1994,İstanbul,Ön lisans,2024-06-24,2024-09-02,gönüllü,ücret,22,27.0,referans,hibrit
+1983,Ebru Şahin,K,1992,Kocaeli,Lisans,2024-01-29,2024-10-28,gönüllü,ücret,22,28.0,kariyer sitesi,ofis
+1984,Mert Yılmaz,E,1985,İstanbul,Lisans,2024-08-05,,,,52,40.0,LinkedIn,hibrit
+1985,Defne Şimşek,K,1995,İstanbul,Lisans,2024-09-12,,,,5,16.0,referans,ofis
+1986,Kaan Ergin,E,1994,Kocaeli,Lisans,2024-09-09,,,,27,30.0,LinkedIn,ofis
+1987,Ahmet Acar,E,1995,Ankara,Lisans,2024-05-15,,,,33,34.0,iç başvuru,hibrit
+1988,Burak Koç,E,1992,İstanbul,Lisans,2024-06-10,,,,32,35.0,LinkedIn,hibrit
+1989,Barış Kara,E,1996,Ankara,Lisans,2024-07-29,2024-08-28,gönüllü,rakip firma,17,22.0,kariyer sitesi,ofis
+1990,Ebru Sezer,K,1988,Eskişehir,Lisans,2024-10-11,,,,24,25.0,kariyer sitesi,ofis
+1991,Burak Çetin,E,1986,İstanbul,Yüksek lisans,2024-09-02,,,,40,13.0,LinkedIn,hibrit
+1992,Ayşe Koç,K,1994,İstanbul,Yüksek lisans,2024-01-22,,,,4,14.0,kariyer sitesi,hibrit
+1993,Umut Ergin,E,1989,Ankara,Lisans,2024-09-25,,,,17,20.0,referans,ofis
+1994,Emre Kaya,E,1997,Eskişehir,Lisans,2024-05-09,,,,23,29.0,referans,hibrit
+1995,Ilgın Bozkurt,K,1990,İstanbul,Lise,2024-10-28,,,,23,25.0,kariyer sitesi,ofis
+1996,Defne Özkan,K,1996,İzmir,Lisans,2024-05-23,,,,16,23.0,kariyer sitesi,ofis
+1997,Umut Demir,E,1999,İstanbul,Yüksek lisans,2024-03-04,,,,44,39.0,referans,uzaktan
+1998,Ahmet Sezer,E,1994,İstanbul,Lise,2024-09-10,,,,16,19.0,LinkedIn,ofis
+1999,Merve Özkan,K,1988,İstanbul,Lisans,2024-09-25,,,,11,18.0,LinkedIn,ofis
+2000,Hakan Tunç,E,1989,İstanbul,Lisans,2024-03-07,,,,45,38.0,kariyer sitesi,hibrit
+2001,Esra Aslan,K,1995,İstanbul,Lisans,2024-10-21,,,,44,39.0,kariyer sitesi,ofis
+2002,Özge Öztürk,K,1997,İstanbul,Lise,2024-03-22,,,,16,23.0,referans,ofis
+2003,Volkan Tunç,E,1990,İstanbul,Lisans,2024-02-09,,,,46,39.0,kariyer sitesi,ofis
+2004,Selin Koç,K,1994,Ankara,Lisans,2024-08-07,,,,11,17.0,kariyer sitesi,ofis
+2005,Emre Özdemir,E,2000,İstanbul,Yüksek lisans,2024-08-21,,,,62,45.0,referans,hibrit
+2006,Umut Kurt,E,1987,İstanbul,Lisans,2024-07-09,,,,28,32.0,LinkedIn,ofis
+2007,Selim Yıldız,E,1983,Kocaeli,Lisans,2024-10-28,,,,24,27.0,kariyer sitesi,ofis
+2008,Oğuz Koç,E,1998,Ankara,Lisans,2024-09-18,,,,16,23.0,LinkedIn,ofis
+2009,Mustafa Şahin,E,1991,İstanbul,Lisans,2024-03-25,2024-06-13,gönülsüz,disiplin,5,16.0,kariyer sitesi,ofis
+2010,Kerem Yıldız,E,1985,İstanbul,Lisans,2024-05-22,,,,6,14.0,LinkedIn,ofis
+2011,Sinan Şahin,E,1988,İstanbul,Ön lisans,2024-10-03,,,,34,34.0,kariyer sitesi,ofis
+2012,Murat Çetin,E,1994,İstanbul,Lisans,2024-05-27,,,,33,35.0,LinkedIn,ofis
+2013,Gamze Tunç,K,1993,İstanbul,Lisans,2024-10-21,,,,4,14.0,kariyer sitesi,ofis
+2014,Burcu Yıldırım,K,1999,İstanbul,Lisans,2024-11-20,,,,44,38.0,kariyer sitesi,ofis
+2015,Sevgi Arslan,K,1997,İstanbul,Lisans,2024-01-29,,,,23,25.0,kariyer sitesi,hibrit
+2016,Burcu Sezer,K,1995,Ankara,Lisans,2024-12-06,,,,57,42.0,kariyer sitesi,hibrit
+2017,Gamze Çetin,K,1997,İstanbul,Lise,2024-11-14,,,,23,27.0,üniversite,ofis
+2018,Nur Aslan,K,1994,Eskişehir,Lisans,2024-06-06,,,,23,28.0,referans,ofis
+2019,Deniz Arslan,E,1990,İstanbul,Lisans,2024-11-04,,,,63,45.0,LinkedIn,hibrit
+2020,Onur Çelik,E,1993,İstanbul,Lisans,2024-03-27,,,,33,34.0,ajans,uzaktan
+2021,Aslı Tunç,K,1995,Ankara,Lise,2024-10-18,,,,17,24.0,ajans,ofis
+2022,Levent Doğan,E,1990,İstanbul,Lisans,2024-10-21,,,,45,38.0,kariyer sitesi,uzaktan
+2023,Umut Aydın,E,1994,İstanbul,Ön lisans,2024-04-02,,,,16,20.0,LinkedIn,ofis
+2024,Serkan Çelik,E,1998,İstanbul,Lisans,2024-06-13,,,,4,16.0,LinkedIn,ofis
+2025,Fatma Ergin,K,1983,İzmir,Lisans,2024-12-20,,,,18,22.0,kariyer sitesi,ofis
+2026,Burak Yılmaz,E,2000,İzmir,Lisans,2024-05-20,,,,50,40.0,kariyer sitesi,uzaktan
+2027,Elif Güneş,K,1992,Antalya,Lisans,2024-08-05,,,,17,24.0,iç başvuru,ofis
+2028,Ayşe Aslan,K,1991,Kocaeli,Lisans,2024-12-16,,,,24,28.0,kariyer sitesi,ofis
+2029,Özge Bozkurt,K,1993,İstanbul,Lisans,2024-01-24,,,,22,29.0,referans,ofis
+2030,Emre Toprak,E,1996,İstanbul,Lisans,2024-05-30,,,,51,40.0,kariyer sitesi,hibrit
+2031,Arda Karaca,E,1986,İstanbul,Yüksek lisans,2024-06-26,,,,64,45.0,iç başvuru,ofis
+2032,Burak Aydın,E,1991,İstanbul,Lisans,2024-12-16,,,,51,40.0,kariyer sitesi,hibrit
+2033,Mustafa Yıldız,E,1983,İstanbul,Lisans,2024-05-24,,,,46,39.0,kariyer sitesi,hibrit
+2034,Defne Özdemir,K,1985,Ankara,Lisans,2024-01-24,,,,34,33.0,referans,hibrit
+2035,Serkan Acar,E,1994,Bursa,Lisans,2024-09-30,,,,16,20.0,kariyer sitesi,ofis
+2036,Damla Bal,K,1993,İstanbul,Lisans,2024-08-09,,,,33,35.0,LinkedIn,uzaktan
+2037,Deniz Karaca,E,1993,İstanbul,Lise,2024-05-07,,,,23,27.0,referans,ofis
+2038,Esra Tunç,K,1991,Ankara,Lise,2024-05-20,,,,17,23.0,referans,ofis
+2039,Zeynep Özkan,K,1997,Ankara,Lise,2024-11-26,,,,17,24.0,üniversite,ofis
+2040,Esra Şimşek,K,1994,İzmir,Lisans,2024-02-27,,,,38,13.0,ajans,hibrit
+2041,Ali Yılmaz,E,1995,İstanbul,Yüksek lisans,2024-07-22,2024-12-05,gönüllü,rakip firma,33,34.0,referans,ofis
+2042,Esra Güneş,K,1990,Kocaeli,Lisans,2024-01-24,2024-09-27,gönülsüz,yeniden yapılanma,29,32.0,LinkedIn,ofis
+2043,Nur Bal,K,1994,İstanbul,Lisans,2024-09-18,,,,5,14.0,referans,hibrit
+2044,Elif Arslan,K,1992,İstanbul,Lisans,2024-06-04,,,,34,34.0,ajans,uzaktan
+2045,Mustafa Acar,E,1984,İstanbul,Lisans,2024-01-25,,,,34,35.0,kariyer sitesi,ofis
+2046,Pınar Tunç,K,1991,İstanbul,Lisans,2024-10-14,,,,28,30.0,LinkedIn,ofis
+2047,Merve Şimşek,K,1995,Kocaeli,Ön lisans,2024-09-02,,,,28,31.0,kariyer sitesi,ofis
+2048,Serkan Kara,E,1992,Ankara,Lisans,2024-09-26,,,,64,44.0,LinkedIn,ofis
+2049,Burak Çelik,E,1992,İzmir,Lise,2024-06-17,2024-12-10,gönüllü,ücret,18,22.0,iç başvuru,ofis
+2050,Onur Yılmaz,E,1990,İstanbul,Yüksek lisans,2024-11-15,,,,45,38.0,LinkedIn,ofis
+2051,Gamze Yılmaz,K,1985,İstanbul,Yüksek lisans,2024-02-08,,,,52,41.0,kariyer sitesi,hibrit
+2052,Tolga Ekici,E,1995,İstanbul,Lise,2024-08-26,,,,23,27.0,kariyer sitesi,hibrit
+2053,Yasemin Bozkurt,K,1992,İstanbul,Yüksek lisans,2024-01-30,,,,38,13.0,kariyer sitesi,hibrit
+2054,Elif Kara,K,1995,Ankara,Lisans,2024-09-27,,,,10,17.0,referans,ofis
+2055,Levent Özdemir,E,1999,İstanbul,Ön lisans,2024-11-05,,,,4,14.0,üniversite,ofis
+2056,Nur Aydın,K,1989,Kocaeli,Lise,2024-06-18,2024-10-21,gönüllü,ücret,24,26.0,LinkedIn,ofis
+2057,Elif Yıldız,K,1985,Kocaeli,Ön lisans,2024-11-05,,,,24,27.0,LinkedIn,hibrit
+2058,Selim Ergin,E,1993,İstanbul,Lisans,2024-05-31,,,,5,14.0,LinkedIn,ofis
+2059,Ebru Sezer,K,1988,İstanbul,Lise,2024-01-31,,,,24,29.0,referans,ofis
+2060,Mehmet Toprak,E,2001,İstanbul,Yüksek lisans,2024-09-02,,,,4,16.0,referans,ofis
+2061,Umut Karaca,E,1987,İstanbul,Yüksek lisans,2024-09-27,,,,33,33.0,üniversite,hibrit
+2062,Cansu Kılıç,K,1996,Kocaeli,Lise,2024-10-28,,,,28,31.0,kariyer sitesi,ofis
+2063,Defne Kaya,K,1986,Kocaeli,Lise,2024-10-04,,,,29,32.0,kariyer sitesi,ofis
+2064,Deniz Aslan,E,1997,İzmir,Lisans,2024-10-14,,,,32,33.0,kariyer sitesi,ofis
+2065,Tuğba Çelik,K,1988,İstanbul,Yüksek lisans,2024-01-12,,,,39,13.0,kariyer sitesi,hibrit
+2066,Nur Aslan,K,1990,Kocaeli,Lise,2024-04-17,,,,23,26.0,ajans,ofis
+2067,Hakan Polat,E,1996,İstanbul,Lisans,2024-02-09,2024-04-26,gönüllü,rakip firma,10,18.0,referans,hibrit
+2068,Aslı Acar,K,1993,Eskişehir,Lise,2024-10-01,,,,22,28.0,kariyer sitesi,hibrit
+2069,Kaan Kılıç,E,1991,Ankara,Lisans,2024-08-05,,,,52,41.0,LinkedIn,uzaktan
+2070,Selin Arslan,K,1993,İstanbul,Lise,2024-08-06,,,,22,25.0,kariyer sitesi,ofis
+2071,Volkan Koç,E,1996,İstanbul,Ön lisans,2024-08-05,,,,16,20.0,üniversite,ofis
+2072,Mustafa Öztürk,E,1995,Ankara,Lisans,2024-03-18,,,,4,16.0,kariyer sitesi,ofis
+2073,Selim Kılıç,E,1987,İstanbul,Ön lisans,2024-04-22,,,,34,33.0,kariyer sitesi,ofis
+2074,Volkan Kurt,E,1998,İstanbul,Lisans,2024-03-18,,,,44,38.0,kariyer sitesi,ofis
+2075,Zeynep Karaca,K,1998,İstanbul,Lisans,2024-12-17,,,,4,16.0,kariyer sitesi,ofis
+2076,Ayşe Uysal,K,1992,İstanbul,Lise,2024-06-26,,,,24,26.0,LinkedIn,ofis
+2077,Arda Özdemir,E,1992,Kocaeli,Ön lisans,2024-11-11,,,,28,31.0,referans,ofis
+2078,Fatma Çetin,K,1997,Eskişehir,Ön lisans,2024-10-07,,,,23,28.0,iç başvuru,hibrit
+2079,Yasemin Bal,K,1996,İstanbul,Lise,2024-11-18,,,,28,30.0,kariyer sitesi,ofis
+2080,Ilgın Doğan,K,1992,İstanbul,Lisans,2024-12-23,,,,33,34.0,kariyer sitesi,hibrit
+2081,Damla Ergin,K,1996,Ankara,Lise,2024-07-12,,,,17,24.0,referans,ofis
+2082,Fatma Özdemir,K,1993,İstanbul,Lisans,2024-10-04,,,,16,19.0,referans,ofis
+2083,Ilgın Öztürk,K,1993,İstanbul,Lisans,2024-06-24,,,,38,13.0,kariyer sitesi,ofis
+2084,Kerem Bal,E,1995,İstanbul,Yüksek lisans,2024-01-30,2024-08-09,gönülsüz,performans,62,44.0,kariyer sitesi,hibrit
+2085,Hakan Aslan,E,1991,İstanbul,Lisans,2024-05-17,,,,28,30.0,referans,ofis
+2086,Cansu Demir,K,1988,Kocaeli,Ön lisans,2024-06-07,,,,28,31.0,kariyer sitesi,ofis
+2087,Oğuz Kaya,E,1994,Ankara,Yüksek lisans,2024-05-13,2024-08-19,gönüllü,rakip firma,4,16.0,kariyer sitesi,hibrit
+2088,Ayşe Tunç,K,1999,İstanbul,Lisans,2024-02-23,,,,44,38.0,referans,hibrit
+2089,Buse Toprak,K,1993,İstanbul,Ön lisans,2024-10-22,,,,45,39.0,kariyer sitesi,ofis
+2090,Zeynep Bal,K,1992,Ankara,Lisans,2024-10-04,,,,38,13.0,kariyer sitesi,ofis
+2091,Kaan Özkan,E,1989,İzmir,Lise,2024-06-10,,,,18,22.0,LinkedIn,ofis
+2092,Ebru Tunç,K,2000,İstanbul,Lisans,2024-10-07,,,,50,40.0,kariyer sitesi,ofis
+2093,Murat Karaca,E,1991,Antalya,Ön lisans,2024-02-05,,,,18,24.0,referans,ofis
+2094,Mert Aydın,E,1992,İstanbul,Lisans,2024-11-11,,,,38,13.0,LinkedIn,hibrit
+2095,Nur Polat,K,1994,Ankara,Lisans,2024-09-10,,,,17,20.0,kariyer sitesi,ofis
+2096,Kerem Ekici,E,1993,İstanbul,Lise,2024-01-22,,,,17,21.0,kariyer sitesi,ofis
+2097,Defne Kara,K,1994,İstanbul,Lisans,2024-08-16,,,,11,18.0,kariyer sitesi,ofis
+2098,Özge Polat,K,1994,İstanbul,Lisans,2024-12-16,,,,57,42.0,kariyer sitesi,ofis
+2099,Mustafa Doğan,E,1992,İstanbul,Yüksek lisans,2024-06-07,,,,34,35.0,LinkedIn,uzaktan
+2100,Defne Çetin,K,1998,Kocaeli,Lisans,2024-02-01,2024-05-08,gönüllü,kariyer gelişimi,22,25.0,LinkedIn,ofis
+2101,Özge Demir,K,1989,Kocaeli,Lise,2024-01-29,,,,24,26.0,iç başvuru,ofis
+2102,Mehmet Doğan,E,1993,İstanbul,Lisans,2024-02-07,,,,51,40.0,ajans,hibrit
+2103,Zeynep Kaya,K,1990,İstanbul,Lise,2024-04-04,,,,28,30.0,ajans,ofis
+2104,Damla Ergin,K,1988,İstanbul,Yüksek lisans,2024-02-07,,,,33,34.0,üniversite,hibrit
+2105,Ilgın Arslan,K,1983,İstanbul,Lisans,2024-01-16,,,,58,43.0,ajans,ofis
+2106,Cansu Kurt,K,1993,İstanbul,Yüksek lisans,2024-10-07,,,,10,17.0,LinkedIn,ofis
+2107,Melis Kara,K,1983,İstanbul,Ön lisans,2024-07-22,,,,29,31.0,ajans,ofis
+2108,Cansu Acar,K,1991,İstanbul,Yüksek lisans,2024-02-26,,,,6,16.0,kariyer sitesi,ofis
+2109,Ayşe Uysal,K,1994,İstanbul,Lisans,2024-06-14,,,,32,33.0,referans,hibrit
+2110,Can Koç,E,1998,İstanbul,Lisans,2024-04-25,,,,32,34.0,iç başvuru,uzaktan
+2111,Emre Aydın,E,1988,İzmir,Yüksek lisans,2024-06-17,,,,33,35.0,LinkedIn,ofis
+2112,Ebru Bal,K,1999,İstanbul,Yüksek lisans,2024-02-21,2024-11-27,gönüllü,ücret,44,38.0,kariyer sitesi,hibrit
+2113,Zeynep Uysal,K,1988,İstanbul,Yüksek lisans,2024-10-14,,,,45,39.0,kariyer sitesi,hibrit
+2114,Efe Yıldız,E,1995,Kocaeli,Ön lisans,2024-01-15,,,,28,32.0,referans,ofis
+2115,Damla Acar,K,1992,Ankara,Lisans,2024-05-10,,,,56,43.0,kariyer sitesi,ofis
+2116,Selim Aydın,E,1992,Ankara,Lisans,2024-12-09,,,,6,15.0,iç başvuru,ofis
+2117,Ali Kara,E,1987,Eskişehir,Lisans,2024-07-26,,,,24,27.0,referans,ofis
+2118,Arda Acar,E,1985,Antalya,Ön lisans,2024-07-15,,,,18,19.0,kariyer sitesi,ofis
+2119,Selin Koç,K,1994,Kocaeli,Lisans,2024-04-22,,,,28,31.0,kariyer sitesi,ofis
+2120,Efe Şahin,E,1995,Ankara,Ön lisans,2024-05-13,,,,16,21.0,iç başvuru,ofis
+2121,Elif Aydın,K,1996,İstanbul,Lisans,2024-06-20,,,,63,45.0,LinkedIn,hibrit
+2122,Nur Özdemir,K,1999,İstanbul,Lisans,2024-11-26,,,,38,13.0,kariyer sitesi,hibrit
+2123,Barış Yıldırım,E,1997,İzmir,Lisans,2024-08-09,,,,32,35.0,kariyer sitesi,hibrit
+2124,Burcu Toprak,K,1998,İstanbul,Lisans,2024-09-12,,,,4,14.0,referans,ofis
+2125,Yusuf Kaya,E,1987,İstanbul,Lisans,2024-01-03,,,,63,45.0,üniversite,uzaktan
+2126,Aslı Kurt,K,1997,İstanbul,Lisans,2024-08-06,,,,38,13.0,referans,hibrit
+2127,Pınar Polat,K,1989,İstanbul,Lise,2024-01-01,,,,23,27.0,LinkedIn,ofis
+2128,Onur Ekici,E,1993,İstanbul,Lise,2024-04-12,2024-07-29,gönüllü,taşınma,23,28.0,kariyer sitesi,hibrit
+2129,İrem Bal,K,1985,İstanbul,Lisans,2024-04-15,,,,29,32.0,üniversite,ofis
+2130,Yasemin Doğan,K,1996,İstanbul,Lise,2024-10-09,2024-11-14,gönülsüz,performans,22,25.0,iç başvuru,ofis
+2131,Levent Koç,E,1992,İstanbul,Lisans,2024-07-01,2024-10-28,gönüllü,kariyer gelişimi,6,15.0,referans,ofis
+2132,Deniz Aslan,E,2000,İstanbul,Lisans,2024-03-18,,,,32,35.0,LinkedIn,uzaktan
+2133,Kaan Özkan,E,1999,Kocaeli,Ön lisans,2024-02-22,,,,22,28.0,kariyer sitesi,hibrit
+2134,Ece Yıldız,K,2001,Ankara,Lisans,2024-11-25,,,,16,23.0,LinkedIn,ofis
+2135,Fatma Arslan,K,1993,İstanbul,Yüksek lisans,2024-04-29,,,,45,39.0,LinkedIn,hibrit
+2136,Eren Aydın,E,1992,İzmir,Lisans,2024-09-30,,,,50,40.0,kariyer sitesi,ofis
+2137,Burcu Öztürk,K,1990,İstanbul,Lisans,2024-10-10,,,,45,39.0,kariyer sitesi,ofis
+2138,Damla Güneş,K,1993,İstanbul,Lise,2024-11-22,,,,27,32.0,referans,ofis
+2139,Ece Arslan,K,1996,İstanbul,Yüksek lisans,2024-02-06,,,,56,43.0,ajans,ofis
+2140,Onur Uysal,E,1992,İstanbul,Lisans,2024-08-23,,,,11,17.0,kariyer sitesi,ofis
+2141,Derya Doğan,K,1996,İstanbul,Lise,2024-08-19,,,,23,26.0,LinkedIn,ofis
+2142,Levent Aydın,E,1985,Ankara,Lisans,2024-01-08,2024-06-03,gönülsüz,performans,18,19.0,üniversite,ofis
+2143,Yusuf Koç,E,1993,Ankara,Lisans,2024-08-19,,,,33,34.0,kariyer sitesi,hibrit
+2144,Sevgi Özdemir,K,1987,İstanbul,Lisans,2024-12-11,,,,23,29.0,üniversite,ofis
+2145,Burak Özkan,E,1998,İstanbul,Lise,2024-02-26,,,,27,30.0,kariyer sitesi,ofis
+2146,Efe Toprak,E,1993,İstanbul,Lisans,2024-12-23,,,,38,13.0,üniversite,ofis
+2147,Nur Toprak,K,1996,İstanbul,Yüksek lisans,2024-12-20,,,,5,16.0,üniversite,ofis
+2148,Ayşe Aslan,K,1995,İstanbul,Yüksek lisans,2024-05-17,,,,10,17.0,referans,ofis
+2149,Selim Şimşek,E,1990,İstanbul,Lise,2024-06-05,,,,17,20.0,LinkedIn,ofis
+2150,Derya Aydın,K,1994,İstanbul,Lise,2024-12-20,,,,17,21.0,ajans,ofis
+2151,Defne Kara,K,1993,İstanbul,Yüksek lisans,2024-05-22,,,,62,45.0,kariyer sitesi,hibrit
+2152,Ilgın Kılıç,K,1991,Ankara,Lisans,2024-09-11,,,,45,38.0,ajans,hibrit
+2153,Nur Öztürk,K,1999,İstanbul,Lisans,2024-03-04,,,,32,35.0,referans,uzaktan
+2154,Emre Güneş,E,1989,İzmir,Lisans,2024-06-17,,,,17,19.0,referans,ofis
+2155,Tuğba Kurt,K,1989,İstanbul,Lise,2024-11-12,,,,23,25.0,kariyer sitesi,ofis
+2156,Umut Kara,E,1985,İstanbul,Lisans,2024-12-10,,,,34,35.0,ajans,ofis
+2157,Selin Polat,K,1995,İstanbul,Lisans,2024-07-17,,,,32,33.0,kariyer sitesi,hibrit
+2158,Serkan Karaca,E,1992,İstanbul,Yüksek lisans,2024-05-20,,,,51,40.0,ajans,ofis
+2159,Elif Şahin,K,1995,İzmir,Yüksek lisans,2024-10-18,,,,45,39.0,kariyer sitesi,ofis
+2160,Burak Polat,E,2001,İstanbul,Yüksek lisans,2024-02-15,2024-09-25,gönüllü,rakip firma,32,33.0,kariyer sitesi,hibrit
+2161,Barış Demir,E,1988,İstanbul,Lise,2024-03-28,,,,17,20.0,kariyer sitesi,ofis
+2162,Fatma Çelik,K,1993,İstanbul,Lisans,2024-05-07,,,,10,17.0,LinkedIn,ofis
+2163,Özge Kara,K,1992,İstanbul,Lisans,2024-10-03,,,,11,18.0,ajans,hibrit
+2164,Aslı Uysal,K,1996,Antalya,Lise,2024-02-16,,,,17,23.0,referans,ofis
+2165,Sinan Bozkurt,E,1993,Ankara,Lisans,2024-04-05,,,,51,41.0,iç başvuru,uzaktan
+2166,Umut Yılmaz,E,1993,Ankara,Lisans,2024-06-24,,,,38,13.0,kariyer sitesi,hibrit
+2167,Cansu Toprak,K,1983,İstanbul,Lisans,2024-02-05,,,,52,41.0,ajans,ofis
+2168,Ahmet Özkan,E,1994,İzmir,Lisans,2024-05-24,,,,45,38.0,iç başvuru,uzaktan
+2169,Selim Acar,E,1992,İstanbul,Lisans,2024-10-14,,,,57,43.0,LinkedIn,hibrit
+2170,Emre Bal,E,1993,İstanbul,Lisans,2024-03-01,,,,33,34.0,referans,ofis
+2171,Buse Karaca,K,1993,İstanbul,Yüksek lisans,2024-12-04,,,,63,45.0,ajans,ofis
+2172,Mehmet Ergin,E,1990,Ankara,Ön lisans,2024-12-02,,,,46,38.0,LinkedIn,uzaktan
+2173,Tolga Acar,E,1991,İstanbul,Lisans,2024-05-13,,,,34,34.0,kariyer sitesi,hibrit
+2174,Tuğba Yıldırım,K,1999,Kocaeli,Lise,2024-04-24,,,,22,29.0,referans,hibrit
+2175,Onur Karaca,E,1995,İstanbul,Lisans,2024-08-23,,,,23,25.0,referans,ofis
+2176,Mustafa Kara,E,1993,Kocaeli,Lisans,2024-09-23,,,,27,31.0,iç başvuru,ofis
+2177,Efe Bal,E,1990,İzmir,Lisans,2024-03-27,,,,40,13.0,LinkedIn,hibrit
+2178,Burak Polat,E,1988,İstanbul,Lisans,2024-01-10,,,,45,38.0,LinkedIn,ofis
+2179,Burak Kaya,E,1988,İstanbul,Lise,2024-08-07,,,,17,20.0,LinkedIn,ofis
+2180,İrem Ergin,K,1991,İstanbul,Lisans,2024-05-13,,,,24,25.0,referans,ofis
+2181,Damla Tunç,K,1987,Ankara,Ön lisans,2024-09-30,,,,52,41.0,ajans,hibrit
+2182,İrem Kara,K,1985,İzmir,Lisans,2024-07-08,,,,34,34.0,kariyer sitesi,ofis
+2183,Pınar Kara,K,1993,Ankara,Lisans,2024-04-30,,,,33,35.0,kariyer sitesi,uzaktan
+2184,Nur Yıldız,K,1992,Antalya,Lise,2024-04-09,2024-08-14,gönüllü,ücret,16,19.0,iç başvuru,ofis
+2185,Ahmet Koç,E,1995,İstanbul,Ön lisans,2024-08-06,,,,5,15.0,LinkedIn,ofis
+2186,Pınar Acar,K,1991,İzmir,Lisans,2022-01-10,,,,40,13.0,referans,hibrit
+2187,Selim Acar,E,1985,İstanbul,Lisans,2022-02-21,2024-01-30,gönülsüz,performans,40,13.0,LinkedIn,hibrit
+2188,Ahmet Şimşek,E,1994,İstanbul,Lisans,2022-03-31,,,,39,13.0,LinkedIn,hibrit
+2189,Tolga Özkan,E,1993,Ankara,Lisans,2022-05-10,2024-04-08,gönüllü,rakip firma,38,13.0,referans,hibrit
+2190,Efe Aydın,E,1997,İstanbul,Lisans,2022-06-20,,,,38,13.0,LinkedIn,hibrit
+2191,Sinan Toprak,E,1999,İstanbul,Lisans,2022-07-29,2024-03-11,gönülsüz,performans,39,13.0,LinkedIn,uzaktan
+2192,Cansu Kara,K,1992,İstanbul,Lisans,2022-09-07,,,,39,13.0,referans,hibrit
+2193,Nur Uysal,K,1989,İstanbul,Lisans,2022-10-17,,,,40,13.0,LinkedIn,uzaktan
+2194,Melis Yılmaz,K,1988,İstanbul,Yüksek lisans,2022-11-28,,,,40,13.0,LinkedIn,hibrit
+2195,Kaan Çetin,E,1991,Ankara,Lisans,2023-01-05,,,,40,13.0,referans,hibrit
+2196,Mehmet Şahin,E,1994,İstanbul,Lisans,2023-02-14,2024-05-27,gönüllü,rakip firma,39,13.0,LinkedIn,uzaktan
+2197,Ece Acar,K,2000,İstanbul,Lisans,2023-03-27,2024-07-22,gönüllü,rakip firma,38,13.0,LinkedIn,hibrit
+2198,Ece Çetin,K,1988,İstanbul,Lisans,2023-05-05,,,,40,13.0,referans,uzaktan
+2199,Ilgın Uysal,K,1987,Ankara,Yüksek lisans,2023-06-14,,,,40,13.0,LinkedIn,hibrit
