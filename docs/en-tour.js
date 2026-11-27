@@ -9,7 +9,7 @@
     key: 'kesit_lang',
     bg: '#16323a',
     accent: '#9fe0c9',
-    intro: "Kesit İstatistik is one of four Kesit apps that teach data skills — SQL, Power BI, Python and statistics — <b>in Turkish</b>, in the browser, with no setup or account. Teaching data work in Turkish is the point of the project, so the interface stays Turkish; code, functions and technical terms are in English as at work. This guide explains each screen.",
+    intro: "Kesit İstatistik is one of five Kesit apps that teach data skills — Excel, SQL, Power BI, Python and statistics — <b>in Turkish</b>, in the browser, with no setup or account. Teaching data work in Turkish is the point of the project, so the interface stays Turkish; code, functions and technical terms are in English as at work. This guide explains each screen.",
     glossSelector: "nav button, aside button, aside a[data-page], .side a[data-page], h1, main h2",
     blockGloss: "h1, main h2",
     navGloss: "nav button, aside button, aside a[data-page], .side a[data-page]",

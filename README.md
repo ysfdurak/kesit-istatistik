@@ -19,7 +19,7 @@
 | ![](ekran/vaka.png) | ![](ekran/alistirma.png) | ![](ekran/ders.png) |
 
 ## Kesit ekosistemi
-Aynı mantıkla hazırlanmış kardeş eğitimler: **[Kesit SQL](https://ysfdurak.github.io/kesit-sql/)**, **[Kesit Power BI](https://ysfdurak.github.io/kesit-powerbi/)** ve **[Kesit Python](https://ysfdurak.github.io/kesit-python/)**. Önerilen akış: SQL ile veriyi hazırla → Python ile test et → Power BI ile raporla → istatistikle yorumla. Kesit İstatistik'teki vakalar, kardeş uygulamalardaki CSV'lerin aynısını kullanır; Python kodları veriyi doğrudan [kesit-python](https://github.com/ysfdurak/kesit-python/tree/main/data) deposundan okur. İlgili derslerin sonunda ayrıca o kavramın SQL, DAX ve Python karşılığı bulunur.
+Aynı mantıkla hazırlanmış kardeş eğitimler: **[Kesit SQL](https://ysfdurak.github.io/kesit-sql/)**, **[Kesit Power BI](https://ysfdurak.github.io/kesit-powerbi/)**, **[Kesit Python](https://ysfdurak.github.io/kesit-python/)** ve **[Kesit Excel](https://ysfdurak.github.io/kesit-excel/)**. Önerilen akış: SQL ile veriyi hazırla → Python ile test et → Power BI ile raporla → istatistikle yorumla. Kesit İstatistik'teki vakalar, kardeş uygulamalardaki CSV'lerin aynısını kullanır; Python kodları veriyi doğrudan [kesit-python](https://github.com/ysfdurak/kesit-python/tree/main/data) deposundan okur. İlgili derslerin sonunda ayrıca o kavramın SQL, DAX ve Python karşılığı bulunur.
 
 ## Nasıl çalışıyor?
 - Sunucu yok: HTML, CSS ve JavaScript; hesaplar tarayıcıda çalışır. Ders içi hesaplayıcılar SciPy referanslarıyla, vaka sonuçları pandas/scipy/statsmodels ile üretilir ve otomatik denetimlerle karşılaştırılır.
@@ -58,7 +58,7 @@ Hata ve önerileri bu deponun [Issues](https://github.com/ysfdurak/kesit-istatis
 
 The interface and lessons are in Turkish. Add `?lang=en` to the address ([ysfdurak.github.io/kesit-istatistik/?lang=en](https://ysfdurak.github.io/kesit-istatistik/?lang=en)) for an English guide that explains each screen.
 
-Try it: https://ysfdurak.github.io/kesit-istatistik/ · Sister apps: [SQL](https://github.com/ysfdurak/kesit-sql), [Power BI](https://github.com/ysfdurak/kesit-powerbi), [Python](https://github.com/ysfdurak/kesit-python).
+Try it: https://ysfdurak.github.io/kesit-istatistik/ · Sister apps: [SQL](https://github.com/ysfdurak/kesit-sql), [Power BI](https://github.com/ysfdurak/kesit-powerbi), [Python](https://github.com/ysfdurak/kesit-python), [Excel](https://github.com/ysfdurak/kesit-excel).
 
 ## Sorumluluk notu
 Ücretsiz, ticari olmayan bir eğitim ve portföy projesidir; içerik “olduğu gibi” sunulur. Veri setlerindeki tüm şirketler, kişiler ve kayıtlar hayalidir.
